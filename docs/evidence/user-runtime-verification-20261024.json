@@ -1,0 +1,15 @@
+{
+  "reportedAt": "2026-10-24",
+  "reportedBy": "user",
+  "statement": "我已实机逐级验证过了",
+  "activity": "Helicopter protection",
+  "levels": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "passed": true,
+  "capture": "user report; no new screenshots"
+}

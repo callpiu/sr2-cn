@@ -1,0 +1,1502 @@
+{
+  "passed": true,
+  "emulated_cases": 126,
+  "stack_and_callee_saved_registers_preserved": true,
+  "unsupported_inputs_rejected": 3,
+  "original_sha256": "7d119931c7356a534f7a1b903dd6f920e417249d128438e939edb35b0dc2f244",
+  "patched_sha256": "8bfc0c2a3606861837d8d831c5cdc1535db7d45813c809c04251018b5d4eecf7",
+  "cases": [
+    {
+      "language": 0,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 0,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 1,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 2,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 3,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 4,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 5,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 6,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 7,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 8,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 9,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 10,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 11,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0xff6299d9",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4284651993
+      ],
+      "calls_after": [
+        4284651993
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        594601380
+      ],
+      "calls_after": [
+        594601380
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0xaf10621e",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2937086494
+      ],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0xf284ed87",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4068797831
+      ],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2874527291
+      ],
+      "calls_after": [
+        2874527291
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0x42363fc7",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1110851527
+      ],
+      "calls_after": [
+        1110851527
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        4259981610
+      ],
+      "calls_after": [
+        4259981610
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 12,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    },
+    {
+      "language": 13,
+      "hash": "0xff6299d9",
+      "before_pointer": "0xe25f84",
+      "after_pointer": "0xe25f84",
+      "calls_before": [],
+      "calls_after": []
+    },
+    {
+      "language": 13,
+      "hash": "0x2370e5a4",
+      "before_pointer": "0xe25f40",
+      "after_pointer": "0xe25f40",
+      "calls_before": [],
+      "calls_after": []
+    },
+    {
+      "language": 13,
+      "hash": "0xaf10621e",
+      "before_pointer": "0xe25ed0",
+      "after_pointer": "0x18000000",
+      "calls_before": [],
+      "calls_after": [
+        2937086494
+      ]
+    },
+    {
+      "language": 13,
+      "hash": "0xf284ed87",
+      "before_pointer": "0xe25e78",
+      "after_pointer": "0x18000000",
+      "calls_before": [],
+      "calls_after": [
+        4068797831
+      ]
+    },
+    {
+      "language": 13,
+      "hash": "0xab55ce3b",
+      "before_pointer": "0xe25e30",
+      "after_pointer": "0xe25e30",
+      "calls_before": [],
+      "calls_after": []
+    },
+    {
+      "language": 13,
+      "hash": "0x42363fc7",
+      "before_pointer": "0xe25dec",
+      "after_pointer": "0xe25dec",
+      "calls_before": [],
+      "calls_after": []
+    },
+    {
+      "language": 13,
+      "hash": "0xa200759a",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        2717939098
+      ],
+      "calls_after": [
+        2717939098
+      ]
+    },
+    {
+      "language": 13,
+      "hash": "0x510409b8",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        1359219128
+      ],
+      "calls_after": [
+        1359219128
+      ]
+    },
+    {
+      "language": 13,
+      "hash": "0x12345678",
+      "before_pointer": "0x18000000",
+      "after_pointer": "0x18000000",
+      "calls_before": [
+        305419896
+      ],
+      "calls_after": [
+        305419896
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "windowTitle": "黑道圣徒2：直升机护卫字幕修复",
+  "steamFolderName": "Saints Row 2",
+  "executableName": "SR2_pc.exe",
+  "runtimeDataRelativePath": ".",
+  "installedManifestRelativePath": ".sr2-heli-subtitle-fix/installed.json",
+  "updateRequiresUninstall": false
+}

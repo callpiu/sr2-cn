@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "title": "黑道圣徒2：直升机护卫字幕修复",
+  "appId": 9480,
+  "exe": "SR2_pc.exe",
+  "size": 12136448,
+  "originalSha256": "7d119931c7356a534f7a1b903dd6f920e417249d128438e939edb35b0dc2f244",
+  "patchedSha256": "8bfc0c2a3606861837d8d831c5cdc1535db7d45813c809c04251018b5d4eecf7",
+  "textAsset": "patch.vpp_pc",
+  "textSha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b",
+  "textVersion": "简中 v546（与 v545 共用文本资源）",
+  "stateFolder": ".sr2-heli-subtitle-fix",
+  "patches": [
+    {"offset": 4148280, "before": "5fb8d05ee2005ec3", "after": "e9abffffff909090"},
+    {"offset": 4148296, "before": "5fb8785ee2005ec3", "after": "e99bffffff909090"}
+  ]
+}

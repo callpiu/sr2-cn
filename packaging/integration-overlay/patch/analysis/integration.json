@@ -1,0 +1,13 @@
+{
+  "version": "v547",
+  "baseArchive": "黑道圣徒2_简体中文_Juice9.3.1_DLC1.0.1_整合包_20261021.zip",
+  "baseArchiveSha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102",
+  "baseMembers": 2794,
+  "preservedIdenticalMembers": 2792,
+  "replacedDocumentation": [
+    "FILELIST.txt",
+    "_先读我.txt"
+  ],
+  "resourceChanges": [],
+  "newComponent": "Portable helicopter subtitle fix v1.0.0"
+}

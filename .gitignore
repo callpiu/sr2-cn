@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+/build/
+/dist/
+/work/
+.env
+.env.*
+*.dmp
+*.pdb
+*.log
+.sr2-heli-subtitle-fix/
+.DS_Store
+Thumbs.db

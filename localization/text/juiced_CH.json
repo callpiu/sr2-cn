@@ -1,0 +1,66 @@
+{
+  "format": "SR2 le_strings; 12-byte header; LE pointer array; BE u16 text slots",
+  "sourceSha256": "f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd",
+  "records": [
+    {
+      "index": 0,
+      "id": "0xAFEEEDA5",
+      "text": "退出 OpenSpy"
+    },
+    {
+      "index": 1,
+      "id": "0x9618ECC6",
+      "text": "输入 OpenSpy ID"
+    },
+    {
+      "index": 2,
+      "id": "0x1DCF4028",
+      "text": "再次输入 OpenSpy 密码"
+    },
+    {
+      "index": 3,
+      "id": "0x0D62FF4B",
+      "text": "你已与 OpenSpy 断开连接。"
+    },
+    {
+      "index": 4,
+      "id": "0xEE1E972E",
+      "text": "与 OpenSpy 的连接已断开。\n正在返回主菜单。"
+    },
+    {
+      "index": 5,
+      "id": "0xB626F370",
+      "text": "输入 OpenSpy 名称"
+    },
+    {
+      "index": 6,
+      "id": "0x755330D3",
+      "text": "电子邮箱"
+    },
+    {
+      "index": 7,
+      "id": "0x50945554",
+      "text": "IP 地址 %i/%i 服务器[format][color:green]$%i[/format] 端口 %ls"
+    },
+    {
+      "index": 8,
+      "id": "0x60997055",
+      "text": "输入 OpenSpy 密码"
+    },
+    {
+      "index": 9,
+      "id": "0xB923213E",
+      "text": "输入 OpenSpy 电子邮箱"
+    },
+    {
+      "index": 10,
+      "id": "0x5594CCDE",
+      "text": "再次输入 OpenSpy 密码"
+    },
+    {
+      "index": 11,
+      "id": "0x5396E11F",
+      "text": "登录 OpenSpy"
+    }
+  ]
+}

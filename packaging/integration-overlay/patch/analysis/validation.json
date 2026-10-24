@@ -1,0 +1,131 @@
+{
+  "version": "1.0.0",
+  "tested_os": "Windows",
+  "powershell": "5.1.19041.6456",
+  "installer_checks": [
+    {
+      "name": "clean_verify",
+      "passed": true
+    },
+    {
+      "name": "install",
+      "passed": true
+    },
+    {
+      "name": "backup_exact",
+      "passed": true
+    },
+    {
+      "name": "receipt_target",
+      "passed": true
+    },
+    {
+      "name": "repeat_install",
+      "passed": true
+    },
+    {
+      "name": "verify_after_install",
+      "passed": true
+    },
+    {
+      "name": "uninstall_exact",
+      "passed": true
+    },
+    {
+      "name": "repeat_uninstall",
+      "passed": true
+    },
+    {
+      "name": "reinstall",
+      "passed": true
+    },
+    {
+      "name": "recover_after_activation",
+      "passed": true
+    },
+    {
+      "name": "recover_before_activation",
+      "passed": true
+    },
+    {
+      "name": "concurrent_lock_rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong_exe_rejected_without_change",
+      "passed": true
+    },
+    {
+      "name": "wrong_text_rejected_without_exe_change",
+      "passed": true
+    },
+    {
+      "name": "bad_backup_not_overwritten",
+      "passed": true
+    }
+  ],
+  "gui_and_cmd_checks": [
+    {
+      "action": "Verify",
+      "passed": true
+    },
+    {
+      "action": "Uninstall",
+      "passed": true
+    },
+    {
+      "action": "Install",
+      "passed": true
+    },
+    {
+      "action": "Uninstall",
+      "passed": true
+    },
+    {
+      "action": "一键安装修复.cmd",
+      "passed": true
+    },
+    {
+      "action": "检查修复状态.cmd",
+      "passed": true
+    },
+    {
+      "action": "卸载字幕修复.cmd",
+      "passed": true
+    },
+    {
+      "action": "一键安装汉化.cmd",
+      "passed": true
+    },
+    {
+      "action": "卸载字幕修复.cmd",
+      "passed": true
+    }
+  ],
+  "runtime": {
+    "game": "Saints Row 2",
+    "steam_build": "1076239",
+    "text_version": "简中 v546",
+    "juiced": "9.3.1",
+    "level_2_both_messages_user_confirmed": true,
+    "after_restart_user_confirmed": true,
+    "levels_3_to_6_individually_tested": true,
+    "all_affected_levels_user_confirmed": true,
+    "verificationUpdate": {
+      "reportedAt": "2026-10-24",
+      "reportedBy": "user",
+      "statement": "我已实机逐级验证过了",
+      "activity": "Helicopter protection",
+      "levels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "passed": true,
+      "capture": "user report; no new screenshots"
+    }
+  },
+  "distribution": "Only patch recipe and Windows PowerShell scripts; no game EXE, fonts, saves or memory dumps"
+}

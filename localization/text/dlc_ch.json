@@ -1,0 +1,4916 @@
+{
+  "format": "SR2 le_strings; 12-byte header; LE pointer array; BE u16 text slots",
+  "sourceSha256": "ffabd52dd56dea5ba043abc31c1dec8f401d640876870b8d28b9a4eb9477a8a8",
+  "records": [
+    {
+      "index": 0,
+      "id": "0x5B0A2400",
+      "text": "德克斯？他不是乌托尔的人吗？"
+    },
+    {
+      "index": 1,
+      "id": "0xA4E50C80",
+      "text": "这样不行。转过来让我瞄得更准！"
+    },
+    {
+      "index": 2,
+      "id": "0x59D74D80",
+      "text": "在拦下德克斯的货运之前，我们得先削减雅子班的人手。"
+    },
+    {
+      "index": 3,
+      "id": "0x2B16A800",
+      "text": "等等，简打电话来了……\n1000"
+    },
+    {
+      "index": 4,
+      "id": "0x74877500",
+      "text": "没有我搞不定的事。"
+    },
+    {
+      "index": 5,
+      "id": "0xE2B14C80",
+      "text": "保护 [format][color:green]格里芬的豪华轿车[/format]"
+    },
+    {
+      "index": 6,
+      "id": "0x30A05480",
+      "text": "保卫 [format][color:green]货车[/format]"
+    },
+    {
+      "index": 7,
+      "id": "0xDFBE1F80",
+      "text": "回收第二批尸体 "
+    },
+    {
+      "index": 8,
+      "id": "0x95685C81",
+      "text": "我是安保主管，我想怎样就怎样。"
+    },
+    {
+      "index": 9,
+      "id": "0xDF613F01",
+      "text": "等我再干掉你几百号人再跟我谈。"
+    },
+    {
+      "index": 10,
+      "id": "0x4F7FDD81",
+      "text": "你不会需要这批放射性废料吧？"
+    },
+    {
+      "index": 11,
+      "id": "0x9C114681",
+      "text": "人们永远不明白摩托车能有多危险……"
+    },
+    {
+      "index": 12,
+      "id": "0xE1009881",
+      "text": "我不知道简会不会对把尸体丢在她家门口有意见。"
+    },
+    {
+      "index": 13,
+      "id": "0xBED07F01",
+      "text": "只是一次采访。"
+    },
+    {
+      "index": 14,
+      "id": "0x3F529301",
+      "text": "是乌托尔给他们的钱。"
+    },
+    {
+      "index": 15,
+      "id": "0x49D66C01",
+      "text": "好吧，就这么办。\n500"
+    },
+    {
+      "index": 16,
+      "id": "0xA3AE9001",
+      "text": "你在 FUZZ 上看过我吗？"
+    },
+    {
+      "index": 17,
+      "id": "0x5A783081",
+      "text": "你得炸开岩石才能过去，我觉得挺合理的……"
+    },
+    {
+      "index": 18,
+      "id": "0xE093F381",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut 牛仔裤"
+    },
+    {
+      "index": 19,
+      "id": "0xED928281",
+      "text": "[format][color:red]乌托尔车队[/format] 正在接近，前往 [format][color:teal]瞭望台[/format] 拦截他们"
+    },
+    {
+      "index": 20,
+      "id": "0x7A986581",
+      "text": "装甲车逃脱"
+    },
+    {
+      "index": 21,
+      "id": "0xF4BF3D02",
+      "text": "我想我有个主意。"
+    },
+    {
+      "index": 22,
+      "id": "0xC1889602",
+      "text": "消灭埃里克指出的所有 [format][color:red]目标[/format]"
+    },
+    {
+      "index": 23,
+      "id": "0xD4652802",
+      "text": "亲爱的，我还有正事要办，没空玩文字游戏。"
+    },
+    {
+      "index": 24,
+      "id": "0x2376F902",
+      "text": "进……出……"
+    },
+    {
+      "index": 25,
+      "id": "0xFDA88B82",
+      "text": "留在 [format][color:green]货车[/format] 附近"
+    },
+    {
+      "index": 26,
+      "id": "0x3DF13883",
+      "text": "你能让我活着出去，就知道了。"
+    },
+    {
+      "index": 27,
+      "id": "0x41870203",
+      "text": "算我一个。"
+    },
+    {
+      "index": 28,
+      "id": "0x438F6903",
+      "text": "直接走过去揍这些混蛋不是更简单？"
+    },
+    {
+      "index": 29,
+      "id": "0xAAD68383",
+      "text": "好了，我们就在这。\n500"
+    },
+    {
+      "index": 30,
+      "id": "0x802DA883",
+      "text": "你真那么怕在全国电视上出丑？\n2500"
+    },
+    {
+      "index": 31,
+      "id": "0x82CE2103",
+      "text": "好吧，我去跟她说。"
+    },
+    {
+      "index": 32,
+      "id": "0x94F78703",
+      "text": "他剩下的部分……\n1000"
+    },
+    {
+      "index": 33,
+      "id": "0x69E32203",
+      "text": "你到底对这些人做了什么？\n1500"
+    },
+    {
+      "index": 34,
+      "id": "0x7D390D83",
+      "text": "你会没事的。你就想象一下观众穿着内衣的样子呗？"
+    },
+    {
+      "index": 35,
+      "id": "0x9FB0CE03",
+      "text": "简，别这样，这是个很棒的故事。"
+    },
+    {
+      "index": 36,
+      "id": "0x6591A983",
+      "text": "%ls 开始表演 %ls。"
+    },
+    {
+      "index": 37,
+      "id": "0xDB671E83",
+      "text": "特技人"
+    },
+    {
+      "index": 38,
+      "id": "0x04ED9583",
+      "text": "消灭剩余的 [format][color:red]乌托尔部队[/format]"
+    },
+    {
+      "index": 39,
+      "id": "0xCF489484",
+      "text": "[image:ui_dlc_menu_icon]面罩"
+    },
+    {
+      "index": 40,
+      "id": "0xDA491584",
+      "text": "自家人也会打架。"
+    },
+    {
+      "index": 41,
+      "id": "0x5E02C384",
+      "text": "我玩得有点太开心了。"
+    },
+    {
+      "index": 42,
+      "id": "0x9E53AE84",
+      "text": "朱利叶斯说得对……你永远不知道什么时候该收手。"
+    },
+    {
+      "index": 43,
+      "id": "0x1D5A0084",
+      "text": "浪费的习惯"
+    },
+    {
+      "index": 44,
+      "id": "0x469E6004",
+      "text": "你的搭档想玩特技人，要加入吗？"
+    },
+    {
+      "index": 45,
+      "id": "0x70210705",
+      "text": "我们得快点！这些破烂挡着，我没法开枪！"
+    },
+    {
+      "index": 46,
+      "id": "0x6CB83605",
+      "text": "\"侦察兵原型\"？你在说什么鬼？\n2000"
+    },
+    {
+      "index": 47,
+      "id": "0x9C60B605",
+      "text": "我们可以在这守着，三街圣徒在这儿藏了些补给以防万一……\n4000"
+    },
+    {
+      "index": 48,
+      "id": "0xC81B4585",
+      "text": "是乌托尔给他们的钱。"
+    },
+    {
+      "index": 49,
+      "id": "0x4999A985",
+      "text": "只是一次采访。"
+    },
+    {
+      "index": 50,
+      "id": "0xB5505885",
+      "text": "你有 %d 秒把 %ls 做到银级以上"
+    },
+    {
+      "index": 51,
+      "id": "0x12EBE705",
+      "text": "可下载任务 6"
+    },
+    {
+      "index": 52,
+      "id": "0x9E2EEA85",
+      "text": "[format][color:red]目标[/format] 正在街边弹吉他"
+    },
+    {
+      "index": 53,
+      "id": "0x232CFE86",
+      "text": "亲爱的，我还有正事要办，没空玩文字游戏。"
+    },
+    {
+      "index": 54,
+      "id": "0xFD9A0406",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut 连帽衫"
+    },
+    {
+      "index": 55,
+      "id": "0x025A9506",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志"
+    },
+    {
+      "index": 56,
+      "id": "0x336E2687",
+      "text": "钱包链"
+    },
+    {
+      "index": 57,
+      "id": "0xDB364A87",
+      "text": "他不是你，对我来说这就够了。"
+    },
+    {
+      "index": 58,
+      "id": "0x19846987",
+      "text": "合同谈判"
+    },
+    {
+      "index": 59,
+      "id": "0x7587F787",
+      "text": "好吧，我去跟她说。"
+    },
+    {
+      "index": 60,
+      "id": "0x22C8F187",
+      "text": "你没听见我说时间不多吗？我叫泰拉，我们在炼狱见。"
+    },
+    {
+      "index": 61,
+      "id": "0xE5E55808",
+      "text": "看到那边那条船了吗？上面是德克斯的股票经纪人。"
+    },
+    {
+      "index": 62,
+      "id": "0x05ED0308",
+      "text": "简，别这样，这是个很棒的故事。"
+    },
+    {
+      "index": 63,
+      "id": "0xF1E15589",
+      "text": "德克斯的人正在赶来。别让他们靠近我。\n2000"
+    },
+    {
+      "index": 64,
+      "id": "0x06989509",
+      "text": "你知道自己正在做什么吗？"
+    },
+    {
+      "index": 65,
+      "id": "0xF438F589",
+      "text": "你的得分："
+    },
+    {
+      "index": 66,
+      "id": "0x4E38E509",
+      "text": "亲爱的，我还有正事要办，没空玩文字游戏。"
+    },
+    {
+      "index": 67,
+      "id": "0x6D87A80A",
+      "text": "他妈我们怎么可能做到？"
+    },
+    {
+      "index": 68,
+      "id": "0xACBF968A",
+      "text": "别抱怨了，你不是还活着吗？"
+    },
+    {
+      "index": 69,
+      "id": "0xC3B6EB0A",
+      "text": "我可没想过今天会这样！"
+    },
+    {
+      "index": 70,
+      "id": "0x4B09500A",
+      "text": "你怎么知道这些尸体的？\n1000"
+    },
+    {
+      "index": 71,
+      "id": "0x39F35D0A",
+      "text": "你在 FUZZ 上看过我吗？"
+    },
+    {
+      "index": 72,
+      "id": "0x01AC2D8A",
+      "text": "\"侦察兵原型\"？你在说什么鬼？\n2000"
+    },
+    {
+      "index": 73,
+      "id": "0xB61DF50A",
+      "text": "想想我正要去搞它们然后挨枪子，当然。\n2500"
+    },
+    {
+      "index": 74,
+      "id": "0xF2CBC78A",
+      "text": "可下载内容"
+    },
+    {
+      "index": 75,
+      "id": "0x0309F60A",
+      "text": "[image:ui_dlc_menu_icon]破洞迷你裙"
+    },
+    {
+      "index": 76,
+      "id": "0xA50F5E0A",
+      "text": "是乌托尔给他们的钱。"
+    },
+    {
+      "index": 77,
+      "id": "0x5CD75E8A",
+      "text": "[image:ui_dlc_menu_icon]普通，短发"
+    },
+    {
+      "index": 78,
+      "id": "0x7B05CD8A",
+      "text": "你已解锁泰拉作为伙伴，用手机呼叫她来帮你。"
+    },
+    {
+      "index": 79,
+      "id": "0xC7AA620A",
+      "text": "[format][color:red]目标[/format] 正乘船四处游荡"
+    },
+    {
+      "index": 80,
+      "id": "0xEE441E0A",
+      "text": "[format][color:red]目标[/format] 坐在海滨步道的扶栏旁"
+    },
+    {
+      "index": 81,
+      "id": "0xAA23E10B",
+      "text": "那件事跟我无关，你真该把个人和公司分开看。"
+    },
+    {
+      "index": 82,
+      "id": "0xCA394C8B",
+      "text": "看来我们引起德克斯的注意了。"
+    },
+    {
+      "index": 83,
+      "id": "0xB54C638B",
+      "text": "好了，我们就在这。\n500"
+    },
+    {
+      "index": 84,
+      "id": "0xEEDAB80B",
+      "text": "没有我搞不定的事。"
+    },
+    {
+      "index": 85,
+      "id": "0x533DD00B",
+      "text": "[image:ui_dlc_menu_icon]短而整洁"
+    },
+    {
+      "index": 86,
+      "id": "0x9038CF0B",
+      "text": "无限火箭"
+    },
+    {
+      "index": 87,
+      "id": "0x1B26478C",
+      "text": "款式 1"
+    },
+    {
+      "index": 88,
+      "id": "0x31EDF68C",
+      "text": "你解释过了，我只是想确认听第二遍时它还是那么荒唐。"
+    },
+    {
+      "index": 89,
+      "id": "0xD7B4E60C",
+      "text": "这是我的众多护身符之一。"
+    },
+    {
+      "index": 90,
+      "id": "0x93BB140C",
+      "text": "那人唯一该接住的东西是一颗子弹……"
+    },
+    {
+      "index": 91,
+      "id": "0xF2A4D58C",
+      "text": "简，别这样，这是个很棒的故事。"
+    },
+    {
+      "index": 92,
+      "id": "0x4E74550C",
+      "text": "史提瓦特的商店和整形医生新增了可下载物品。留意物品名称旁边的箭头图标。"
+    },
+    {
+      "index": 93,
+      "id": "0xEFDA3A8C",
+      "text": "好吧，我去跟她说。"
+    },
+    {
+      "index": 94,
+      "id": "0xE521D88D",
+      "text": "消灭在屋顶游荡的 [format][color:red]忍者[/format]"
+    },
+    {
+      "index": 95,
+      "id": "0x84D5C98D",
+      "text": "我没做！"
+    },
+    {
+      "index": 96,
+      "id": "0x3465E20D",
+      "text": "货车被摧毁"
+    },
+    {
+      "index": 97,
+      "id": "0xC7A5AD8D",
+      "text": "[image:ui_dlc_menu_icon]Movember 珀斯"
+    },
+    {
+      "index": 98,
+      "id": "0x531C0D8D",
+      "text": "那招没用，我跟裸体有仇。\n3500"
+    },
+    {
+      "index": 99,
+      "id": "0xBACC1C8D",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut 牛仔短裤 2"
+    },
+    {
+      "index": 100,
+      "id": "0x912A978D",
+      "text": "你有 %d 秒完成一个银级以上的驾驶特技"
+    },
+    {
+      "index": 101,
+      "id": "0x09FC330D",
+      "text": "[format][color:red]目标[/format] 是你下方人行道上的哑剧演员"
+    },
+    {
+      "index": 102,
+      "id": "0x4694B88D",
+      "text": "危险品运输车被摧毁"
+    },
+    {
+      "index": 103,
+      "id": "0x1A352B8D",
+      "text": "货车被毁"
+    },
+    {
+      "index": 104,
+      "id": "0x34CD108E",
+      "text": "[image:ui_dlc_menu_icon]冒险长靴"
+    },
+    {
+      "index": 105,
+      "id": "0xE502A80E",
+      "text": "埃里克，周末过得怎么样？"
+    },
+    {
+      "index": 106,
+      "id": "0xB233B00E",
+      "text": "只要你不动我和我的人，你爱去火星就去火星。"
+    },
+    {
+      "index": 107,
+      "id": "0x4B5AB00E",
+      "text": "随你怎么说。"
+    },
+    {
+      "index": 108,
+      "id": "0x3F15290E",
+      "text": "回头见。"
+    },
+    {
+      "index": 109,
+      "id": "0xE21EA60E",
+      "text": "继续开，就不会有事。\n1500"
+    },
+    {
+      "index": 110,
+      "id": "0xC78B4E0E",
+      "text": "第三度的高管海盗湾赛跑即将开始。这是你把几个公司高层拉下马的好机会。"
+    },
+    {
+      "index": 111,
+      "id": "0xE5D14A0E",
+      "text": "你到底对这些人做了什么？\n1500"
+    },
+    {
+      "index": 112,
+      "id": "0xCEBA8B8E",
+      "text": "你在 FUZZ 上看过我吗？"
+    },
+    {
+      "index": 113,
+      "id": "0xF10B658E",
+      "text": "你会没事的。你就想象一下观众穿着内衣的样子呗？"
+    },
+    {
+      "index": 114,
+      "id": "0xF6E5FB0E",
+      "text": "\"侦察兵原型\"？你在说什么鬼？\n2000"
+    },
+    {
+      "index": 115,
+      "id": "0x0C1FC08E",
+      "text": "你真那么怕在全国电视上出丑？\n2500"
+    },
+    {
+      "index": 116,
+      "id": "0x18C5EF0E",
+      "text": "他剩下的部分……\n1000"
+    },
+    {
+      "index": 117,
+      "id": "0xD3C4648E",
+      "text": "只是一次采访。"
+    },
+    {
+      "index": 118,
+      "id": "0x2117FD0E",
+      "text": "[image:ui_dlc_menu_icon]普通，中等"
+    },
+    {
+      "index": 119,
+      "id": "0xC29E8D8F",
+      "text": "也许再放一束花配着……"
+    },
+    {
+      "index": 120,
+      "id": "0x19936E8F",
+      "text": "没有我搞不定的事。"
+    },
+    {
+      "index": 121,
+      "id": "0x54C3FF8F",
+      "text": "摧毁乌托尔直升机："
+    },
+    {
+      "index": 122,
+      "id": "0x74B6BB90",
+      "text": "呃……是会计部的劳里。帮帮大家一个忙好吗？"
+    },
+    {
+      "index": 123,
+      "id": "0x43AE5110",
+      "text": "那玩意儿是什么？\n1000"
+    },
+    {
+      "index": 124,
+      "id": "0x542BCE10",
+      "text": "那你为什么不早说？"
+    },
+    {
+      "index": 125,
+      "id": "0xE0062710",
+      "text": "[image:ui_dlc_menu_icon]Unkut 吊带背心 2"
+    },
+    {
+      "index": 126,
+      "id": "0xA71F4D11",
+      "text": "[image:ui_dlc_menu_icon]野人"
+    },
+    {
+      "index": 127,
+      "id": "0xB5EA9111",
+      "text": "我可没想过今天会这样！"
+    },
+    {
+      "index": 128,
+      "id": "0x1BDBD211",
+      "text": "他妈我们怎么可能做到？"
+    },
+    {
+      "index": 129,
+      "id": "0xDAE3EC91",
+      "text": "别抱怨了，你不是还活着吗？"
+    },
+    {
+      "index": 130,
+      "id": "0xC1793E11",
+      "text": "货车已准备就绪，开回码头途中你需要保护它"
+    },
+    {
+      "index": 131,
+      "id": "0xE8459791",
+      "text": "格里芬被遗弃"
+    },
+    {
+      "index": 132,
+      "id": "0x8F4CD612",
+      "text": "埃里克的车被摧毁"
+    },
+    {
+      "index": 133,
+      "id": "0xAD4E2512",
+      "text": "这话你去跟朱利叶斯说。"
+    },
+    {
+      "index": 134,
+      "id": "0xAB60D212",
+      "text": "要是这些娘们就站那儿不动，那是她们自寻死路……"
+    },
+    {
+      "index": 135,
+      "id": "0xE9549E12",
+      "text": "你赢不了我。"
+    },
+    {
+      "index": 136,
+      "id": "0xD1473512",
+      "text": "乌托尔真相载具包"
+    },
+    {
+      "index": 137,
+      "id": "0x00CC7E12",
+      "text": "上楼进办公室"
+    },
+    {
+      "index": 138,
+      "id": "0xC87CA212",
+      "text": "超级玩家"
+    },
+    {
+      "index": 139,
+      "id": "0xBF1C7513",
+      "text": "我会尽力，但光有几具尸体还不够。你带着整件事来找我，还有别的想法吗？"
+    },
+    {
+      "index": 140,
+      "id": "0x0711C693",
+      "text": "打电话来道歉？\n1250"
+    },
+    {
+      "index": 141,
+      "id": "0xE5792E13",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志"
+    },
+    {
+      "index": 142,
+      "id": "0xE929DA13",
+      "text": "[format][color:red]目标[/format] 正在马路对面做健身操"
+    },
+    {
+      "index": 143,
+      "id": "0x50398793",
+      "text": "回收最后一具尸体"
+    },
+    {
+      "index": 144,
+      "id": "0x2D528694",
+      "text": "看起来没什么帮助。"
+    },
+    {
+      "index": 145,
+      "id": "0xA3621894",
+      "text": "那你为什么不早说？"
+    },
+    {
+      "index": 146,
+      "id": "0xC0C86994",
+      "text": "[image:ui_dlc_menu_icon]Movember 威灵顿"
+    },
+    {
+      "index": 147,
+      "id": "0x59DD1114",
+      "text": "[image:ui_dlc_menu_icon]Unkut 黑色"
+    },
+    {
+      "index": 148,
+      "id": "0x4BEA7814",
+      "text": "帮派斗士"
+    },
+    {
+      "index": 149,
+      "id": "0x36803295",
+      "text": "真让人安心。"
+    },
+    {
+      "index": 150,
+      "id": "0x40C7C095",
+      "text": "回头见。"
+    },
+    {
+      "index": 151,
+      "id": "0x9442DC15",
+      "text": "继续开，就不会有事。"
+    },
+    {
+      "index": 152,
+      "id": "0x34885995",
+      "text": "随你怎么说。"
+    },
+    {
+      "index": 153,
+      "id": "0x52221795",
+      "text": "这样不行。转过来让我瞄得更准！"
+    },
+    {
+      "index": 154,
+      "id": "0xDDD1B315",
+      "text": "等等，简打电话来了……\n1000"
+    },
+    {
+      "index": 155,
+      "id": "0xF72A9815",
+      "text": "你会没事的。你就想象一下观众穿着内衣的样子呗？"
+    },
+    {
+      "index": 156,
+      "id": "0xE3F0B795",
+      "text": "你到底对这些人做了什么？\n1500"
+    },
+    {
+      "index": 157,
+      "id": "0x1EE41295",
+      "text": "他剩下的部分……\n1000"
+    },
+    {
+      "index": 158,
+      "id": "0x0A3E3D15",
+      "text": "你真那么怕在全国电视上出丑？\n2500"
+    },
+    {
+      "index": 159,
+      "id": "0x5CD5D395",
+      "text": "[image:ui_dlc_menu_icon]细软头发"
+    },
+    {
+      "index": 160,
+      "id": "0x1BB4CA15",
+      "text": "[image:ui_dlc_menu_icon]Unkut 粉色"
+    },
+    {
+      "index": 161,
+      "id": "0x2C0D1496",
+      "text": "我不骗你，但我觉得那他妈基本不可能。"
+    },
+    {
+      "index": 162,
+      "id": "0x5C119896",
+      "text": "好了，我们就在这。\n500"
+    },
+    {
+      "index": 163,
+      "id": "0xA8B92F16",
+      "text": "回收第五具尸体 "
+    },
+    {
+      "index": 164,
+      "id": "0xE26F6C17",
+      "text": "不，你只是脱离现实了。"
+    },
+    {
+      "index": 165,
+      "id": "0xB55E7417",
+      "text": "你以为他们会因此找你麻烦？"
+    },
+    {
+      "index": 166,
+      "id": "0xA8660F97",
+      "text": "这是我的众多护身符之一。"
+    },
+    {
+      "index": 167,
+      "id": "0xEB167617",
+      "text": "那肯定是德克斯的造型师。有人该戴个头盔……"
+    },
+    {
+      "index": 168,
+      "id": "0x6B65F997",
+      "text": "美国明日之星科学家"
+    },
+    {
+      "index": 169,
+      "id": "0x4855A397",
+      "text": "我会尽力，但光有几具尸体还不够。你带着整件事来找我，还有别的想法吗？"
+    },
+    {
+      "index": 170,
+      "id": "0x6B130D17",
+      "text": "我不知道简会不会对把尸体丢在她家门口有意见。"
+    },
+    {
+      "index": 171,
+      "id": "0xD4A9A097",
+      "text": "没错。"
+    },
+    {
+      "index": 172,
+      "id": "0x2D7F0017",
+      "text": "这是埃里克·格里芬的得意之作……他想要一辆全地形车去探查优质矿点。\n5000"
+    },
+    {
+      "index": 173,
+      "id": "0x8BCF1897",
+      "text": "保护 [format][color:green]货车[/format]"
+    },
+    {
+      "index": 174,
+      "id": "0xC5348098",
+      "text": "我会查出德克斯跑到了哪座城市，然后把那个婊子抓回来。"
+    },
+    {
+      "index": 175,
+      "id": "0x3C5D8098",
+      "text": "直接走过去揍这些混蛋不是更简单？"
+    },
+    {
+      "index": 176,
+      "id": "0x92D67A98",
+      "text": "他剩下的部分……\n1000"
+    },
+    {
+      "index": 177,
+      "id": "0xB9BDBB18",
+      "text": "没错。"
+    },
+    {
+      "index": 178,
+      "id": "0x860C5518",
+      "text": "你真那么怕在全国电视上出丑？\n2500"
+    },
+    {
+      "index": 179,
+      "id": "0x7B18F018",
+      "text": "你会没事的。你就想象一下观众穿着内衣的样子呗？"
+    },
+    {
+      "index": 180,
+      "id": "0xD17BAF98",
+      "text": "[image:ui_dlc_menu_icon]Movember Canberra"
+    },
+    {
+      "index": 181,
+      "id": "0x6FC2DF98",
+      "text": "你到底对这些人做了什么？\n1500"
+    },
+    {
+      "index": 182,
+      "id": "0x6CECAD18",
+      "text": "[image:ui_dlc_menu_icon]时尚"
+    },
+    {
+      "index": 183,
+      "id": "0x92976698",
+      "text": "[image:ui_dlc_menu_icon]Unkut 白色"
+    },
+    {
+      "index": 184,
+      "id": "0x5C67E019",
+      "text": "我本来想要几个雀斑婊子和一次口交，但我已经学会面对失望了。三街圣徒能给我什么？"
+    },
+    {
+      "index": 185,
+      "id": "0xB599BD19",
+      "text": "如果你真在乎，我可以直接把它送到你办公室。"
+    },
+    {
+      "index": 186,
+      "id": "0x477B2599",
+      "text": "%ls 赢得了比赛。\n奖励 $%d。"
+    },
+    {
+      "index": 187,
+      "id": "0xE684F099",
+      "text": "货车已准备好前往下一座加压站"
+    },
+    {
+      "index": 188,
+      "id": "0x46EAC61A",
+      "text": "对。是教训德克斯。不是跟他妈一整支军队开战。"
+    },
+    {
+      "index": 189,
+      "id": "0x30AD341A",
+      "text": "你不会需要这批放射性废料吧？"
+    },
+    {
+      "index": 190,
+      "id": "0xA0B3D69A",
+      "text": "等我再干掉你几百号人再跟我谈。"
+    },
+    {
+      "index": 191,
+      "id": "0xE4BC249A",
+      "text": "有人就要去和鱼儿一起睡了……（干咳）我脑子里想的时候更顺口……"
+    },
+    {
+      "index": 192,
+      "id": "0x2C4DA61A",
+      "text": "交通管制"
+    },
+    {
+      "index": 193,
+      "id": "0x3F8A161A",
+      "text": "好吧，就这么办。\n500"
+    },
+    {
+      "index": 194,
+      "id": "0xAB47491B",
+      "text": "两名玩家都必须靠近 [format][color:teal]加压站[/format] 才能继续"
+    },
+    {
+      "index": 195,
+      "id": "0xF3D2F91B",
+      "text": "我也无能为力。"
+    },
+    {
+      "index": 196,
+      "id": "0xB969099B",
+      "text": "风景怎么样？"
+    },
+    {
+      "index": 197,
+      "id": "0xD9F39C1B",
+      "text": "那玩意儿是什么？\n1000"
+    },
+    {
+      "index": 198,
+      "id": "0xB0A29D1B",
+      "text": "[image:ui_dlc_menu_icon]Movember 荷巴特"
+    },
+    {
+      "index": 199,
+      "id": "0x241B3D1B",
+      "text": "还是一样，没帮上忙。\n4500"
+    },
+    {
+      "index": 200,
+      "id": "0x89AD671B",
+      "text": "[image:ui_dlc_menu_icon]深夜"
+    },
+    {
+      "index": 201,
+      "id": "0x7EFB039B",
+      "text": "[format][color:red]目标[/format] 正站在马夸特旅馆门外"
+    },
+    {
+      "index": 202,
+      "id": "0xB202D89B",
+      "text": "第二辆货车已抵达码头。岛上还剩 [format][color:green]一辆货车[/format]"
+    },
+    {
+      "index": 203,
+      "id": "0x1B56D09B",
+      "text": "特技新人"
+    },
+    {
+      "index": 204,
+      "id": "0xA4E4A31C",
+      "text": "他不是你，对我来说这就够了。"
+    },
+    {
+      "index": 205,
+      "id": "0xC16C311C",
+      "text": "泰拉的周末"
+    },
+    {
+      "index": 206,
+      "id": "0x3C0E609C",
+      "text": "想想我正要去搞它们然后挨枪子，当然。\n2500"
+    },
+    {
+      "index": 207,
+      "id": "0x4EF46D9C",
+      "text": "没错。"
+    },
+    {
+      "index": 208,
+      "id": "0xC11AC59C",
+      "text": "你怎么知道这些尸体的？\n1000"
+    },
+    {
+      "index": 209,
+      "id": "0xD2086E9C",
+      "text": "我会尽力，但光有几具尸体还不够。你带着整件事来找我，还有别的想法吗？"
+    },
+    {
+      "index": 210,
+      "id": "0x99432E9C",
+      "text": "[format][color:red]目标[/format] 坐在街对面的草丛里"
+    },
+    {
+      "index": 211,
+      "id": "0x2053731C",
+      "text": "回收第一批尸体"
+    },
+    {
+      "index": 212,
+      "id": "0x867DFC1D",
+      "text": "[image:ui_dlc_menu_icon]橄榄球头盔"
+    },
+    {
+      "index": 213,
+      "id": "0xDD24D19D",
+      "text": "我需要保护。"
+    },
+    {
+      "index": 214,
+      "id": "0x4DB8F79D",
+      "text": "这样不行。转过来让我瞄得更准！"
+    },
+    {
+      "index": 215,
+      "id": "0xC24B531D",
+      "text": "等等，简打电话来了……\n1000"
+    },
+    {
+      "index": 216,
+      "id": "0x4C950E9D",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志"
+    },
+    {
+      "index": 217,
+      "id": "0x067D7D1E",
+      "text": "我们得快点！这些破烂挡着，我没法开枪！"
+    },
+    {
+      "index": 218,
+      "id": "0x3DB93A9E",
+      "text": "[image:ui_dlc_menu_icon]冰球面具"
+    },
+    {
+      "index": 219,
+      "id": "0x0D1C8C1E",
+      "text": "合作竞技模式"
+    },
+    {
+      "index": 220,
+      "id": "0x8ACCF41E",
+      "text": "摧毁 [format][color:red]乌托尔直升机[/format]"
+    },
+    {
+      "index": 221,
+      "id": "0x217E791F",
+      "text": "看来我得换个司机了……"
+    },
+    {
+      "index": 222,
+      "id": "0x2EBA4A9F",
+      "text": "那玩意儿是什么？\n1000"
+    },
+    {
+      "index": 223,
+      "id": "0x1CA2DE1F",
+      "text": "我们可以在这守着，三街圣徒在这儿藏了些补给以防万一……\n4000"
+    },
+    {
+      "index": 224,
+      "id": "0x393FD59F",
+      "text": "那你为什么不早说？"
+    },
+    {
+      "index": 225,
+      "id": "0x9376F69F",
+      "text": "[format][color:red]装甲车[/format] 正在逃跑，快追上去"
+    },
+    {
+      "index": 226,
+      "id": "0xA9A465A0",
+      "text": "如果你真在乎，我可以直接把它送到你办公室。"
+    },
+    {
+      "index": 227,
+      "id": "0x0E64D0A0",
+      "text": "这可不妙……"
+    },
+    {
+      "index": 228,
+      "id": "0x7DB57520",
+      "text": "他马上就要享受今日大餐了……"
+    },
+    {
+      "index": 229,
+      "id": "0x1CAAB4A0",
+      "text": "我不知道她会不会买账。"
+    },
+    {
+      "index": 230,
+      "id": "0x0A9312A0",
+      "text": "我明白。\n1000"
+    },
+    {
+      "index": 231,
+      "id": "0xE79068A0",
+      "text": "你是谁？"
+    },
+    {
+      "index": 232,
+      "id": "0xE35D9820",
+      "text": "那看来你完蛋了。\n750"
+    },
+    {
+      "index": 233,
+      "id": "0x13129220",
+      "text": "[image:ui_dlc_menu_icon]小型鲻鱼头"
+    },
+    {
+      "index": 234,
+      "id": "0x9FECEAA0",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志 右"
+    },
+    {
+      "index": 235,
+      "id": "0x2F5F6F20",
+      "text": "[format][color:red]目标[/format] 正骑着水上摩托在栈桥间穿行"
+    },
+    {
+      "index": 236,
+      "id": "0x51B79820",
+      "text": "装甲车生命值："
+    },
+    {
+      "index": 237,
+      "id": "0x84397FA1",
+      "text": "在对方前往第二辆货车时保护 [format][color:green]他[/format]"
+    },
+    {
+      "index": 238,
+      "id": "0x6ADBA8A1",
+      "text": "德克斯昨晚离开城里了，他提出了紧急调动。"
+    },
+    {
+      "index": 239,
+      "id": "0x20605821",
+      "text": "直接走过去揍这些混蛋不是更简单？"
+    },
+    {
+      "index": 240,
+      "id": "0x9DA462A1",
+      "text": "你的车库新增了可下载载具。"
+    },
+    {
+      "index": 241,
+      "id": "0x29ABCCA1",
+      "text": "[image:ui_dlc_menu_icon]Movember 布里斯班"
+    },
+    {
+      "index": 242,
+      "id": "0xCB6230A1",
+      "text": "[image:ui_dlc_menu_icon]Unkut"
+    },
+    {
+      "index": 243,
+      "id": "0x2B0B8921",
+      "text": "第一辆货车已抵达码头。岛上还剩 [format][color:green]两辆货车[/format]"
+    },
+    {
+      "index": 244,
+      "id": "0x0B0CC922",
+      "text": "真意外，你居然没装病。"
+    },
+    {
+      "index": 245,
+      "id": "0xA554D122",
+      "text": "风景怎么样？"
+    },
+    {
+      "index": 246,
+      "id": "0x1F0504A2",
+      "text": "你在干什么？\n750"
+    },
+    {
+      "index": 247,
+      "id": "0x18EB9A22",
+      "text": "你们这些家伙到底打算在哪里采矿？"
+    },
+    {
+      "index": 248,
+      "id": "0xF6CB8E22",
+      "text": "泰拉……\n500"
+    },
+    {
+      "index": 249,
+      "id": "0x3DCA05A2",
+      "text": "不被人追杀才叫压力大呢。"
+    },
+    {
+      "index": 250,
+      "id": "0xC41CA522",
+      "text": "相信我，就算我说了你也不会信。"
+    },
+    {
+      "index": 251,
+      "id": "0x12EF3FA2",
+      "text": "挖出尸体"
+    },
+    {
+      "index": 252,
+      "id": "0xC56EB1A3",
+      "text": "这大概是你该在试图让人在教堂里干掉老板之前就想清楚的事。"
+    },
+    {
+      "index": 253,
+      "id": "0x2C90ECA3",
+      "text": "你不会需要这批放射性废料吧？"
+    },
+    {
+      "index": 254,
+      "id": "0xCCBBB923",
+      "text": "要是这些娘们就站那儿不动，那是她们自寻死路……"
+    },
+    {
+      "index": 255,
+      "id": "0xF79D0FA3",
+      "text": "你以为她会播？第六频道对僵尸林的故事可没疯到那个程度。"
+    },
+    {
+      "index": 256,
+      "id": "0x33F7F223",
+      "text": "新闻车被摧毁"
+    },
+    {
+      "index": 257,
+      "id": "0xCF65AEA3",
+      "text": "%ls 得了 %.0f 分。"
+    },
+    {
+      "index": 258,
+      "id": "0xB5821AA3",
+      "text": "暖场女郎"
+    },
+    {
+      "index": 259,
+      "id": "0x9F742CA4",
+      "text": "继续开，就不会有事。"
+    },
+    {
+      "index": 260,
+      "id": "0x0BEB3924",
+      "text": "那条船是德克斯借出去的。可惜船长不会跟船一起沉。"
+    },
+    {
+      "index": 261,
+      "id": "0xEBE36224",
+      "text": "我不知道她会不会买账。"
+    },
+    {
+      "index": 262,
+      "id": "0x10D9BE24",
+      "text": "你是谁？"
+    },
+    {
+      "index": 263,
+      "id": "0xA12B0BA5",
+      "text": "[image:ui_dlc_menu_icon]玩偶拖鞋"
+    },
+    {
+      "index": 264,
+      "id": "0xF2E59125",
+      "text": "要是这些娘们就站那儿不动，那是她们自寻死路……"
+    },
+    {
+      "index": 265,
+      "id": "0xE896F425",
+      "text": "你在听我说吗？"
+    },
+    {
+      "index": 266,
+      "id": "0x5CBB09A5",
+      "text": "乌托尔家庭欢乐日"
+    },
+    {
+      "index": 267,
+      "id": "0xDBAA6C25",
+      "text": "[image:ui_dlc_menu_icon]甲虫爵士"
+    },
+    {
+      "index": 268,
+      "id": "0x67D08DA6",
+      "text": "在对方前往第三辆货车时保护 [format][color:green]他[/format]"
+    },
+    {
+      "index": 269,
+      "id": "0x8389C926",
+      "text": "那大概能撑十秒……"
+    },
+    {
+      "index": 270,
+      "id": "0x3DEDF2A6",
+      "text": "我玩得有点太开心了。"
+    },
+    {
+      "index": 271,
+      "id": "0x50C33726",
+      "text": "靠紧我泰拉，看起来乌托尔想狠狠灭你的口……"
+    },
+    {
+      "index": 272,
+      "id": "0xEFA24CA6",
+      "text": "你们这些家伙到底打算在哪里采矿？"
+    },
+    {
+      "index": 273,
+      "id": "0x58139426",
+      "text": "才三十秒，急什么？\n1750"
+    },
+    {
+      "index": 274,
+      "id": "0x2DD069A6",
+      "text": "一名没有对应可下载内容的玩家加入了或离开了游戏。你只能选择所有玩家都有的地图。地图列表已更新。"
+    },
+    {
+      "index": 275,
+      "id": "0xCE13E1A6",
+      "text": "[image:ui_dlc_menu_icon]Movember 墨尔本"
+    },
+    {
+      "index": 276,
+      "id": "0x004A7F26",
+      "text": "[format][color:red]目标[/format] 正在海滨步道享用汉堡"
+    },
+    {
+      "index": 277,
+      "id": "0xB95A22A6",
+      "text": "回收第二批尸体"
+    },
+    {
+      "index": 278,
+      "id": "0xB69AF9A6",
+      "text": "把 [format][color:green]货车[/format] 停得离尸体更近些"
+    },
+    {
+      "index": 279,
+      "id": "0x10DEE426",
+      "text": "全场最佳"
+    },
+    {
+      "index": 280,
+      "id": "0x442D8027",
+      "text": "我想跟三街圣徒的首领谈谈。"
+    },
+    {
+      "index": 281,
+      "id": "0x5B4202A7",
+      "text": "在这等着泰拉，我去确认有没有人来……\n2000"
+    },
+    {
+      "index": 282,
+      "id": "0x00D4D927",
+      "text": "你以为她会播？第六频道对僵尸林的故事可没疯到那个程度。"
+    },
+    {
+      "index": 283,
+      "id": "0x6060B727",
+      "text": "[format][color:green]货车[/format] 严重受损"
+    },
+    {
+      "index": 284,
+      "id": "0x344774A8",
+      "text": "我们是一条船上的。"
+    },
+    {
+      "index": 285,
+      "id": "0xC33C0028",
+      "text": "[format][color:red]目标[/format] 正开着敞篷车沿路行驶"
+    },
+    {
+      "index": 286,
+      "id": "0x55D48229",
+      "text": "摧毁 [format][color:red]哑剧演员的车[/format]"
+    },
+    {
+      "index": 287,
+      "id": "0xA9D67DA9",
+      "text": "看来我们引起德克斯的注意了。"
+    },
+    {
+      "index": 288,
+      "id": "0x82B65729",
+      "text": "你们这些家伙到底打算在哪里采矿？"
+    },
+    {
+      "index": 289,
+      "id": "0xD56DC5A9",
+      "text": "什么什么？\n500"
+    },
+    {
+      "index": 290,
+      "id": "0xA797C8A9",
+      "text": "不被人追杀才叫压力大呢。"
+    },
+    {
+      "index": 291,
+      "id": "0x287960A9",
+      "text": "怎么？没想到丹还养着你这样的女孩。\n2500"
+    },
+    {
+      "index": 292,
+      "id": "0xBD588229",
+      "text": "任务的合作竞技模式现已开放。你可以在选项画面里的合作菜单开启它。"
+    },
+    {
+      "index": 293,
+      "id": "0x9E189729",
+      "text": "看来你找到第一具了，嗯……\n\n1750"
+    },
+    {
+      "index": 294,
+      "id": "0x1DC70A29",
+      "text": "[image:ui_dlc_menu_icon]普通，长发"
+    },
+    {
+      "index": 295,
+      "id": "0x70208BA9",
+      "text": "[format][color:red]目标[/format] 正在马路对面洒水"
+    },
+    {
+      "index": 296,
+      "id": "0xEDBFEA2A",
+      "text": "那个白痴非要穿那套衣服来办公室……我再也不想看到它了。"
+    },
+    {
+      "index": 297,
+      "id": "0x78C7DD2A",
+      "text": "[image:ui_dlc_menu_icon]缠腰布"
+    },
+    {
+      "index": 298,
+      "id": "0x28E6E3AA",
+      "text": "[image:ui_dlc_menu_icon]巡警"
+    },
+    {
+      "index": 299,
+      "id": "0x790F76AA",
+      "text": "[image:ui_dlc_menu_icon]Unkut 吊带背心 1"
+    },
+    {
+      "index": 300,
+      "id": "0xE96B772A",
+      "text": "上 [format][color:green]货车[/format]"
+    },
+    {
+      "index": 301,
+      "id": "0xFBB9ABAB",
+      "text": "在对方把货车开往码头时保护 [format][color:green]货车[/format]"
+    },
+    {
+      "index": 302,
+      "id": "0x2CE3C0AB",
+      "text": "我们只能硬来了……在我弄到车之前把头低下。"
+    },
+    {
+      "index": 303,
+      "id": "0x82D283AB",
+      "text": "我一个人对整支军队？"
+    },
+    {
+      "index": 304,
+      "id": "0x7DCDA5AB",
+      "text": "你是谁？"
+    },
+    {
+      "index": 305,
+      "id": "0x34BCE6AB",
+      "text": "好吧，就这么办。\n500"
+    },
+    {
+      "index": 306,
+      "id": "0x6DC1B1AB",
+      "text": "[image:ui_dlc_menu_icon]泰拉的束身衣"
+    },
+    {
+      "index": 307,
+      "id": "0xDCF15F2B",
+      "text": "靠紧我泰拉，看起来乌托尔想狠狠灭你的口……"
+    },
+    {
+      "index": 308,
+      "id": "0x264A3CAB",
+      "text": "[image:ui_dlc_menu_icon]缠头巾"
+    },
+    {
+      "index": 309,
+      "id": "0x166DD9AB",
+      "text": "[image:ui_dlc_menu_icon]特警"
+    },
+    {
+      "index": 310,
+      "id": "0x32C4EA2B",
+      "text": "[image:ui_dlc_menu_icon]Unkut"
+    },
+    {
+      "index": 311,
+      "id": "0x38191BAB",
+      "text": "消灭剩余的 [format][color:red]雅子班部队[/format]"
+    },
+    {
+      "index": 312,
+      "id": "0xB504452C",
+      "text": "你手上有没有德克斯的把柄？"
+    },
+    {
+      "index": 313,
+      "id": "0x5CFA182C",
+      "text": "回头见。"
+    },
+    {
+      "index": 314,
+      "id": "0xB7D92CAC",
+      "text": "你不会孤军奋战。工厂的保安队里全是我的人。"
+    },
+    {
+      "index": 315,
+      "id": "0xD48FEDAC",
+      "text": "举证之责"
+    },
+    {
+      "index": 316,
+      "id": "0x0F6A42AC",
+      "text": "[image:ui_dlc_menu_icon]羽状长发"
+    },
+    {
+      "index": 317,
+      "id": "0x5E9A2A2C",
+      "text": "听着，我迟到了。到克拉夫林山下的斜坡等我，我很快就到。\n5000"
+    },
+    {
+      "index": 318,
+      "id": "0x9A89142C",
+      "text": "你以为她会播？第六频道对僵尸林的故事可没疯到那个程度。"
+    },
+    {
+      "index": 319,
+      "id": "0x7328152C",
+      "text": "[format][color:red]目标[/format] 正坐在观光直升机上飞越码头区"
+    },
+    {
+      "index": 320,
+      "id": "0xEF2546AC",
+      "text": "仓库"
+    },
+    {
+      "index": 321,
+      "id": "0x2C5725AD",
+      "text": "是啊，我毫不在乎，刚才只是客气一下。"
+    },
+    {
+      "index": 322,
+      "id": "0x8256B8AD",
+      "text": "这可不妙……"
+    },
+    {
+      "index": 323,
+      "id": "0x316F5E2D",
+      "text": "看起来没什么帮助。"
+    },
+    {
+      "index": 324,
+      "id": "0xA171BCAD",
+      "text": "也许再放一束花配着……"
+    },
+    {
+      "index": 325,
+      "id": "0x50DE1E2D",
+      "text": "不被人追杀才叫压力大呢。"
+    },
+    {
+      "index": 326,
+      "id": "0x6F6FF02D",
+      "text": "那看来你完蛋了。\n750"
+    },
+    {
+      "index": 327,
+      "id": "0xF21A5CAD",
+      "text": "好了泰拉，尸体我基本都找到了，你要我拿它们怎么办？"
+    },
+    {
+      "index": 328,
+      "id": "0x86A17AAD",
+      "text": "我明白。\n1000"
+    },
+    {
+      "index": 329,
+      "id": "0xB47651AD",
+      "text": "他们派了侦察兵原型？哇哦……"
+    },
+    {
+      "index": 330,
+      "id": "0x8E948CAD",
+      "text": "%ls 赢得了比赛。\n你输了。"
+    },
+    {
+      "index": 331,
+      "id": "0xA222162D",
+      "text": "泰拉死亡"
+    },
+    {
+      "index": 332,
+      "id": "0x1AB15C2E",
+      "text": "怎么可能？他知道你要杀他，绝不会回来。"
+    },
+    {
+      "index": 333,
+      "id": "0xB45BD72E",
+      "text": "这是我的众多护身符之一。"
+    },
+    {
+      "index": 334,
+      "id": "0xF6B2C12E",
+      "text": "交通管制"
+    },
+    {
+      "index": 335,
+      "id": "0x59C1382E",
+      "text": "[image:ui_dlc_menu_icon]Movember 基督城"
+    },
+    {
+      "index": 336,
+      "id": "0xCD78982E",
+      "text": "你这话可没帮上忙……"
+    },
+    {
+      "index": 337,
+      "id": "0x83EC7D2E",
+      "text": "[image:ui_dlc_menu_icon]太空人"
+    },
+    {
+      "index": 338,
+      "id": "0x47A0DD2E",
+      "text": "监狱岛"
+    },
+    {
+      "index": 339,
+      "id": "0xAF89632F",
+      "text": "拜托，乌托尔才不管呢，我听说金字塔里发生的事。"
+    },
+    {
+      "index": 340,
+      "id": "0x0D4B8DAF",
+      "text": "我们得快点！这些破烂挡着，我没法开枪！"
+    },
+    {
+      "index": 341,
+      "id": "0x4697BFAF",
+      "text": "今天的高峰期比往常更糟，又一场涉及三街圣徒的高速公路枪战。虽然劫持目标仍然不明，但一辆无视交通法规的高速货车留下的残局，对史提瓦特人民来说再熟悉不过了。"
+    },
+    {
+      "index": 342,
+      "id": "0x44D8E2AF",
+      "text": "在这等着泰拉，我去确认有没有人来……\n2000"
+    },
+    {
+      "index": 343,
+      "id": "0x7AF9E62F",
+      "text": "泰拉……\n500"
+    },
+    {
+      "index": 344,
+      "id": "0x316A68AF",
+      "text": "我们可以在这守着，三街圣徒在这儿藏了些补给以防万一……"
+    },
+    {
+      "index": 345,
+      "id": "0x71BEAF2F",
+      "text": "我不知道她会不会买账。"
+    },
+    {
+      "index": 346,
+      "id": "0xA4E9642F",
+      "text": "等待 %ls 完成特技动作。"
+    },
+    {
+      "index": 347,
+      "id": "0xC41C7EAF",
+      "text": "你遗弃了危险品运输车"
+    },
+    {
+      "index": 348,
+      "id": "0xBB42822F",
+      "text": "泰拉的生命值"
+    },
+    {
+      "index": 349,
+      "id": "0xA063BDAF",
+      "text": "拖车公园"
+    },
+    {
+      "index": 350,
+      "id": "0x8B69F2B0",
+      "text": "[image:ui_dlc_menu_icon]护士"
+    },
+    {
+      "index": 351,
+      "id": "0xF48EF9B0",
+      "text": "我一个人对整支军队？"
+    },
+    {
+      "index": 352,
+      "id": "0x5ABFBAB0",
+      "text": "我们只能硬来了……在我弄到车之前把头低下。"
+    },
+    {
+      "index": 353,
+      "id": "0xD20001B0",
+      "text": "才三十秒，急什么？\n1750"
+    },
+    {
+      "index": 354,
+      "id": "0x2178E0B0",
+      "text": "好了，走吧。"
+    },
+    {
+      "index": 355,
+      "id": "0xDAD0A2B0",
+      "text": "靠紧我泰拉，看起来乌托尔想狠狠灭你的口……"
+    },
+    {
+      "index": 356,
+      "id": "0x98A57C30",
+      "text": "矿用车辆装炮塔干什么？\n2000"
+    },
+    {
+      "index": 357,
+      "id": "0x42E09CB0",
+      "text": "好吧，就这么办。\n500"
+    },
+    {
+      "index": 358,
+      "id": "0xB914D130",
+      "text": "[image:ui_dlc_menu_icon]Movember 奥克兰"
+    },
+    {
+      "index": 359,
+      "id": "0x3C060FB0",
+      "text": "我早说了。"
+    },
+    {
+      "index": 360,
+      "id": "0x094B5C30",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志"
+    },
+    {
+      "index": 361,
+      "id": "0xE20C9C30",
+      "text": "你现在可在安全屋使用无限火箭。"
+    },
+    {
+      "index": 362,
+      "id": "0x774D4FB0",
+      "text": "[format][color:red]目标[/format] 正在海滨步道散发传单"
+    },
+    {
+      "index": 363,
+      "id": "0x29C398B0",
+      "text": "泰拉被遗弃"
+    },
+    {
+      "index": 364,
+      "id": "0x19C6E730",
+      "text": "你从平板货车上摔了下来"
+    },
+    {
+      "index": 365,
+      "id": "0xCE5D1230",
+      "text": "回收第五具尸体"
+    },
+    {
+      "index": 366,
+      "id": "0x76B13CB1",
+      "text": "搞什么……\n1000"
+    },
+    {
+      "index": 367,
+      "id": "0x77D3E9B1",
+      "text": "那现在怎么办？"
+    },
+    {
+      "index": 368,
+      "id": "0x827F1FB1",
+      "text": "我的人已经在等你了，找到他们的货车，我就在那跟你会合。"
+    },
+    {
+      "index": 369,
+      "id": "0x09319EB1",
+      "text": "泰拉"
+    },
+    {
+      "index": 370,
+      "id": "0xEEED44B1",
+      "text": "一名玩家离开了营地"
+    },
+    {
+      "index": 371,
+      "id": "0xD6049432",
+      "text": "看来我们引起德克斯的注意了。"
+    },
+    {
+      "index": 372,
+      "id": "0x7CEC09B2",
+      "text": "希望你没打算让那条船跑掉……"
+    },
+    {
+      "index": 373,
+      "id": "0x9CE452B2",
+      "text": "什么？"
+    },
+    {
+      "index": 374,
+      "id": "0x9B387FB2",
+      "text": "[format][color:red]目标[/format] 已逃脱"
+    },
+    {
+      "index": 375,
+      "id": "0x9F91C4B3",
+      "text": "你面对的不是史提瓦特哪个不入流的小混混。\n2500"
+    },
+    {
+      "index": 376,
+      "id": "0xD731B4B3",
+      "text": "你开玩笑吧？我不会放过任何打击乌托尔的机会。你要我做什么？"
+    },
+    {
+      "index": 377,
+      "id": "0x11F0ECB3",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut 连帽衫"
+    },
+    {
+      "index": 378,
+      "id": "0xA2C01433",
+      "text": "把 [format][color:green]危险品运输车[/format] 开到 [format][color:teal]第二号加压站[/format]"
+    },
+    {
+      "index": 379,
+      "id": "0x7C0BF9B4",
+      "text": "真让人失望。"
+    },
+    {
+      "index": 380,
+      "id": "0x7B17F7B4",
+      "text": "我们得快点！这些破烂挡着，我没法开枪！"
+    },
+    {
+      "index": 381,
+      "id": "0x7CD81BB4",
+      "text": "泰拉……\n500"
+    },
+    {
+      "index": 382,
+      "id": "0x6FECAAB4",
+      "text": "矿用车辆装炮塔干什么？\n2000"
+    },
+    {
+      "index": 383,
+      "id": "0x95169134",
+      "text": "你在干什么？\n750"
+    },
+    {
+      "index": 384,
+      "id": "0xD6313634",
+      "text": "好了，走吧。"
+    },
+    {
+      "index": 385,
+      "id": "0x4ACD3534",
+      "text": "我为了搞到这些证据差点挨枪子，现在你告诉我你紧张接受采访？"
+    },
+    {
+      "index": 386,
+      "id": "0x2D210534",
+      "text": "[image:ui_dlc_menu_icon]情绪摇滚"
+    },
+    {
+      "index": 387,
+      "id": "0xB2698135",
+      "text": "我只是在说，谋杀未遂建立不了信任。"
+    },
+    {
+      "index": 388,
+      "id": "0xDD96B0B5",
+      "text": "一起发生在史提瓦特核电站的大胆恐怖袭击，因乌托尔公司的奋力行动而被挫败。袭击动机不明，但幸好保安人员的迅速反应，恐怖分子没能成功。"
+    },
+    {
+      "index": 389,
+      "id": "0x809A3F35",
+      "text": "那现在怎么办？"
+    },
+    {
+      "index": 390,
+      "id": "0x43EDCC35",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志"
+    },
+    {
+      "index": 391,
+      "id": "0x36DDBAB5",
+      "text": "回收最后一具尸体 "
+    },
+    {
+      "index": 392,
+      "id": "0x6364D236",
+      "text": "[image:ui_dlc_menu_icon]胸甲"
+    },
+    {
+      "index": 393,
+      "id": "0xA8E4A736",
+      "text": "等等。这个再解释一遍。"
+    },
+    {
+      "index": 394,
+      "id": "0xDEA35536",
+      "text": "也许再放一束花配着……"
+    },
+    {
+      "index": 395,
+      "id": "0x84774536",
+      "text": "这可不妙……"
+    },
+    {
+      "index": 396,
+      "id": "0x4EBDB7B6",
+      "text": "看起来没什么帮助。"
+    },
+    {
+      "index": 397,
+      "id": "0x694E0DB6",
+      "text": "那看来你完蛋了。\n750"
+    },
+    {
+      "index": 398,
+      "id": "0x6BAD8436",
+      "text": "什么？"
+    },
+    {
+      "index": 399,
+      "id": "0x80808736",
+      "text": "我明白。\n1000"
+    },
+    {
+      "index": 400,
+      "id": "0x46138D36",
+      "text": "失落之岛"
+    },
+    {
+      "index": 401,
+      "id": "0x576768B7",
+      "text": "随你怎么说。"
+    },
+    {
+      "index": 402,
+      "id": "0xCD2362B7",
+      "text": "乌托尔家庭欢乐日"
+    },
+    {
+      "index": 403,
+      "id": "0x5EACFC37",
+      "text": "[image:ui_dlc_menu_icon]Movember 悉尼"
+    },
+    {
+      "index": 404,
+      "id": "0x64D3D637",
+      "text": "好了，躲到后面掩护我们……乌托尔可不会乐意损失一批货。"
+    },
+    {
+      "index": 405,
+      "id": "0xADEFBBB7",
+      "text": "[image:ui_dlc_menu_icon]细长尖形"
+    },
+    {
+      "index": 406,
+      "id": "0x8CFE54B7",
+      "text": "[image:ui_dlc_menu_icon]Unkut 手环"
+    },
+    {
+      "index": 407,
+      "id": "0x23C54D37",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut 牛仔短裤 1"
+    },
+    {
+      "index": 408,
+      "id": "0x6DB66CB8",
+      "text": " “他的人”？"
+    },
+    {
+      "index": 409,
+      "id": "0xC35CE7B8",
+      "text": "等我再干掉你几百号人再跟我谈。"
+    },
+    {
+      "index": 410,
+      "id": "0x4D6C79B8",
+      "text": "你开玩笑吧？我不会放过任何打击乌托尔的机会。你要我做什么？"
+    },
+    {
+      "index": 411,
+      "id": "0x2EC608B8",
+      "text": "[image:ui_dlc_menu_icon]Movember 阿德莱德"
+    },
+    {
+      "index": 412,
+      "id": "0xBA7FA8B8",
+      "text": "我在放轻松……"
+    },
+    {
+      "index": 413,
+      "id": "0xE2370238",
+      "text": "我们快到了……再帮我们争取一点时间……"
+    },
+    {
+      "index": 414,
+      "id": "0xD88E53B9",
+      "text": "谁？一群乌托尔雇的警察？他们不会对自己人开枪。"
+    },
+    {
+      "index": 415,
+      "id": "0xDA8638B9",
+      "text": "风景怎么样？"
+    },
+    {
+      "index": 416,
+      "id": "0xA7A2C5B9",
+      "text": "真难受……德克斯现在应该已经收到消息了。这边结束了。海滨步道附近见。\n2500"
+    },
+    {
+      "index": 417,
+      "id": "0x1924F939",
+      "text": "你在干什么？\n750"
+    },
+    {
+      "index": 418,
+      "id": "0xF0EA73B9",
+      "text": "泰拉……\n500"
+    },
+    {
+      "index": 419,
+      "id": "0x06B99FB9",
+      "text": "什么？"
+    },
+    {
+      "index": 420,
+      "id": "0xDF1EC239",
+      "text": "[format][color:#AF0000FF]%ls：[/format] %.0f"
+    },
+    {
+      "index": 421,
+      "id": "0xE6A195BA",
+      "text": "款式 2"
+    },
+    {
+      "index": 422,
+      "id": "0x49D3F93A",
+      "text": "[image:ui_dlc_menu_icon]圣徒头巾"
+    },
+    {
+      "index": 423,
+      "id": "0xC20375BA",
+      "text": "是啊，但他们不会自相残杀。"
+    },
+    {
+      "index": 424,
+      "id": "0xC0DE1C3A",
+      "text": "细节我交给你。"
+    },
+    {
+      "index": 425,
+      "id": "0xECECF1BA",
+      "text": "搞什么……\n1000"
+    },
+    {
+      "index": 426,
+      "id": "0xB21FF9BA",
+      "text": "在这等着泰拉，我去确认有没有人来……\n2000"
+    },
+    {
+      "index": 427,
+      "id": "0xED8E24BA",
+      "text": "那现在怎么办？"
+    },
+    {
+      "index": 428,
+      "id": "0x5FD7DBBA",
+      "text": "[image:ui_dlc_menu_icon]双马尾"
+    },
+    {
+      "index": 429,
+      "id": "0x46B74E3A",
+      "text": "回收第一批尸体 "
+    },
+    {
+      "index": 430,
+      "id": "0x5B50153B",
+      "text": "随时效劳。"
+    },
+    {
+      "index": 431,
+      "id": "0x08452D3B",
+      "text": "这可不妙……"
+    },
+    {
+      "index": 432,
+      "id": "0xD6768C3B",
+      "text": "如果你真在乎，我可以直接把它送到你办公室。"
+    },
+    {
+      "index": 433,
+      "id": "0x0518173B",
+      "text": "那辆摩托车上是雅子班的教官。干掉他们。"
+    },
+    {
+      "index": 434,
+      "id": "0x0CB2EF3B",
+      "text": "我明白。\n1000"
+    },
+    {
+      "index": 435,
+      "id": "0x7809C93B",
+      "text": "好了泰拉，尸体我基本都找到了，你要我拿它们怎么办？"
+    },
+    {
+      "index": 436,
+      "id": "0x27D92EBB",
+      "text": "我为了给你搞到这些差点挨枪子，你现在告诉我你紧张接受采访？"
+    },
+    {
+      "index": 437,
+      "id": "0xE57C65BB",
+      "text": "那看来你完蛋了。\n750"
+    },
+    {
+      "index": 438,
+      "id": "0xA65BC2BB",
+      "text": "我早说了。"
+    },
+    {
+      "index": 439,
+      "id": "0xFEFB7EBB",
+      "text": "%ls："
+    },
+    {
+      "index": 440,
+      "id": "0x9AB8DABC",
+      "text": "德克斯逼那个傻子在我们的食堂里卖放了一个月的热狗……请结束这场闹剧。"
+    },
+    {
+      "index": 441,
+      "id": "0xBA25AF3C",
+      "text": "你开玩笑吧？我不会放过任何打击乌托尔的机会。你要我做什么？"
+    },
+    {
+      "index": 442,
+      "id": "0x3E9332BC",
+      "text": "你在干什么？\n750"
+    },
+    {
+      "index": 443,
+      "id": "0xD4AC0ABC",
+      "text": "[image:ui_dlc_menu_icon]独裁者"
+    },
+    {
+      "index": 444,
+      "id": "0x5D6CFB3C",
+      "text": "平板货车被毁"
+    },
+    {
+      "index": 445,
+      "id": "0xA3092B3C",
+      "text": "挖出尸体"
+    },
+    {
+      "index": 446,
+      "id": "0xF5D5B33D",
+      "text": "那大概能撑十秒……"
+    },
+    {
+      "index": 447,
+      "id": "0x423F1B3D",
+      "text": "我玩得有点太开心了。"
+    },
+    {
+      "index": 448,
+      "id": "0x4E963FBD",
+      "text": "德克斯的人正在把物资装进罐车。别让他们离开那座岛。"
+    },
+    {
+      "index": 449,
+      "id": "0x808D383D",
+      "text": "如果第一次没有成功……"
+    },
+    {
+      "index": 450,
+      "id": "0x56E2CABD",
+      "text": "靠紧我泰拉，看起来乌托尔想狠狠灭你的口……"
+    },
+    {
+      "index": 451,
+      "id": "0xCB74FABD",
+      "text": "[image:ui_dlc_menu_icon]泰拉的纹身"
+    },
+    {
+      "index": 452,
+      "id": "0xBBC1A03D",
+      "text": "听着，我时间不多。"
+    },
+    {
+      "index": 453,
+      "id": "0x37A33E3D",
+      "text": "你已解锁泰拉的跑车，现在可在你的安全屋车库使用"
+    },
+    {
+      "index": 454,
+      "id": "0x922596BD",
+      "text": "把 [format][color:green]危险品运输车[/format] 开到 [format][color:teal]第一号加压站[/format]"
+    },
+    {
+      "index": 455,
+      "id": "0x4340443E",
+      "text": "听着，德克斯的人正在赶来，我要是再不出去，雅子班会杀了我。"
+    },
+    {
+      "index": 456,
+      "id": "0xC70B923E",
+      "text": "他不是你，对我来说这就够了。"
+    },
+    {
+      "index": 457,
+      "id": "0x075AFF3E",
+      "text": "我的人比多。"
+    },
+    {
+      "index": 458,
+      "id": "0x8453513E",
+      "text": "留下痕迹"
+    },
+    {
+      "index": 459,
+      "id": "0x1BA5273E",
+      "text": "搞什么……\n1000"
+    },
+    {
+      "index": 460,
+      "id": "0x57771FBE",
+      "text": "[image:ui_dlc_menu_icon]两鬓后退"
+    },
+    {
+      "index": 461,
+      "id": "0xE92856BF",
+      "text": "继续开，就不会有事。"
+    },
+    {
+      "index": 462,
+      "id": "0xF5B167BF",
+      "text": "矿用车辆装炮塔干什么？\n2000"
+    },
+    {
+      "index": 463,
+      "id": "0xA26AF53F",
+      "text": "怎么？没想到丹还养着你这样的女孩。\n2500"
+    },
+    {
+      "index": 464,
+      "id": "0x5112143F",
+      "text": "我早说了。"
+    },
+    {
+      "index": 465,
+      "id": "0xD090F83F",
+      "text": "我为了给你搞到这些差点挨枪子，你现在告诉我你紧张接受采访？"
+    },
+    {
+      "index": 466,
+      "id": "0x5F7E503F",
+      "text": "什么什么？\n500"
+    },
+    {
+      "index": 467,
+      "id": "0x4C6CFB3F",
+      "text": "好了，走吧。"
+    },
+    {
+      "index": 468,
+      "id": "0xE91FA7BF",
+      "text": "乌托尔一直在拿纳米机器做实验……他们想找到方法增强矿工的肺活量。当我看到他们对志愿者做的事时，我……\n8000"
+    },
+    {
+      "index": 469,
+      "id": "0x4DD5F9BF",
+      "text": "%ls：%.0f"
+    },
+    {
+      "index": 470,
+      "id": "0x8BE2B6BF",
+      "text": "可下载内容"
+    },
+    {
+      "index": 471,
+      "id": "0xA79D7A40",
+      "text": "别忘了我要是死了就帮不了你了。"
+    },
+    {
+      "index": 472,
+      "id": "0x2BD17340",
+      "text": "市场部的托比特想从海上逃走。拦住他。"
+    },
+    {
+      "index": 473,
+      "id": "0x74D05D40",
+      "text": "那边。德克斯的会计之一。"
+    },
+    {
+      "index": 474,
+      "id": "0x7FDA18C0",
+      "text": "令人印象深刻……现在把剩下的货车开到码头。我的人会从那里接手。\n\n2000"
+    },
+    {
+      "index": 475,
+      "id": "0xF4BCFE40",
+      "text": "没有我搞不定的事。"
+    },
+    {
+      "index": 476,
+      "id": "0xBA2789C0",
+      "text": "我不喜欢这样。"
+    },
+    {
+      "index": 477,
+      "id": "0xE9896040",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut 牛仔裤"
+    },
+    {
+      "index": 478,
+      "id": "0x918303C0",
+      "text": "把尸体运到 [format][color:teal]第六频道[/format] 处理 "
+    },
+    {
+      "index": 479,
+      "id": "0xE0AD41C1",
+      "text": "返回狙击区域"
+    },
+    {
+      "index": 480,
+      "id": "0xE3C42941",
+      "text": "德克斯打算今晚动手。联手的话，我们能阻止他。"
+    },
+    {
+      "index": 481,
+      "id": "0xEB03B4C1",
+      "text": "要是这些娘们就站那儿不动，那是她们自寻死路……"
+    },
+    {
+      "index": 482,
+      "id": "0x23951B41",
+      "text": "你在 FUZZ 上看过我吗？"
+    },
+    {
+      "index": 483,
+      "id": "0xCCBD1BC1",
+      "text": "我们可以在这守着，三街圣徒在这儿藏了些补给以防万一……\n4000"
+    },
+    {
+      "index": 484,
+      "id": "0x684C49C1",
+      "text": "才三十秒，急什么？\n1750"
+    },
+    {
+      "index": 485,
+      "id": "0xBF691841",
+      "text": "是乌托尔给他们的钱。"
+    },
+    {
+      "index": 486,
+      "id": "0x609CEAC1",
+      "text": "靠紧我泰拉，看起来乌托尔想狠狠灭你的口……"
+    },
+    {
+      "index": 487,
+      "id": "0x3EEBF441",
+      "text": "只是一次采访。"
+    },
+    {
+      "index": 488,
+      "id": "0x174AC041",
+      "text": "放心吧……会的。"
+    },
+    {
+      "index": 489,
+      "id": "0x6D0E6CC1",
+      "text": "没人关心一个不死帮派成员……但人人都痛恨大公司。"
+    },
+    {
+      "index": 490,
+      "id": "0x295BAD41",
+      "text": "[image:ui_dlc_menu_icon]摇杆狂热 T恤 3"
+    },
+    {
+      "index": 491,
+      "id": "0xC1A95242",
+      "text": "等埃里克赶到。"
+    },
+    {
+      "index": 492,
+      "id": "0xD17992C2",
+      "text": "你还有 %ls 秒把货车送达"
+    },
+    {
+      "index": 493,
+      "id": "0xBB2FB7C2",
+      "text": "看来我们引起德克斯的注意了。"
+    },
+    {
+      "index": 494,
+      "id": "0x3BB07842",
+      "text": "看看这些人往嘴里塞东西的样子……真恶心。"
+    },
+    {
+      "index": 495,
+      "id": "0x545EA342",
+      "text": "亲爱的，我还有正事要办，没空玩文字游戏。"
+    },
+    {
+      "index": 496,
+      "id": "0xC37E0F42",
+      "text": "我是简·瓦尔德拉玛，现场采访泰拉——一名声称我们城市正处于危险中的女子。"
+    },
+    {
+      "index": 497,
+      "id": "0x6E2D0AC2",
+      "text": "[image:ui_dlc_menu_icon]摇杆狂热 连帽衫"
+    },
+    {
+      "index": 498,
+      "id": "0x2E207942",
+      "text": "%ls 未能在时限内开始特技动作。"
+    },
+    {
+      "index": 499,
+      "id": "0x9EBAE2C2",
+      "text": "上屋顶"
+    },
+    {
+      "index": 500,
+      "id": "0x601A6FC3",
+      "text": "也许吧。反正已经不关你的事了，对吧？"
+    },
+    {
+      "index": 501,
+      "id": "0x4EAC59C3",
+      "text": "好了，我进灯塔了。"
+    },
+    {
+      "index": 502,
+      "id": "0x69007043",
+      "text": "什么什么？\n500"
+    },
+    {
+      "index": 503,
+      "id": "0x1F8B4543",
+      "text": "简，别这样，这是个很棒的故事。"
+    },
+    {
+      "index": 504,
+      "id": "0x02F5AA43",
+      "text": "好吧，我去跟她说。"
+    },
+    {
+      "index": 505,
+      "id": "0x9414D543",
+      "text": "怎么？没想到丹还养着你这样的女孩。\n2500"
+    },
+    {
+      "index": 506,
+      "id": "0xEB3F42C3",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut 手表"
+    },
+    {
+      "index": 507,
+      "id": "0x9A75F9C3",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 01"
+    },
+    {
+      "index": 508,
+      "id": "0xD5AA01C3",
+      "text": "Flatbed t货车已逃脱"
+    },
+    {
+      "index": 509,
+      "id": "0x8CC74DC4",
+      "text": "把货车送到 [format][color:teal]码头[/format]"
+    },
+    {
+      "index": 510,
+      "id": "0xACE56044",
+      "text": "那看起来怎么样？"
+    },
+    {
+      "index": 511,
+      "id": "0x68F08D44",
+      "text": "我一个人对整支军队？"
+    },
+    {
+      "index": 512,
+      "id": "0x039BCCC4",
+      "text": "这样不行。转过来让我瞄得更准！"
+    },
+    {
+      "index": 513,
+      "id": "0xC6C1CE44",
+      "text": "我们只能硬来了……在我弄到车之前把头低下。"
+    },
+    {
+      "index": 514,
+      "id": "0x8C686844",
+      "text": "等等，简打电话来了……\n1000"
+    },
+    {
+      "index": 515,
+      "id": "0xDE9EE844",
+      "text": "好吧，就这么办。\n500"
+    },
+    {
+      "index": 516,
+      "id": "0xCCECB344",
+      "text": "你不能逼瓦尔德拉玛做点什么吗？"
+    },
+    {
+      "index": 517,
+      "id": "0x4EEC4745",
+      "text": "忙。你的？"
+    },
+    {
+      "index": 518,
+      "id": "0xA6A21D45",
+      "text": "这是我的众多护身符之一。"
+    },
+    {
+      "index": 519,
+      "id": "0xDDB7EB45",
+      "text": "他们设了路障。我们冲不过去。"
+    },
+    {
+      "index": 520,
+      "id": "0xC9A222C5",
+      "text": "只是一次采访。"
+    },
+    {
+      "index": 521,
+      "id": "0x2F5AD945",
+      "text": "你在干什么？\n750"
+    },
+    {
+      "index": 522,
+      "id": "0x4820CEC5",
+      "text": "是乌托尔给他们的钱。"
+    },
+    {
+      "index": 523,
+      "id": "0xEC83BD45",
+      "text": "\"侦察兵原型\"？你在说什么鬼？\n2000"
+    },
+    {
+      "index": 524,
+      "id": "0xB7D146C5",
+      "text": "到[format][color:teal]楼下[/format]见埃里克"
+    },
+    {
+      "index": 525,
+      "id": "0x8FC179C5",
+      "text": "别伤害守卫，他们是来帮你的"
+    },
+    {
+      "index": 526,
+      "id": "0x1EF240C5",
+      "text": "把泰拉送到 [format][color:teal]克拉夫林营地[/format] 的货车"
+    },
+    {
+      "index": 527,
+      "id": "0xB38876C6",
+      "text": "也许再放一束花配着……"
+    },
+    {
+      "index": 528,
+      "id": "0xA31775C6",
+      "text": "亲爱的，我还有正事要办，没空玩文字游戏。"
+    },
+    {
+      "index": 529,
+      "id": "0xB5B535C6",
+      "text": "企业贪心的故事满地都是，我要更劲爆的……一个冒死揭发的吹哨人，为了正义。这样才有收视率。"
+    },
+    {
+      "index": 530,
+      "id": "0xF0F2ED46",
+      "text": "你为什么要那样做？我以为你要帮我们。"
+    },
+    {
+      "index": 531,
+      "id": "0x2B6FF446",
+      "text": "[image:ui_dlc_menu_icon]Unkut"
+    },
+    {
+      "index": 532,
+      "id": "0x8F57D0C6",
+      "text": "[format][color:#AF0000FF]%ls[/format] 已关闭合作竞技模式"
+    },
+    {
+      "index": 533,
+      "id": "0x4E03D247",
+      "text": "回头见。"
+    },
+    {
+      "index": 534,
+      "id": "0xD55D9CC7",
+      "text": "要是这些娘们就站那儿不动，那是她们自寻死路……"
+    },
+    {
+      "index": 535,
+      "id": "0x3A4C4B47",
+      "text": "随你怎么说。"
+    },
+    {
+      "index": 536,
+      "id": "0xFF6C6447",
+      "text": "温和可亲的记者简·瓦尔德拉玛冒着生命危险，对一名自称「泰拉」的叛逃乌托尔科学家进行了一次挑衅性的采访。错过的观众今晚在《以血还血：强尼·盖特的故事》之后，可以再看一次瓦尔德拉玛对这位疯狂微生物学家的现场采访。"
+    },
+    {
+      "index": 537,
+      "id": "0xF5BC7CC7",
+      "text": "好吧，我去跟她说。"
+    },
+    {
+      "index": 538,
+      "id": "0x3ACCCF47",
+      "text": "我明白。\n1000"
+    },
+    {
+      "index": 539,
+      "id": "0x0DA843C7",
+      "text": "好了，我们就在这。\n500"
+    },
+    {
+      "index": 540,
+      "id": "0x4E77E947",
+      "text": "好了泰拉，尸体我基本都找到了，你要我拿它们怎么办？"
+    },
+    {
+      "index": 541,
+      "id": "0x8CAD38C7",
+      "text": "我当然希望你在雅子班小队找上我之前找到那些该死的东西。\n3750"
+    },
+    {
+      "index": 542,
+      "id": "0x27DB0847",
+      "text": "我知道一些乌托尔想掩埋的事情。"
+    },
+    {
+      "index": 543,
+      "id": "0xD7F3BE47",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志"
+    },
+    {
+      "index": 544,
+      "id": "0x67AD6A47",
+      "text": "[format][color:red]目标[/format] 正在栈桥上钓鱼"
+    },
+    {
+      "index": 545,
+      "id": "0xD8C268C7",
+      "text": "格里芬的豪华轿车被摧毁"
+    },
+    {
+      "index": 546,
+      "id": "0x3E6926C8",
+      "text": "你不会需要这批放射性废料吧？"
+    },
+    {
+      "index": 547,
+      "id": "0xAE77C448",
+      "text": "等我再干掉你几百号人再跟我谈。"
+    },
+    {
+      "index": 548,
+      "id": "0x85D68848",
+      "text": "简，别这样，这是个很棒的故事。"
+    },
+    {
+      "index": 549,
+      "id": "0x4AA63BC8",
+      "text": "泰拉……\n500"
+    },
+    {
+      "index": 550,
+      "id": "0xD5FCDCC8",
+      "text": "尸体被毁"
+    },
+    {
+      "index": 551,
+      "id": "0x69ABC7C9",
+      "text": "那大概能撑十秒……"
+    },
+    {
+      "index": 552,
+      "id": "0xCE036E49",
+      "text": "亲爱的，我还有正事要办，没空玩文字游戏。"
+    },
+    {
+      "index": 553,
+      "id": "0x809819C9",
+      "text": "当然。我手上有被实验者的尸体，还有他们使用的那种化学品。"
+    },
+    {
+      "index": 554,
+      "id": "0x5329E6C9",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 11"
+    },
+    {
+      "index": 555,
+      "id": "0x87B0CB49",
+      "text": "合作竞技模式将在你下次开始任务或据点时生效"
+    },
+    {
+      "index": 556,
+      "id": "0xD3AD62C9",
+      "text": "摧毁 [format][color:red]装甲车[/format]"
+    },
+    {
+      "index": 557,
+      "id": "0x05297ACA",
+      "text": "前往第二辆 [format][color:green]货车[/format]"
+    },
+    {
+      "index": 558,
+      "id": "0x3E86B3CA",
+      "text": "德克斯，你不是我的对手。"
+    },
+    {
+      "index": 559,
+      "id": "0x3299924A",
+      "text": "直接走过去揍这些混蛋不是更简单？"
+    },
+    {
+      "index": 560,
+      "id": "0xB209654A",
+      "text": "这可不妙……"
+    },
+    {
+      "index": 561,
+      "id": "0x8A69A34A",
+      "text": "清掉那个路障！\n500"
+    },
+    {
+      "index": 562,
+      "id": "0x2534D54A",
+      "text": "是乌托尔给他们的钱。"
+    },
+    {
+      "index": 563,
+      "id": "0x8197A6CA",
+      "text": "\"侦察兵原型\"？你在说什么鬼？\n2000"
+    },
+    {
+      "index": 564,
+      "id": "0xC245814A",
+      "text": "好了泰拉，尸体我基本都找到了，你要我拿它们怎么办？"
+    },
+    {
+      "index": 565,
+      "id": "0xB9C8D64A",
+      "text": "你在 FUZZ 上看过我吗？"
+    },
+    {
+      "index": 566,
+      "id": "0x5F302DCA",
+      "text": "那看来你完蛋了。\n750"
+    },
+    {
+      "index": 567,
+      "id": "0xCBB36ACA",
+      "text": "可下载内容"
+    },
+    {
+      "index": 568,
+      "id": "0x46E652CA",
+      "text": "[format][color:#4481D5FF]%ls：[/format] %.0f"
+    },
+    {
+      "index": 569,
+      "id": "0x86DAE34A",
+      "text": "泰拉的跑车"
+    },
+    {
+      "index": 570,
+      "id": "0x696265CA",
+      "text": "在货车装载期间抵御 [format][color:red]雅子班[/format]"
+    },
+    {
+      "index": 571,
+      "id": "0x0FC5BB4A",
+      "text": "大厅中并非所有玩家都达到等级：%ls。已将所选地图更改为 %ls。"
+    },
+    {
+      "index": 572,
+      "id": "0xDC8F94CB",
+      "text": "一切都还好吗，凯蒂？"
+    },
+    {
+      "index": 573,
+      "id": "0x7556224B",
+      "text": "继续开，就不会有事。"
+    },
+    {
+      "index": 574,
+      "id": "0x4E0EA64B",
+      "text": "企业崩盘"
+    },
+    {
+      "index": 575,
+      "id": "0x6EE1334B",
+      "text": "没有我搞不定的事。"
+    },
+    {
+      "index": 576,
+      "id": "0x02E2ECCB",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 5"
+    },
+    {
+      "index": 577,
+      "id": "0x07EBA14B",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut Polo 衫 3"
+    },
+    {
+      "index": 578,
+      "id": "0xAF4D054B",
+      "text": "回到 [format][color:green]格里芬[/format] 那里"
+    },
+    {
+      "index": 579,
+      "id": "0x1AF1F44B",
+      "text": "[format][color:red]乌托尔[/format] 正跳过山谷从北面发动攻击"
+    },
+    {
+      "index": 580,
+      "id": "0xB32725CB",
+      "text": "前往 [format][color:red]货车[/format]"
+    },
+    {
+      "index": 581,
+      "id": "0x74688CCB",
+      "text": "上 [format][color:green]货车[/format] "
+    },
+    {
+      "index": 582,
+      "id": "0x10709B4C",
+      "text": "史提瓦特分部以后不会再和三街圣徒有麻烦了吧？"
+    },
+    {
+      "index": 583,
+      "id": "0xCCEBDACC",
+      "text": "乌托尔家庭欢乐日是史提瓦特过去数年的年度盛事。这个原本是各年龄段孩子的夏天亮点，如今蒙上了血腥的阴影。一名疯狂枪手在人群中随机开火，表演者和参加派对的人都有伤亡。我们也许永远不会知道是什么把枪手逼到这一步；一场离婚、对小丑的恐惧、对糖水果的憎恨……但愿史提瓦特人民不会让正义落空。"
+    },
+    {
+      "index": 584,
+      "id": "0x6FE1B1CC",
+      "text": "好吧，我去跟她说。"
+    },
+    {
+      "index": 585,
+      "id": "0x729F5ECC",
+      "text": "简，别这样，这是个很棒的故事。"
+    },
+    {
+      "index": 586,
+      "id": "0xE47E21CC",
+      "text": "才三十秒，急什么？\n1750"
+    },
+    {
+      "index": 587,
+      "id": "0x26A4F04C",
+      "text": "她会想开的。"
+    },
+    {
+      "index": 588,
+      "id": "0xFB2965CC",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut T恤 2"
+    },
+    {
+      "index": 589,
+      "id": "0xF46B604C",
+      "text": "[image:ui_dlc_menu_icon]Unkut"
+    },
+    {
+      "index": 590,
+      "id": "0xEA1F0D4C",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 04"
+    },
+    {
+      "index": 591,
+      "id": "0xFACF5DCC",
+      "text": "乌托尔剩余："
+    },
+    {
+      "index": 592,
+      "id": "0x2F1438CD",
+      "text": "我玩得有点太开心了。"
+    },
+    {
+      "index": 593,
+      "id": "0xD56D82CD",
+      "text": "看来有人需要一点点醒。"
+    },
+    {
+      "index": 594,
+      "id": "0xB314FBCD",
+      "text": "所以这些都是一个疯狂个人的所作所为？"
+    },
+    {
+      "index": 595,
+      "id": "0x52DAEECD",
+      "text": "[image:ui_dlc_menu_icon]八字胡"
+    },
+    {
+      "index": 596,
+      "id": "0x0845B74D",
+      "text": "[format][color:red]三名逃跑者[/format] 正从灯塔冲下来，别让他们到达终点"
+    },
+    {
+      "index": 597,
+      "id": "0x983F184E",
+      "text": "[image:ui_dlc_menu_icon]宽松牛仔裤"
+    },
+    {
+      "index": 598,
+      "id": "0xEBFC73CE",
+      "text": "在对方把危险品运输车送到码头时保护 [format][color:green]他[/format]"
+    },
+    {
+      "index": 599,
+      "id": "0x93AEDDCE",
+      "text": "会有人帮你。"
+    },
+    {
+      "index": 600,
+      "id": "0xAA20B1CE",
+      "text": "他不是你，对我来说这就够了。"
+    },
+    {
+      "index": 601,
+      "id": "0x53FFEFCE",
+      "text": "只是一次采访。"
+    },
+    {
+      "index": 602,
+      "id": "0x1826BD4E",
+      "text": "怎么？没想到丹还养着你这样的女孩。\n2500"
+    },
+    {
+      "index": 603,
+      "id": "0x76DE704E",
+      "text": "\"侦察兵原型\"？你在说什么鬼？\n2000"
+    },
+    {
+      "index": 604,
+      "id": "0xE532184E",
+      "text": "什么什么？\n500"
+    },
+    {
+      "index": 605,
+      "id": "0x4E8100CE",
+      "text": "你在 FUZZ 上看过我吗？"
+    },
+    {
+      "index": 606,
+      "id": "0x1D64984E",
+      "text": "你遇到什么麻烦了吗？"
+    },
+    {
+      "index": 607,
+      "id": "0x2696E2CF",
+      "text": "这都是扯淡，格里芬！"
+    },
+    {
+      "index": 608,
+      "id": "0xFACF2C4F",
+      "text": "他妈我们怎么可能做到？"
+    },
+    {
+      "index": 609,
+      "id": "0x3BF712CF",
+      "text": "别抱怨了，你不是还活着吗？"
+    },
+    {
+      "index": 610,
+      "id": "0x54FE6F4F",
+      "text": "我可没想过今天会这样！"
+    },
+    {
+      "index": 611,
+      "id": "0x04BAA9CF",
+      "text": "某人的贴身购物助理要遇到意外了……"
+    },
+    {
+      "index": 612,
+      "id": "0x1232A3CF",
+      "text": "好了，我们就在这。\n500"
+    },
+    {
+      "index": 613,
+      "id": "0x99A8E5CF",
+      "text": "没有我搞不定的事。"
+    },
+    {
+      "index": 614,
+      "id": "0xCA4D7D4F",
+      "text": "听着，聪明蛋，你根本不知道站在镜头前有多难。"
+    },
+    {
+      "index": 615,
+      "id": "0xAE9D114F",
+      "text": "回合结束。%ls 赢下这一回合。"
+    },
+    {
+      "index": 616,
+      "id": "0x383B734F",
+      "text": "拦停 [format][color:red]装甲车[/format]，但不能摧毁它"
+    },
+    {
+      "index": 617,
+      "id": "0x030A5850",
+      "text": "继续开，就不会有事。"
+    },
+    {
+      "index": 618,
+      "id": "0xC48F4650",
+      "text": "如果你真在乎，我可以直接把它送到你办公室。"
+    },
+    {
+      "index": 619,
+      "id": "0x0A43A750",
+      "text": "人群正在从那栋楼散开……你得换个位置。"
+    },
+    {
+      "index": 620,
+      "id": "0xC7CEED50",
+      "text": "现在事情开始有意思了……"
+    },
+    {
+      "index": 621,
+      "id": "0x96E6FED0",
+      "text": "尘埃落定"
+    },
+    {
+      "index": 622,
+      "id": "0xD4104550",
+      "text": "那你为什么不早说？"
+    },
+    {
+      "index": 623,
+      "id": "0xC2B20550",
+      "text": "那我就不播你的报道了。"
+    },
+    {
+      "index": 624,
+      "id": "0xC395DA50",
+      "text": "那玩意儿是什么？\n1000"
+    },
+    {
+      "index": 625,
+      "id": "0x87F5DDD0",
+      "text": "不。是乌托尔他——"
+    },
+    {
+      "index": 626,
+      "id": "0x292531D1",
+      "text": "[image:ui_dlc_menu_icon]缠腰布"
+    },
+    {
+      "index": 627,
+      "id": "0xF55CD7D1",
+      "text": "这样不行。转过来让我瞄得更准！"
+    },
+    {
+      "index": 628,
+      "id": "0x4D4B7BD1",
+      "text": "直接走过去揍这些混蛋不是更简单？"
+    },
+    {
+      "index": 629,
+      "id": "0xC4647CD1",
+      "text": "好了泰拉，尸体我基本都找到了，你要我拿它们怎么办？"
+    },
+    {
+      "index": 630,
+      "id": "0xB0DF5AD1",
+      "text": "我明白。\n1000"
+    },
+    {
+      "index": 631,
+      "id": "0x7AAF7351",
+      "text": "等等，简打电话来了……\n1000"
+    },
+    {
+      "index": 632,
+      "id": "0xFBAA0851",
+      "text": "这重要吗？\n500"
+    },
+    {
+      "index": 633,
+      "id": "0x50DC38D1",
+      "text": "嘿，谁在说诗意的话？我说的是尸体。"
+    },
+    {
+      "index": 634,
+      "id": "0x3508DA51",
+      "text": "[image:ui_dlc_menu_icon]派对帽"
+    },
+    {
+      "index": 635,
+      "id": "0xDBE250D2",
+      "text": "你是个聪明女孩。"
+    },
+    {
+      "index": 636,
+      "id": "0x1FF7BDD2",
+      "text": "那大概能撑十秒……"
+    },
+    {
+      "index": 637,
+      "id": "0xC87FF2D2",
+      "text": "风景怎么样？"
+    },
+    {
+      "index": 638,
+      "id": "0xFB6F58D2",
+      "text": "好了，我们就在这。\n500"
+    },
+    {
+      "index": 639,
+      "id": "0xBBEB83D2",
+      "text": "如果他们要证据，最好的办法是在乌托尔运送化学品时抢到手。"
+    },
+    {
+      "index": 640,
+      "id": "0x058F28D2",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 1"
+    },
+    {
+      "index": 641,
+      "id": "0xEC522252",
+      "text": "在货车装载期间抵御 [format][color:red]雅子班[/format]"
+    },
+    {
+      "index": 642,
+      "id": "0x570D8A53",
+      "text": "老实说？像你在逃命。"
+    },
+    {
+      "index": 643,
+      "id": "0xD1A52DD3",
+      "text": "等我再干掉你几百号人再跟我谈。"
+    },
+    {
+      "index": 644,
+      "id": "0x41BBCF53",
+      "text": "你不会需要这批放射性废料吧？"
+    },
+    {
+      "index": 645,
+      "id": "0x923897D3",
+      "text": "敌人的敌人"
+    },
+    {
+      "index": 646,
+      "id": "0xA5494CD3",
+      "text": "你在干什么？\n750"
+    },
+    {
+      "index": 647,
+      "id": "0x3F27FE53",
+      "text": "我会尽力，但光有几具尸体还不够。你带着整件事来找我，还有别的想法吗？"
+    },
+    {
+      "index": 648,
+      "id": "0x77ED6FD3",
+      "text": "[image:ui_dlc_menu_icon]Unkut"
+    },
+    {
+      "index": 649,
+      "id": "0x4FC96AD3",
+      "text": "返回 [format][color:teal]营地[/format]"
+    },
+    {
+      "index": 650,
+      "id": "0x22A21554",
+      "text": "我可没想过今天会这样！"
+    },
+    {
+      "index": 651,
+      "id": "0x8C935654",
+      "text": "他妈我们怎么可能做到？"
+    },
+    {
+      "index": 652,
+      "id": "0x4DAB68D4",
+      "text": "别抱怨了，你不是还活着吗？"
+    },
+    {
+      "index": 653,
+      "id": "0x235993D4",
+      "text": "那你为什么不早说？"
+    },
+    {
+      "index": 654,
+      "id": "0x9D050154",
+      "text": "更多 [format][color:red]乌托尔[/format] 正从南方涌来"
+    },
+    {
+      "index": 655,
+      "id": "0x3B3A68D5",
+      "text": "[image:ui_dlc_menu_icon]浪人夹克"
+    },
+    {
+      "index": 656,
+      "id": "0xD5F25855",
+      "text": "他不是你，对我来说这就够了。"
+    },
+    {
+      "index": 657,
+      "id": "0x1E0740D5",
+      "text": "怎么？没想到丹还养着你这样的女孩。\n2500"
+    },
+    {
+      "index": 658,
+      "id": "0xE313E5D5",
+      "text": "什么什么？\n500"
+    },
+    {
+      "index": 659,
+      "id": "0x21FB26D6",
+      "text": "他的朋友、他的士兵、他他妈最喜欢的街头魔术师……只要是德克斯在乎的人，我都要他们死！"
+    },
+    {
+      "index": 660,
+      "id": "0x5CD643D6",
+      "text": "在水上……快点。"
+    },
+    {
+      "index": 661,
+      "id": "0x57EAD5D6",
+      "text": "往门上涂鸦、往燃烧袋里塞粪便的日子结束了。今天早上，第六频道成了正在史提瓦特蔓延的最新无聊的恶作剧「处理尸体」的受害者。但愿这种挖出腐烂尸体留给邻居发现的恐怖风气只是一阵风。"
+    },
+    {
+      "index": 662,
+      "id": "0xAB3B65D6",
+      "text": "[image:ui_dlc_menu_icon]长而宽"
+    },
+    {
+      "index": 663,
+      "id": "0x54922BD7",
+      "text": "没错。"
+    },
+    {
+      "index": 664,
+      "id": "0xEA8F7F57",
+      "text": "靠紧我泰拉，看起来乌托尔想狠狠灭你的口……"
+    },
+    {
+      "index": 665,
+      "id": "0xC86E28D7",
+      "text": "我会尽力，但光有几具尸体还不够。你带着整件事来找我，还有别的想法吗？"
+    },
+    {
+      "index": 666,
+      "id": "0xE25FDC57",
+      "text": "才三十秒，急什么？\n1750"
+    },
+    {
+      "index": 667,
+      "id": "0x604DF0D7",
+      "text": "你当众羞辱了我！"
+    },
+    {
+      "index": 668,
+      "id": "0x5E5C9DD7",
+      "text": "[image:ui_dlc_menu_icon]摇杆狂热 T恤 2"
+    },
+    {
+      "index": 669,
+      "id": "0x03B59DD8",
+      "text": "[image:ui_dlc_menu_icon]圣徒面巾"
+    },
+    {
+      "index": 670,
+      "id": "0xE4A9ED58",
+      "text": "我以为你想教训德克斯，是我搞错了。"
+    },
+    {
+      "index": 671,
+      "id": "0xAADE7F58",
+      "text": "（叹气）哑剧演员萨顿……请让大家脱离苦海吧……"
+    },
+    {
+      "index": 672,
+      "id": "0x38315F58",
+      "text": "上台紧张"
+    },
+    {
+      "index": 673,
+      "id": "0x6F218DD8",
+      "text": "什么什么？\n500"
+    },
+    {
+      "index": 674,
+      "id": "0x923528D8",
+      "text": "怎么？没想到丹还养着你这样的女孩。\n2500"
+    },
+    {
+      "index": 675,
+      "id": "0x39863058",
+      "text": "没错。"
+    },
+    {
+      "index": 676,
+      "id": "0xA32F12D8",
+      "text": "[image:ui_dlc_menu_icon]菲斯帽"
+    },
+    {
+      "index": 677,
+      "id": "0x54414E58",
+      "text": "[image:ui_dlc_menu_icon]Unkut"
+    },
+    {
+      "index": 678,
+      "id": "0x42FA5BD8",
+      "text": "货车剩余："
+    },
+    {
+      "index": 679,
+      "id": "0x5191D259",
+      "text": "我对天发誓，要是让我发现你帮了他……"
+    },
+    {
+      "index": 680,
+      "id": "0xEAC637D9",
+      "text": "这样不行。转过来让我瞄得更准！"
+    },
+    {
+      "index": 681,
+      "id": "0x73BD9959",
+      "text": "我敢肯定他这辈子干了什么缺德事……"
+    },
+    {
+      "index": 682,
+      "id": "0x65359359",
+      "text": "等等，简打电话来了……\n1000"
+    },
+    {
+      "index": 683,
+      "id": "0xBD4A4DD9",
+      "text": "是啊，但你在乎吗？你只要拿电锯杀个忍者就算完成任务了。"
+    },
+    {
+      "index": 684,
+      "id": "0xAEC32259",
+      "text": "[image:ui_dlc_menu_icon]全脸，修剪"
+    },
+    {
+      "index": 685,
+      "id": "0xC50A8C59",
+      "text": "[image:ui_dlc_menu_icon]羽毛状"
+    },
+    {
+      "index": 686,
+      "id": "0x58635059",
+      "text": "[image:ui_dlc_menu_icon]3D 眼镜"
+    },
+    {
+      "index": 687,
+      "id": "0x859F0ED9",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志 右"
+    },
+    {
+      "index": 688,
+      "id": "0x5C3E8A59",
+      "text": "动作英雄"
+    },
+    {
+      "index": 689,
+      "id": "0xDA34175A",
+      "text": "豪华轿车那边。是德克斯的助理之一……"
+    },
+    {
+      "index": 690,
+      "id": "0x49800CDA",
+      "text": "美国明日之星科学家"
+    },
+    {
+      "index": 691,
+      "id": "0x6E6DB45A",
+      "text": "才三十秒，急什么？\n1750"
+    },
+    {
+      "index": 692,
+      "id": "0x19C5F55A",
+      "text": "其他玩家得分："
+    },
+    {
+      "index": 693,
+      "id": "0x0C20B5DA",
+      "text": "[image:ui_dlc_menu_icon]凌乱刘海"
+    },
+    {
+      "index": 694,
+      "id": "0x8C2E555A",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut T恤 3"
+    },
+    {
+      "index": 695,
+      "id": "0xCA6B575A",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut 背心 1"
+    },
+    {
+      "index": 696,
+      "id": "0x9D183DDA",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 05"
+    },
+    {
+      "index": 697,
+      "id": "0x5AF09DDA",
+      "text": "双打组合"
+    },
+    {
+      "index": 698,
+      "id": "0x3CEF365B",
+      "text": "里程碑目标失败"
+    },
+    {
+      "index": 699,
+      "id": "0x59C8175B",
+      "text": "那玩意儿是什么？\n1000"
+    },
+    {
+      "index": 700,
+      "id": "0xC413CB5B",
+      "text": "你说那些实验是你做的……"
+    },
+    {
+      "index": 701,
+      "id": "0x60B4D3DB",
+      "text": "你离开了办公室"
+    },
+    {
+      "index": 702,
+      "id": "0x27677EDC",
+      "text": "是的先生，您的物品正在运送途中。"
+    },
+    {
+      "index": 703,
+      "id": "0x4981835C",
+      "text": "也许吧。高管会议上见。"
+    },
+    {
+      "index": 704,
+      "id": "0x459EA2DC",
+      "text": "随你怎么说。"
+    },
+    {
+      "index": 705,
+      "id": "0x381AF0DC",
+      "text": "这可不妙……"
+    },
+    {
+      "index": 706,
+      "id": "0x31D13BDC",
+      "text": "回头见。"
+    },
+    {
+      "index": 707,
+      "id": "0x786825DC",
+      "text": "你非要把事情搞这么乱吗？\n500"
+    },
+    {
+      "index": 708,
+      "id": "0x5233E5DC",
+      "text": "我会尽力，但光有几具尸体还不够。你带着整件事来找我，还有别的想法吗？"
+    },
+    {
+      "index": 709,
+      "id": "0xD523B85C",
+      "text": "那看来你完蛋了。\n750"
+    },
+    {
+      "index": 710,
+      "id": "0xCECFE6DC",
+      "text": "没错。"
+    },
+    {
+      "index": 711,
+      "id": "0x485614DC",
+      "text": "好了泰拉，尸体我基本都找到了，你要我拿它们怎么办？"
+    },
+    {
+      "index": 712,
+      "id": "0x275DB85C",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut 手表"
+    },
+    {
+      "index": 713,
+      "id": "0x8B9AFDDC",
+      "text": "格里芬正派一架龙卷风来支援你"
+    },
+    {
+      "index": 714,
+      "id": "0x035B21DC",
+      "text": "德克斯已在岛上各处部署雅子班小队"
+    },
+    {
+      "index": 715,
+      "id": "0x0E58435C",
+      "text": "已回收尸体："
+    },
+    {
+      "index": 716,
+      "id": "0x5C447DDD",
+      "text": "看起来没什么帮助。"
+    },
+    {
+      "index": 717,
+      "id": "0x9C1510DD",
+      "text": "格里芬不是你以为的那个人。"
+    },
+    {
+      "index": 718,
+      "id": "0x646D6B5D",
+      "text": "知名慈善家埃里克·格里芬在一场造成数十人死亡的惨烈事故中奇迹般幸存。格里芬先生暂不接受采访，他的同事兼密友德克斯·杰克逊对这场磨难表示：「我只希望埃里克没事。」另据无关报道，警方至今无法解释史提瓦特高速公路上为何出现数百个弹壳。"
+    },
+    {
+      "index": 719,
+      "id": "0x75E5DC5D",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 4"
+    },
+    {
+      "index": 720,
+      "id": "0x70EC91DD",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut Polo 衫 2"
+    },
+    {
+      "index": 721,
+      "id": "0xD970F4DE",
+      "text": "这是我的众多护身符之一。"
+    },
+    {
+      "index": 722,
+      "id": "0xC0B5AE5E",
+      "text": "泰拉……\n500"
+    },
+    {
+      "index": 723,
+      "id": "0x8BC0FCDE",
+      "text": "多读点书吧。\n\n1000"
+    },
+    {
+      "index": 724,
+      "id": "0xF58BB75E",
+      "text": "[format][color:red]目标[/format] 正开着轻便摩托车在海滨步道上行驶"
+    },
+    {
+      "index": 725,
+      "id": "0x463C145E",
+      "text": "[format][color:green]货车[/format] 快要被摧毁了"
+    },
+    {
+      "index": 726,
+      "id": "0xB09DB45F",
+      "text": "我们只能硬来了……在我弄到车之前把头低下。"
+    },
+    {
+      "index": 727,
+      "id": "0x1EACF75F",
+      "text": "我一个人对整支军队？"
+    },
+    {
+      "index": 728,
+      "id": "0xB9045EDF",
+      "text": "那你为什么不早说？"
+    },
+    {
+      "index": 729,
+      "id": "0xAE81C1DF",
+      "text": "那玩意儿是什么？\n1000"
+    },
+    {
+      "index": 730,
+      "id": "0xA8C2925F",
+      "text": "好吧，就这么办。\n500"
+    },
+    {
+      "index": 731,
+      "id": "0x90C0AFDF",
+      "text": "[image:ui_dlc_menu_icon]泰拉的纹身"
+    },
+    {
+      "index": 732,
+      "id": "0xF79F295F",
+      "text": "那些实验是我亲自做的。"
+    },
+    {
+      "index": 733,
+      "id": "0x242ED65F",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 10"
+    },
+    {
+      "index": 734,
+      "id": "0xFB1DC95F",
+      "text": "未能在时限内处理尸体"
+    },
+    {
+      "index": 735,
+      "id": "0xD8C086E0",
+      "text": "看来我们引起德克斯的注意了。"
+    },
+    {
+      "index": 736,
+      "id": "0x433D46E0",
+      "text": "嗯，只是乌托尔副总裁的替身……但你要是想动手，别被这个拦住。"
+    },
+    {
+      "index": 737,
+      "id": "0xF764E5E0",
+      "text": "你怎么知道这些尸体的？\n1000"
+    },
+    {
+      "index": 738,
+      "id": "0x67ABE3E0",
+      "text": "你是谁？"
+    },
+    {
+      "index": 739,
+      "id": "0x9C913FE0",
+      "text": "我不知道她会不会买账。"
+    },
+    {
+      "index": 740,
+      "id": "0x0A7040E0",
+      "text": "想想我正要去搞它们然后挨枪子，当然。\n2500"
+    },
+    {
+      "index": 741,
+      "id": "0x536206E0",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut 背心 2"
+    },
+    {
+      "index": 742,
+      "id": "0x04116C60",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 06"
+    },
+    {
+      "index": 743,
+      "id": "0x4EF8B5E0",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志 左"
+    },
+    {
+      "index": 744,
+      "id": "0x3B63E3E1",
+      "text": "那其实不是德克斯的人……我只是被他的长相恶心到了。"
+    },
+    {
+      "index": 745,
+      "id": "0x5071A161",
+      "text": "你知道该怎么处置那个。"
+    },
+    {
+      "index": 746,
+      "id": "0xA5E667E1",
+      "text": "机会敲门"
+    },
+    {
+      "index": 747,
+      "id": "0x5D1A9AE1",
+      "text": "所以你承认你扭曲科学来满足自己变态的欲望？"
+    },
+    {
+      "index": 748,
+      "id": "0x7DA0BCE2",
+      "text": "我以为我说得很清楚了。"
+    },
+    {
+      "index": 749,
+      "id": "0x33D72EE2",
+      "text": "我想看看那混蛋被折腾「隐形盒子」之后会怎样……"
+    },
+    {
+      "index": 750,
+      "id": "0x72535CE2",
+      "text": "人群开始散开了。上屋顶找个更好的制高点。"
+    },
+    {
+      "index": 751,
+      "id": "0xA1380EE2",
+      "text": "抓到你了！"
+    },
+    {
+      "index": 752,
+      "id": "0xBDF18EE2",
+      "text": "不被人追杀才叫压力大呢。"
+    },
+    {
+      "index": 753,
+      "id": "0x98D01162",
+      "text": "你们这些家伙到底打算在哪里采矿？"
+    },
+    {
+      "index": 754,
+      "id": "0xF36AF962",
+      "text": "我们等简·瓦尔德拉玛接手这个报道。"
+    },
+    {
+      "index": 755,
+      "id": "0xB73F38E2",
+      "text": "[image:ui_dlc_menu_icon]摇杆狂热 T恤 4"
+    },
+    {
+      "index": 756,
+      "id": "0x14C14D63",
+      "text": "那大概能撑十秒……"
+    },
+    {
+      "index": 757,
+      "id": "0xEAB4C8E3",
+      "text": "直接开枪干掉他们。"
+    },
+    {
+      "index": 758,
+      "id": "0x399C6263",
+      "text": "消灭追杀埃里克的 [format][color:red]雅子班[/format]"
+    },
+    {
+      "index": 759,
+      "id": "0xFC3CC2E3",
+      "text": "在这等着泰拉，我去确认有没有人来……\n2000"
+    },
+    {
+      "index": 760,
+      "id": "0x77A684E3",
+      "text": "你以为她会播？第六频道对僵尸林的故事可没疯到那个程度。"
+    },
+    {
+      "index": 761,
+      "id": "0x24431C63",
+      "text": "听着，我们赶紧把这事了结了好吗？"
+    },
+    {
+      "index": 762,
+      "id": "0x763A4BE3",
+      "text": "特技人回合胜利数"
+    },
+    {
+      "index": 763,
+      "id": "0xD06747E4",
+      "text": "也许再放一束花配着……"
+    },
+    {
+      "index": 764,
+      "id": "0x4079A564",
+      "text": "看起来没什么帮助。"
+    },
+    {
+      "index": 765,
+      "id": "0x0D0CE5E4",
+      "text": "不会有比这更轻松的目标了。"
+    },
+    {
+      "index": 766,
+      "id": "0x59BCFFE4",
+      "text": "你到底对这些人做了什么？\n1500"
+    },
+    {
+      "index": 767,
+      "id": "0x90E23564",
+      "text": "你是谁？"
+    },
+    {
+      "index": 768,
+      "id": "0x6BD8E964",
+      "text": "我不知道她会不会买账。"
+    },
+    {
+      "index": 769,
+      "id": "0xA4A85AE4",
+      "text": "他剩下的部分……\n1000"
+    },
+    {
+      "index": 770,
+      "id": "0x12C9AD64",
+      "text": "我在金字塔里当微生物学家，你这爱评判的混蛋。\n\n3750"
+    },
+    {
+      "index": 771,
+      "id": "0xA6AA7764",
+      "text": "把尸体运到 [format][color:teal]第六频道[/format] 处理"
+    },
+    {
+      "index": 772,
+      "id": "0x2994E5E5",
+      "text": "我可没想过今天会这样！"
+    },
+    {
+      "index": 773,
+      "id": "0x2DECE365",
+      "text": "回头见。"
+    },
+    {
+      "index": 774,
+      "id": "0x87A5A6E5",
+      "text": "他妈我们怎么可能做到？"
+    },
+    {
+      "index": 775,
+      "id": "0x469D9865",
+      "text": "别抱怨了，你不是还活着吗？"
+    },
+    {
+      "index": 776,
+      "id": "0x348E4E65",
+      "text": "只要把我们弄出去就行。"
+    },
+    {
+      "index": 777,
+      "id": "0x61E01D65",
+      "text": "可下载内容"
+    },
+    {
+      "index": 778,
+      "id": "0x628BBDE5",
+      "text": "格里芬被杀"
+    },
+    {
+      "index": 779,
+      "id": "0xBE6E2F66",
+      "text": "我按流程办的；你的电脑已被清空，纸质文件也已粉碎。你真不能等几天吗？公司野餐你就要错过了。"
+    },
+    {
+      "index": 780,
+      "id": "0x6F99C7E6",
+      "text": "你们这些家伙到底打算在哪里采矿？"
+    },
+    {
+      "index": 781,
+      "id": "0xD15F4566",
+      "text": "我不知道简会不会对把尸体丢在她家门口有意见。"
+    },
+    {
+      "index": 782,
+      "id": "0xBAA2B7E6",
+      "text": "新闻从业者的操守付不起房租，泰拉。"
+    },
+    {
+      "index": 783,
+      "id": "0x48FD90E6",
+      "text": "登上 [format][color:green]龙卷风[/format]"
+    },
+    {
+      "index": 784,
+      "id": "0x3281F5E7",
+      "text": "我不行，对不起，这次调动对我是个大机会……我今晚就得走。"
+    },
+    {
+      "index": 785,
+      "id": "0xC54D2C67",
+      "text": "这是我的众多护身符之一。"
+    },
+    {
+      "index": 786,
+      "id": "0x051C4167",
+      "text": "你该放弃了。结束了，你输了。"
+    },
+    {
+      "index": 787,
+      "id": "0x80EF5267",
+      "text": "你以为她会播？第六频道对僵尸林的故事可没疯到那个程度。"
+    },
+    {
+      "index": 788,
+      "id": "0xECEC8DE7",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 7"
+    },
+    {
+      "index": 789,
+      "id": "0xE3A94167",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 08"
+    },
+    {
+      "index": 790,
+      "id": "0xE9E5C067",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut Polo 衫 1"
+    },
+    {
+      "index": 791,
+      "id": "0x5176A368",
+      "text": "直接走过去揍这些混蛋不是更简单？"
+    },
+    {
+      "index": 792,
+      "id": "0x9C867968",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 2"
+    },
+    {
+      "index": 793,
+      "id": "0x998F34E8",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut Polo 衫 4"
+    },
+    {
+      "index": 794,
+      "id": "0xA0E22669",
+      "text": "嗯。我想你不会在办公室杀我。"
+    },
+    {
+      "index": 795,
+      "id": "0xD8B29EE9",
+      "text": "如果你真在乎，我可以直接把它送到你办公室。"
+    },
+    {
+      "index": 796,
+      "id": "0x0B31C669",
+      "text": "该你了，瓦尔德拉玛"
+    },
+    {
+      "index": 797,
+      "id": "0x3C401D69",
+      "text": "你真那么怕在全国电视上出丑？\n2500"
+    },
+    {
+      "index": 798,
+      "id": "0x27AC43E9",
+      "text": "不被人追杀才叫压力大呢。"
+    },
+    {
+      "index": 799,
+      "id": "0xC154B869",
+      "text": "你会没事的。你就想象一下观众穿着内衣的样子呗？"
+    },
+    {
+      "index": 800,
+      "id": "0x028DDC69",
+      "text": "你们这些家伙到底打算在哪里采矿？"
+    },
+    {
+      "index": 801,
+      "id": "0xB8DC90E9",
+      "text": "把 [format][color:green]货车[/format] 停得离尸体更近些"
+    },
+    {
+      "index": 802,
+      "id": "0x9A0309EA",
+      "text": "我们得快点！这些破烂挡着，我没法开枪！"
+    },
+    {
+      "index": 803,
+      "id": "0x5D8617EA",
+      "text": "你不会需要这批放射性废料吧？"
+    },
+    {
+      "index": 804,
+      "id": "0x5EC7BCEA",
+      "text": "尽管对那个施展你的魔法吧。"
+    },
+    {
+      "index": 805,
+      "id": "0x0FEFAF6A",
+      "text": "复仇的欲望"
+    },
+    {
+      "index": 806,
+      "id": "0x1EFC8C6A",
+      "text": "嗯，是啊，但是——"
+    },
+    {
+      "index": 807,
+      "id": "0xFA256EEA",
+      "text": "格里芬已部署友方乌托尔守卫来协助你"
+    },
+    {
+      "index": 808,
+      "id": "0xD4422A6B",
+      "text": "风景怎么样？"
+    },
+    {
+      "index": 809,
+      "id": "0x5D6D2D6B",
+      "text": "我不知道简会不会对把尸体丢在她家门口有意见。"
+    },
+    {
+      "index": 810,
+      "id": "0x61B7C56B",
+      "text": "我们可以在这守着，三街圣徒在这儿藏了些补给以防万一……\n4000"
+    },
+    {
+      "index": 811,
+      "id": "0xE3A622EB",
+      "text": "在这等着泰拉，我去确认有没有人来……\n2000"
+    },
+    {
+      "index": 812,
+      "id": "0xFDF62EEB",
+      "text": "你是谁？"
+    },
+    {
+      "index": 813,
+      "id": "0x0528EF6B",
+      "text": "[format][color:red]目标[/format] 正从路对面的酒店出来。快点，有辆豪华轿车要来接他了"
+    },
+    {
+      "index": 814,
+      "id": "0x89A30B6B",
+      "text": "[format][color:red]目标[/format] 正站在栈桥上"
+    },
+    {
+      "index": 815,
+      "id": "0xA064D06B",
+      "text": "监区"
+    },
+    {
+      "index": 816,
+      "id": "0xB8F2776C",
+      "text": "好吧，我抓不到德克斯？那你来帮我搞定他的人。"
+    },
+    {
+      "index": 817,
+      "id": "0xC5DF126C",
+      "text": "那人显然不明白这些机器有多危险……"
+    },
+    {
+      "index": 818,
+      "id": "0x9ADE3C6C",
+      "text": "那个怎么样？我好像在德克斯办公室附近见过他……"
+    },
+    {
+      "index": 819,
+      "id": "0xB142476C",
+      "text": "企业崩盘"
+    },
+    {
+      "index": 820,
+      "id": "0x1AB29F6C",
+      "text": "你以为她会播？第六频道对僵尸林的故事可没疯到那个程度。"
+    },
+    {
+      "index": 821,
+      "id": "0x5429E8EC",
+      "text": "这压力太大了。"
+    },
+    {
+      "index": 822,
+      "id": "0x99EEF0EC",
+      "text": "[image:ui_dlc_menu_icon]Unkut 手环"
+    },
+    {
+      "index": 823,
+      "id": "0x1CFFACEC",
+      "text": "返回 [format][color:teal]营地[/format]"
+    },
+    {
+      "index": 824,
+      "id": "0x0DCA486D",
+      "text": "你得不到的就是这个：他们不是我们的人。德克斯一直在从核电站偷运废料，想在黑市上卖掉，现在他打算用雅子班毁灭证据。要是乌托尔发现他干了什么，德克斯就完了。"
+    },
+    {
+      "index": 825,
+      "id": "0x864228ED",
+      "text": "想想我正要去搞它们然后挨枪子，当然。\n2500"
+    },
+    {
+      "index": 826,
+      "id": "0x7B568DED",
+      "text": "你怎么知道这些尸体的？\n1000"
+    },
+    {
+      "index": 827,
+      "id": "0xD0E5956D",
+      "text": "不被人追杀才叫压力大呢。"
+    },
+    {
+      "index": 828,
+      "id": "0xC755CC6D",
+      "text": "[image:ui_dlc_menu_icon]摇杆狂热 T恤 1"
+    },
+    {
+      "index": 829,
+      "id": "0xBBAB44EE",
+      "text": "我们只能硬来了……在我弄到车之前把头低下。"
+    },
+    {
+      "index": 830,
+      "id": "0x159A07EE",
+      "text": "我一个人对整支军队？"
+    },
+    {
+      "index": 831,
+      "id": "0xD5BE196E",
+      "text": "嗯……德克斯的私人试食师。让他吃点铅应该就行了。"
+    },
+    {
+      "index": 832,
+      "id": "0x2D706E6E",
+      "text": "你为什么认为是乌托尔的责任？"
+    },
+    {
+      "index": 833,
+      "id": "0x7917DB6E",
+      "text": "[image:ui_dlc_menu_icon]秃顶鲻鱼头"
+    },
+    {
+      "index": 834,
+      "id": "0x9F861BEE",
+      "text": "有个 [format][color:red]目标[/format] 发现你了，他正在逃跑"
+    },
+    {
+      "index": 835,
+      "id": "0x7ACCB5EE",
+      "text": "三街圣徒在营地周围留下了 [format][color:green]武器[/format]，可用于保卫货车"
+    },
+    {
+      "index": 836,
+      "id": "0x8E140EEF",
+      "text": "那你现在打算怎么办？"
+    },
+    {
+      "index": 837,
+      "id": "0x4CFB09EF",
+      "text": "我玩得有点太开心了。"
+    },
+    {
+      "index": 838,
+      "id": "0xA0A238EF",
+      "text": "你想去送死请便，但要是被发现我们两个都得完蛋。\n2000"
+    },
+    {
+      "index": 839,
+      "id": "0xF185246F",
+      "text": "我不知道她会不会买账。"
+    },
+    {
+      "index": 840,
+      "id": "0xC07275EF",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志"
+    },
+    {
+      "index": 841,
+      "id": "0x747B98EF",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 03"
+    },
+    {
+      "index": 842,
+      "id": "0x1447BB6F",
+      "text": "[format][color:red]目标[/format] 正骑着摩托车沿路驶来"
+    },
+    {
+      "index": 843,
+      "id": "0xBA75EF6F",
+      "text": "保卫 [format][color:green]货车[/format]"
+    },
+    {
+      "index": 844,
+      "id": "0xC9691FF0",
+      "text": "恕我直言先生，是你让我把所有能用的关系都用了才办成这次立即调动。这对你来说可不像升职。"
+    },
+    {
+      "index": 845,
+      "id": "0xAB90C3F0",
+      "text": "风景怎么样？"
+    },
+    {
+      "index": 846,
+      "id": "0x1360F2F0",
+      "text": "我们不能再等了。干掉他们！\n600"
+    },
+    {
+      "index": 847,
+      "id": "0xBC3D84F0",
+      "text": "我早说了。"
+    },
+    {
+      "index": 848,
+      "id": "0x189EF770",
+      "text": "矿用车辆装炮塔干什么？\n2000"
+    },
+    {
+      "index": 849,
+      "id": "0x5B4CD0F0",
+      "text": "我不知道简会不会对把尸体丢在她家门口有意见。"
+    },
+    {
+      "index": 850,
+      "id": "0xA1436BF0",
+      "text": "好了，走吧。"
+    },
+    {
+      "index": 851,
+      "id": "0x3BC1E870",
+      "text": "企业战争载具包"
+    },
+    {
+      "index": 852,
+      "id": "0xCDA58770",
+      "text": "我刚让三街圣徒赚了一大笔。听着亲爱的，乌托尔本来也要压下这条新闻，至少这样我们还能从中捞点东西。乌托尔不会消失，你有大把时间策划你那个小复仇计划。"
+    },
+    {
+      "index": 853,
+      "id": "0xB88F38F0",
+      "text": "[image:ui_dlc_menu_icon]灰色外星人"
+    },
+    {
+      "index": 854,
+      "id": "0xB95FBD70",
+      "text": "按 {ACTION_IMG} 开始特技人挑战"
+    },
+    {
+      "index": 855,
+      "id": "0x6AF7FDF0",
+      "text": "你离开了屋顶"
+    },
+    {
+      "index": 856,
+      "id": "0xAF444BF0",
+      "text": "快点，[format][color:red]货车[/format] 即将抵达目的地"
+    },
+    {
+      "index": 857,
+      "id": "0x9385B9F0",
+      "text": "色情电话"
+    },
+    {
+      "index": 858,
+      "id": "0xDA22ECF1",
+      "text": "抵御愤怒的 [format][color:red]哑剧演员[/format]"
+    },
+    {
+      "index": 859,
+      "id": "0x4586C571",
+      "text": "我的办公室呢？"
+    },
+    {
+      "index": 860,
+      "id": "0xB24A1CF1",
+      "text": "等我再干掉你几百号人再跟我谈。"
+    },
+    {
+      "index": 861,
+      "id": "0xEC5F73F1",
+      "text": "我们得快点！这些破烂挡着，我没法开枪！"
+    },
+    {
+      "index": 862,
+      "id": "0xE175AD71",
+      "text": "我们可以在这守着，三街圣徒在这儿藏了些补给以防万一……\n4000"
+    },
+    {
+      "index": 863,
+      "id": "0xF7E862F1",
+      "text": "那现在怎么办？"
+    },
+    {
+      "index": 864,
+      "id": "0xF68AB7F1",
+      "text": "搞什么……\n1000"
+    },
+    {
+      "index": 865,
+      "id": "0xAAD24B71",
+      "text": "[image:ui_dlc_menu_icon]短美人尖"
+    },
+    {
+      "index": 866,
+      "id": "0x9BEBBD71",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 6"
+    },
+    {
+      "index": 867,
+      "id": "0x94AE71F1",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 09"
+    },
+    {
+      "index": 868,
+      "id": "0xC9C32B72",
+      "text": "前往第三辆 [format][color:green]货车[/format]"
+    },
+    {
+      "index": 869,
+      "id": "0xA7607772",
+      "text": "如果你真在乎，我可以直接把它送到你办公室。"
+    },
+    {
+      "index": 870,
+      "id": "0x7A0BD572",
+      "text": "德克斯把他的按摩师当家人看待……对他们来说真不幸。"
+    },
+    {
+      "index": 871,
+      "id": "0xD3D99EF2",
+      "text": "举证之责"
+    },
+    {
+      "index": 872,
+      "id": "0x2EBBCF72",
+      "text": "他剩下的部分……\n1000"
+    },
+    {
+      "index": 873,
+      "id": "0x1CDFD9F2",
+      "text": "什么？"
+    },
+    {
+      "index": 874,
+      "id": "0xD3AF6A72",
+      "text": "你到底对这些人做了什么？\n1500"
+    },
+    {
+      "index": 875,
+      "id": "0x65CE9DF2",
+      "text": "我以前在乌托尔工作过……\n\n1000"
+    },
+    {
+      "index": 876,
+      "id": "0x22E026F2",
+      "text": "[image:ui_dlc_menu_icon]Unkut"
+    },
+    {
+      "index": 877,
+      "id": "0x92F22272",
+      "text": "丢失的尸体过多"
+    },
+    {
+      "index": 878,
+      "id": "0x570A3FF3",
+      "text": "你开玩笑吧？我不会放过任何打击乌托尔的机会。你要我做什么？"
+    },
+    {
+      "index": 879,
+      "id": "0x7F9A5A73",
+      "text": "我们先把这玩意儿藏在机场，等联系上简再说。"
+    },
+    {
+      "index": 880,
+      "id": "0x19914873",
+      "text": "没错，简。乌托尔公司一直在用秘密研发实验室对史提瓦特市民进行不人道实验。"
+    },
+    {
+      "index": 881,
+      "id": "0x03D0BDF3",
+      "text": "[image:ui_dlc_menu_icon]EDF 头盔"
+    },
+    {
+      "index": 882,
+      "id": "0xAB899CF3",
+      "text": "一名玩家没能及时返回"
+    },
+    {
+      "index": 883,
+      "id": "0x94113AF4",
+      "text": "小心！[format][color:red]雅子班[/format] 正在用火箭弹轰击货车"
+    },
+    {
+      "index": 884,
+      "id": "0x3329E074",
+      "text": "我玩得有点太开心了。"
+    },
+    {
+      "index": 885,
+      "id": "0x44D01E74",
+      "text": "杀掉那个哑剧演员。你其实不需要理由，对吧？"
+    },
+    {
+      "index": 886,
+      "id": "0xCAF6BE74",
+      "text": "我为了给你搞到这些差点挨枪子，你现在告诉我你紧张接受采访？"
+    },
+    {
+      "index": 887,
+      "id": "0x560ABD74",
+      "text": "好了，走吧。"
+    },
+    {
+      "index": 888,
+      "id": "0xEFD721F4",
+      "text": "矿用车辆装炮塔干什么？\n2000"
+    },
+    {
+      "index": 889,
+      "id": "0x846DC9F4",
+      "text": "很好。"
+    },
+    {
+      "index": 890,
+      "id": "0x00F2CE74",
+      "text": "[image:ui_dlc_menu_icon]渐变胡须"
+    },
+    {
+      "index": 891,
+      "id": "0xE7C8B1F4",
+      "text": "[image:ui_dlc_menu_icon]Unkut 标志 左"
+    },
+    {
+      "index": 892,
+      "id": "0x26A6E074",
+      "text": "埃里克·格里芬被杀"
+    },
+    {
+      "index": 893,
+      "id": "0xA13788F4",
+      "text": "用龙卷风掩护 [format][color:green]危险品运输车[/format] 开往码头"
+    },
+    {
+      "index": 894,
+      "id": "0xBF9FB375",
+      "text": "你他妈说他跑了？！"
+    },
+    {
+      "index": 895,
+      "id": "0x63C67DF5",
+      "text": "我一个人对整支军队？"
+    },
+    {
+      "index": 896,
+      "id": "0xCDF73EF5",
+      "text": "我们只能硬来了……在我弄到车之前把头低下。"
+    },
+    {
+      "index": 897,
+      "id": "0x9DB3F875",
+      "text": "不知道德克斯的司机对你有没有吸引力……？"
+    },
+    {
+      "index": 898,
+      "id": "0x00A1B475",
+      "text": "那现在怎么办？"
+    },
+    {
+      "index": 899,
+      "id": "0x61FE1775",
+      "text": "[format][color:red]乌托尔直升机[/format] 正从北方运送雅子班"
+    },
+    {
+      "index": 900,
+      "id": "0xB286F7F6",
+      "text": "要是这些娘们就站那儿不动，那是她们自寻死路……"
+    },
+    {
+      "index": 901,
+      "id": "0x343A7676",
+      "text": "他们说那些豪华轿车防弹……想验证一下吗？"
+    },
+    {
+      "index": 902,
+      "id": "0x8063D576",
+      "text": "想想我正要去搞它们然后挨枪子，当然。\n2500"
+    },
+    {
+      "index": 903,
+      "id": "0xEB960F76",
+      "text": "什么？"
+    },
+    {
+      "index": 904,
+      "id": "0x7D777076",
+      "text": "你怎么知道这些尸体的？\n1000"
+    },
+    {
+      "index": 905,
+      "id": "0xBFADA1F6",
+      "text": "等尸体都找齐了，就把它们送到第六频道。一旦媒体播报这件事，乌托尔就完了。\n7500"
+    },
+    {
+      "index": 906,
+      "id": "0x62203476",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut T恤 1"
+    },
+    {
+      "index": 907,
+      "id": "0x24653676",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut 背心 3"
+    },
+    {
+      "index": 908,
+      "id": "0x7C539076",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 8"
+    },
+    {
+      "index": 909,
+      "id": "0x73165CF6",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 07"
+    },
+    {
+      "index": 910,
+      "id": "0x56344076",
+      "text": "把 [format][color:green]货车[/format] 开到 [format][color:teal]新闻车[/format] 处"
+    },
+    {
+      "index": 911,
+      "id": "0xB61D6977",
+      "text": "他不是你，对我来说这就够了。"
+    },
+    {
+      "index": 912,
+      "id": "0x4C64D377",
+      "text": "尽管让德克斯的花艺师「与天地合一」吧。"
+    },
+    {
+      "index": 913,
+      "id": "0xA8EEC877",
+      "text": "泰拉的周末"
+    },
+    {
+      "index": 914,
+      "id": "0x2A1DAA77",
+      "text": "一个再熟悉不过的故事。一个美女进入一家数十亿美元的国际公司，指望实现微生物学的梦想；却因无法在公司里步步高升而心灰意冷，转而用疯狂科学来勒索雇主。我是简·瓦尔德拉玛，第六频道新闻。"
+    },
+    {
+      "index": 915,
+      "id": "0x1D98A9F7",
+      "text": "[image:ui_dlc_menu_icon]巫师帽"
+    },
+    {
+      "index": 916,
+      "id": "0x629D3778",
+      "text": "那大概能撑十秒……"
+    },
+    {
+      "index": 917,
+      "id": "0xA2B929F8",
+      "text": "德克斯的干洗店正忙着吃人……你应该有清楚的射击机会。"
+    },
+    {
+      "index": 918,
+      "id": "0xCD57F2F8",
+      "text": "你开玩笑吧？我不会放过任何打击乌托尔的机会。你要我做什么？"
+    },
+    {
+      "index": 919,
+      "id": "0x5A775EF8",
+      "text": "这些指控相当严重；我猜你有证据。"
+    },
+    {
+      "index": 920,
+      "id": "0x0FC41879",
+      "text": "货车没能及时送达"
+    },
+    {
+      "index": 921,
+      "id": "0xF9133E79",
+      "text": "谢谢你装得像。"
+    },
+    {
+      "index": 922,
+      "id": "0xD7A50879",
+      "text": "很好。德克斯的人到处都是。我会尽量标记出他们的位置，好让你在那栋楼里施展你的……魔法……\n2500"
+    },
+    {
+      "index": 923,
+      "id": "0x868214F9",
+      "text": "什么？"
+    },
+    {
+      "index": 924,
+      "id": "0x616DF679",
+      "text": "[image:ui_dlc_menu_icon]秃顶胡茬"
+    },
+    {
+      "index": 925,
+      "id": "0x037CA879",
+      "text": "[image:ui_dlc_menu_icon]男士 Unkut T恤 02"
+    },
+    {
+      "index": 926,
+      "id": "0x7FE9DE79",
+      "text": "尸体在 [format][color:red]乌托尔守卫[/format] 手里"
+    },
+    {
+      "index": 927,
+      "id": "0x767BD5FA",
+      "text": "[format][color:red]目标[/format] 正在练太极"
+    },
+    {
+      "index": 928,
+      "id": "0xCFF547FA",
+      "text": "那就把它纠正过来。"
+    },
+    {
+      "index": 929,
+      "id": "0x3E942BFA",
+      "text": "我暴露了。雅子班小队正冲我来。"
+    },
+    {
+      "index": 930,
+      "id": "0xEDD90CFA",
+      "text": "现在有个人需要上一堂现实生活课……"
+    },
+    {
+      "index": 931,
+      "id": "0x6DB5AFFA",
+      "text": "那现在怎么办？"
+    },
+    {
+      "index": 932,
+      "id": "0x6CD77AFA",
+      "text": "搞什么……\n1000"
+    },
+    {
+      "index": 933,
+      "id": "0x232ED87A",
+      "text": "这是直播，什么事都可能发生。"
+    },
+    {
+      "index": 934,
+      "id": "0xEA80B17A",
+      "text": "阻止 [format][color:red]货车[/format]，但不能摧毁它"
+    },
+    {
+      "index": 935,
+      "id": "0xDF29567A",
+      "text": "派对时间"
+    },
+    {
+      "index": 936,
+      "id": "0x712E95FA",
+      "text": "兄弟会总部"
+    },
+    {
+      "index": 937,
+      "id": "0x7ACD78FB",
+      "text": "科学和战争发财是两回事。如果我们在做核武器，我们会卖给有真实经济的国家，而不是某个住在围墙里的疯子。"
+    },
+    {
+      "index": 938,
+      "id": "0xA7126F7B",
+      "text": "看来我们引起德克斯的注意了。"
+    },
+    {
+      "index": 939,
+      "id": "0xF145187B",
+      "text": "你怎么知道这些尸体的？\n1000"
+    },
+    {
+      "index": 940,
+      "id": "0x266049FB",
+      "text": "我早说了。"
+    },
+    {
+      "index": 941,
+      "id": "0x0C51BD7B",
+      "text": "想想我正要去搞它们然后挨枪子，当然。\n2500"
+    },
+    {
+      "index": 942,
+      "id": "0xA7E2A5FB",
+      "text": "我为了给你搞到这些差点挨枪子，你现在告诉我你紧张接受采访？"
+    },
+    {
+      "index": 943,
+      "id": "0xD8DBE37B",
+      "text": "化学品运输车在那儿！\n800"
+    },
+    {
+      "index": 944,
+      "id": "0x2AB722FB",
+      "text": "[image:ui_dlc_menu_icon]分头管家"
+    },
+    {
+      "index": 945,
+      "id": "0x7F81067B",
+      "text": "[image:ui_dlc_menu_icon]锅盖头"
+    },
+    {
+      "index": 946,
+      "id": "0x29C08C7C",
+      "text": "嗯，他连再见都没说。"
+    },
+    {
+      "index": 947,
+      "id": "0x3A1E247C",
+      "text": "你开玩笑吧？我不会放过任何打击乌托尔的机会。你要我做什么？"
+    },
+    {
+      "index": 948,
+      "id": "0x2CBC647C",
+      "text": "我要一次采访。"
+    },
+    {
+      "index": 949,
+      "id": "0x69FBBCFC",
+      "text": "你说什么？"
+    },
+    {
+      "index": 950,
+      "id": "0x0AC4197C",
+      "text": "[image:ui_dlc_menu_icon]EDF 护甲"
+    },
+    {
+      "index": 951,
+      "id": "0xB29A8B7C",
+      "text": "有个 [format][color:red]热狗[/format] 正在海滨步道上走，抓住他"
+    },
+    {
+      "index": 952,
+      "id": "0x3342D5FC",
+      "text": "击杀 [format][color:red]乌托尔守卫[/format]"
+    },
+    {
+      "index": 953,
+      "id": "0xD77EB8FD",
+      "text": "我不知道简会不会对把尸体丢在她家门口有意见。"
+    },
+    {
+      "index": 954,
+      "id": "0x15A4697D",
+      "text": "嘿，你找到第一具尸体了吗？\n1250"
+    },
+    {
+      "index": 955,
+      "id": "0xBED259FD",
+      "text": "嘿，谢谢你来见我，我很感激。"
+    },
+    {
+      "index": 956,
+      "id": "0x8708427D",
+      "text": "%ls 是第一名"
+    },
+    {
+      "index": 957,
+      "id": "0xFEA43BFD",
+      "text": "[format][color:red]目标[/format] 正站在海盗船上"
+    },
+    {
+      "index": 958,
+      "id": "0x568E98FD",
+      "text": "救出 [format][color:green]格里芬[/format]，然后回到三街圣徒的安全屋"
+    },
+    {
+      "index": 959,
+      "id": "0x1DAA3AFD",
+      "text": "把货车停在装甲车旁，下车回收尸体"
+    },
+    {
+      "index": 960,
+      "id": "0x9DFC297E",
+      "text": "[image:ui_dlc_menu_icon]右眼眼罩"
+    },
+    {
+      "index": 961,
+      "id": "0xF1F9DCFE",
+      "text": "他妈我们怎么可能做到？"
+    },
+    {
+      "index": 962,
+      "id": "0x30C1E27E",
+      "text": "别抱怨了，你不是还活着吗？"
+    },
+    {
+      "index": 963,
+      "id": "0x267193FE",
+      "text": "随你怎么说。"
+    },
+    {
+      "index": 964,
+      "id": "0x5FC89FFE",
+      "text": "我可没想过今天会这样！"
+    },
+    {
+      "index": 965,
+      "id": "0x9B9EAC7E",
+      "text": "搞什么……\n1000"
+    },
+    {
+      "index": 966,
+      "id": "0x156139FE",
+      "text": "在这等着泰拉，我去确认有没有人来……\n2000"
+    },
+    {
+      "index": 967,
+      "id": "0x55E5E2FE",
+      "text": "这说不通。你把一个重磅新闻拱手让人了。"
+    },
+    {
+      "index": 968,
+      "id": "0x889ECB7E",
+      "text": "[image:ui_dlc_menu_icon]改装高速车"
+    },
+    {
+      "index": 969,
+      "id": "0xEB8149FE",
+      "text": "[image:ui_dlc_menu_icon]女士 Unkut Polo 衫 3"
+    },
+    {
+      "index": 970,
+      "id": "0x9738857F",
+      "text": "[image:ui_dlc_menu_icon]左眼眼罩"
+    },
+    {
+      "index": 971,
+      "id": "0xD7E516FF",
+      "text": "习惯就好。"
+    },
+    {
+      "index": 972,
+      "id": "0x3FAB4CFF",
+      "text": "看起来没什么帮助。"
+    },
+    {
+      "index": 973,
+      "id": "0xAFB5AE7F",
+      "text": "也许再放一束花配着……"
+    },
+    {
+      "index": 974,
+      "id": "0xCC57707F",
+      "text": "好了，走吧。"
+    },
+    {
+      "index": 975,
+      "id": "0x4B472DFF",
+      "text": "你会没事的。你就想象一下观众穿着内衣的样子呗？"
+    },
+    {
+      "index": 976,
+      "id": "0x50AB737F",
+      "text": "我为了给你搞到这些差点挨枪子，你现在告诉我你紧张接受采访？"
+    },
+    {
+      "index": 977,
+      "id": "0xB65388FF",
+      "text": "你真那么怕在全国电视上出丑？\n2500"
+    },
+    {
+      "index": 978,
+      "id": "0xD1299F7F",
+      "text": "我早说了。"
+    },
+    {
+      "index": 979,
+      "id": "0x758AECFF",
+      "text": "矿用车辆装炮塔干什么？\n2000"
+    },
+    {
+      "index": 980,
+      "id": "0x0B4653FF",
+      "text": "回到 [format][color:green]货车[/format] 上 "
+    },
+    {
+      "index": 981,
+      "id": "0x175DCAFF",
+      "text": "更好的生活"
+    }
+  ]
+}

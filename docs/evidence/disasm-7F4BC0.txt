@@ -1,0 +1,178 @@
+007F4BC0 test     ecx, ecx
+007F4BC2 jne      0x7f4bc7
+007F4BC4 xor      eax, eax
+007F4BC6 ret      
+007F4BC7 push     esi
+007F4BC8 push     edi
+007F4BC9 call     0xbdc9b0
+007F4BCE mov      edi, dword ptr [0xe8c470]
+007F4BD4 cmp      edi, 0xc
+007F4BD7 mov      esi, eax
+007F4BD9 jne      0x7f4c0b
+007F4BDB cmp      esi, 0xa200759a
+007F4BE1 jne      0x7f4be8
+007F4BE3 mov      esi, 0xfdea292a
+007F4BE8 push     esi
+007F4BE9 call     0x7f4d60
+007F4BEE add      esp, 4
+007F4BF1 cmp      edi, 0xd
+007F4BF4 jne      0x7f4c08
+007F4BF6 cmp      esi, 0x510409b8
+007F4BFC jne      0x7f4c08
+007F4BFE test     eax, eax
+007F4C00 je       0x7f4c08
+007F4C02 mov      word ptr [eax + 2], 0x64
+007F4C08 pop      edi
+007F4C09 pop      esi
+007F4C0A ret      
+007F4C0B cmp      edi, 0xd
+007F4C0E jne      0x7f4be8
+007F4C10 cmp      esi, 0xff6299d9
+007F4C16 jne      0x7f4c20
+007F4C18 pop      edi
+007F4C19 mov      eax, 0xe25f84
+007F4C1E pop      esi
+007F4C1F ret      
+007F4C20 cmp      esi, 0x2370e5a4
+007F4C26 jne      0x7f4c30
+007F4C28 pop      edi
+007F4C29 mov      eax, 0xe25f40
+007F4C2E pop      esi
+007F4C2F ret      
+007F4C30 cmp      esi, 0xaf10621e
+007F4C36 jne      0x7f4c40
+007F4C38 pop      edi
+007F4C39 mov      eax, 0xe25ed0
+007F4C3E pop      esi
+007F4C3F ret      
+007F4C40 cmp      esi, 0xf284ed87
+007F4C46 jne      0x7f4c50
+007F4C48 pop      edi
+007F4C49 mov      eax, 0xe25e78
+007F4C4E pop      esi
+007F4C4F ret      
+007F4C50 cmp      esi, 0xab55ce3b
+007F4C56 jne      0x7f4c60
+007F4C58 pop      edi
+007F4C59 mov      eax, 0xe25e30
+007F4C5E pop      esi
+007F4C5F ret      
+007F4C60 cmp      esi, 0x42363fc7
+007F4C66 jne      0x7f4be8
+007F4C68 pop      edi
+007F4C69 mov      eax, 0xe25dec
+007F4C6E pop      esi
+007F4C6F ret      
+007F4C70 test     edi, edi
+007F4C72 push     esi
+007F4C73 je       0x7f4c94
+007F4C75 xor      esi, esi
+007F4C77 mov      eax, dword ptr [esi*4 + 0xdd1104]
+007F4C7E push     eax
+007F4C7F push     edi
+007F4C80 call     0xc99030
+007F4C85 add      esp, 8
+007F4C88 test     eax, eax
+007F4C8A je       0x7f4c99
+007F4C8C add      esi, 1
+007F4C8F cmp      esi, 0xe
+007F4C92 jl       0x7f4c77
+007F4C94 or       eax, 0xffffffff
+007F4C97 pop      esi
+007F4C98 ret      
+007F4C99 mov      eax, esi
+007F4C9B pop      esi
+007F4C9C ret      
+007F4C9D int3     
+007F4C9E int3     
+007F4C9F int3     
+007F4CA0 cmp      byte ptr [0x2528b0f], 0
+007F4CA7 push     edi
+007F4CA8 mov      edi, eax
+007F4CAA jne      0x7f4ce5
+007F4CAC push     edi
+007F4CAD push     0xe260f8
+007F4CB2 mov      dword ptr [0xe8c470], 0xffffffff
+007F4CBC call     0xc96870
+007F4CC1 add      esp, 8
+007F4CC4 test     eax, eax
+007F4CC6 je       0x7f4cd2
+007F4CC8 call     0x7f4c70
+007F4CCD mov      dword ptr [0xe8c470], eax
+007F4CD2 cmp      dword ptr [0xe8c470], -1
+007F4CD9 jne      0x7f4ce5
+007F4CDB mov      dword ptr [0xe8c470], 0
+007F4CE5 pop      edi
+007F4CE6 ret      
+007F4CE7 int3     
+007F4CE8 int3     
+007F4CE9 int3     
+007F4CEA int3     
+007F4CEB int3     
+007F4CEC int3     
+007F4CED int3     
+007F4CEE int3     
+007F4CEF int3     
+007F4CF0 mov      eax, dword ptr [0xe8c470]
+007F4CF5 test     eax, eax
+007F4CF7 jge      0x7f4cff
+007F4CF9 mov      eax, 0xdc5797
+007F4CFE ret      
+007F4CFF mov      eax, dword ptr [eax*4 + 0xdd1104]
+007F4D06 ret      
+007F4D07 int3     
+007F4D08 int3     
+007F4D09 int3     
+007F4D0A int3     
+007F4D0B int3     
+007F4D0C int3     
+007F4D0D int3     
+007F4D0E int3     
+007F4D0F int3     
+007F4D10 mov      eax, dword ptr [0xe8c470]
+007F4D15 ret      
+007F4D16 int3     
+007F4D17 int3     
+007F4D18 int3     
+007F4D19 int3     
+007F4D1A int3     
+007F4D1B int3     
+007F4D1C int3     
+007F4D1D int3     
+007F4D1E int3     
+007F4D1F int3     
+007F4D20 test     ecx, ecx
+007F4D22 jne      0x7f4d27
+007F4D24 xor      eax, eax
+007F4D26 ret      
+007F4D27 push     esi
+007F4D28 call     0xbdc9b0
+007F4D2D mov      esi, eax
+007F4D2F push     esi
+007F4D30 call     0x7f4d60
+007F4D35 add      esp, 4
+007F4D38 neg      eax
+007F4D3A sbb      eax, eax
+007F4D3C and      eax, esi
+007F4D3E pop      esi
+007F4D3F ret      
+007F4D40 push     eax
+007F4D41 call     0x7f4d60
+007F4D46 add      esp, 4
+007F4D49 test     eax, eax
+007F4D4B jne      0x7f4d52
+007F4D4D mov      eax, 0xe26120
+007F4D52 ret      
+007F4D53 int3     
+007F4D54 int3     
+007F4D55 int3     
+007F4D56 int3     
+007F4D57 int3     
+007F4D58 int3     
+007F4D59 int3     
+007F4D5A int3     
+007F4D5B int3     
+007F4D5C int3     
+007F4D5D int3     
+007F4D5E int3     
+007F4D5F int3     

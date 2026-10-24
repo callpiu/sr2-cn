@@ -1,0 +1,22 @@
+[
+  {
+    "name": "sr2-cn-v547-juiced-9.3.1-dlc-1.0.1.zip",
+    "bytes": 375131403,
+    "sha256": "d1a7feea121c818bf4b9c018c6e4aff950dc8b20343c9ad3f4de73b894140a86"
+  },
+  {
+    "name": "sr2-cn-helicopter-fix-v1.0.0.zip",
+    "bytes": 15735,
+    "sha256": "ed85b827ca4fc2a475d6e0970d19d68e6be9419cbca8cddfe7d6e6601c29c111"
+  },
+  {
+    "name": "sr2-cn-v546-base-20261021.zip",
+    "bytes": 375015728,
+    "sha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102"
+  },
+  {
+    "name": "juiced_CH.hardcoded-fixes.cxt",
+    "bytes": 545,
+    "sha256": "9ce1cf4de45f243c26106665fe02dffd91cb121da0b384c39c72ba7d05148493"
+  }
+]

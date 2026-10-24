@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "projectVerification": {
+    "passed": true,
+    "payloadFiles": 7,
+    "textRecords": 17631,
+    "upstreamCxtEntries": 6
+  },
+  "combinedArchive": {
+    "files": 2814,
+    "matchesReleaseDirectory": true,
+    "unsafeOrDuplicateEntries": 0,
+    "sizeAuditPassed": true,
+    "bytes": 375131403,
+    "sha256": "d1a7feea121c818bf4b9c018c6e4aff950dc8b20343c9ad3f4de73b894140a86"
+  },
+  "standaloneArchive": {
+    "bytes": 15735,
+    "sha256": "ed85b827ca4fc2a475d6e0970d19d68e6be9419cbca8cddfe7d6e6601c29c111"
+  },
+  "independentRebuild": {
+    "passed": true,
+    "combinedMatchesSha256": true,
+    "standaloneMatchesSha256": true
+  },
+  "runtimeVerification": "See user-runtime-verification-20261024.json; no new runtime test was performed during upload."
+}

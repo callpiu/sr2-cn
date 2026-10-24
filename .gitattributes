@@ -1,0 +1,6 @@
+# Frozen payloads and tested installer sources must retain their original bytes.
+* -text
+*.vpp_pc binary
+*.le_strings binary
+*.png binary
+*.zip binary

@@ -1,0 +1,42 @@
+{
+  "version": "v547",
+  "date": "2026-10-23",
+  "baseArchiveSha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102",
+  "payload": [
+    {
+      "path": "DLC/Text/dlc_ch.le_strings",
+      "bytes": 49924,
+      "sha256": "ffabd52dd56dea5ba043abc31c1dec8f401d640876870b8d28b9a4eb9477a8a8"
+    },
+    {
+      "path": "Mods/city_load.lua",
+      "bytes": 22683,
+      "sha256": "c8dfbcd787d078d454883c11cb4da30d4388fd240c6e07a45cd442aca3ee43ae"
+    },
+    {
+      "path": "Mods/dialog_box.lua",
+      "bytes": 37769,
+      "sha256": "e3402aacf1e4c36a77b8e9381f52ad281df1b0cf8ec6d124cb124768c927f528"
+    },
+    {
+      "path": "Mods/dialog_box.lua.sui.bak",
+      "bytes": 37539,
+      "sha256": "13fee5e59cd58491662dc6b451e1bfc760b088fa8116689451973185f3184f48"
+    },
+    {
+      "path": "Mods/JUICED - Strings/juiced_CH.cxt",
+      "bytes": 1717,
+      "sha256": "ce35496cd01b5436ab35f341a7ac982115684776e10dd02a54b70834fb13a412"
+    },
+    {
+      "path": "Mods/JUICED - Strings/juiced_CH.le_strings",
+      "bytes": 800,
+      "sha256": "f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd"
+    },
+    {
+      "path": "patch.vpp_pc",
+      "bytes": 48727014,
+      "sha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
+    }
+  ]
+}

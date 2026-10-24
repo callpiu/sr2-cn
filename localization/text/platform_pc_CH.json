@@ -1,0 +1,1596 @@
+{
+  "format": "SR2 le_strings; 12-byte header; LE pointer array; BE u16 text slots",
+  "sourceSha256": "24b40c478ddf19ede8676ed36240b10ae8aaa5bbc177b78d45d3adb645ac2f5d",
+  "records": [
+    {
+      "index": 0,
+      "id": "0x2C65B9C0",
+      "text": "按名称排序"
+    },
+    {
+      "index": 1,
+      "id": "0x6C21DB00",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_rb][/format]"
+    },
+    {
+      "index": 2,
+      "id": "0x791B1180",
+      "text": "正在保存……"
+    },
+    {
+      "index": 3,
+      "id": "0xA0A12D40",
+      "text": "显示地图"
+    },
+    {
+      "index": 4,
+      "id": "0xD4245200",
+      "text": "冲刺"
+    },
+    {
+      "index": 5,
+      "id": "0x52FE76C1",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_start][/format]"
+    },
+    {
+      "index": 6,
+      "id": "0x7118F881",
+      "text": "服务器名称"
+    },
+    {
+      "index": 7,
+      "id": "0x8C096701",
+      "text": "后倾"
+    },
+    {
+      "index": 8,
+      "id": "0xCEB77381",
+      "text": "按下上方向键进食"
+    },
+    {
+      "index": 9,
+      "id": "0x123A4282",
+      "text": "登录失败"
+    },
+    {
+      "index": 10,
+      "id": "0x33275402",
+      "text": "正在导入内容……"
+    },
+    {
+      "index": 11,
+      "id": "0xCBDD1E42",
+      "text": "要选择武器，请按住 {WEAPON_MENU_IMG} 打开径向菜单。径向菜单打开后，用 {ANALOG_RS_IMG} 选中你想使用的武器，然后松开 {WEAPON_MENU_IMG}。\n\n赤手空拳时，按 {ATTACK_PRIMARY_IMG} 或 {ATTACK_SECONDARY_IMG} 会分别打出右勾拳或左勾拳。连续扣动扳机即可打出强力连击。\n\n同时按下 {ATTACK_PRIMARY_IMG} 和 {ATTACK_SECONDARY_IMG} 可以格挡。\n\n手持近战武器时，用 {ATTACK_PRIMARY_IMG} 或 {ATTACK_SECONDARY_IMG} 攻击。\n\n手持管道炸弹这类投掷武器时，用 {ATTACK_SECONDARY_IMG} 弱投，用 {ATTACK_PRIMARY_IMG} 强投。\n\n手持远程武器时，屏幕上会出现准星。{ATTACK_PRIMARY_IMG} 开火，{PICKUP_RELOAD_IMG} 换弹。"
+    },
+    {
+      "index": 12,
+      "id": "0xFD857442",
+      "text": "确定吗？ "
+    },
+    {
+      "index": 13,
+      "id": "0x47728B43",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_rt][/format]"
+    },
+    {
+      "index": 14,
+      "id": "0x57788743",
+      "text": "方向键左"
+    },
+    {
+      "index": 15,
+      "id": "0x0E4527C4",
+      "text": "A 键"
+    },
+    {
+      "index": 16,
+      "id": "0x69E12844",
+      "text": "武器 4"
+    },
+    {
+      "index": 17,
+      "id": "0xEB91EF04",
+      "text": "名称"
+    },
+    {
+      "index": 18,
+      "id": "0x728B77C5",
+      "text": "挑衅"
+    },
+    {
+      "index": 19,
+      "id": "0x7F6BD8C5",
+      "text": "输入会话密码"
+    },
+    {
+      "index": 20,
+      "id": "0x834E79C5",
+      "text": "鼠标水平灵敏度"
+    },
+    {
+      "index": 21,
+      "id": "0xA9E50A85",
+      "text": "下一个电台"
+    },
+    {
+      "index": 22,
+      "id": "0xCFF98305",
+      "text": "全屏垂直同步"
+    },
+    {
+      "index": 23,
+      "id": "0xFDED7F85",
+      "text": "刷新列表"
+    },
+    {
+      "index": 24,
+      "id": "0x0DB9C506",
+      "text": "阴影贴图"
+    },
+    {
+      "index": 25,
+      "id": "0x7437CDC6",
+      "text": "右 Ctrl"
+    },
+    {
+      "index": 26,
+      "id": "0x9618ECC6",
+      "text": "输入 GameSpy ID"
+    },
+    {
+      "index": 27,
+      "id": "0x9C016D06",
+      "text": "邮箱无效"
+    },
+    {
+      "index": 28,
+      "id": "0xCDC66B46",
+      "text": "按住 {RECRUIT_DISMISS_IMG} 解散队伍。"
+    },
+    {
+      "index": 29,
+      "id": "0xE29ADC46",
+      "text": "赞美"
+    },
+    {
+      "index": 30,
+      "id": "0x1F692747",
+      "text": "向下翻页"
+    },
+    {
+      "index": 31,
+      "id": "0x20645BC7",
+      "text": "搏击俱乐部／救护车行动 2"
+    },
+    {
+      "index": 32,
+      "id": "0x381092C7",
+      "text": "未登录"
+    },
+    {
+      "index": 33,
+      "id": "0x7A03D187",
+      "text": "远"
+    },
+    {
+      "index": 34,
+      "id": "0x86FD6B87",
+      "text": "你的合作搭档正在使用作弊。此后新建的所有存档都会启用作弊。\n自动保存已被禁用。"
+    },
+    {
+      "index": 35,
+      "id": "0x90EE2E07",
+      "text": "许可协议"
+    },
+    {
+      "index": 36,
+      "id": "0xB2A66207",
+      "text": "安装"
+    },
+    {
+      "index": 37,
+      "id": "0x0504E4C8",
+      "text": "加载中……"
+    },
+    {
+      "index": 38,
+      "id": "0x05AE2248",
+      "text": "A 键"
+    },
+    {
+      "index": 39,
+      "id": "0x3BC58708",
+      "text": "A 键"
+    },
+    {
+      "index": 40,
+      "id": "0x5FEDCE88",
+      "text": "跳跃"
+    },
+    {
+      "index": 41,
+      "id": "0x83019E48",
+      "text": "创建账号"
+    },
+    {
+      "index": 42,
+      "id": "0xB430B848",
+      "text": "你输入的密码无效，无法加入游戏。"
+    },
+    {
+      "index": 43,
+      "id": "0xCD9FCE88",
+      "text": "多人游戏选项"
+    },
+    {
+      "index": 44,
+      "id": "0xD1E88808",
+      "text": "低"
+    },
+    {
+      "index": 45,
+      "id": "0xE99C4488",
+      "text": "会话密码"
+    },
+    {
+      "index": 46,
+      "id": "0xFCBACB48",
+      "text": "系统链接大厅"
+    },
+    {
+      "index": 47,
+      "id": "0x01543089",
+      "text": "主页"
+    },
+    {
+      "index": 48,
+      "id": "0x2FF01F49",
+      "text": "在线"
+    },
+    {
+      "index": 49,
+      "id": "0x30298609",
+      "text": "加速"
+    },
+    {
+      "index": 50,
+      "id": "0x302ACA09",
+      "text": "登录错误"
+    },
+    {
+      "index": 51,
+      "id": "0x3BB229C9",
+      "text": "退格"
+    },
+    {
+      "index": 52,
+      "id": "0x3F146809",
+      "text": "用 %ls 将 %ls 与 %ls 交换"
+    },
+    {
+      "index": 53,
+      "id": "0x5A345A89",
+      "text": "开始按钮"
+    },
+    {
+      "index": 54,
+      "id": "0x69A8AAC9",
+      "text": "手柄按键设置"
+    },
+    {
+      "index": 55,
+      "id": "0x71B04A89",
+      "text": "寻找排位赛"
+    },
+    {
+      "index": 56,
+      "id": "0x99053049",
+      "text": "按下右方向键进食"
+    },
+    {
+      "index": 57,
+      "id": "0xD889CE89",
+      "text": "选择分辨率"
+    },
+    {
+      "index": 58,
+      "id": "0x2FD9F70A",
+      "text": "上箭头"
+    },
+    {
+      "index": 59,
+      "id": "0x701E640A",
+      "text": "搜索筛选"
+    },
+    {
+      "index": 60,
+      "id": "0x975747CA",
+      "text": "招募/遣散追随者"
+    },
+    {
+      "index": 61,
+      "id": "0x0D62FF4B",
+      "text": "你已与 GameSpy 断开连接。"
+    },
+    {
+      "index": 62,
+      "id": "0x198BDCCB",
+      "text": "武器 1"
+    },
+    {
+      "index": 63,
+      "id": "0x75CFB2CB",
+      "text": "步行"
+    },
+    {
+      "index": 64,
+      "id": "0xAC1D180B",
+      "text": "系统链接"
+    },
+    {
+      "index": 65,
+      "id": "0xCD691A4B",
+      "text": "向后看/重置视角"
+    },
+    {
+      "index": 66,
+      "id": "0xF4F8278B",
+      "text": "重新安装"
+    },
+    {
+      "index": 67,
+      "id": "0xA32546CC",
+      "text": "密码错误"
+    },
+    {
+      "index": 68,
+      "id": "0xA8947C8C",
+      "text": "A 键"
+    },
+    {
+      "index": 69,
+      "id": "0x40E4A5CD",
+      "text": "系统链接"
+    },
+    {
+      "index": 70,
+      "id": "0xC19158CD",
+      "text": "左摇杆"
+    },
+    {
+      "index": 71,
+      "id": "0x192F0D4E",
+      "text": "输入玩家名称"
+    },
+    {
+      "index": 72,
+      "id": "0x33073E0E",
+      "text": "查找服务器"
+    },
+    {
+      "index": 73,
+      "id": "0x3C0E504E",
+      "text": "动态光照"
+    },
+    {
+      "index": 74,
+      "id": "0x6A5DE78E",
+      "text": "创建账号"
+    },
+    {
+      "index": 75,
+      "id": "0xD2D898CE",
+      "text": "密码"
+    },
+    {
+      "index": 76,
+      "id": "0x0011BA4F",
+      "text": "放大"
+    },
+    {
+      "index": 77,
+      "id": "0x1B255BCF",
+      "text": "数字键盘 *"
+    },
+    {
+      "index": 78,
+      "id": "0x1EC1170F",
+      "text": "方向键上"
+    },
+    {
+      "index": 79,
+      "id": "0x4ECC84CF",
+      "text": "左 Alt 键"
+    },
+    {
+      "index": 80,
+      "id": "0x5ABF770F",
+      "text": "高"
+    },
+    {
+      "index": 81,
+      "id": "0x79B5448F",
+      "text": "进入"
+    },
+    {
+      "index": 82,
+      "id": "0xC459A8CF",
+      "text": "全部"
+    },
+    {
+      "index": 83,
+      "id": "0xD5BF988F",
+      "text": "镜头 X"
+    },
+    {
+      "index": 84,
+      "id": "0xF0BF2E8F",
+      "text": "氮气加速"
+    },
+    {
+      "index": 85,
+      "id": "0xF804A0CF",
+      "text": "A 键"
+    },
+    {
+      "index": 86,
+      "id": "0x17392350",
+      "text": "你选择的存储设备空间不足。\n若继续，你将无法保存。\n是否继续？"
+    },
+    {
+      "index": 87,
+      "id": "0x31E0F010",
+      "text": "方向键下"
+    },
+    {
+      "index": 88,
+      "id": "0x717E5C50",
+      "text": "右平移"
+    },
+    {
+      "index": 89,
+      "id": "0x766E58D0",
+      "text": "轴 1"
+    },
+    {
+      "index": 90,
+      "id": "0xF0F4FF50",
+      "text": "鼠标右键"
+    },
+    {
+      "index": 91,
+      "id": "0x01B61911",
+      "text": "说"
+    },
+    {
+      "index": 92,
+      "id": "0x3A290F91",
+      "text": "菜单向右滚动"
+    },
+    {
+      "index": 93,
+      "id": "0x794FF411",
+      "text": "按任意键"
+    },
+    {
+      "index": 94,
+      "id": "0xE7D464D1",
+      "text": "取消"
+    },
+    {
+      "index": 95,
+      "id": "0x1EE618D2",
+      "text": "武器 5"
+    },
+    {
+      "index": 96,
+      "id": "0x21CA48D2",
+      "text": "副攻击"
+    },
+    {
+      "index": 97,
+      "id": "0x67DFADD2",
+      "text": "A 键"
+    },
+    {
+      "index": 98,
+      "id": "0xA077CE12",
+      "text": "手柄已断开"
+    },
+    {
+      "index": 99,
+      "id": "0xB54D5B12",
+      "text": "退出"
+    },
+    {
+      "index": 100,
+      "id": "0xC0036612",
+      "text": "插入"
+    },
+    {
+      "index": 101,
+      "id": "0xE75E9592",
+      "text": "结束"
+    },
+    {
+      "index": 102,
+      "id": "0x003C9753",
+      "text": "大厅关闭"
+    },
+    {
+      "index": 103,
+      "id": "0x0C3CC913",
+      "text": "方向键上"
+    },
+    {
+      "index": 104,
+      "id": "0x102B8493",
+      "text": "左 Ctrl 键"
+    },
+    {
+      "index": 105,
+      "id": "0x2898EBD3",
+      "text": "菜单向左滚动"
+    },
+    {
+      "index": 106,
+      "id": "0x33A3AB93",
+      "text": "动态模糊"
+    },
+    {
+      "index": 107,
+      "id": "0x755330D3",
+      "text": "电子邮件"
+    },
+    {
+      "index": 108,
+      "id": "0xDBAC6653",
+      "text": "减速"
+    },
+    {
+      "index": 109,
+      "id": "0x170075D4",
+      "text": "环境光遮蔽"
+    },
+    {
+      "index": 110,
+      "id": "0x4EA79A14",
+      "text": "视距"
+    },
+    {
+      "index": 111,
+      "id": "0x766E8514",
+      "text": "我接受许可协议中的条款"
+    },
+    {
+      "index": 112,
+      "id": "0xC3D6FBD4",
+      "text": "队伍喊话"
+    },
+    {
+      "index": 113,
+      "id": "0xCDF35614",
+      "text": "卸载"
+    },
+    {
+      "index": 114,
+      "id": "0xE4C0D494",
+      "text": "未分配"
+    },
+    {
+      "index": 115,
+      "id": "0x14302415",
+      "text": "昵称无效"
+    },
+    {
+      "index": 116,
+      "id": "0x55719AD5",
+      "text": "数字锁定"
+    },
+    {
+      "index": 117,
+      "id": "0x60997055",
+      "text": "输入 GameSpy 密码"
+    },
+    {
+      "index": 118,
+      "id": "0x0DE515D6",
+      "text": "自定义"
+    },
+    {
+      "index": 119,
+      "id": "0x26BD07D6",
+      "text": "向后移动"
+    },
+    {
+      "index": 120,
+      "id": "0x3CC61496",
+      "text": "桌面快捷方式"
+    },
+    {
+      "index": 121,
+      "id": "0x62911E96",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_x][/format]"
+    },
+    {
+      "index": 122,
+      "id": "0x8C369E16",
+      "text": "你可以通过系统连线与另一名玩家进行 Saints Row 2 多人游戏[offline]。"
+    },
+    {
+      "index": 123,
+      "id": "0xF8F6E996",
+      "text": "右摇杆"
+    },
+    {
+      "index": 124,
+      "id": "0x751FFD57",
+      "text": "鼠标中键"
+    },
+    {
+      "index": 125,
+      "id": "0x9303A457",
+      "text": "步行操控"
+    },
+    {
+      "index": 126,
+      "id": "0xA4D066D7",
+      "text": "退出游戏"
+    },
+    {
+      "index": 127,
+      "id": "0xC6316257",
+      "text": "主攻击"
+    },
+    {
+      "index": 128,
+      "id": "0xEA7C5E97",
+      "text": "你输入的会话密码无效，无法加入游戏。"
+    },
+    {
+      "index": 129,
+      "id": "0x8AFD7958",
+      "text": "场景中的小物件可作为临时武器。\n按 {PICKUP_RELOAD_IMG} 捡起。\n{ATTACK_SECONDARY_IMG} 投掷该物件，{ATTACK_PRIMARY_IMG} 用它攻击。"
+    },
+    {
+      "index": 130,
+      "id": "0xACF778D8",
+      "text": "全屏抗锯齿"
+    },
+    {
+      "index": 131,
+      "id": "0xD3001358",
+      "text": "喇叭"
+    },
+    {
+      "index": 132,
+      "id": "0xD9B87E18",
+      "text": "取消活动"
+    },
+    {
+      "index": 133,
+      "id": "0x05A17A59",
+      "text": "不支持一台主机多人同玩。"
+    },
+    {
+      "index": 134,
+      "id": "0x4CACE019",
+      "text": "使用默认设置开始游戏"
+    },
+    {
+      "index": 135,
+      "id": "0x6EB8D4D9",
+      "text": "未分配按键"
+    },
+    {
+      "index": 136,
+      "id": "0x8180D5D9",
+      "text": "右方向键"
+    },
+    {
+      "index": 137,
+      "id": "0xFF6299D9",
+      "text": "你的统计数据已损坏，必须重置。\n这不会影响你已获得的任何成就。"
+    },
+    {
+      "index": 138,
+      "id": "0x3417799A",
+      "text": "菜单向左滚动"
+    },
+    {
+      "index": 139,
+      "id": "0x6B9DD35A",
+      "text": "用 %ls 拾取 %ls"
+    },
+    {
+      "index": 140,
+      "id": "0xC950B65A",
+      "text": "斧头"
+    },
+    {
+      "index": 141,
+      "id": "0x045B83DB",
+      "text": "昵称无效"
+    },
+    {
+      "index": 142,
+      "id": "0x1D6834DB",
+      "text": "技术支持"
+    },
+    {
+      "index": 143,
+      "id": "0x27DA1E1B",
+      "text": "精准瞄准"
+    },
+    {
+      "index": 144,
+      "id": "0x52A7931B",
+      "text": "飞行器控制"
+    },
+    {
+      "index": 145,
+      "id": "0x5BD6E31C",
+      "text": "%s 使用 Steam 保持最新，直接向你的桌面推送更新和新内容。"
+    },
+    {
+      "index": 146,
+      "id": "0xC9315FDC",
+      "text": "手刹"
+    },
+    {
+      "index": 147,
+      "id": "0xEF34065C",
+      "text": "A 键"
+    },
+    {
+      "index": 148,
+      "id": "0x4E9FD49D",
+      "text": "加速"
+    },
+    {
+      "index": 149,
+      "id": "0x556520DD",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_dpad_l][/format]"
+    },
+    {
+      "index": 150,
+      "id": "0x8138AE9D",
+      "text": "用 %ls 拾取并双持 %ls"
+    },
+    {
+      "index": 151,
+      "id": "0xEB9B57DD",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_rs][/format]"
+    },
+    {
+      "index": 152,
+      "id": "0xF36D149D",
+      "text": "A 键"
+    },
+    {
+      "index": 153,
+      "id": "0x47C22B1E",
+      "text": "A 键"
+    },
+    {
+      "index": 154,
+      "id": "0x5594CCDE",
+      "text": "再次输入 GameSpy 密码"
+    },
+    {
+      "index": 155,
+      "id": "0xD515DCDE",
+      "text": "你必须登录玩家档案才能保存游戏并解锁成就。\n你想现在登录吗？"
+    },
+    {
+      "index": 156,
+      "id": "0x0604AC5F",
+      "text": "轴 4"
+    },
+    {
+      "index": 157,
+      "id": "0x5396E11F",
+      "text": "登录 GameSpy"
+    },
+    {
+      "index": 158,
+      "id": "0x9232E35F",
+      "text": "用 {GRAB_IMG} 抓人当人体盾牌。人体盾牌能挡住大部分子弹，让你不被打中。"
+    },
+    {
+      "index": 159,
+      "id": "0xD0F13FDF",
+      "text": "创建游戏"
+    },
+    {
+      "index": 160,
+      "id": "0xF9D3AE1F",
+      "text": "搏击俱乐部行动 3"
+    },
+    {
+      "index": 161,
+      "id": "0x0947C2E0",
+      "text": "未分配"
+    },
+    {
+      "index": 162,
+      "id": "0x1158CE20",
+      "text": "你必须登录玩家档案\n才能使用系统连线。"
+    },
+    {
+      "index": 163,
+      "id": "0x3FDD8460",
+      "text": "删除"
+    },
+    {
+      "index": 164,
+      "id": "0x608F8FA0",
+      "text": "搜索筛选"
+    },
+    {
+      "index": 165,
+      "id": "0x7F493C20",
+      "text": "未分配手柄按键"
+    },
+    {
+      "index": 166,
+      "id": "0x83F872A0",
+      "text": "图形重置"
+    },
+    {
+      "index": 167,
+      "id": "0x96B1F720",
+      "text": "登录"
+    },
+    {
+      "index": 168,
+      "id": "0xB2AC1E20",
+      "text": "当前设备已满。\n请选择其他设备进行保存。"
+    },
+    {
+      "index": 169,
+      "id": "0x42C62AE1",
+      "text": "存档槽已满。要保存的话，你需要覆盖一个已有存档槽，或选择其他存储设备。"
+    },
+    {
+      "index": 170,
+      "id": "0x7603E121",
+      "text": "排序方式"
+    },
+    {
+      "index": 171,
+      "id": "0x840A6961",
+      "text": "队伍喊话"
+    },
+    {
+      "index": 172,
+      "id": "0x9C3010E1",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_lb][/format]"
+    },
+    {
+      "index": 173,
+      "id": "0xA25BB5A1",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_lt][/format]"
+    },
+    {
+      "index": 174,
+      "id": "0xC41F5D21",
+      "text": "数字键盘 /"
+    },
+    {
+      "index": 175,
+      "id": "0x29289622",
+      "text": "中"
+    },
+    {
+      "index": 176,
+      "id": "0x414F52E2",
+      "text": "通用控制"
+    },
+    {
+      "index": 177,
+      "id": "0x991CC9E2",
+      "text": "装填武器"
+    },
+    {
+      "index": 178,
+      "id": "0xAE75E7A2",
+      "text": "各向异性过滤"
+    },
+    {
+      "index": 179,
+      "id": "0xDE3F30E2",
+      "text": "按下下方向键进食"
+    },
+    {
+      "index": 180,
+      "id": "0x60AD4223",
+      "text": "向前移动"
+    },
+    {
+      "index": 181,
+      "id": "0x63E24463",
+      "text": "控制设置"
+    },
+    {
+      "index": 182,
+      "id": "0x6EFFC4E3",
+      "text": "近"
+    },
+    {
+      "index": 183,
+      "id": "0xF97C2EA3",
+      "text": "数字键盘 ."
+    },
+    {
+      "index": 184,
+      "id": "0x65CEBFA4",
+      "text": "换档"
+    },
+    {
+      "index": 185,
+      "id": "0x6664CF24",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_ls][/format]"
+    },
+    {
+      "index": 186,
+      "id": "0x895316A4",
+      "text": "输入筛选条件"
+    },
+    {
+      "index": 187,
+      "id": "0xDA6B66A4",
+      "text": "搏击俱乐部／救护车行动 1"
+    },
+    {
+      "index": 188,
+      "id": "0x01B27BE5",
+      "text": "CTRL"
+    },
+    {
+      "index": 189,
+      "id": "0x0F61EB65",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_a][/format]"
+    },
+    {
+      "index": 190,
+      "id": "0x2EE1E865",
+      "text": "该按键此前已在别处使用，现已重新分配给此项控制。"
+    },
+    {
+      "index": 191,
+      "id": "0x60DAFFA5",
+      "text": "搏击俱乐部行动 4"
+    },
+    {
+      "index": 192,
+      "id": "0x7C688B25",
+      "text": "动作"
+    },
+    {
+      "index": 193,
+      "id": "0x963C1B25",
+      "text": "创建档案"
+    },
+    {
+      "index": 194,
+      "id": "0xAFEEEDA5",
+      "text": "退出 GameSpy"
+    },
+    {
+      "index": 195,
+      "id": "0x233EA826",
+      "text": "套装名称"
+    },
+    {
+      "index": 196,
+      "id": "0x43C4D8E6",
+      "text": "左 Shift 键"
+    },
+    {
+      "index": 197,
+      "id": "0x5FF13726",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_y][/format]"
+    },
+    {
+      "index": 198,
+      "id": "0x7FCD01A6",
+      "text": "游玩 %s"
+    },
+    {
+      "index": 199,
+      "id": "0x8A05A066",
+      "text": "左方向键"
+    },
+    {
+      "index": 200,
+      "id": "0xE0F2EA66",
+      "text": "该按键此前已在别处使用，现已重新分配给此项控制。"
+    },
+    {
+      "index": 201,
+      "id": "0x11879627",
+      "text": "图形质量"
+    },
+    {
+      "index": 202,
+      "id": "0xA56157E7",
+      "text": "右 Shift"
+    },
+    {
+      "index": 203,
+      "id": "0xC6B07FE7",
+      "text": "输入新套装名称"
+    },
+    {
+      "index": 204,
+      "id": "0xCB3285E7",
+      "text": "上一个电台"
+    },
+    {
+      "index": 205,
+      "id": "0xF785BDE7",
+      "text": "武器 3"
+    },
+    {
+      "index": 206,
+      "id": "0xFB72ADA7",
+      "text": "数字键盘 -"
+    },
+    {
+      "index": 207,
+      "id": "0x09D900A8",
+      "text": "安装 %s"
+    },
+    {
+      "index": 208,
+      "id": "0x1DCF4028",
+      "text": "再次输入 GameSpy 密码"
+    },
+    {
+      "index": 209,
+      "id": "0x87EF4968",
+      "text": "武器 6"
+    },
+    {
+      "index": 210,
+      "id": "0xCFD64FA8",
+      "text": "ALT"
+    },
+    {
+      "index": 211,
+      "id": "0xF50BE128",
+      "text": "A 键"
+    },
+    {
+      "index": 212,
+      "id": "0x059255E9",
+      "text": "宽屏切换"
+    },
+    {
+      "index": 213,
+      "id": "0x3090C569",
+      "text": "两次输入的密码必须一致。请重新输入。"
+    },
+    {
+      "index": 214,
+      "id": "0x5B6140A9",
+      "text": "按下任意新按键或 ESC 取消。"
+    },
+    {
+      "index": 215,
+      "id": "0x92E36A69",
+      "text": "环形菜单"
+    },
+    {
+      "index": 216,
+      "id": "0xA3AE1569",
+      "text": "游戏保存成功。"
+    },
+    {
+      "index": 217,
+      "id": "0xCBD44CE9",
+      "text": "A 键"
+    },
+    {
+      "index": 218,
+      "id": "0xED52C429",
+      "text": "（飞机）方向舵左偏"
+    },
+    {
+      "index": 219,
+      "id": "0x1C82BD6A",
+      "text": "向上翻页"
+    },
+    {
+      "index": 220,
+      "id": "0x2F26316A",
+      "text": "手柄按键 %d"
+    },
+    {
+      "index": 221,
+      "id": "0x3E8D8CAA",
+      "text": "高级图形设置"
+    },
+    {
+      "index": 222,
+      "id": "0x420CE12A",
+      "text": "数字键盘 +"
+    },
+    {
+      "index": 223,
+      "id": "0x79CFEEAA",
+      "text": "会话名称"
+    },
+    {
+      "index": 224,
+      "id": "0xE0871CAA",
+      "text": "A 键"
+    },
+    {
+      "index": 225,
+      "id": "0xEF67096A",
+      "text": "轴 2"
+    },
+    {
+      "index": 226,
+      "id": "0xFAE7446A",
+      "text": "垂直鼠标灵敏度"
+    },
+    {
+      "index": 227,
+      "id": "0x12D79DEB",
+      "text": "暂停菜单"
+    },
+    {
+      "index": 228,
+      "id": "0x4C8A1E2B",
+      "text": "返回"
+    },
+    {
+      "index": 229,
+      "id": "0x67DC99AB",
+      "text": "密码不一致，请重新输入密码"
+    },
+    {
+      "index": 230,
+      "id": "0xC56B232B",
+      "text": "前倾"
+    },
+    {
+      "index": 231,
+      "id": "0xF2B65CEB",
+      "text": "鼠标左键"
+    },
+    {
+      "index": 232,
+      "id": "0x3507CD6C",
+      "text": "无"
+    },
+    {
+      "index": 233,
+      "id": "0x428B32EC",
+      "text": "名称"
+    },
+    {
+      "index": 234,
+      "id": "0xA5CF452C",
+      "text": "你要删除游戏设置和存档吗？"
+    },
+    {
+      "index": 235,
+      "id": "0xA729C26C",
+      "text": "密码无效"
+    },
+    {
+      "index": 236,
+      "id": "0x4421EE6D",
+      "text": "登录成功"
+    },
+    {
+      "index": 237,
+      "id": "0x7B0F7FAD",
+      "text": "向右看"
+    },
+    {
+      "index": 238,
+      "id": "0x86566C2D",
+      "text": "ESC"
+    },
+    {
+      "index": 239,
+      "id": "0xA9B0B02D",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_dpad_u][/format]"
+    },
+    {
+      "index": 240,
+      "id": "0xF675026D",
+      "text": "创建账号"
+    },
+    {
+      "index": 241,
+      "id": "0xFF65D32D",
+      "text": "动态模糊"
+    },
+    {
+      "index": 242,
+      "id": "0xEE1E972E",
+      "text": "与 GameSpy 的连接已断开。\n正在返回主菜单。"
+    },
+    {
+      "index": 243,
+      "id": "0x6057646F",
+      "text": "武器 8"
+    },
+    {
+      "index": 244,
+      "id": "0x648EAB2F",
+      "text": "档案创建成功"
+    },
+    {
+      "index": 245,
+      "id": "0x9441E52F",
+      "text": "标签页"
+    },
+    {
+      "index": 246,
+      "id": "0xAFEFA62F",
+      "text": "默认存储设备上的可用空间不足，\n无法完成保存。"
+    },
+    {
+      "index": 247,
+      "id": "0xBBD2F4AF",
+      "text": "蹲伏"
+    },
+    {
+      "index": 248,
+      "id": "0xD06912EF",
+      "text": "空格键"
+    },
+    {
+      "index": 249,
+      "id": "0xFE1F62EF",
+      "text": "移动 X"
+    },
+    {
+      "index": 250,
+      "id": "0x17F01170",
+      "text": "必须包含名称"
+    },
+    {
+      "index": 251,
+      "id": "0x1A941870",
+      "text": "按下新按键"
+    },
+    {
+      "index": 252,
+      "id": "0x2B05B9B0",
+      "text": "系统链接"
+    },
+    {
+      "index": 253,
+      "id": "0xA3C1E630",
+      "text": "搜索筛选"
+    },
+    {
+      "index": 254,
+      "id": "0xB626F370",
+      "text": "输入 GameSpy 名称"
+    },
+    {
+      "index": 255,
+      "id": "0xD49CD5B0",
+      "text": "图形设置更改失败。\n已恢复先前的设置。"
+    },
+    {
+      "index": 256,
+      "id": "0x80828D71",
+      "text": "武器 2"
+    },
+    {
+      "index": 257,
+      "id": "0xB8A747B1",
+      "text": "按下左方向键进食"
+    },
+    {
+      "index": 258,
+      "id": "0x2D4BFCB2",
+      "text": "刹车/倒车"
+    },
+    {
+      "index": 259,
+      "id": "0x635358B2",
+      "text": "你与服务器的连接已断开。"
+    },
+    {
+      "index": 260,
+      "id": "0x042BF1F3",
+      "text": "菜单返回"
+    },
+    {
+      "index": 261,
+      "id": "0x561CF2F3",
+      "text": "图形显示设置失败。\n设置已恢复为默认。"
+    },
+    {
+      "index": 262,
+      "id": "0xD49E3F73",
+      "text": "简单"
+    },
+    {
+      "index": 263,
+      "id": "0x0554BE74",
+      "text": "局域网对战"
+    },
+    {
+      "index": 264,
+      "id": "0x3389A774",
+      "text": "正在搜索局域网连线游戏……"
+    },
+    {
+      "index": 265,
+      "id": "0x54988374",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_dpad_r][/format]"
+    },
+    {
+      "index": 266,
+      "id": "0xA8F32BF4",
+      "text": "错误"
+    },
+    {
+      "index": 267,
+      "id": "0xE457C4B4",
+      "text": "服务器 IP"
+    },
+    {
+      "index": 268,
+      "id": "0xF290B734",
+      "text": "A 键"
+    },
+    {
+      "index": 269,
+      "id": "0x48C191B5",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_b][/format]"
+    },
+    {
+      "index": 270,
+      "id": "0x911579F5",
+      "text": "右 Alt"
+    },
+    {
+      "index": 271,
+      "id": "0xEC9DD735",
+      "text": "向下箭头"
+    },
+    {
+      "index": 272,
+      "id": "0x1CB04FB6",
+      "text": "缩小"
+    },
+    {
+      "index": 273,
+      "id": "0x76C1F5B6",
+      "text": "继续"
+    },
+    {
+      "index": 274,
+      "id": "0x7B1F6DF6",
+      "text": "左平移"
+    },
+    {
+      "index": 275,
+      "id": "0x97B8DAB6",
+      "text": "按下任意手柄按键或 ESC 取消。"
+    },
+    {
+      "index": 276,
+      "id": "0xD2473436",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_ls][/format]"
+    },
+    {
+      "index": 277,
+      "id": "0x35357937",
+      "text": "菜单向右滚动"
+    },
+    {
+      "index": 278,
+      "id": "0xE037BCF7",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_back][/format]"
+    },
+    {
+      "index": 279,
+      "id": "0xE4CA8137",
+      "text": "用 %ls 拾取 %ls"
+    },
+    {
+      "index": 280,
+      "id": "0x089AFE78",
+      "text": "用 %ls 拾取物体"
+    },
+    {
+      "index": 281,
+      "id": "0x0A92B778",
+      "text": "向左看"
+    },
+    {
+      "index": 282,
+      "id": "0x412D1CB8",
+      "text": "输入会话名称"
+    },
+    {
+      "index": 283,
+      "id": "0x6FCE47B8",
+      "text": "此档案已因其他登录而断开连接。"
+    },
+    {
+      "index": 284,
+      "id": "0x9CCE4978",
+      "text": "保存过程失败，因为默认\n存储设备已不可用。"
+    },
+    {
+      "index": 285,
+      "id": "0xE62CF978",
+      "text": "我不接受许可协议中的条款"
+    },
+    {
+      "index": 286,
+      "id": "0x7448E2F9",
+      "text": "镜头 Y"
+    },
+    {
+      "index": 287,
+      "id": "0x89185279",
+      "text": "移动 Y"
+    },
+    {
+      "index": 288,
+      "id": "0x9A16DDF9",
+      "text": "游戏模式"
+    },
+    {
+      "index": 289,
+      "id": "0xCA597CB9",
+      "text": "方向键右"
+    },
+    {
+      "index": 290,
+      "id": "0x0AEEBB7A",
+      "text": "延迟"
+    },
+    {
+      "index": 291,
+      "id": "0x101C85FA",
+      "text": "景深"
+    },
+    {
+      "index": 292,
+      "id": "0x948C77FA",
+      "text": "中"
+    },
+    {
+      "index": 293,
+      "id": "0xB32E48BA",
+      "text": "定速巡航"
+    },
+    {
+      "index": 294,
+      "id": "0xCE920AFA",
+      "text": "液压"
+    },
+    {
+      "index": 295,
+      "id": "0xD2C875BA",
+      "text": "卸载《黑道圣徒2》"
+    },
+    {
+      "index": 296,
+      "id": "0x5793FA3B",
+      "text": "按延迟排序"
+    },
+    {
+      "index": 297,
+      "id": "0xC02A3A3B",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_dpad_d][/format]"
+    },
+    {
+      "index": 298,
+      "id": "0xCBEF44BB",
+      "text": "手柄控制器已断开连接。"
+    },
+    {
+      "index": 299,
+      "id": "0x0D5E8EFC",
+      "text": "你的请求已被拒绝。"
+    },
+    {
+      "index": 300,
+      "id": "0x4FDAD67C",
+      "text": "抓住人"
+    },
+    {
+      "index": 301,
+      "id": "0x6784DEBC",
+      "text": "（飞机）方向舵右偏"
+    },
+    {
+      "index": 302,
+      "id": "0x8364B33C",
+      "text": "菜单选择"
+    },
+    {
+      "index": 303,
+      "id": "0x986039FC",
+      "text": "轴 3"
+    },
+    {
+      "index": 304,
+      "id": "0xB83B517C",
+      "text": "全部"
+    },
+    {
+      "index": 305,
+      "id": "0x5C723CFD",
+      "text": "备选菜单选择"
+    },
+    {
+      "index": 306,
+      "id": "0x7CD4353D",
+      "text": "点击继续以登录或创建账号。"
+    },
+    {
+      "index": 307,
+      "id": "0xE5DE223D",
+      "text": "必须包含名称"
+    },
+    {
+      "index": 308,
+      "id": "0x163A197E",
+      "text": "你需要重启游戏才能让这些更改生效。"
+    },
+    {
+      "index": 309,
+      "id": "0x7AA1DABE",
+      "text": "数字键盘回车"
+    },
+    {
+      "index": 310,
+      "id": "0x8A768FBE",
+      "text": "公开游戏"
+    },
+    {
+      "index": 311,
+      "id": "0xB923213E",
+      "text": "输入 GameSpy 电子邮箱"
+    },
+    {
+      "index": 312,
+      "id": "0xCB44C8FE",
+      "text": "驾驶控制"
+    },
+    {
+      "index": 313,
+      "id": "0xF0E879FE",
+      "text": "武器 7"
+    },
+    {
+      "index": 314,
+      "id": "0x03B75BFF",
+      "text": "全屏"
+    },
+    {
+      "index": 315,
+      "id": "0x5F037E7F",
+      "text": "[format][scale:0.9][color:full_bright][image:ui_ctrl_360_btn_rs][/format]"
+    },
+    {
+      "index": 316,
+      "id": "0x6FEBD3FF",
+      "text": "说"
+    },
+    {
+      "index": 317,
+      "id": "0xC564897F",
+      "text": "A 键"
+    }
+  ]
+}

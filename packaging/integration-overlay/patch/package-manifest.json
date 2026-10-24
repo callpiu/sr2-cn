@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "source": "portable/source",
+  "generatedExecutable": {
+    "targetRelative": "SR2_pc.exe",
+    "size": 12136448,
+    "originalSha256": "7d119931c7356a534f7a1b903dd6f920e417249d128438e939edb35b0dc2f244",
+    "sha256": "8bfc0c2a3606861837d8d831c5cdc1535db7d45813c809c04251018b5d4eecf7",
+    "recipeRelative": "patch/installer/fix.json"
+  },
+  "files": [
+    {
+      "relative": "Install.ps1",
+      "size": 199,
+      "sha256": "5a3ff970908343c1b009e1474e6076b7fb7504787285e825b8f80d4e163a3c41"
+    },
+    {
+      "relative": "patch/analysis/validation.json",
+      "size": 2621,
+      "sha256": "2d828eafbb6f8fe080c06eaebe2d16474e24256f2cd55089f0a164458937a3cf"
+    },
+    {
+      "relative": "patch/installer/Console.ps1",
+      "size": 1116,
+      "sha256": "a6280364eaee00f5706e89863e5473f70b138f0146a16c7d2b517b63b65a89cb"
+    },
+    {
+      "relative": "patch/installer/Core.ps1",
+      "size": 13154,
+      "sha256": "833fb418395039013a4199a6d864d7f85442682697d934b1b39235ed22b8443e"
+    },
+    {
+      "relative": "patch/installer/fix.json",
+      "size": 728,
+      "sha256": "be220c44e70ac57f5b3650d0f7d7a4259e3015ec8f302a749a101b5a1b9c697b"
+    },
+    {
+      "relative": "patch/installer/Manager.ps1",
+      "size": 4513,
+      "sha256": "15bed1b7b79a6f1d3f24ba0cf1742ef32dac2b184c19966eb635bee533ee23bd"
+    },
+    {
+      "relative": "patch/manager-config.json",
+      "size": 290,
+      "sha256": "43722b6f6dacb21142eeb121566be4621a668360a05520355d1cbd3ecbec82b0"
+    },
+    {
+      "relative": "PatchManager.ps1",
+      "size": 263,
+      "sha256": "5be03f07eb112ef383a5ec277f3f6f34722c3b8fe17c24ca6131ff6fec02fd04"
+    },
+    {
+      "relative": "README.md",
+      "size": 3171,
+      "sha256": "32022aad8f8daae9f77447ba8ec76708bc53805d518a751693679ec6b1743998"
+    },
+    {
+      "relative": "Start-Installer.cmd",
+      "size": 214,
+      "sha256": "fb81c5d96f9aba8f76dbcd00bf208c6c3792e97b18757b2d2e275eb5c6c0c7c6"
+    },
+    {
+      "relative": "Test-Patch.ps1",
+      "size": 198,
+      "sha256": "09a5a0b8ccd9b616c096523bba7aa5971d45f631019814649ee4100ecc7c6bd4"
+    },
+    {
+      "relative": "Uninstall.ps1",
+      "size": 201,
+      "sha256": "d4e28307496de8e364134481bbcb43061a22f417c3e4dc54e395e359eed17162"
+    },
+    {
+      "relative": "一键安装修复.cmd",
+      "size": 250,
+      "sha256": "71158c6f5bd9d0425241021074a888bc19e842cfdb82041c6c4fdc0fc1e1cea9"
+    },
+    {
+      "relative": "一键安装汉化.cmd",
+      "size": 250,
+      "sha256": "71158c6f5bd9d0425241021074a888bc19e842cfdb82041c6c4fdc0fc1e1cea9"
+    },
+    {
+      "relative": "卸载字幕修复.cmd",
+      "size": 252,
+      "sha256": "ad341d4c3fa6623fdcc40052d6e566ccf0a2156eac63fe66492fb8d204ce9a03"
+    },
+    {
+      "relative": "启动中文补丁管理器.cmd",
+      "size": 214,
+      "sha256": "fb81c5d96f9aba8f76dbcd00bf208c6c3792e97b18757b2d2e275eb5c6c0c7c6"
+    },
+    {
+      "relative": "检查修复状态.cmd",
+      "size": 253,
+      "sha256": "188229bb4e993b026280fa802e82ded17ce13649f042392490c60fae121f9361"
+    }
+  ]
+}

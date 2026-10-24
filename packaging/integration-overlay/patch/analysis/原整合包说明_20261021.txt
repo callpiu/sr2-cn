@@ -1,0 +1,77 @@
+黑道圣徒2 (Saints Row 2) 简体中文 + Juice 9.3.1 + DLC 1.0.1 一体化整合包
+================================================================================
+版本: 2026-10-21   汉化版本: v546 (23 项修复)
+
+【本包内容】
+  · Juice 9.3.1 官方插件（含官方自带中文菜单，已修复其中乱码条目）
+  · Saints Row 2: First Expansion DLC 1.0.1 完整内容
+  · 简体中文汉化补丁（23 项修复，详见下文）
+
+【安装步骤】
+  1) 确认游戏本体已安装（Steam 版或 GOG 版均可）。
+  2) 把本包内【所有内容】复制到游戏目录，覆盖同名文件：
+       C:\Program Files (x86)\Steam\steamapps\common\Saints Row 2\
+     （GOG 版路径通常是 GOG Games\Saints Row 2\）
+  3) 从 SR2_pc.exe 启动游戏（不要用 Steam 启动项以外的启动器）。
+
+【★★★ 重要警告 ★★★】
+  1) 绝对不要在 Steam 里点「验证文件完整性 / 修复文件」！
+     这会把 patch.vpp_pc 还原成官方英文原版，汉化全部丢失！
+  2) 不要单独再安装旧版 Juice 插件，它会覆盖 Mods 目录导致汉化失效。
+  3) 不要删除 Mods\dialog_box.lua —— 这是「等待玩家」界面不漏英文标签的修复。
+  4) 不要删除或替换 Mods\JUICED - Strings\juiced_CH.le_strings ——
+     Juice 官方自带的那份整句乱码（轻傲OPENSPY卧短 / 璃兵 / 妈盆 …），
+     本包内的是重译修正版。
+
+【汉化包含的 23 项修复】
+  地名 / 街区名
+    · 唐人街(Barrio)、三街、帽衫镇(Hoodieville)、昆比卡(Quinbecca)
+    · 至乐田(Elysian Fields)、哈罗盖特(Harrowgate)、拉萨勒(Lesalle)
+    · 雷巴多(Rebadeaux)、斯托顿(Stoughton)、废墟岛(Ruin Island)
+    · 菲尔莫尔(Filmore)、环能路(Adept Way)、哈根沙克(Hackenshack)、狼径(Fox Drive)
+    · 埃斯帕塔(Ezpata)、煤气灯区(Gaslamp)
+    · 地图 Suburbs 区域显示为「市郊区」
+  商店 / 场所
+    · 神奇超市(Wondermart)、红宝石卡尔(Carbuncle Carls)、法律边缘(Technically Legal)
+    · 甜甜圈洞(Donut Holes)、凉茶(Dong Tea)、好牌优于一切(Jacks or Better)
+    · 更大的对子(Jacks or Higher)、天堂限定(Heaven Bound)、天堂助手(Heaven's Helpers)
+    · 啤酒与小费(Taps and Tips)
+    · 阿波罗餐厅(APOLLO'S)、雀斑鸡(Freckle Bitch's，含 10 处内嵌长句)
+  快餐店菜单专名修正
+    · 大飞燕→大可乐、拳头→大堡、鸡胸→鸡块、Swallow→燕子
+    · 小 Gyro→小卷、Sum Old Guy→老家伙、Sum Yung Guy→小伙子
+  文本修正
+    · 圣徽街 → 圣徒街（英文原表 Saint's Row，原译有误）
+    · Father「神父」→「父亲」（省吾台词）
+    · 霰弹枪 / 弹药（散筒枪、火料、填料）
+    · 指定辩护律师（修复截断）
+    · 兄弟会 / 三王 / 三街圣徒 等折中译名回滚
+  技术性修复
+    · v532 哈希桶镜像重建（修复 !!unrecognized hash value）
+    · charlist count= 修复（坏字位与活动字幕乱码的总根因）
+    · 拆车厂崩溃修复
+    · 等待玩家界面 SUI 标签修复（Mods\dialog_box.lua）
+    · OpenSpy 联机界面全量重译（Mods\JUICED - Strings\juiced_CH.le_strings）
+
+【关于加载画面提示】
+  加载画面的提示语仍是英文。这是游戏引擎的限制：
+  该界面用 Lua 硬编码文本直传，不经过文本表，因而不加载中文字体，
+  强行汉化会显示成乱码。已实测确认并保持原样。
+
+【如果出问题】
+  · 游戏崩溃/显示异常：先确认没有点过 Steam 的「验证文件完整性」。
+  · 想回滚 dialog_box.lua：用本包内的 Mods\dialog_box.lua.sui.bak 覆盖回去。
+  · 想完全还原英文：删除 patch.vpp_pc（需自行准备官方原版）。
+
+【文件清单见 FILELIST.txt】
+
+★ 关于联机（OpenSpy）登录界面
+  Juice 9.3.1 自带的中文表 Mods/JUICED - Strings/juiced_CH.le_strings 里，
+  整句都是乱码翻译（轻傲OPENSPY卧短 / 璃兵 / 重推 / 仰寒篮帧 / 妈盆 …），
+  已全部按英文原版重新翻译：
+    登录 OpenSpy / 退出 OpenSpy / 输入 OpenSpy ID / 输入 OpenSpy 名称
+    输入 OpenSpy 密码 / 再次输入 OpenSpy 密码 / 输入 OpenSpy 电子邮箱
+    电子邮箱 / 你已与 OpenSpy 断开连接。/ 与 OpenSpy 的连接已断开。
+  ★ 该文件已重排记录区（762 -> 800 字节），头部与桶表保持不变。
+  ★ Juice 官方英文原版里品牌名已从 GameSpy 改为 OpenSpy，本包沿用 OpenSpy。
+
