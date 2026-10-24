@@ -1,4 +1,4 @@
-"""Rebuild the frozen v547 packages without reading or modifying a game install."""
+"""Rebuild the frozen release without reading or modifying a game install."""
 import argparse
 import hashlib
 import json
@@ -80,7 +80,7 @@ def main():
                     output.write_bytes(zipped.read(info))
         copy_tree(ROOT / 'localization/payload', combined)
         copy_tree(ROOT / 'packaging/integration-overlay', combined)
-        name = 'sr2-cn-v547-juiced-9.3.1-dlc-1.0.1.zip'
+        name = config['combinedArchiveName']
         archive(combined, args.output / name)
         results[name] = digest(args.output / name)
     expected = {a['name']: a['sha256'] for a in json.loads(

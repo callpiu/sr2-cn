@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-25",
+  "method": "single-variable test and user in-game feedback",
+  "originalSymptom": "Clean Steam reinstall plus bundle freezes on exit and some Esc operations",
+  "minimalChange": "Added only Mods/vint_lib.lua from the known-working backup",
+  "passed": true,
+  "scope": "User confirmed the minimal library restoration. Complete component verification is recorded separately.",
+  "unchangedSha256": {
+    "SR2_pc.exe": "8bfc0c2a3606861837d8d831c5cdc1535db7d45813c809c04251018b5d4eecf7",
+    "DFEngine.dll": "263ec33e6dad4f3a46ed8f24726f10e5fbba44206d95e17f6aa3019eb696d7c8",
+    "patch.vpp_pc": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
+  },
+  "completeComponent": {
+    "files": 66,
+    "restarted": true,
+    "surfaces": [
+      "main menu display",
+      "Esc return",
+      "exit game"
+    ],
+    "userStatement": "全部正常，已退出游戏",
+    "passed": true,
+    "screenshots": null,
+    "captureLimitation": "Window capture timed out twice; runtime result is user-reported"
+  },
+  "userStatement": "退出和 Esc 都正常"
+}

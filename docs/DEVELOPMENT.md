@@ -1,12 +1,12 @@
 # 当前维护说明
 
-本说明更新于 2026-10-24。历史文档的早期猜测不覆盖当前实验证据。
+本说明更新于 2026-10-25。历史文档的早期猜测不覆盖当前实验证据。
 
 ## 资源路径
 
 游戏中文资源从 `patch.vpp_pc` 中的 `charlist_CH`、`static_CH`、`voice_script_CH` 和 `platform_pc_CH` 读取；Juiced 的松散资源可能优先于 VPP 内同名条目。适配还涉及 `Mods/dialog_box.lua`、`Mods/JUICED - Strings/juiced_CH.cxt` 与 `juiced_CH.le_strings`。DLC 中文位于 `DLC/Text/dlc_ch.le_strings`。
 
-本项目以冻结的 v546 汉化资源为载荷基线，v547 加入可回退的直升机护卫字幕修复。仓库中的本体文本包与 Release 使用相同字节；不会从维护者当前运行的游戏目录自动采集配置。
+本项目以冻结的 v546 汉化资源为载荷基线，v547 加入可回退的直升机护卫字幕修复，v548 补齐 SuperUI 2.9 依赖。仓库中的本体文本包与 Release 使用相同字节；不会从维护者当前运行的游戏目录自动采集配置。
 
 ## le_strings
 
@@ -29,3 +29,9 @@
 2026-10-23 的记录证明了 2 级两句提示修复、重启后正常，以及安装回退和模拟检查。2026-10-24 用户补充“我已实机逐级验证过了”，据此将 2～6 级逐级实测状态更新为通过；来源为用户反馈，无新增截图。
 
 原自动报告中的时间和历史路径保留用于追溯，不把旧机器路径作为可移植构建依赖。历史工具的依赖可能包含 numpy、Pillow、pefile、unicorn、OpenCC 等；现行 `tools/` 使用标准库。
+
+## SuperUI 依赖
+
+`Mods/dialog_box.lua`、`Mods/city_load.lua` 是 SuperUI 版本，必须与同版 `Mods/vint_lib.lua` 和配套组件共同发布。`localization/superui-manifest.json` 固定 66 个文件；其中 64 个在 v548 补回。源数据来自正常运行备份，并与原始 SuperUI_vanilla.7z 清单对齐。原包的 loose static_CH 表未出现在正常备份中，不能覆盖本项目已验证的简中 slot 表。
+
+`tools/verify_superui.py --directory <目录>` 校验配套文件哈希，并检查 SuperUI Lua 调用有相应定义；此检查也加入项目 CI。v547 发布目录应检查失败，v548 应通过。详细证据见 [SuperUI 缺项修复](superui-dependency-fix.md)。

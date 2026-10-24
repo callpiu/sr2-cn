@@ -1,27 +1,12 @@
 {
-  "version": "v547",
-  "date": "2026-10-23",
+  "version": "v548",
+  "date": "2026-10-25",
   "baseArchiveSha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102",
   "payload": [
     {
       "path": "DLC/Text/dlc_ch.le_strings",
       "bytes": 49924,
       "sha256": "ffabd52dd56dea5ba043abc31c1dec8f401d640876870b8d28b9a4eb9477a8a8"
-    },
-    {
-      "path": "Mods/city_load.lua",
-      "bytes": 22683,
-      "sha256": "c8dfbcd787d078d454883c11cb4da30d4388fd240c6e07a45cd442aca3ee43ae"
-    },
-    {
-      "path": "Mods/dialog_box.lua",
-      "bytes": 37769,
-      "sha256": "e3402aacf1e4c36a77b8e9381f52ad281df1b0cf8ec6d124cb124768c927f528"
-    },
-    {
-      "path": "Mods/dialog_box.lua.sui.bak",
-      "bytes": 37539,
-      "sha256": "13fee5e59cd58491662dc6b451e1bfc760b088fa8116689451973185f3184f48"
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.cxt",
@@ -34,9 +19,345 @@
       "sha256": "f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd"
     },
     {
+      "path": "Mods/activity_level.lua",
+      "bytes": 2398,
+      "sha256": "6f6d9c762700fcf1816d811f8914e4e67fa1e8861d8714d6c2aca6c37cd6bfa1"
+    },
+    {
+      "path": "Mods/building_purchase.lua",
+      "bytes": 6395,
+      "sha256": "6a39e24cb5d70ae5cb77aa006fe3952091803a713f9bfdc77e1320da3f0dfd4a"
+    },
+    {
+      "path": "Mods/cdl01.lua",
+      "bytes": 7030,
+      "sha256": "389f444943bcb73e7c1d69538f3695359da2725c2ff7d6eeaeb32531a7266ef6"
+    },
+    {
+      "path": "Mods/cellphone.lua",
+      "bytes": 80595,
+      "sha256": "8af4051aed8f0aba7f742c892f7af9c3eec4a4af4626edfe80abd6eb8943c63d"
+    },
+    {
+      "path": "Mods/city_load.lua",
+      "bytes": 22683,
+      "sha256": "c8dfbcd787d078d454883c11cb4da30d4388fd240c6e07a45cd442aca3ee43ae"
+    },
+    {
+      "path": "Mods/clothing_store.lua",
+      "bytes": 73821,
+      "sha256": "f199270c1fc26cff5ed3ee54168a68f67e35942eb14108a574efd922ebc0438f"
+    },
+    {
+      "path": "Mods/completion.lua",
+      "bytes": 103573,
+      "sha256": "5c3964744e5d21e50b4e29b5509bb89e08b7eb53107b26b4da1a12d868f3e0ee"
+    },
+    {
+      "path": "Mods/credits.lua",
+      "bytes": 18756,
+      "sha256": "6ca12e3668caa2c27eabdfc2f8d6849345dd49ae3c17b056278e157f96caeffc"
+    },
+    {
+      "path": "Mods/crib_cust.lua",
+      "bytes": 7993,
+      "sha256": "d0b9fc01c86d15cdf9a205ee8dccacdbb52abec083349e102d74dc58c7c8f5fe"
+    },
+    {
+      "path": "Mods/demo_derby.lua",
+      "bytes": 15575,
+      "sha256": "cfc83c397c683a37c8841b9ffa26cf9e1a69c8a55b120a8fb122704f0902c628"
+    },
+    {
+      "path": "Mods/dialog_box.lua",
+      "bytes": 37769,
+      "sha256": "e3402aacf1e4c36a77b8e9381f52ad281df1b0cf8ec6d124cb124768c927f528"
+    },
+    {
+      "path": "Mods/dialog_box.lua.sui.bak",
+      "bytes": 37539,
+      "sha256": "13fee5e59cd58491662dc6b451e1bfc760b088fa8116689451973185f3184f48"
+    },
+    {
+      "path": "Mods/gang_cust.lua",
+      "bytes": 17057,
+      "sha256": "c17ddd93e29146a8d21d24aa0f9a1cc8b6fa33f78cb0e271f34af56ca8844da5"
+    },
+    {
+      "path": "Mods/garage.lua",
+      "bytes": 9192,
+      "sha256": "12dd7f246919e5fd0cb09445ad8d258508d14be36398d8c9a1756b38f2cea25d"
+    },
+    {
+      "path": "Mods/gmb_blackjack.lua",
+      "bytes": 40615,
+      "sha256": "97401557beae0a7e0cd8c2e7f1b0dd95a065012490c37d62970f3ea8881fbc33"
+    },
+    {
+      "path": "Mods/gmb_poker.lua",
+      "bytes": 28885,
+      "sha256": "f5521adfbca8925ac2f13266dea613b9724787d3aca317f5dc3f3a280e85803f"
+    },
+    {
+      "path": "Mods/help_screen_categories.xtbl",
+      "bytes": 3696,
+      "sha256": "94ad672990560436e2aa6af67c0986754b47015c43c99b04a4d5c060a244816d"
+    },
+    {
+      "path": "Mods/help_screens.xtbl",
+      "bytes": 42266,
+      "sha256": "cc79232cea5f90abea1a529c964358c50b731067268e3de837ceb9d483debf19"
+    },
+    {
+      "path": "Mods/hud.lua",
+      "bytes": 138447,
+      "sha256": "c1d18a8c29530de9893700fb52445b5cee689da5dc91ed15698be0561b32b518"
+    },
+    {
+      "path": "Mods/hud_demo_derby.lua",
+      "bytes": 14195,
+      "sha256": "bda16ab5d03315979ffbcf85b204619e6a2f3739400b4dd04fd55c4ee39c9996"
+    },
+    {
+      "path": "Mods/hud_gsi.lua",
+      "bytes": 78984,
+      "sha256": "972518dbe77f596983846626f22fc6d8ff5d867659090f43817b9d265f5a2fa7"
+    },
+    {
+      "path": "Mods/hud_healthbars.lua",
+      "bytes": 13179,
+      "sha256": "6bc31779b79ba37a38af2a49437cfdfe04355d413b2fab7db3e5357be8ecb563"
+    },
+    {
+      "path": "Mods/hud_mayhem.lua",
+      "bytes": 14455,
+      "sha256": "cc73be785dcae8da1c0d75eae9409ca1707b727a668131a2bf49bcb82e1b233a"
+    },
+    {
+      "path": "Mods/hud_msg.lua",
+      "bytes": 14018,
+      "sha256": "67e142419ace0a012d8548d050e46af3ecd0d0037a85cae8e7244ccf3c70647a"
+    },
+    {
+      "path": "Mods/hud_zombie.lua",
+      "bytes": 3708,
+      "sha256": "4ff32767f7ccc421eda35c9b507de50b12a4686a46cab9223c2ac81986e6430e"
+    },
+    {
+      "path": "Mods/interface_effects.xtbl",
+      "bytes": 11806,
+      "sha256": "43e7ea9514fb80b215b187b1b0ea794110821416da549a98e3c0cb53e7825712"
+    },
+    {
+      "path": "Mods/liquor_store.lua",
+      "bytes": 12962,
+      "sha256": "ac0dc2af49a8af8056081ec689a9c14e6351200b701ec5c4b733d51202c7c662"
+    },
+    {
+      "path": "Mods/main_menu.lua",
+      "bytes": 71434,
+      "sha256": "1820e3d9a0c1f99dd91a0400227dbb8fba0c603fdc7d8885308460c093704abd"
+    },
+    {
+      "path": "Mods/menu_base.lua",
+      "bytes": 169093,
+      "sha256": "4b02ce27fbb68c74582fa8a9190daaec5759a29d40c461accf9a08800bf5a19f"
+    },
+    {
+      "path": "Mods/mission_replay.lua",
+      "bytes": 32957,
+      "sha256": "9836b9a47891c2dd54054bcaefa85d395520185f02ed79afef832db0b037afe6"
+    },
+    {
+      "path": "Mods/mm_benchmark_sr.cts",
+      "bytes": 8952,
+      "sha256": "835039006cbd7758148a847cfd744d35439cb2a1f93d5b20035c3e6c389aadf1"
+    },
+    {
+      "path": "Mods/mm_benchmark_sr.lua",
+      "bytes": 6668,
+      "sha256": "e4c8812962861e21f844ec884cd26da411be777a194b460baa566cbbf99bbeec"
+    },
+    {
+      "path": "Mods/mm_evilgat.cts",
+      "bytes": 3868,
+      "sha256": "37b40d372fa8a342cf450d18bd2cc20800e19a22d76e98683643c7ba6753744f"
+    },
+    {
+      "path": "Mods/mm_evilgat.lua",
+      "bytes": 3574,
+      "sha256": "21619c7e93cb56219753174abfafcc7f4f6fdba721cabcacaba9026646b95fb9"
+    },
+    {
+      "path": "Mods/mm_triangulate.cts",
+      "bytes": 1135,
+      "sha256": "0261a341d73565bc27129a72f9abee2a3e183bbef7a51dea2abf524e226182b0"
+    },
+    {
+      "path": "Mods/mm_triangulate.lua",
+      "bytes": 2202,
+      "sha256": "7095cc9bd0810cec460467a184587218a0c84848038c3fc8b5070fce475d4d1b"
+    },
+    {
+      "path": "Mods/mp_server_browser.lua",
+      "bytes": 38049,
+      "sha256": "e37441e20a22445ad621003363777f23f1c83be3ede0a4f352ec95ba21578298"
+    },
+    {
+      "path": "Mods/multi_pause_menu.lua",
+      "bytes": 51365,
+      "sha256": "74b04f1c7dd1f56e893c0eb22201c66d039a13b4850d8d03c6974775a1c7cc83"
+    },
+    {
+      "path": "Mods/music_store.lua",
+      "bytes": 20251,
+      "sha256": "25b9013da2f94f1ed313bac6eb96a50d30eadcf41e9ea1a3dc37ad6106227446"
+    },
+    {
+      "path": "Mods/pause_map.lua",
+      "bytes": 33956,
+      "sha256": "943f414c0e70398ff80fcdf7eed2e52be80c89292d7b563a37d895426a0a29c4"
+    },
+    {
+      "path": "Mods/pause_menu.lua",
+      "bytes": 295584,
+      "sha256": "834747f0c896325f2db11a3b3c250dc208068607d2d546ead46d925290da0cb3"
+    },
+    {
+      "path": "Mods/pcr01.lua",
+      "bytes": 92107,
+      "sha256": "8f1c5337a1d0162cb3c957f992be18174ebcf6d744898da45f4df41dcf6217b0"
+    },
+    {
+      "path": "Mods/platform_PC_JP.le_strings",
+      "bytes": 20166,
+      "sha256": "089f497fd97027726e49e8b69bf9f2de7408b7a7af99c5ab9c51e611ca06989a"
+    },
+    {
+      "path": "Mods/platform_PC_US.le_strings",
+      "bytes": 29752,
+      "sha256": "ac49ef42221ab6ae97108c3592e5f3e51827fd28ea0b7616bfc734ddea79d960"
+    },
+    {
+      "path": "Mods/prison.lua",
+      "bytes": 489,
+      "sha256": "604d8036acbbc628b311b7b3b1474dd00f884227d81778b6be26339d67de8c17"
+    },
+    {
+      "path": "Mods/sr2_city_missions.xtbl",
+      "bytes": 57440,
+      "sha256": "9344e9cf8c65c50ca9a48a2396d2b7f1a9a6c27853c3eae69c965b3bcb503f72"
+    },
+    {
+      "path": "Mods/static_CZ.le_strings",
+      "bytes": 1003090,
+      "sha256": "ba2d2e7952bb0f40306f6ea20cd5d59dd3985bbb2b58ee1b1b13f11e888dcde0"
+    },
+    {
+      "path": "Mods/static_DE.le_strings",
+      "bytes": 1134482,
+      "sha256": "7ac39b8fa8ef08bc8febcb1e7d43560c900420adffe907ad951b71bc45c59241"
+    },
+    {
+      "path": "Mods/static_DK.le_strings",
+      "bytes": 1043276,
+      "sha256": "5e80aed0e726a9199569b7ee2840353a4d6e7f32e6bf3b1fa0696d0378b8f775"
+    },
+    {
+      "path": "Mods/static_ES.le_strings",
+      "bytes": 1096956,
+      "sha256": "e24626c5a3aca5497fc46306ade0aca622c28ad7804cfcfe5988cf19d7a9b4c4"
+    },
+    {
+      "path": "Mods/static_FR.le_strings",
+      "bytes": 1104278,
+      "sha256": "73f852d03ad40e7474e106ad23bf0e59beb9f9a6f18a971df0139a908f16f223"
+    },
+    {
+      "path": "Mods/static_IT.le_strings",
+      "bytes": 1085076,
+      "sha256": "6f06321a037596f3f7c1de7b9934ca60dfecd30f433e9c83b8c30adc86dea0f9"
+    },
+    {
+      "path": "Mods/static_JP.le_strings",
+      "bytes": 618322,
+      "sha256": "672e88109f27dddeafea14d956231843bfaa2202c68ae4d438658837c835bf2b"
+    },
+    {
+      "path": "Mods/static_NL.le_strings",
+      "bytes": 1134372,
+      "sha256": "30370f993b4e2f9875db3e08e5c98baf88d3e78f245478844dc7adab693f3997"
+    },
+    {
+      "path": "Mods/static_PL.le_strings",
+      "bytes": 1051936,
+      "sha256": "85fd7a82dc0e6374bf05686eee972cfe3fb76a3385f87997832d1a4b526c8ab2"
+    },
+    {
+      "path": "Mods/static_RU.le_strings",
+      "bytes": 1017250,
+      "sha256": "6999b9a7de8e0f757f10d88c6538cb63330bf8348f9b95e2dd3fa1cbe903e821"
+    },
+    {
+      "path": "Mods/static_SE.le_strings",
+      "bytes": 1009636,
+      "sha256": "cfab81b78b65853c5a739ceaa03a31446518979bbad4f9997b91289f03723d11"
+    },
+    {
+      "path": "Mods/static_SK.le_strings",
+      "bytes": 656904,
+      "sha256": "884a6880fc1a3a36063e49a59312cf4d267d9fd8a2ccb0bdbc4e870df30a21f4"
+    },
+    {
+      "path": "Mods/static_US.le_strings",
+      "bytes": 1021216,
+      "sha256": "8ea99e1eed7ee9bd6af4314c3181091f17083f0bfc8c0d7b2a547ed6d8cc8b92"
+    },
+    {
+      "path": "Mods/stats.xtbl",
+      "bytes": 134983,
+      "sha256": "ec6aeb163efaf4b0895706df37a4d7915cb610afced3a07821f3c7cecc2406ee"
+    },
+    {
+      "path": "Mods/sui_main_menu.lua",
+      "bytes": 46150,
+      "sha256": "1b76008c9d0b06c534994faab0a8d02c61e2af2ed5a2f1a63eecf5338e91b085"
+    },
+    {
+      "path": "Mods/sui_mission_list.lua",
+      "bytes": 3327,
+      "sha256": "21d6fddd072a13b5e96ddc5a9c086b3da4b652e706c8c790f25684825f8257c0"
+    },
+    {
+      "path": "Mods/television.lua",
+      "bytes": 8184,
+      "sha256": "f0120a3364ac91d7b051cdef77072999e43943c139868ac6d2f3b9500aa41733"
+    },
+    {
+      "path": "Mods/tutorial.lua",
+      "bytes": 30169,
+      "sha256": "525c08b4b77bd45d3e0318a3c90fb2cca607a973127fcce0eea53131fc56b81b"
+    },
+    {
+      "path": "Mods/vehicle_cust.lua",
+      "bytes": 72999,
+      "sha256": "3d41e56a6f48df2ea9c80eddfcf58a219246c7a70fc0f271320c2569f8773f2f"
+    },
+    {
+      "path": "Mods/vint_lib.lua",
+      "bytes": 29893,
+      "sha256": "edc5138859019485b1b4dc2f696a46d2f44c4128b64fadd78ec6a3660953cff0"
+    },
+    {
+      "path": "Mods/weapon_store.lua",
+      "bytes": 49942,
+      "sha256": "eec6dab671bba6810b42879ff99928017894d71c1a3db80339cf41abbbf60442"
+    },
+    {
       "path": "patch.vpp_pc",
       "bytes": 48727014,
       "sha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
     }
-  ]
+  ],
+  "combinedArchiveName": "sr2-cn-v548-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip"
 }

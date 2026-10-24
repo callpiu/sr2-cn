@@ -1,0 +1,19 @@
+{
+  "oldTag": "MAINMENU_CREDITS",
+  "oldText": "是阿困呀汉化",
+  "newLabel": "Credits",
+  "files": [
+    "Mods/main_menu.lua",
+    "Mods/sui_main_menu.lua"
+  ],
+  "method": "Preserve the string label field and use literal Credits, following the adjacent Profile/Settings/SuperUI entries. Original roll-credits callback is unchanged.",
+  "installed": true,
+  "runtimeVerified": true,
+  "rejectedAttempt": {
+    "method": "Replace label with label_crc",
+    "runtimeResult": "User reported loading stuck at 100 percent and missing menu text. Reverting both scripts restored startup.",
+    "rolledBack": true
+  },
+  "userStatement": "主菜单正常，Credits 显示且能打开",
+  "restarted": true
+}

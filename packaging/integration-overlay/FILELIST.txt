@@ -1,7 +1,7 @@
-﻿SR2 整合包 v547 / 2026-10-24 GitHub整理版
+SR2 整合包 v548 / 2026-10-25 SuperUI 依赖修正版
 SHA-256  bytes  relative-path（不含 FILELIST.txt 自身）
 
-0d2b862446db5d148e4ef7c3f9b91fce89195c22a687c15a1c4e433acd4a8071        3174  _先读我.txt
+3624b0739a7c5ec0f922946fea9f28b8736d47921233ec91848931b638bd7714        3718  _先读我.txt
 663300b521d67cb15717edad39a5193d22e12c0d002713468696e586e3a3637e   182093824  common.vpp_pc
 263ec33e6dad4f3a46ed8f24726f10e5fbba44206d95e17f6aa3019eb696d7c8     2683392  DFEngine.dll
 d8e7d9feb3de8482b186ae44fd1c9abb41fe2b3b3d2c7cd3a4d742ebbad30cdf     3154744  discord_game_sdk.dll
@@ -2473,9 +2473,32 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855           0  Ju
 7e1481494f6b38b14f383d144656f959c2ef8bbeff76a336b943a7984f137347        1689  license-exception.txt
 230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809       35823  license.txt
 81cd5fad42256b3125a68da885f7b7f8477bfa6ce709d8ba01e55ba559d04e9d         241  loose.txt
+6f6d9c762700fcf1816d811f8914e4e67fa1e8861d8714d6c2aca6c37cd6bfa1        2398  Mods/activity_level.lua
+6a39e24cb5d70ae5cb77aa006fe3952091803a713f9bfdc77e1320da3f0dfd4a        6395  Mods/building_purchase.lua
+389f444943bcb73e7c1d69538f3695359da2725c2ff7d6eeaeb32531a7266ef6        7030  Mods/cdl01.lua
+8af4051aed8f0aba7f742c892f7af9c3eec4a4af4626edfe80abd6eb8943c63d       80595  Mods/cellphone.lua
 c8dfbcd787d078d454883c11cb4da30d4388fd240c6e07a45cd442aca3ee43ae       22683  Mods/city_load.lua
+f199270c1fc26cff5ed3ee54168a68f67e35942eb14108a574efd922ebc0438f       73821  Mods/clothing_store.lua
+5c3964744e5d21e50b4e29b5509bb89e08b7eb53107b26b4da1a12d868f3e0ee      103573  Mods/completion.lua
+6ca12e3668caa2c27eabdfc2f8d6849345dd49ae3c17b056278e157f96caeffc       18756  Mods/credits.lua
+d0b9fc01c86d15cdf9a205ee8dccacdbb52abec083349e102d74dc58c7c8f5fe        7993  Mods/crib_cust.lua
+cfc83c397c683a37c8841b9ffa26cf9e1a69c8a55b120a8fb122704f0902c628       15575  Mods/demo_derby.lua
 e3402aacf1e4c36a77b8e9381f52ad281df1b0cf8ec6d124cb124768c927f528       37769  Mods/dialog_box.lua
 13fee5e59cd58491662dc6b451e1bfc760b088fa8116689451973185f3184f48       37539  Mods/dialog_box.lua.sui.bak
+c17ddd93e29146a8d21d24aa0f9a1cc8b6fa33f78cb0e271f34af56ca8844da5       17057  Mods/gang_cust.lua
+12dd7f246919e5fd0cb09445ad8d258508d14be36398d8c9a1756b38f2cea25d        9192  Mods/garage.lua
+97401557beae0a7e0cd8c2e7f1b0dd95a065012490c37d62970f3ea8881fbc33       40615  Mods/gmb_blackjack.lua
+f5521adfbca8925ac2f13266dea613b9724787d3aca317f5dc3f3a280e85803f       28885  Mods/gmb_poker.lua
+94ad672990560436e2aa6af67c0986754b47015c43c99b04a4d5c060a244816d        3696  Mods/help_screen_categories.xtbl
+cc79232cea5f90abea1a529c964358c50b731067268e3de837ceb9d483debf19       42266  Mods/help_screens.xtbl
+c1d18a8c29530de9893700fb52445b5cee689da5dc91ed15698be0561b32b518      138447  Mods/hud.lua
+bda16ab5d03315979ffbcf85b204619e6a2f3739400b4dd04fd55c4ee39c9996       14195  Mods/hud_demo_derby.lua
+972518dbe77f596983846626f22fc6d8ff5d867659090f43817b9d265f5a2fa7       78984  Mods/hud_gsi.lua
+6bc31779b79ba37a38af2a49437cfdfe04355d413b2fab7db3e5357be8ecb563       13179  Mods/hud_healthbars.lua
+cc73be785dcae8da1c0d75eae9409ca1707b727a668131a2bf49bcb82e1b233a       14455  Mods/hud_mayhem.lua
+67e142419ace0a012d8548d050e46af3ecd0d0037a85cae8e7244ccf3c70647a       14018  Mods/hud_msg.lua
+4ff32767f7ccc421eda35c9b507de50b12a4686a46cab9223c2ac81986e6430e        3708  Mods/hud_zombie.lua
+43e7ea9514fb80b215b187b1b0ea794110821416da549a98e3c0cb53e7825712       11806  Mods/interface_effects.xtbl
 d800a5fd2390a0e5146868ed9054aa2f2e86fb591934d4832d03c5d1991e6a2e        6332  Mods/JUICED - Animations/br08_01_bus2_3.anim_pc
 0508a3c860c611d47a838ba8d0ee8ef5de21490f143243b0c831585a257676c8        7800  Mods/JUICED - Animations/br08_01_bus3_3.anim_pc
 75938512b1bb671d5f493e2a0d6cfc930b0a1f09709cd75d69bc11314a3f0491       13384  Mods/JUICED - Animations/br08_01_bus3_6.anim_pc
@@ -2789,7 +2812,53 @@ f83e59722670123dcd77d278b160992a515242f8697d2ad82dcd2e2756adb363       84295  Mo
 23dc03e3536641151862c2bf61a0232def9f8c76d17a59a3466568a14a944224        8929  Mods/JUICED - Vehicle Fixes/Juiced.png
 d954e6cb39f3a9807e658362741b75178038fbf2db2e920c2c99d05691451187         117  Mods/JUICED - Vehicle Fixes/mod.ini
 db340b1757c36de01da386612b10f7e382dfa392d4b89855b54d36cc52f22fe2      168256  Mods/JUICED - Vehicle Fixes/truck_2dr_septic01.car_pc
+ac0dc2af49a8af8056081ec689a9c14e6351200b701ec5c4b733d51202c7c662       12962  Mods/liquor_store.lua
+1820e3d9a0c1f99dd91a0400227dbb8fba0c603fdc7d8885308460c093704abd       71434  Mods/main_menu.lua
+4b02ce27fbb68c74582fa8a9190daaec5759a29d40c461accf9a08800bf5a19f      169093  Mods/menu_base.lua
+9836b9a47891c2dd54054bcaefa85d395520185f02ed79afef832db0b037afe6       32957  Mods/mission_replay.lua
+835039006cbd7758148a847cfd744d35439cb2a1f93d5b20035c3e6c389aadf1        8952  Mods/mm_benchmark_sr.cts
+e4c8812962861e21f844ec884cd26da411be777a194b460baa566cbbf99bbeec        6668  Mods/mm_benchmark_sr.lua
+37b40d372fa8a342cf450d18bd2cc20800e19a22d76e98683643c7ba6753744f        3868  Mods/mm_evilgat.cts
+21619c7e93cb56219753174abfafcc7f4f6fdba721cabcacaba9026646b95fb9        3574  Mods/mm_evilgat.lua
+0261a341d73565bc27129a72f9abee2a3e183bbef7a51dea2abf524e226182b0        1135  Mods/mm_triangulate.cts
+7095cc9bd0810cec460467a184587218a0c84848038c3fc8b5070fce475d4d1b        2202  Mods/mm_triangulate.lua
+e37441e20a22445ad621003363777f23f1c83be3ede0a4f352ec95ba21578298       38049  Mods/mp_server_browser.lua
+74b04f1c7dd1f56e893c0eb22201c66d039a13b4850d8d03c6974775a1c7cc83       51365  Mods/multi_pause_menu.lua
+25b9013da2f94f1ed313bac6eb96a50d30eadcf41e9ea1a3dc37ad6106227446       20251  Mods/music_store.lua
+943f414c0e70398ff80fcdf7eed2e52be80c89292d7b563a37d895426a0a29c4       33956  Mods/pause_map.lua
+834747f0c896325f2db11a3b3c250dc208068607d2d546ead46d925290da0cb3      295584  Mods/pause_menu.lua
+8f1c5337a1d0162cb3c957f992be18174ebcf6d744898da45f4df41dcf6217b0       92107  Mods/pcr01.lua
+089f497fd97027726e49e8b69bf9f2de7408b7a7af99c5ab9c51e611ca06989a       20166  Mods/platform_PC_JP.le_strings
+ac49ef42221ab6ae97108c3592e5f3e51827fd28ea0b7616bfc734ddea79d960       29752  Mods/platform_PC_US.le_strings
+604d8036acbbc628b311b7b3b1474dd00f884227d81778b6be26339d67de8c17         489  Mods/prison.lua
+9344e9cf8c65c50ca9a48a2396d2b7f1a9a6c27853c3eae69c965b3bcb503f72       57440  Mods/sr2_city_missions.xtbl
+ba2d2e7952bb0f40306f6ea20cd5d59dd3985bbb2b58ee1b1b13f11e888dcde0     1003090  Mods/static_CZ.le_strings
+7ac39b8fa8ef08bc8febcb1e7d43560c900420adffe907ad951b71bc45c59241     1134482  Mods/static_DE.le_strings
+5e80aed0e726a9199569b7ee2840353a4d6e7f32e6bf3b1fa0696d0378b8f775     1043276  Mods/static_DK.le_strings
+e24626c5a3aca5497fc46306ade0aca622c28ad7804cfcfe5988cf19d7a9b4c4     1096956  Mods/static_ES.le_strings
+73f852d03ad40e7474e106ad23bf0e59beb9f9a6f18a971df0139a908f16f223     1104278  Mods/static_FR.le_strings
+6f06321a037596f3f7c1de7b9934ca60dfecd30f433e9c83b8c30adc86dea0f9     1085076  Mods/static_IT.le_strings
+672e88109f27dddeafea14d956231843bfaa2202c68ae4d438658837c835bf2b      618322  Mods/static_JP.le_strings
+30370f993b4e2f9875db3e08e5c98baf88d3e78f245478844dc7adab693f3997     1134372  Mods/static_NL.le_strings
+85fd7a82dc0e6374bf05686eee972cfe3fb76a3385f87997832d1a4b526c8ab2     1051936  Mods/static_PL.le_strings
+6999b9a7de8e0f757f10d88c6538cb63330bf8348f9b95e2dd3fa1cbe903e821     1017250  Mods/static_RU.le_strings
+cfab81b78b65853c5a739ceaa03a31446518979bbad4f9997b91289f03723d11     1009636  Mods/static_SE.le_strings
+884a6880fc1a3a36063e49a59312cf4d267d9fd8a2ccb0bdbc4e870df30a21f4      656904  Mods/static_SK.le_strings
+8ea99e1eed7ee9bd6af4314c3181091f17083f0bfc8c0d7b2a547ed6d8cc8b92     1021216  Mods/static_US.le_strings
+ec6aeb163efaf4b0895706df37a4d7915cb610afced3a07821f3c7cecc2406ee      134983  Mods/stats.xtbl
+1b76008c9d0b06c534994faab0a8d02c61e2af2ed5a2f1a63eecf5338e91b085       46150  Mods/sui_main_menu.lua
+21d6fddd072a13b5e96ddc5a9c086b3da4b652e706c8c790f25684825f8257c0        3327  Mods/sui_mission_list.lua
+f0120a3364ac91d7b051cdef77072999e43943c139868ac6d2f3b9500aa41733        8184  Mods/television.lua
+525c08b4b77bd45d3e0318a3c90fb2cca607a973127fcce0eea53131fc56b81b       30169  Mods/tutorial.lua
+3d41e56a6f48df2ea9c80eddfcf58a219246c7a70fc0f271320c2569f8773f2f       72999  Mods/vehicle_cust.lua
+edc5138859019485b1b4dc2f696a46d2f44c4128b64fadd78ec6a3660953cff0       29893  Mods/vint_lib.lua
+eec6dab671bba6810b42879ff99928017894d71c1a3db80339cf41abbbf60442       49942  Mods/weapon_store.lua
+29287b8becfd172d832e7273b5d55ddd428bedef6c19b72e4017be685582362f         706  patch/analysis/credits-label-20261025.json
 6631bc01661a54455fb61e2fbd0d28b9b80b8df430f6542b0e18bbe80db36095         437  patch/analysis/integration.json
+0128c54a387ba0377169bb01b21700e796b58d3b38595dd0af37f5d2cb8d3865        4143  patch/analysis/superui-dependency-fix.md
+3a3e08e71b90bfd768c81345f5bcf55c64437d5d70c1e97663d79648b9d6a2e8        1258  patch/analysis/superui-lua-regression-20261025.json
+c66023e72b8843f3eda5327cd2579520602c174532abcc4af567f6331a9ba9ce       13447  patch/analysis/superui-manifest.json
+a811774cd2097493be4da322facaa21c01fc37085d52c68e75008a34a37ecda2        1090  patch/analysis/superui-runtime-20261025.json
 2d828eafbb6f8fe080c06eaebe2d16474e24256f2cd55089f0a164458937a3cf        2621  patch/analysis/validation.json
 c7673dbd92916ae69941a8364e3de722c984c880eaf0c0100945710f00ddfe9e        4555  patch/analysis/原整合包说明_20261021.txt
 a6280364eaee00f5706e89863e5473f70b138f0146a16c7d2b517b63b65a89cb        1116  patch/installer/Console.ps1
@@ -2797,12 +2866,12 @@ a6280364eaee00f5706e89863e5473f70b138f0146a16c7d2b517b63b65a89cb        1116  pa
 be220c44e70ac57f5b3650d0f7d7a4259e3015ec8f302a749a101b5a1b9c697b         728  patch/installer/fix.json
 15bed1b7b79a6f1d3f24ba0cf1742ef32dac2b184c19966eb635bee533ee23bd        4513  patch/installer/Manager.ps1
 43722b6f6dacb21142eeb121566be4621a668360a05520355d1cbd3ecbec82b0         290  patch/manager-config.json
-665ec1b2da6c03d5e20b03dcf6395a42e8209922107f23d371be85e22357dc4c        3077  patch/package-manifest.json
+9f444e1258ce9676ac338091dc68845fd2424190df70f69d92351c5934d5101d        3077  patch/package-manifest.json
 e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b    48727014  patch.vpp_pc
 c55d663ea327465ed397037b0035bc5a5ea5b6096f135047a2e826c9f352938f     5196028  patches/JuicedSteamXDel.vcdiff
 2f1010a42dc3a99849fd2a4516d58e74df7c37e268e0718c9040b464c170a075      110080  patches/xdelta3.exe
 5be03f07eb112ef383a5ec277f3f6f34722c3b8fe17c24ca6131ff6fec02fd04         263  PatchManager.ps1
-32022aad8f8daae9f77447ba8ec76708bc53805d518a751693679ec6b1743998        3171  README.md
+8a8f7d5be8644352a3f3bd092cb4dd8a5015746fe5a19f5051b899238f7c6ee6        3715  README.md
 9b73ba032b02fcb430aec60ad021797cff247b5eb6c071443890676daf721e75        3732  readme.txt
 51ab4807d02e4b99c59e232df692f287d955538d3e685fa4e4930694b5b39c3f     2088448  SDL3.dll
 fb81c5d96f9aba8f76dbcd00bf208c6c3792e97b18757b2d2e275eb5c6c0c7c6         214  Start-Installer.cmd

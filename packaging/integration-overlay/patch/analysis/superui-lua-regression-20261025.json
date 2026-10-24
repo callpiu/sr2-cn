@@ -1,0 +1,41 @@
+[
+  {
+    "setup": "broken-package",
+    "case": "quit",
+    "passed": false,
+    "error": "[string \"<python>\"]:362: attempt to call global 'sui_compare_string' (a nil value)\nstack traceback:\n\t[string \"<python>\"]:362: in function <[string \"<python>\"]:354>"
+  },
+  {
+    "setup": "broken-package",
+    "case": "settings-escape",
+    "passed": false,
+    "error": "[string \"<python>\"]:362: attempt to call global 'sui_compare_string' (a nil value)\nstack traceback:\n\t[string \"<python>\"]:362: in function <[string \"<python>\"]:354>"
+  },
+  {
+    "setup": "broken-package",
+    "case": "coop-waiting",
+    "passed": false,
+    "error": "[string \"<python>\"]:362: attempt to call global 'sui_compare_string' (a nil value)\nstack traceback:\n\t[string \"<python>\"]:362: in function <[string \"<python>\"]:354>"
+  },
+  {
+    "setup": "restored-library",
+    "case": "quit",
+    "passed": true,
+    "uiWrites": 39,
+    "optionCount": 2
+  },
+  {
+    "setup": "restored-library",
+    "case": "settings-escape",
+    "passed": true,
+    "uiWrites": 39,
+    "optionCount": 2
+  },
+  {
+    "setup": "restored-library",
+    "case": "coop-waiting",
+    "passed": true,
+    "uiWrites": 39,
+    "optionCount": 2
+  }
+]
