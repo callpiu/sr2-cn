@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-25",
+  "version": "v549",
+  "sourceMatchesInstalled": true,
+  "cxtSha256": "1a1e1490c0150b9e44167957febd4d1dd94365e52a0859f3243be44d6fdbe1cf",
+  "cxtEntries": 98,
+  "binaryJKeysCovered": 48,
+  "unsupportedCharacters": [],
+  "superuiHelpEntries": 33,
+  "sandboxHelpPages": 14,
+  "sandboxCommandCodes": 493,
+  "runtimeVerified": true,
+  "runtimeEvidenceType": "User report after restart",
+  "runtimeResult": "User confirmed all requested checks normal: four Chinese Help entries open; Sandbox++ list and representative teleport/animation/misc help pages display; Juiced FPS/FOV/mouse wheel/aim assist labels display completely.",
+  "limits": "Representative help pages checked; not all 493 commands executed.",
+  "luaModified": false,
+  "fontsModified": false,
+  "uploadAuthorization": "User explicitly authorized this upload on 2026-10-25."
+}

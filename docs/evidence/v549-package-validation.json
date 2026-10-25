@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-25",
+  "version": "v549",
+  "archive": {
+    "name": "sr2-cn-v549-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
+    "bytes": 379886698,
+    "sha256": "cf6ccf2e5a0c70bc6f740628e71b852290a1a9dd6e1a36e0e18d6aaf7b9b359d"
+  },
+  "archiveFiles": 2885,
+  "archiveMatchesDirectory": true,
+  "payloadFilesMatch": 71,
+  "changedFromV548": [
+    "FILELIST.txt",
+    "Mods/JUICED - Strings/juiced_CH.cxt",
+    "README.md",
+    "_先读我.txt"
+  ],
+  "addedFromV548": [
+    "patch/analysis/menu-localization-20261025.json",
+    "patch/analysis/menu-localization.md"
+  ],
+  "removedFromV548": [],
+  "runtimeResult": "User confirmed requested menu and representative help pages after restart.",
+  "sizeDeltaBytes": 10310,
+  "sizeDeltaReason": "Menu CXT translations and two help validation documents; engine, graphics resources and configuration unchanged.",
+  "independentRebuildMatches": true
+}

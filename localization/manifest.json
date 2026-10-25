@@ -1,5 +1,5 @@
 {
-  "version": "v548",
+  "version": "v549",
   "date": "2026-10-25",
   "baseArchiveSha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102",
   "payload": [
@@ -10,8 +10,8 @@
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.cxt",
-      "bytes": 1717,
-      "sha256": "ce35496cd01b5436ab35f341a7ac982115684776e10dd02a54b70834fb13a412"
+      "bytes": 19662,
+      "sha256": "1a1e1490c0150b9e44167957febd4d1dd94365e52a0859f3243be44d6fdbe1cf"
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.le_strings",
@@ -359,5 +359,5 @@
       "sha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
     }
   ],
-  "combinedArchiveName": "sr2-cn-v548-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip"
+  "combinedArchiveName": "sr2-cn-v549-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip"
 }

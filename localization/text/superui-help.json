@@ -1,0 +1,171 @@
+{
+  "source": "SuperUI 2.9 static_US.le_strings",
+  "sourceSha256": "8ea99e1eed7ee9bd6af4314c3181091f17083f0bfc8c0d7b2a547ed6d8cc8b92",
+  "records": [
+    {
+      "tag": "SUI_HELP_DRIVEBY",
+      "source": "If you kill multiple gang members (including the Saints) from a vehicle within a short period you get access to the Drive By Diversion.\nDrive by and kill gang members from inside your vehicle for cash. \nNote: Only kills shot from inside your vehicle count.",
+      "text": "短时间内在车中击杀多名帮派成员（包括圣徒），即可开始驾车射击消遣。\n在车内射杀帮派成员可以获得现金。\n注意：只有从车内开枪造成的击杀才会计数。"
+    },
+    {
+      "tag": "SUI_HELP_FOOD_USE",
+      "source": "To use a food, a liquor, or a drug, hold {WEAPON_MENU_IMG}, push {MENU_DP_UP_IMG}, {MENU_DP_RIGHT_IMG}, {MENU_DP_DOWN_IMG}, or {MENU_DP_LEFT_IMG}, and release {WEAPON_MENU_IMG}.",
+      "text": "使用食物、酒或毒品时，按住 {WEAPON_MENU_IMG}，按下 {MENU_DP_UP_IMG}、{MENU_DP_RIGHT_IMG}、{MENU_DP_DOWN_IMG} 或 {MENU_DP_LEFT_IMG}，然后松开 {WEAPON_MENU_IMG}。"
+    },
+    {
+      "tag": "SUI_HELP_FOOD_USE_TITLE",
+      "source": "Using a Food",
+      "text": "使用食物"
+    },
+    {
+      "tag": "SUI_HELP_PHONE_LIST_TITLE",
+      "source": "Useful Phone Numbers",
+      "text": "实用电话号码"
+    },
+    {
+      "tag": "SUI_HELP_STORE_OWNERSHIP",
+      "source": "Store Ownership",
+      "text": "商店所有权"
+    },
+    {
+      "tag": "SUI_SPP_111",
+      "source": "111 - Airport\n112 - Apartments\n113 - Arena\n114 - Barrio\n115 - Chinatown\n116 - Docks\n117 - Downtown\n118 - Factories\n121 - Highend\n122 - Hotel and Marina\n123 - Museum\n124 - Nuke Plant\n125 - Prison island\n126 - Projects\n127 - Redlight\n128 - Saint's Row\n131 - Suburbs\n132 - Suburbs Expansion\n133 - Trailer Park\n134 - Truckyard\n135 - Stilwater University\n136 - Rounds Square Shopping Center \n137 - Stilwater Caverns Entrance \n138 - The Pyramid",
+      "text": "111 - 机场\n112 - 公寓区\n113 - 竞技场区\n114 - 拉丁区\n115 - 唐人街\n116 - 码头区\n117 - 市中心\n118 - 工厂区\n121 - 高级住宅区\n122 - 酒店与游艇码头区\n123 - 博物馆区\n124 - 核电厂\n125 - 监狱岛\n126 - 住宅区\n127 - 红灯区\n128 - 圣徒街\n131 - 郊区\n132 - 郊区扩建区\n133 - 拖车公园\n134 - 卡车货场\n135 - 斯蒂尔沃特大学\n136 - Rounds 广场购物商城\n137 - 斯蒂尔沃特洞穴入口\n138 - 金字塔"
+    },
+    {
+      "tag": "SUI_SPP_111_TITLE",
+      "source": "111-138 (District Teleports)",
+      "text": "111-138 城区传送"
+    },
+    {
+      "tag": "SUI_SPP_141",
+      "source": "141 - Penthouse Loft\n142 - Prison Lighthouse\n143 - Saints Row Mega Condo\n144 - Red Light Loft\n145 - University Loft\n146 - Saints Hideout\n147 - Downtown Loft\n148 - Hotel Penthouse\n151 - Airplane Hangar\n152 - University Dock\n153 - Suburbs Dock\n154 - Aisha's House\n155 - Ultor Yacht\n156 - Phillips Building",
+      "text": "141 - 顶层阁楼\n142 - 监狱灯塔\n143 - 圣徒街豪华公寓\n144 - 红灯区阁楼\n145 - 大学区阁楼\n146 - 圣徒藏身处\n147 - 市中心阁楼\n148 - 酒店顶层套房\n151 - 飞机库\n152 - 大学码头\n153 - 郊区码头\n154 - 爱莎的家\n155 - Ultor 游艇\n156 - 菲利普斯大楼"
+    },
+    {
+      "tag": "SUI_SPP_141_TITLE",
+      "source": "141-156 (Crib Teleports)",
+      "text": "141-156 据点传送"
+    },
+    {
+      "tag": "SUI_SPP_158",
+      "source": "158 - Ho-ing Technically Legal\n161 - Mayhem Nuclear Plant (Before/After Completion)\n162 - Mayhem Nuclear Plant (In-Progress marker in Apartments)\n163 - Mayhem Red Light\n164 - Demolition Derby\n165 - Crowd Control Hotels and Marina\n166 - Crowd Control Suburbs\n167 - Drug Trafficking Airport\n168 - Drug Trafficking Hotels and Marina\n171 - Escort Stilwater University\n172 - Escort Red Light\n173 - Fight Club Prison\n174 - Fight Club Arena\n175 - FUZZ Suburbs\n176 - FUZZ Projects\n177 - Heli Assault Trailer Park\n178 - Heli Assault Barrio\n181 - Insurance Fraud Factory\n182 - Insurance Fraud Museum\n183 - Septic Avenger Suburbs\n184 - Septic Avenger Red Light\n185 - Snatch Chinatown\n186 - Snatch Downtown\n187 - Trail Blazing Downtown\n188 - Trail Blazing Apartments",
+      "text": "158 - Technically Legal 拉客小游戏\n161 - 核电厂暴乱（完成前或完成后）\n162 - 核电厂暴乱（活动进行中的公寓区入口）\n163 - 红灯区暴乱\n164 - 撞车大赛\n165 - 酒店与游艇码头区人群控制\n166 - 郊区人群控制\n167 - 机场运毒\n168 - 酒店与游艇码头区运毒\n171 - 大学区护送\n172 - 红灯区护送\n173 - 监狱格斗俱乐部\n174 - 竞技场格斗俱乐部\n175 - 郊区警察协管\n176 - 住宅区警察协管\n177 - 拖车公园直升机突击\n178 - 拉丁区直升机突击\n181 - 工厂区保险诈骗\n182 - 博物馆区保险诈骗\n183 - 郊区污水复仇者\n184 - 红灯区污水复仇者\n185 - 唐人街解救\n186 - 市中心解救\n187 - 市中心烈焰冲锋\n188 - 公寓区烈焰冲锋"
+    },
+    {
+      "tag": "SUI_SPP_158_TITLE",
+      "source": "158-188 (Activity Marker Teleports)",
+      "text": "158-188 活动入口传送"
+    },
+    {
+      "tag": "SUI_SPP_211",
+      "source": "211 - Prison Riot\n212 - Brotherhood tanker ship\n213 - Heritage Festival\n214 - Ultor Yacht\n215 - Sunnyvale Projects burning\n216 - Hopsital blackout\n217 - Drug Farm Barn destroyed/intact\n218 - Saints Hideout status change (cycles through levels 1, 2, and 3)",
+      "text": "211 - 监狱暴动\n212 - 兄弟会油轮\n213 - 传统节日庆典\n214 - Ultor 游艇\n215 - 燃烧中的桑尼维尔住宅区\n216 - 医院停电\n217 - 毒品农场谷仓损坏或完好\n218 - 圣徒藏身处状态（在一、二、三级之间循环）"
+    },
+    {
+      "tag": "SUI_SPP_211_TITLE",
+      "source": "211-218 (Chunk Swaps)",
+      "text": "211-218 场景状态切换"
+    },
+    {
+      "tag": "SUI_SPP_221",
+      "source": "221 - Semi Broken\n222 - Rim Jobs Nuclear Power Plant\n223 - Image as Designed Suburbs Expansion\n224 - Image as Designed Suburbs\n225 - Image as Designed Downtown\n226 - Image as Designed Saint's Row\n227 - Friendly Fire Suburbs\n228 - Friendly Fire Apartments\n231 - Friendly Fire Docks and Warehouses\n232 - Friendly Fire Downtown\n233 - Friendly Fire Rounds Square Shopping Center\n234 - Brass Knuckles Barrio\n235 - Brass Knuckles Museum\n236 - Brass Knuckles Rounds Square Shopping Center\n237 - Brass Knuckles Downtown\n238 - Scratch That Suburbs Expansion\n241 - Scratch That University\n242 - Scratch That Barrio\n243 - Scratch That Saint's Row\n244 - Scratch That Apartments\n245 - Foreign Power Suburbs\n246 - Foreign Power Museum\n247 - Foreign Power Saint's Row\n248 - Foreign Power Arena\n251 - Cycles Suburbs\n252 - Cycles Arena\n253 - Cycles Museum\n254 - Ship It Suburbs\n255 - Ship It Hotels and Marina\n256 - Blue Collar Supply\n257 - S.P.D. Impound\n258 - Sparrow Aircraft\n261 - Stilwater Scrapyard\n262 - Volition Gift Shop\n263 - Freckle Bitch's Suburbs\n264 - Freckle Bitch's Museum\n265 - Freckle Bitch's Apartments\n266 - Freckle Bitch's Barrio\n267 - Freckle Bitch's Rounds Square Shopping Center\n268 - Charred Hard Burgers Airport\n271 - Charred Hard Burgers Hotels and Marina\n272 - Charred Hard Burgers University\n273 - Charred Hard Burgers Museum\n274 - Apollo's Rounds Square Shopping Center\n275 - Apollo's Docks and Warehouses\n276 - Apollo's Apartments\n277 - Apollo's Downtown\n278 - Phuc Mi Phuc Yue Hotels and Marina\n281 - Phuc Mi Phuc Yue Rounds Square Shopping Center\n282 - Phuc Mi Phuc Yue Chinatown\n283 - Company of Gyros Rounds Square Shopping Center\n284 - Company of Gyros Suburbs\n285 - Brown Baggers Truckyard\n286 - Leather and Lace\n287 - Nobody Loves Me\n288 - Let's Pretend",
+      "text": "221 - Semi Broken 卡车店\n222 - 核电厂 Rim Jobs 改装店\n223 - 郊区扩建区整形店\n224 - 郊区整形店\n225 - 市中心整形店\n226 - 圣徒街整形店\n227 - 郊区 Friendly Fire 枪店\n228 - 公寓区 Friendly Fire 枪店\n231 - 码头与仓库区 Friendly Fire 枪店\n232 - 市中心 Friendly Fire 枪店\n233 - Rounds 广场购物商城 Friendly Fire 枪店\n234 - 拉丁区 Brass Knuckles 武器店\n235 - 博物馆区 Brass Knuckles 武器店\n236 - Rounds 广场购物商城 Brass Knuckles 武器店\n237 - 市中心 Brass Knuckles 武器店\n238 - 郊区扩建区 Scratch That 音像店\n241 - 大学区 Scratch That 音像店\n242 - 拉丁区 Scratch That 音像店\n243 - 圣徒街 Scratch That 音像店\n244 - 公寓区 Scratch That 音像店\n245 - 郊区 Foreign Power 车店\n246 - 博物馆区 Foreign Power 车店\n247 - 圣徒街 Foreign Power 车店\n248 - 竞技场区 Foreign Power 车店\n251 - 郊区 Cycles 摩托车店\n252 - 竞技场区 Cycles 摩托车店\n253 - 博物馆区 Cycles 摩托车店\n254 - 郊区 Ship It 船店\n255 - 酒店与游艇码头区 Ship It 船店\n256 - Blue Collar Supply 工装店\n257 - 警察局扣车场\n258 - Sparrow Aircraft 飞机店\n261 - 斯蒂尔沃特废车场\n262 - Volition 礼品店\n263 - 郊区 Freckle Bitch's 快餐店\n264 - 博物馆区 Freckle Bitch's 快餐店\n265 - 公寓区 Freckle Bitch's 快餐店\n266 - 拉丁区 Freckle Bitch's 快餐店\n267 - Rounds 广场购物商城 Freckle Bitch's 快餐店\n268 - 机场 Charred Hard Burgers 汉堡店\n271 - 酒店与游艇码头区 Charred Hard Burgers 汉堡店\n272 - 大学区 Charred Hard Burgers 汉堡店\n273 - 博物馆区 Charred Hard Burgers 汉堡店\n274 - Rounds 广场购物商城 Apollo's 咖啡店\n275 - 码头与仓库区 Apollo's 咖啡店\n276 - 公寓区 Apollo's 咖啡店\n277 - 市中心 Apollo's 咖啡店\n278 - 酒店与游艇码头区 Phuc Mi Phuc Yue 餐馆\n281 - Rounds 广场购物商城 Phuc Mi Phuc Yue 餐馆\n282 - 唐人街 Phuc Mi Phuc Yue 餐馆\n283 - Rounds 广场购物商城 Company of Gyros 餐馆\n284 - 郊区 Company of Gyros 餐馆\n285 - 卡车货场 Brown Baggers 酒类商店\n286 - Leather and Lace 服装店\n287 - Nobody Loves Me 服装店\n288 - Let's Pretend 服装店"
+    },
+    {
+      "tag": "SUI_SPP_221_TITLE",
+      "source": "221-288 (Store Teleports)",
+      "text": "221-288 商店传送"
+    },
+    {
+      "tag": "SUI_SPP_311",
+      "source": "311 - Samedi Notoriety +1 (cycles back to 0 after 5)\n312 - Ronin Notoriety +1\n313 - Brotherhood Notoriety +1\n314 - Police Notoriety +1\n315 - Lock Samedi at 0 (forced no notoriety)\n316 - Lock Samedi at 1\n317 - Lock Samedi at 2\n318 - Lock Samedi at 3\n321 - Lock Samedi at 4\n322 - Lock Samedi at 5\n323 - Lock Ronin at 0 (forced no notoriety)\n324 - Lock Ronin at 1\n325 - Lock Ronin at 2\n326 - Lock Ronin at 3\n327 - Lock Ronin at 4\n328 - Lock Ronin at 5\n331 - Lock Brotherhood at 0 (forced no notoriety)\n332 - Lock Brotherhood at 1\n333 - Lock Brotherhood at 2\n334 - Lock Brotherhood at 3\n335 - Lock Brotherhood at 4\n336 - Lock Brotherhood at 5\n337 - Lock Police at 0 (forced no notoriety)\n338 - Lock Police at 1\n341 - Lock Police at 2\n342 - Lock Police at 3\n343 - Lock Police at 4\n344 - Lock Police at 5\n345 - Remove all notoriety locks\n346 - Clear all notoriety\n347 - Set player team to Samedi\n348 - Set player team to Ronin\n351 - Set player team to Brotherhood\n352 - Set player team to Police\n353 - Set player team to Saints\n354 - Disable/Enable Restricted Zones Notoriety\n355 - Enable/Disable Notoriety Gang Spawns in Rounds Square Shopping Center\n356 - Warp player's current vehicle to a notoriety vehicle spawn location",
+      "text": "311 - 桑美地恶名加一（超过五级后回到零级）\n312 - 浪人恶名加一\n313 - 兄弟会恶名加一\n314 - 警察恶名加一\n315 - 桑美地恶名锁定为零级\n316 - 桑美地恶名锁定为一级\n317 - 桑美地恶名锁定为二级\n318 - 桑美地恶名锁定为三级\n321 - 桑美地恶名锁定为四级\n322 - 桑美地恶名锁定为五级\n323 - 浪人恶名锁定为零级\n324 - 浪人恶名锁定为一级\n325 - 浪人恶名锁定为二级\n326 - 浪人恶名锁定为三级\n327 - 浪人恶名锁定为四级\n328 - 浪人恶名锁定为五级\n331 - 兄弟会恶名锁定为零级\n332 - 兄弟会恶名锁定为一级\n333 - 兄弟会恶名锁定为二级\n334 - 兄弟会恶名锁定为三级\n335 - 兄弟会恶名锁定为四级\n336 - 兄弟会恶名锁定为五级\n337 - 警察恶名锁定为零级\n338 - 警察恶名锁定为一级\n341 - 警察恶名锁定为二级\n342 - 警察恶名锁定为三级\n343 - 警察恶名锁定为四级\n344 - 警察恶名锁定为五级\n345 - 解除所有恶名锁定\n346 - 清除所有恶名\n347 - 玩家加入桑美地阵营\n348 - 玩家加入浪人阵营\n351 - 玩家加入兄弟会阵营\n352 - 玩家加入警察阵营\n353 - 玩家加入圣徒阵营\n354 - 切换禁区恶名惩罚\n355 - 切换Rounds 广场购物商城内的恶名帮派增援\n356 - 将当前车辆传送到恶名增援车辆生成点"
+    },
+    {
+      "tag": "SUI_SPP_311_TITLE",
+      "source": "311-356 (Notoriety and Team)",
+      "text": "311-356 恶名与阵营"
+    },
+    {
+      "tag": "SUI_SPP_361",
+      "source": "These commands provide useful internal information of the game for modders.\n\n361 - Display currently active mission or activity's internal ID\n362 - on_hood_changed: Show internal \"Hood\" name when moving into a new hood\n363 - on_district_changed: Show district name when moving into a new district\n364 - on_purchase: Show messages when a clothing item, a food, or a new weapon (but not ammo) is bought\n365 - on_notoriety_event: Show messages when the player's notoriety gets changed by crimes or enemy gang member kills\n366 - on_projectile_hit: Show messages when a non-bullet projectile (rockets or granades) hits something\n367 - on_hit_ped: Show messages when a player's vehicle runs over a human\n368 - on_random_human_killed: Show messages when someone kill a human (only works in missions)\n371 - on_random_mover_killed: Show messages when someone kill a \"mover\" such as barrels or parking meters (only works in missions)\n372 - on_random_vehicle_killed: Show messages when someone kill a vehicle (only works in missions)\n373 - on_take_damage: Show messages when the player gets damaged\n374 - on_collision: Show messages when the player's vehicle collides with something\n375 - on_vehicle_stunt: Show messages when the player gets respect from a vehicle-related stunt\n376 - Display current vehicle's internal type name",
+      "text": "这些指令为模组开发者提供游戏内部信息。\n361 - 显示当前任务或活动的内部编号\n362 - on_hood_changed：进入新街区时显示内部街区名\n363 - on_district_changed：进入新城区时显示城区名\n364 - on_purchase：购买服装、食物或新武器时显示消息（不含弹药）\n365 - on_notoriety_event：犯罪或击杀敌对帮派导致恶名变化时显示消息\n366 - on_projectile_hit：火箭或手雷等非子弹投射物击中目标时显示消息\n367 - on_hit_ped：玩家车辆撞到人时显示消息\n368 - on_random_human_killed：有人被杀时显示消息（仅任务中）\n371 - on_random_mover_killed：油桶或停车计时器等可动道具被毁时显示消息（仅任务中）\n372 - on_random_vehicle_killed：车辆被毁时显示消息（仅任务中）\n373 - on_take_damage：玩家受伤时显示消息\n374 - on_collision：玩家车辆发生碰撞时显示消息\n375 - on_vehicle_stunt：玩家通过车辆特技获得尊重时显示消息\n376 - 显示当前车辆的内部类型名"
+    },
+    {
+      "tag": "SUI_SPP_361_TITLE",
+      "source": "361-376 (Diagnostic for Modders)",
+      "text": "361-376 模组开发诊断"
+    },
+    {
+      "tag": "SUI_SPP_411",
+      "source": "411 - Clear Current Animation\n412 - Arcade Stand\n413 - arrest cuffed\n414 - atm using\n415 - back liedown\n416 - BeachChair Sit\n417 - BeachTowel Lay A\n418 - BeachTowel Lay B\n421 - Begger Stand\n422 - Bench Beverage\n423 - Bench Cellphone\n424 - Bench Laptop\n425 - Bench Lean\n426 - Bench Newspaper\n427 - BlackJack Sit\n428 - blunt smoking B\n431 - blunt smoking\n432 - Bum sleep\n433 - cell stand txt\n434 - cell stand\n435 - Chair Beverage\n436 - Chair Cellphone\n437 - Chair Cower A\n438 - Chair Cower B\n441 - Chair Cower C\n442 - Chair Drink\n443 - Chair Eat\n444 - Chair Laptop\n445 - Chair Newspaper\n446 - Chair Sit\n447 - Clipboard Stand\n448 - Construction Hammer Kneel\n451 - Construction Jackhammer\n452 - Construction RoadSign Stand\n453 - Construction Saw Stand\n454 - cower run variant 1\n455 - cower run variant 2\n456 - cower run variant 3\n457 - cower run variant 4\n458 - cower run variant 5\n461 - cower run\n462 - cower stand variant 1\n463 - cower stand variant 2\n464 - cower stand variant 3\n465 - cower stand\n466 - cpr crouch pressing\n467 - cpr crouch state 1\n468 - cpr crouch state 2\n471 - cpr liedown\n472 - CRIB Sit Ground\n473 - CRIB Steel Drums\n474 - crouch eat\n475 - crouch plant bomb\n476 - dance a\n477 - dance b\n478 - dance c\n481 - dance d\n482 - defib crouch charging\n483 - defib flinch facedown\n484 - defib flinch faceup\n485 - dial safe combo\n486 - drunk flee walk A\n487 - drunk flee walk B\n488 - drunk run",
+      "text": "411 - 清除当前动作\n412 - 站着玩街机\n413 - 被捕上铐\n414 - 使用自动取款机\n415 - 向后躺下\n416 - 坐沙滩椅\n417 - 躺在沙滩巾上 A\n418 - 躺在沙滩巾上 B\n421 - 站着乞讨\n422 - 坐长椅喝饮料\n423 - 坐长椅用手机\n424 - 坐长椅用笔记本电脑\n425 - 靠在长椅上\n426 - 坐长椅看报\n427 - 坐着玩二十一点\n428 - 抽大麻烟 B\n431 - 抽大麻烟\n432 - 流浪汉睡觉\n433 - 站着发短信\n434 - 站着用手机\n435 - 坐椅子喝饮料\n436 - 坐椅子用手机\n437 - 坐椅子惊恐 A\n438 - 坐椅子惊恐 B\n441 - 坐椅子惊恐 C\n442 - 坐椅子喝东西\n443 - 坐椅子吃东西\n444 - 坐椅子用笔记本电脑\n445 - 坐椅子看报\n446 - 坐椅子\n447 - 站着拿记录板\n448 - 跪着用锤子施工\n451 - 使用风钻\n452 - 站着拿施工路牌\n453 - 站着用锯子施工\n454 - 惊恐奔跑变体一\n455 - 惊恐奔跑变体二\n456 - 惊恐奔跑变体三\n457 - 惊恐奔跑变体四\n458 - 惊恐奔跑变体五\n461 - 惊恐奔跑\n462 - 站立惊恐变体一\n463 - 站立惊恐变体二\n464 - 站立惊恐变体三\n465 - 站立惊恐\n466 - 蹲下按压进行心肺复苏\n467 - 心肺复苏蹲姿一\n468 - 心肺复苏蹲姿二\n471 - 心肺复苏躺姿\n472 - 据点内坐地上\n473 - 据点内敲钢鼓\n474 - 蹲着吃东西\n475 - 蹲着安放炸弹\n476 - 跳舞 A\n477 - 跳舞 B\n478 - 跳舞 C\n481 - 跳舞 D\n482 - 蹲下为除颤器充电\n483 - 俯卧除颤反应\n484 - 仰卧除颤反应\n485 - 转动保险箱密码盘\n486 - 醉酒逃走 A\n487 - 醉酒逃走 B\n488 - 醉酒奔跑"
+    },
+    {
+      "tag": "SUI_SPP_411_TITLE",
+      "source": "411-488 (Animations 1)",
+      "text": "411-488 人物动作（一）"
+    },
+    {
+      "tag": "SUI_SPP_511",
+      "source": "511 - drunk stand\n512 - drunk walk\n513 - fall dead\n514 - Fishing Stand\n515 - FlashBanged\n516 - flashing open stand\n517 - Flee Walk A\n518 - flip fall\n521 - Flyer Stand\n522 - forty drinking\n523 - forty drinking B\n524 - forty drinking walk\n525 - GroundReading Sit\n526 - guitar stand\n527 - Gurney Sleep A\n528 - Gurney Sleep B\n531 - Head Cover Run\n532 - Head Cover Stand\n533 - Head Cover Walk\n534 - HedgeTrimmer Stand\n535 - Helmet Sit\n536 - hose sprayed\n537 - Inmate Bang Cup\n538 - Inmate Bars Stand\n541 - Inmate Curl Stand\n542 - Inmate Harmonica Stand\n543 - Inmate Scrub Kneel\n544 - Inmate Write Sit\n545 - Juggle\n546 - Junkie Ground\n547 - Lapdance Sit Get\n548 - Lapdance Stand Give\n551 - Laptop Ground\n552 - Lawnchair Lounge\n553 - Lawnchair Sit\n554 - Lean\n555 - Lifeguard Sit\n556 - Limbo Dance A\n557 - Limbo Dance B\n558 - Limbo Pole Stand Left\n561 - Limbo Pole Stand Right\n562 - Lookout Stand\n563 - Lounge\n564 - Lover Sit A\n565 - Lover Sit B\n566 - Megaphone Stand\n567 - Metal Detector Stand\n568 - Mourn Crouch\n571 - Nose Dive\n572 - panic fall\n573 - pant\n574 - Piano Sit\n575 - Picnic Sit A\n576 - Picnic Sit B\n577 - PicnicTable Drink\n578 - PicnicTable Eat\n581 - PicnicTable Sit\n582 - Pinball Stand\n583 - Poker Sit\n584 - pole stand\n585 - police call talk\n586 - Pond Scoop Stand\n587 - Pool Stand\n588 - Pool Watch",
+      "text": "511 - 醉酒站立\n512 - 醉酒行走\n513 - 倒地死亡\n514 - 站着钓鱼\n515 - 被闪光弹击中\n516 - 站着敞衣露体\n517 - 逃走 A\n518 - 翻身倒地\n521 - 站着发传单\n522 - 喝大瓶啤酒\n523 - 喝大瓶啤酒 B\n524 - 边走边喝大瓶啤酒\n525 - 坐地上阅读\n526 - 站着弹吉他\n527 - 躺在病床上 A\n528 - 躺在病床上 B\n531 - 护头奔跑\n532 - 站立护头\n533 - 护头行走\n534 - 站着修剪树篱\n535 - 坐着拿头盔\n536 - 被水管喷中\n537 - 囚犯用杯子敲击\n538 - 囚犯站在铁栏旁\n541 - 囚犯站着练臂弯举\n542 - 囚犯站着吹口琴\n543 - 囚犯跪着擦地\n544 - 囚犯坐着写字\n545 - 玩杂耍\n546 - 瘾君子坐地上\n547 - 坐着接受贴身舞\n548 - 站着表演贴身舞\n551 - 坐地上用笔记本电脑\n552 - 躺在庭院椅上\n553 - 坐庭院椅\n554 - 靠立\n555 - 救生员坐姿\n556 - 林波舞 A\n557 - 林波舞 B\n558 - 林波舞左侧持杆\n561 - 林波舞右侧持杆\n562 - 站着望风\n563 - 休息躺姿\n564 - 恋人坐姿 A\n565 - 恋人坐姿 B\n566 - 站着用扩音器\n567 - 站着用金属探测器\n568 - 蹲着哀悼\n571 - 头朝下扑倒\n572 - 惊慌倒地\n573 - 喘气\n574 - 坐着弹钢琴\n575 - 野餐坐姿 A\n576 - 野餐坐姿 B\n577 - 坐野餐桌旁喝东西\n578 - 坐野餐桌旁吃东西\n581 - 坐在野餐桌旁\n582 - 站着玩弹球机\n583 - 坐着玩扑克\n584 - 站立钢管舞\n585 - 警察用对讲机呼叫\n586 - 站在水池边打捞\n587 - 站着打台球\n588 - 观看台球"
+    },
+    {
+      "tag": "SUI_SPP_511_TITLE",
+      "source": "511-588 (Animations 2)",
+      "text": "511-588 人物动作（二）"
+    },
+    {
+      "tag": "SUI_SPP_611",
+      "source": "611 - protest Stand\n612 - Quartet Stand\n613 - Rap Stand\n614 - react car wreck\n615 - react Cheer\n616 - react Cheer 2\n617 - react Over Body\n618 - react PepperSpray Stand\n621 - Security Scan Stand\n622 - ShoppingBag Stand\n623 - Singer Stand\n624 - Sketchpad Sit\n625 - sleep\n626 - sleep b\n627 - Slot Machine Sit\n628 - Smoking B\n631 - Sofa Cower A\n632 - Sofa Cower B\n633 - Sofa Sit\n634 - Stool Beer\n635 - Stool Cig\n636 - Stool Sit\n637 - streaking run\n638 - streaking sprint\n641 - streaking stand\n642 - Suicide Stand\n643 - surrender\n644 - swim surface\n645 - swim_slow\n646 - tag stand\n647 - TaiChi Stand\n648 - Tap Dancer Stand\n651 - Tourist Stand\n652 - tread\n653 - Umbrella Run\n654 - Umbrella Stand\n655 - Umbrella Walk\n656 - vehicle surf handstand\n657 - vehicle surf lean left\n658 - vehicle surf lean right\n661 - vehicle surf stand\n662 - Warmhands Stand\n663 - Watch Rain\n664 - worried fall\n665 - YKZA Sword Stand\n666 - Yoga Sit",
+      "text": "611 - 站立抗议\n612 - 四重唱站姿\n613 - 站着说唱\n614 - 目击车辆损毁反应\n615 - 欢呼反应\n616 - 欢呼反应二\n617 - 查看尸体反应\n618 - 站着被胡椒喷雾喷中\n621 - 站着接受安检\n622 - 站着拿购物袋\n623 - 歌手站姿\n624 - 坐着用画板\n625 - 睡觉\n626 - 睡觉 B\n627 - 坐着玩老虎机\n628 - 抽烟 B\n631 - 在沙发上惊恐 A\n632 - 在沙发上惊恐 B\n633 - 坐沙发\n634 - 坐高脚凳喝啤酒\n635 - 坐高脚凳抽烟\n636 - 坐高脚凳\n637 - 裸奔\n638 - 裸体冲刺\n641 - 裸体站立\n642 - 站立自杀动作\n643 - 投降\n644 - 水面游泳\n645 - 慢速游泳\n646 - 站着涂鸦\n647 - 站着打太极\n648 - 站着跳踢踏舞\n651 - 游客站姿\n652 - 踩水\n653 - 撑伞奔跑\n654 - 撑伞站立\n655 - 撑伞行走\n656 - 车顶冲浪倒立\n657 - 车顶冲浪向左倾\n658 - 车顶冲浪向右倾\n661 - 车顶冲浪站立\n662 - 站着暖手\n663 - 看雨\n664 - 担心倒地\n665 - 黑帮持剑站姿\n666 - Yoga 打坐"
+    },
+    {
+      "tag": "SUI_SPP_611_TITLE",
+      "source": "611-666 (Animations 3)",
+      "text": "611-666 人物动作（三）"
+    },
+    {
+      "tag": "SUI_SPP_671",
+      "source": "671 - Police Outfit (FUZZ)\n672 - Suit 1 (Crowd Control Outfit)\n673 - Sexy 1\n674 - Street 1\n675 - Crazy 1\n676 - Repair (Video Repair Outfit)\n677 - Streaker\n678 - Suit purple man\n681 - Suit purple woman\n682 - Fire Fighter\n683 - Pimp 1\n684 - Fire Suit (Trail Blazing suit; immune to fire damage)\n685 - Prison\n686 - Pirate\n687 - Cat\n688 - Evil Doctor\n711 - Slasher 1\n712 - Hippie\n713 - Barbershop\n714 - Construction\n715 - Hazmat\n716 - Clown\n717 - Mime\n718 - Japanese Streaker Female\n721 - Japanese Streaker Male\n722 - Indy\n723 - Shaundi\n724 - Gyros\n725 - Tobias\n726 - Veteran Child\n727 - Mr Sunshine\n728 - The General\n731 - Donnie\n732 - Jessica\n733 - Matt\n734 - Carlos\n735 - Maero\n736 - Jyunichi\n737 - Shogo\n738 - Pierce\n741 - Wong\n742 - Kazuo\n743 - Gat\n744 - Dane Vogel\n745 - Julius\n746 - Lara\n747 - Solo\n748 - Lara2\n751 - Agent47\n752 - Riddler\n753 - Tommy\n754 - Funkmaster\n755 - Clockwork\n756 - Pancho\n757 - Zangief\n758 - Diver\n761 - Cage\n762 - Devil Girl\n763 - Joker\n764 - OKUSA\n765 - Fancy\n766 - SamLunch\n767 - Guile\n768 - Firespite\n771 - TC\n772 - Mordrack\n773 - Aisha\n774 - Luz\n775 - GatSuit\n776 - Masako\n777 - Swat\n778 - FBI\n781 - Goon\n782 - LukeFighter\n783 - Hulkster\n784 - LupinGreen\n785 - LupinRed\n786 - Jigen",
+      "text": "671 - 警服（警察协管）\n672 - 西装一（人群控制）\n673 - 性感装一\n674 - 街头装一\n675 - 疯狂装一\n676 - 维修服（录像机维修）\n677 - 裸奔者\n678 - 男式紫色西装\n681 - 女式紫色西装\n682 - 消防员\n683 - 皮条客一\n684 - 防火服（烈焰冲锋服装，免疫火焰伤害）\n685 - 囚服\n686 - 海盗\n687 - 猫\n688 - 邪恶医生\n711 - 杀人狂一\n712 - 嬉皮士\n713 - 理发店装束\n714 - 建筑工人\n715 - 防化服\n716 - 小丑\n717 - 默剧演员\n718 - 日版女性裸奔者\n721 - 日版男性裸奔者\n722 - Indy\n723 - 绍迪\n724 - Gyros\n725 - 托比亚斯\n726 - 老兵小子\n727 - 桑夏先生\n728 - 将军\n731 - 唐尼\n732 - 杰西卡\n733 - 马特\n734 - 卡洛斯\n735 - 迈罗\n736 - 纯一\n737 - 省吾\n738 - 皮尔斯\n741 - 王先生\n742 - 大野\n743 - 盖特\n744 - 戴恩·佛格\n745 - 朱利叶斯\n746 - Lara\n747 - Solo\n748 - Lara2\n751 - Agent47\n752 - Riddler\n753 - Tommy\n754 - Funkmaster\n755 - Clockwork\n756 - Pancho\n757 - Zangief\n758 - 潜水员\n761 - Cage\n762 - 恶魔女孩\n763 - Joker\n764 - OKUSA\n765 - Fancy\n766 - SamLunch\n767 - Guile\n768 - Firespite\n771 - TC\n772 - Mordrack\n773 - 爱莎\n774 - Luz\n775 - 盖特西装\n776 - 雅子\n777 - 特警\n778 - FBI 探员\n781 - 打手\n782 - LukeFighter\n783 - Hulkster\n784 - 绿衣鲁邦\n785 - 红衣鲁邦\n786 - 次元"
+    },
+    {
+      "tag": "SUI_SPP_671_TITLE",
+      "source": "671-786 (Outfits)",
+      "text": "671-786 服装与人物外观"
+    },
+    {
+      "tag": "SUI_SPP_811",
+      "source": "811 - Toggle Sandbox+ messages displayed in HUD\n812 - Toggle if commands also affect coop remote player\n813 - Give $100,000\n814 - Repair current vehicle\n815 - Disable/Enable player weapons (handy for animation commands if you don't want to see the weapons switching)\n816 - Enable/Disable cops shooting from vehicles\n817 - Change walking pedestrians density\n818 - Disable/Enable action-node (non-walking) pedestrians\n821 - Disable/Enable all traffic. This includes notoriety cops/gang cars (Heli will still spawn). Disabling traffic makes cellphone unusable.\n822 - Change civilian traffic density. Does not disable notoriety spawns, and cellphone is still usable.\n823 - Disable/Enable ambient cop spawns (Those that appear at 0 notoriety)\n824 - Disable/Enable ambient gang spawns (Those that appear at 0 notoriety)\n825 - Disable/Enable roadblocks that appear at higher notoriety levels\n826 - Enable/Disable bum pedestrians (used in Stilwater Caverns Stronghold)\n827 - Disable/Enable boat spawns\n828 - Collectibles Finder. First activation of the command shows CD locations on the map as blue markers, second activation shows Stunt Jumps #1-#40, third activation shows Stunt Jumps #41-#80, and fourth activation shows barnstorming locations.\n831 - Disable/Enable player health regeneration\n832 - Enable/Disable nearby civilians always flee from you (Used in first Brotherhood mission)\n833 - Enable/Disable force player to use the passenger seat\n834 - Hide/Unhide Player Character\n835 - Change day/night cycle speed\n836 - Change Current Hour\n837 - Change Weather\n838 - Disable/Enable Player Ragdoll",
+      "text": "811 - 切换 Sandbox+ 界面消息显示\n812 - 切换指令是否也影响合作玩家\n813 - 获得十万美元\n814 - 修复当前车辆\n815 - 切换玩家武器可用状态（播放动作时可避免武器切换）\n816 - 切换警察能否从车内开枪\n817 - 修改步行行人密度\n818 - 切换使用行为节点的非步行行人\n821 - 切换全部交通，包括恶名警车和帮派车辆（直升机仍会生成，关闭交通会使手机无法使用）\n822 - 修改普通车辆密度（不影响恶名增援，手机仍可使用）\n823 - 切换普通警察生成（零恶名时出现的警察）\n824 - 切换普通帮派成员生成（零恶名时出现的成员）\n825 - 切换高恶名时的路障\n826 - 切换流浪汉行人生成（洞穴据点使用）\n827 - 切换船只生成\n828 - 收集品定位：依次显示 CD 蓝色标记、特技跳跃 1-40、特技跳跃 41-80、穿越飞行地点\n831 - 切换玩家生命自动恢复\n832 - 切换附近市民是否总是逃离玩家（兄弟会首个任务使用）\n833 - 切换是否强制玩家坐乘客席\n834 - 隐藏或显示玩家人物\n835 - 修改日夜循环速度\n836 - 修改当前小时\n837 - 修改天气\n838 - 切换玩家布娃娃物理效果"
+    },
+    {
+      "tag": "SUI_SPP_811_TITLE",
+      "source": "811-838 (Misc 1)",
+      "text": "811-838 其他功能（一）"
+    },
+    {
+      "tag": "SUI_SPP_841",
+      "source": "841 - Player evacuate from a vehicle\n842 - Disable/Enable Vehicle Enter/Exit\n843 - Enable/Disable Vehicle Infinite Mass\n844 - Enable/Disable Vehicle Smoke\n845 - Enable/Disable Vehicle Fire\n846 - Enable/Disable Vehicle Suppress Flipping\n847 - Enable/Disable Vehicle Auto Repair\n848 - Change Phillips Building's Window Status\n851 - Enable/Disable Player Invulnerability\n852 - Change Player Damage Multiplier (Less multiplier means better defense)\n853 - Enable/Disable Sword Combat Mode (sword stance against Jyunichi and Kazuo)\n854 - Enable/Disable Jyunichi Boss Battle Music\n855 - Enable/Disable Super Nitro (Enables delayless Nitrous for all land vehicles. Due to technical reasons, only the host player can use it)\n856 - Disable/Enable all action-nodes (including player idle action spots and Saints/Strippers spawn points in a crib)\n857 - Despawn all Saints\n858 - Despawn all Civilians\n861 - Despawn all Police officers (excluding Ultor guards)\n862 - Despawn all Ultor guards\n863 - Despawn all Brotherhoods\n864 - Despawn all Ronins\n865 - Despawn all Samedis\n866 - Despawn all \"Neutral Gangs\" (Pimps)\n867 - Despawn everyone\n868 - Disable/Enable Brotherhood ambient spawns\n871 - Disable/Enable Ronin ambient spawns\n872 - Disable/Enable Samedi ambient spawns\n873 - Enable/Disable Walking Bomb (everything around you gets blown for every 5 seconds)\n874 - Create \"Car Bomb\" explosion\n875 - Create \"Car Bomb Big\" explosion\n876 - Spawn a Ronin Helicopter to a nearby notoriety spawn location\n877 - Disable/Enable all Crib Triggers\n\n882 - Finish current mission (on activities, it will fail and exit the current activity without any on-screen messages)\n883 - Teleport to Fight Club Arena Inside Ring\n884 - Teleport to Super Secret Island\n885 - Teleport to Ultor Arena\n886 - Teleport to Tohoku Hotel\n887 - Teleport to Gymnasium\n888 - Re-display last entered command code and name",
+      "text": "841 - 让玩家离开车辆\n842 - 切换能否上下车\n843 - 切换车辆无限质量\n844 - 切换车辆冒烟\n845 - 切换车辆着火\n846 - 切换车辆防翻转\n847 - 切换车辆自动修复\n848 - 修改菲利普斯大楼窗户状态\n851 - 切换玩家无敌\n852 - 修改玩家所受伤害倍数（越低越耐打）\n853 - 切换持剑战斗模式（对战纯一和大野时的架势）\n854 - 切换纯一首领战音乐\n855 - 切换超级氮气（所有陆地车辆无间隔喷氮，技术限制下仅主机玩家可用）\n856 - 切换全部行为节点（包括玩家闲置动作位置及据点圣徒、脱衣舞者生成点）\n857 - 移除所有圣徒\n858 - 移除所有市民\n861 - 移除所有警察（不含 Ultor 警卫）\n862 - 移除所有 Ultor 警卫\n863 - 移除所有兄弟会成员\n864 - 移除所有浪人成员\n865 - 移除所有桑美地成员\n866 - 移除所有中立帮派成员（皮条客）\n867 - 移除所有人\n868 - 切换兄弟会普通成员生成\n871 - 切换浪人普通成员生成\n872 - 切换桑美地普通成员生成\n873 - 切换行走炸弹（每五秒炸毁身边的一切）\n874 - 制造汽车炸弹爆炸\n875 - 制造大型汽车炸弹爆炸\n876 - 在附近恶名增援点生成浪人直升机\n877 - 切换全部据点触发区域\n882 - 完成当前任务（活动中使用会直接失败并退出，且不显示消息）\n883 - 传送到格斗俱乐部擂台内\n884 - 传送到超级秘密岛\n885 - 传送到 Ultor 竞技场\n886 - 传送到东北酒店\n887 - 传送到体育馆\n888 - 再次显示上次输入的指令代码与名称"
+    },
+    {
+      "tag": "SUI_SPP_841_TITLE",
+      "source": "841-888 (Misc 2)",
+      "text": "841-888 其他功能（二）"
+    },
+    {
+      "tag": "SUI_SPP_ABOUT",
+      "source": "Sandbox++ is a modified version of Sandbox+ included in Gentlemen of the Row mod.\nIt allows you to teleport to districts and cribs, or you can make Stilwater a ghost town.\nDownload this mod here:\nhttps://www.saintsrowmods.com/forum/threads/16592/\n\nTo use a Sandbox++ command, you first press 888 in sequence, then enter 3 digit codes.\n\n* Animation Command Notes: Certain animations are only loaded in certain areas. For example the pole stand (pole dance) will only work in the Red Light District and Suburbs (Techncially Legal), the inmate animations will only work at the prison, etc. You can tell if an animation is not loaded in your current area if your character does a T-pose (sticks out his arms like an airplane.)\n\n* Outfit Command Notes: To revert the outfit, open your wardrobe in a crib. When you change your outfit then change to another one, some items of the previous outfit will remain on your character (Example: when going from Fire Suit to Video Repair, the helmet from Fire Suit will remain on Video Repair outfit)",
+      "text": "Sandbox++ 基于 Gentlemen of the Row 模组附带的 Sandbox+ 修改而来。\n它可以传送到各个城区和据点，也能让整个城市变成空城。\n模组下载地址：\nhttps://www.saintsrowmods.com/forum/threads/16592/\n使用指令时，先依次按下 888，再输入三位数指令代码。\n动作指令说明：部分动作只在特定地区加载。例如钢管舞只在红灯区和郊区的 Technically Legal 夜总会可用，囚犯动作只在监狱可用。如果人物双臂平伸，摆出 T 字姿势，说明当前地区没有加载该动作。\n服装指令说明：到据点衣柜换装即可恢复。连续切换指令服装时，上一套的部分物品可能残留。例如从防火服换成维修服后，防火服头盔仍可能保留。"
+    },
+    {
+      "tag": "SUI_SPP_ABOUT_TITLE",
+      "source": "About Sandbox++ (v0.9)",
+      "text": "关于 Sandbox++（v0.9）"
+    }
+  ]
+}

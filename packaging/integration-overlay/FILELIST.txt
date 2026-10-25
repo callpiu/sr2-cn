@@ -1,7 +1,7 @@
-SR2 整合包 v548 / 2026-10-25 SuperUI 依赖修正版
+SR2 整合包 v549 / 2026-10-25 帮助与 Juiced 菜单中文修正版
 SHA-256  bytes  relative-path（不含 FILELIST.txt 自身）
 
-3624b0739a7c5ec0f922946fea9f28b8736d47921233ec91848931b638bd7714        3718  _先读我.txt
+933a4e5a11b75a54e1013b073240d90230371c91df784794786faadd997e55d5        4008  _先读我.txt
 663300b521d67cb15717edad39a5193d22e12c0d002713468696e586e3a3637e   182093824  common.vpp_pc
 263ec33e6dad4f3a46ed8f24726f10e5fbba44206d95e17f6aa3019eb696d7c8     2683392  DFEngine.dll
 d8e7d9feb3de8482b186ae44fd1c9abb41fe2b3b3d2c7cd3a4d742ebbad30cdf     3154744  discord_game_sdk.dll
@@ -2740,7 +2740,7 @@ bb4ccbee115193f5660aedf8e0b54bf02f70c09b6fa61cecf16f8e8ece4e11d1       32156  Mo
 77ee6c02e69d28a30a0130504721b79a37c431b5f3e8468f327374fc44feebde       30716  Mods/JUICED - Shaders/sr2-twotonediffusedecal_s.fxo_pc
 ed6d3786a9aa3a020fb5e020939fde1554596d1ee43990434eb443a9f64bea1b       19532  Mods/JUICED - Shaders/sr2-water3_s.fxo_pc
 23dc03e3536641151862c2bf61a0232def9f8c76d17a59a3466568a14a944224        8929  Mods/JUICED - Strings/Juiced.png
-ce35496cd01b5436ab35f341a7ac982115684776e10dd02a54b70834fb13a412        1717  Mods/JUICED - Strings/juiced_CH.cxt
+1a1e1490c0150b9e44167957febd4d1dd94365e52a0859f3243be44d6fdbe1cf       19662  Mods/JUICED - Strings/juiced_CH.cxt
 f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd         800  Mods/JUICED - Strings/juiced_CH.le_strings
 0eefe9cd825539468d3537cfc45c7b7dfe1d29c58e8f5436909f1cf48a12f38c        1919  Mods/JUICED - Strings/juiced_CZ.cxt
 75921b7baf43b80fdfaacf507e476e4a7877ca0a3614925b9ce0eb28e40d8fa6         908  Mods/JUICED - Strings/juiced_CZ.le_strings
@@ -2855,6 +2855,8 @@ edc5138859019485b1b4dc2f696a46d2f44c4128b64fadd78ec6a3660953cff0       29893  Mo
 eec6dab671bba6810b42879ff99928017894d71c1a3db80339cf41abbbf60442       49942  Mods/weapon_store.lua
 29287b8becfd172d832e7273b5d55ddd428bedef6c19b72e4017be685582362f         706  patch/analysis/credits-label-20261025.json
 6631bc01661a54455fb61e2fbd0d28b9b80b8df430f6542b0e18bbe80db36095         437  patch/analysis/integration.json
+aec2dbaab16914c30f41c61c2a5c754360bae7619435afc573d5531833ba3cbe         863  patch/analysis/menu-localization-20261025.json
+2c491dc3e746216d878b131db24b693302725549dd5f14d01665776ba4048e60        2525  patch/analysis/menu-localization.md
 0128c54a387ba0377169bb01b21700e796b58d3b38595dd0af37f5d2cb8d3865        4143  patch/analysis/superui-dependency-fix.md
 3a3e08e71b90bfd768c81345f5bcf55c64437d5d70c1e97663d79648b9d6a2e8        1258  patch/analysis/superui-lua-regression-20261025.json
 c66023e72b8843f3eda5327cd2579520602c174532abcc4af567f6331a9ba9ce       13447  patch/analysis/superui-manifest.json
@@ -2871,7 +2873,7 @@ e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b    48727014  pa
 c55d663ea327465ed397037b0035bc5a5ea5b6096f135047a2e826c9f352938f     5196028  patches/JuicedSteamXDel.vcdiff
 2f1010a42dc3a99849fd2a4516d58e74df7c37e268e0718c9040b464c170a075      110080  patches/xdelta3.exe
 5be03f07eb112ef383a5ec277f3f6f34722c3b8fe17c24ca6131ff6fec02fd04         263  PatchManager.ps1
-8a8f7d5be8644352a3f3bd092cb4dd8a5015746fe5a19f5051b899238f7c6ee6        3715  README.md
+aa5f156300ddb1f0f2b8ec59eaa21fa33c961c61a87adb5d839847b7ab1d76a8        4005  README.md
 9b73ba032b02fcb430aec60ad021797cff247b5eb6c071443890676daf721e75        3732  readme.txt
 51ab4807d02e4b99c59e232df692f287d955538d3e685fa4e4930694b5b39c3f     2088448  SDL3.dll
 fb81c5d96f9aba8f76dbcd00bf208c6c3792e97b18757b2d2e275eb5c6c0c7c6         214  Start-Installer.cmd

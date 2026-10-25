@@ -7,6 +7,7 @@ import struct
 
 from vpp import LightVpp
 from verify_superui import verify as verify_superui
+from verify_menu_strings import verify as verify_menu_strings
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -74,9 +75,11 @@ def main():
     indexes = json.loads((ROOT / 'localization/text/index.json').read_text('utf8'))
     assert totals == indexes
     superui = verify_superui(payload)
+    menu_strings = verify_menu_strings(payload)
     print(json.dumps({'passed': True, 'payload_files': len(manifest['payload']),
                       'text_tables': totals, 'total_records': sum(totals.values()),
-                      'cxt_entries': len(ids), 'superui': superui}, ensure_ascii=True, indent=2))
+                      'cxt_entries': len(ids), 'superui': superui,
+                      'menu_strings': menu_strings}, ensure_ascii=True, indent=2))
 
 
 if __name__ == '__main__':
