@@ -1,0 +1,464 @@
+{
+  "format": "sr2-cn-info-pages-v1",
+  "date": "2026-10-26",
+  "state": "local-unpublished; representative requested pages confirmed normal by user on 2026-10-26",
+  "pauseMenuBaselineSha256": "834747f0c896325f2db11a3b3c250dc208068607d2d546ead46d925290da0cb3",
+  "statisticsSource": "SuperUI 2.9 Mods/stats.xtbl DisplayName fields; original static_US.le_strings",
+  "achievementSource": "SuperUI 2.9 Mods/pause_menu.lua display tags and existing progress criteria",
+  "notes": [
+    "Descriptions use per-achievement IDs because upstream reuses unrelated description literals.",
+    "Keep every achievement counter, threshold, save flag and unlock condition unchanged."
+  ],
+  "records": [
+    {
+      "tag": "SUI_STAT_PERCENT_COMPLETE",
+      "id": "0xFB025C1F",
+      "group": "statistics",
+      "source": "Game completion (%%)",
+      "text": "游戏完成度（%%）"
+    },
+    {
+      "tag": "SUI_STAT_BARNSTORMING_BEST_RATING",
+      "id": "0xA65F520E",
+      "group": "statistics",
+      "source": "Barnstorming: Best Rating",
+      "text": "飞行特技最高评级"
+    },
+    {
+      "tag": "SUI_STAT_HITMAN_CASH_EARNED",
+      "id": "0x7900717E",
+      "group": "statistics",
+      "source": "Cash Earned in Hitman",
+      "text": "杀手任务赚取现金"
+    },
+    {
+      "tag": "SUI_STAT_NUTSHOTS_BEST_RATING",
+      "id": "0xE42BE65E",
+      "group": "statistics",
+      "source": "Nut Shots: Best Rating",
+      "text": "射击下体最高评级"
+    },
+    {
+      "tag": "SUI_STAT_BIGAIR_LONGEST_FALL",
+      "id": "0xB3D4FFA3",
+      "group": "statistics",
+      "source": "Big Air Jumps: Longest Fall",
+      "text": "飞跃特技最长下落距离"
+    },
+    {
+      "tag": "SUI_STAT_BIGAIR_BEST_FLIP",
+      "id": "0x679C8AC4",
+      "group": "statistics",
+      "source": "Big Air Jumps: Best Flip",
+      "text": "飞跃特技最多前后翻转"
+    },
+    {
+      "tag": "SUI_STAT_BIGAIR_BEST_ROLL",
+      "id": "0xD3D75C5F",
+      "group": "statistics",
+      "source": "Big Air Jumps: Best Roll",
+      "text": "飞跃特技最多侧翻"
+    },
+    {
+      "tag": "SUI_STAT_BIGAIR_BEST_SPIN",
+      "id": "0xEF684A1E",
+      "group": "statistics",
+      "source": "Big Air Jumps: Best Spin",
+      "text": "飞跃特技最多旋转"
+    },
+    {
+      "tag": "SUI_STAT_ZOMBIE_HIGH_SCORE",
+      "id": "0x0FC9506F",
+      "group": "statistics",
+      "source": "Zombie Uprising: High Score",
+      "text": "僵尸起义最高分"
+    },
+    {
+      "tag": "SUI_STAT_BH_MISSIONS_COMPLETED",
+      "id": "0xC94E153B",
+      "group": "statistics",
+      "source": "Brotherhood Missions Completed",
+      "text": "完成兄弟会任务数"
+    },
+    {
+      "tag": "SUI_STAT_RN_MISSIONS_COMPLETED",
+      "id": "0x06899A02",
+      "group": "statistics",
+      "source": "Ronin Missions Completed",
+      "text": "完成浪人帮任务数"
+    },
+    {
+      "tag": "SUI_STAT_SS_MISSIONS_COMPLETED",
+      "id": "0xCFC4B414",
+      "group": "statistics",
+      "source": "Sons of Samedi Missions Completed",
+      "text": "完成萨姆迪之子任务数"
+    },
+    {
+      "tag": "SUI_STAT_COOP_BH_MISSIONS_COMPLETED",
+      "id": "0xE11A382E",
+      "group": "statistics",
+      "source": "Co-op: Brotherhood Missions Completed",
+      "text": "合作完成兄弟会任务数"
+    },
+    {
+      "tag": "SUI_STAT_COOP_RN_MISSIONS_COMPLETED",
+      "id": "0x2EDDB717",
+      "group": "statistics",
+      "source": "Co-op: Ronin Missions Completed",
+      "text": "合作完成浪人帮任务数"
+    },
+    {
+      "tag": "SUI_STAT_COOP_SS_MISSIONS_COMPLETED",
+      "id": "0xE7909901",
+      "group": "statistics",
+      "source": "Co-op: Sons of Samedi Missions Completed",
+      "text": "合作完成萨姆迪之子任务数"
+    },
+    {
+      "tag": "SUI_STAT_TOTAL_MONEY_GAMBLED",
+      "id": "0x24F68857",
+      "group": "statistics",
+      "source": "Total Money Gambled",
+      "text": "赌博总投入金额"
+    },
+    {
+      "tag": "ACHIEVE_SR2_HELIGOOD",
+      "id": "0x6969C8C5",
+      "group": "achievement-name",
+      "source": "HeliGood",
+      "text": "直升机高手"
+    },
+    {
+      "tag": "ACHIEVE_SR2_HIFEDELITY",
+      "id": "0x27A5A690",
+      "group": "achievement-name",
+      "source": "Hi-Fidelity",
+      "text": "高保真音质"
+    },
+    {
+      "tag": "ACHIEVE_SR2_ROMEROS_HERO",
+      "id": "0xB53CD04F",
+      "group": "achievement-name",
+      "source": "Romero's Hero",
+      "text": "罗梅罗的英雄"
+    },
+    {
+      "tag": "ACHIEVE_SR2_SPLATSTER_CHIEF",
+      "id": "0x7AD281E1",
+      "group": "achievement-name",
+      "source": "Splatster Chief",
+      "text": "喷污大师"
+    },
+    {
+      "tag": "A Better Life",
+      "id": "0x175B3433",
+      "group": "achievement-name",
+      "source": "A Better Life",
+      "text": "更好的生活"
+    },
+    {
+      "tag": "Still Addicted to tha Row",
+      "id": "0x7147D643",
+      "group": "achievement-name",
+      "source": "Still Addicted to tha Row",
+      "text": "依然沉迷圣徒街头"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_CA46968B",
+      "id": "0xF5213B6A",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_WELCOME_BACK",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成 4 个任务。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_7147D643",
+      "id": "0xB346FF40",
+      "group": "achievement-description",
+      "achievement": "Still Addicted to tha Row",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "累计游玩 50 小时。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_43853940",
+      "id": "0x63DB5B0D",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_BLUE_COLLAR",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成拖车、消防车、救护车和出租车四种工作的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_B53CD04F",
+      "id": "0x95D5A68B",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_ROMEROS_HERO",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成僵尸起义，解锁僵尸面具。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_6C689C91",
+      "id": "0x0C8E15DF",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_A_BRIGHTER_FUTURE",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "解锁戴恩·沃格尔服装。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_CBB4FB39",
+      "id": "0x83485152",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_VENGEANCE",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "解锁朱利叶斯服装。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_175B3433",
+      "id": "0x37492551",
+      "group": "achievement-description",
+      "achievement": "A Better Life",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "解锁卡洛斯小弟。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_047EDA35",
+      "id": "0xE02D3C3C",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_SEPPUKU",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部浪人帮任务。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_4D406D54",
+      "id": "0x77477BB6",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_BROTHERS_KEEPER",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部兄弟会任务。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_880EA984",
+      "id": "0x28EF1B22",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_REMIND_ME_BABE",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部萨姆迪之子任务。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_0A03196F",
+      "id": "0x2AFF846C",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_CRIME_LORD",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部活动。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_82832FBA",
+      "id": "0x3292250E",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_VELVET_ROPE",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处人群控制活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_D15C9867",
+      "id": "0x6882ED25",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_DEMOLITION_MAN",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成撞车大赛的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_7D3212E3",
+      "id": "0x4F34BDC1",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_PURPLE_HAZE",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处贩毒活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_4C12B287",
+      "id": "0x981462EB",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_TRICKSTER",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处护送活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_2A1E1C92",
+      "id": "0x9E60489B",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_DO_NOT_TALK_ABOUT_IT",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处搏击俱乐部的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_9C8A2CA3",
+      "id": "0x91CAFAC8",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_REALITY_STAR",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处警察真人秀的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_6969C8C5",
+      "id": "0x352BD5C6",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_HELIGOOD",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处直升机突击活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_2096150E",
+      "id": "0xC4DEB0F2",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_STUNTMAN",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处烈焰狂飙活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_30E66D72",
+      "id": "0x39DF564E",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_AMBULANCE_CHASER",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处保险诈骗活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_F45B1CEE",
+      "id": "0xF4513BBE",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_WRECKING_CREW",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处大破坏活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_7AD281E1",
+      "id": "0x9DC73AD6",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_SPLATSTER_CHIEF",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处污水喷射活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_0C53CAAF",
+      "id": "0x1BFC7744",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_BUT_IT_SURE_IS_FUN",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成两处抢人活动的全部等级。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_A314B97B",
+      "id": "0xB98BD50B",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_DUKE_OF_STILWATER",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部 80 处特技跳跃。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_EDF364CF",
+      "id": "0xED15BF78",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_MAVERICK_GOOSE",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部 35 处飞行穿越特技。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_8C0097BD",
+      "id": "0xD6D608B9",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_ALL_CITY",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部 50 处涂鸦。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_27A5A690",
+      "id": "0xA58CD1FF",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_HIFEDELITY",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "收集全部 50 张唱片。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_ADB0ED25",
+      "id": "0x51A86BE3",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_WHERES_MY_CAR",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部 5 份拆车厂清单。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_EB7B0E1B",
+      "id": "0x8B9157FF",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_HELLO_47",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成全部 5 份杀手清单。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_727C04DF",
+      "id": "0x2FF84ACC",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_QUICK_AND_PISSED",
+      "sourceCriterion": "PC racing_sr2_city.xtbl: 27 races numbered 0..26; native statistic index 163/type 53 total confirmed as 27. SuperUI's old 28 was incorrect.",
+      "text": "完成全部 27 场竞速。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_A8BC346F",
+      "id": "0xDEBAE6BF",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_SURFSUP",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "车顶冲浪达到 9 颗星。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_FA744D4F",
+      "id": "0x771FBDD6",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_GOING_THE_DISTANCE",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "累计投掷 9 人。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_633CC6A4",
+      "id": "0xFC9AB34F",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_LOVE_THY_NEIGHBOR",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "抓住 50 人充当人体盾牌。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_874BC606",
+      "id": "0x7094915F",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_AWW_NUTS",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "射击敌人下体 100 次。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_1C33FC9E",
+      "id": "0xDE3E367D",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_STILWATER_WELCOMING_COM",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "完成 50 次抢劫。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_5FF0CBEA",
+      "id": "0x34D0B8F0",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_TRASH_TALKER",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "嘲讽 50 名帮派成员。"
+    },
+    {
+      "tag": "SR2CN_ACHIEVE_DESC_A6C7EB58",
+      "id": "0xA9E30A00",
+      "group": "achievement-description",
+      "achievement": "ACHIEVE_SR2_IM_NOT_ADDICTED",
+      "sourceCriterion": "Existing SuperUI pause_menu.lua criterion; no progression logic changes",
+      "text": "赌博累计投入 500,000 美元。"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "version": "v549",
-  "date": "2026-10-25",
+  "version": "v550",
+  "date": "2026-10-26",
   "baseArchiveSha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102",
   "payload": [
     {
@@ -10,8 +10,8 @@
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.cxt",
-      "bytes": 19662,
-      "sha256": "1a1e1490c0150b9e44167957febd4d1dd94365e52a0859f3243be44d6fdbe1cf"
+      "bytes": 41493,
+      "sha256": "568a38bd5449d2da434a3c107ce43d21fd218ed62ec13a3dc6b513fdc40a3cd0"
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.le_strings",
@@ -220,8 +220,8 @@
     },
     {
       "path": "Mods/pause_menu.lua",
-      "bytes": 295584,
-      "sha256": "834747f0c896325f2db11a3b3c250dc208068607d2d546ead46d925290da0cb3"
+      "bytes": 301740,
+      "sha256": "9ca6d237de1149aafe6f81d27566b5b196918e3b2990dfb722a6907223b7f5d9"
     },
     {
       "path": "Mods/pcr01.lua",
@@ -359,5 +359,6 @@
       "sha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
     }
   ],
-  "combinedArchiveName": "sr2-cn-v549-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip"
+  "combinedArchiveName": "sr2-cn-v550-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
+  "localRevision": "2026-10-26-achievement-racing-progress"
 }

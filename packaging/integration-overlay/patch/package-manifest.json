@@ -51,8 +51,8 @@
     },
     {
       "relative": "README.md",
-      "size": 3715,
-      "sha256": "8a8f7d5be8644352a3f3bd092cb4dd8a5015746fe5a19f5051b899238f7c6ee6"
+      "size": 4710,
+      "sha256": "8cf116a229306a927d0effb16f2755647cf7a0dff304ab59a70814b128a92e8e"
     },
     {
       "relative": "Start-Installer.cmd",
@@ -93,6 +93,26 @@
       "relative": "检查修复状态.cmd",
       "size": 253,
       "sha256": "188229bb4e993b026280fa802e82ded17ce13649f042392490c60fae121f9361"
+    },
+    {
+      "relative": "patch/analysis/achievement-progress-20261026.md",
+      "size": 3089,
+      "sha256": "95f5578822cee2970e2acb4b70f3517a56fe2dc16e2a09cc3de036e3dcd3f203"
+    },
+    {
+      "relative": "patch/analysis/info-pages-second-revision-20261026.md",
+      "size": 3583,
+      "sha256": "f87de10e70c4f6d5d2fe447092e04beefec4ae73ad5a6050ede6c978369a51ad"
+    },
+    {
+      "relative": "patch/analysis/achievement-progress-20261026.json",
+      "size": 464,
+      "sha256": "f03be107124e5ca926f5b175bb19dcfd2a9fe3409140894b5eca4569873b95c9"
+    },
+    {
+      "relative": "patch/analysis/info-pages-runtime-20261026.json",
+      "size": 1256,
+      "sha256": "169bb1214203aa09a83e002eb3b97bc0e346e27295ecdbec85f03e3613facb06"
     }
   ]
 }

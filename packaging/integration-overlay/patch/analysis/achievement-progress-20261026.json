@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "luaVersion": "5.1",
+  "boundedStatBranches": 27,
+  "boundedCases": 164,
+  "racingCompletionDisplayCases": 4,
+  "unaffectedPaths": 3,
+  "malformedValueNotFalselyCompleted": true,
+  "nativeTemplate": "%d / %d",
+  "menuTemplate": "{0}/{1}",
+  "luaSha256": "9ca6d237de1149aafe6f81d27566b5b196918e3b2990dfb722a6907223b7f5d9",
+  "failures": [],
+  "limitation": "Engine text conversion is mocked; in-game verification is separate."
+}

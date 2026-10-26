@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 import re
+from cxt import parse
 
 ROOT = Path(__file__).resolve().parents[1]
 RELATIVE = Path('Mods/JUICED - Strings/juiced_CH.cxt')
@@ -13,17 +14,9 @@ def verify(payload=None):
     assert not data.startswith(b'\xef\xbb\xbf'), 'CXT must not have a BOM'
     assert data.endswith(b'\r\n'), 'CXT must end with CRLF'
     assert data.count(b'\n') == data.count(b'\r\n'), 'CXT requires CRLF'
-    entries = {}
-    current = None
-    for line in data.decode('utf8').splitlines():
-        if re.fullmatch(r'\[[^\[\]]+\]', line):
-            current = line[1:-1]
-            assert current not in entries, ('duplicate', current)
-            entries[current] = []
-        elif line.strip():
-            assert current is not None, 'text without a header'
-            entries[current].append(line)
-    entries = {k: '\n'.join(v) for k, v in entries.items()}
+    parsed = parse(data.decode('utf8'))
+    entries = {r['tag']: r['text'] for r in parsed}
+    assert len(entries) == len(parsed), 'duplicate CXT tag'
     characters = set(json.loads((ROOT / 'localization/text/charlist_CH.json').read_text('utf8')))
     missing = {k: ''.join(sorted({c for c in v if ord(c) >= 256 and ord(c) not in characters}))
                for k, v in entries.items()}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "steamAppId": 9480,
+  "buildId": 1076239,
+  "runtimeDataRootRelative": ".",
+  "virtualAssetRootRelative": ".",
+  "sourceMatchesInstalled": true,
+  "runtimeVerified": true,
+  "saveFilesModified": false,
+  "installedFiles": [
+    {
+      "path": "Mods/pause_menu.lua",
+      "sha256": "9ca6d237de1149aafe6f81d27566b5b196918e3b2990dfb722a6907223b7f5d9"
+    },
+    {
+      "path": "Mods/JUICED - Strings/juiced_CH.cxt",
+      "sha256": "568a38bd5449d2da434a3c107ce43d21fd218ed62ec13a3dc6b513fdc40a3cd0"
+    }
+  ],
+  "confirmationSource": "Explicit user reports after game restart and loading the same save",
+  "confirmedSurfaces": [
+    "Hitman list and target details",
+    "Chop Shop list and descriptions",
+    "Statistics pages 14/22 and 22/22",
+    "Achievement names and descriptions",
+    "Bounded achievement progress",
+    "Quick and Pissed progress /27 and 27-race description"
+  ],
+  "loadingTips": "Representative runtime observations; all 45 unique tips covered statically, not viewed individually",
+  "racingFullCompletionRuntimeVerified": null,
+  "racingCompletionBoundary": "Real Lua add/display callback tested at 0, 1, 26 and 27 of 27",
+  "executableIncluded": false,
+  "executableModifiedByThisRevision": false
+}

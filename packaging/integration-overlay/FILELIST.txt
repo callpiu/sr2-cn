@@ -1,7 +1,7 @@
-SR2 整合包 v549 / 2026-10-25 帮助与 Juiced 菜单中文修正版
+SR2 整合包 v550 / 2026-10-26 名单、提示、信息页与成就进度修正版
 SHA-256  bytes  relative-path（不含 FILELIST.txt 自身）
 
-933a4e5a11b75a54e1013b073240d90230371c91df784794786faadd997e55d5        4008  _先读我.txt
+8cf116a229306a927d0effb16f2755647cf7a0dff304ab59a70814b128a92e8e        4710  _先读我.txt
 663300b521d67cb15717edad39a5193d22e12c0d002713468696e586e3a3637e   182093824  common.vpp_pc
 263ec33e6dad4f3a46ed8f24726f10e5fbba44206d95e17f6aa3019eb696d7c8     2683392  DFEngine.dll
 d8e7d9feb3de8482b186ae44fd1c9abb41fe2b3b3d2c7cd3a4d742ebbad30cdf     3154744  discord_game_sdk.dll
@@ -2740,7 +2740,7 @@ bb4ccbee115193f5660aedf8e0b54bf02f70c09b6fa61cecf16f8e8ece4e11d1       32156  Mo
 77ee6c02e69d28a30a0130504721b79a37c431b5f3e8468f327374fc44feebde       30716  Mods/JUICED - Shaders/sr2-twotonediffusedecal_s.fxo_pc
 ed6d3786a9aa3a020fb5e020939fde1554596d1ee43990434eb443a9f64bea1b       19532  Mods/JUICED - Shaders/sr2-water3_s.fxo_pc
 23dc03e3536641151862c2bf61a0232def9f8c76d17a59a3466568a14a944224        8929  Mods/JUICED - Strings/Juiced.png
-1a1e1490c0150b9e44167957febd4d1dd94365e52a0859f3243be44d6fdbe1cf       19662  Mods/JUICED - Strings/juiced_CH.cxt
+568a38bd5449d2da434a3c107ce43d21fd218ed62ec13a3dc6b513fdc40a3cd0       41493  Mods/JUICED - Strings/juiced_CH.cxt
 f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd         800  Mods/JUICED - Strings/juiced_CH.le_strings
 0eefe9cd825539468d3537cfc45c7b7dfe1d29c58e8f5436909f1cf48a12f38c        1919  Mods/JUICED - Strings/juiced_CZ.cxt
 75921b7baf43b80fdfaacf507e476e4a7877ca0a3614925b9ce0eb28e40d8fa6         908  Mods/JUICED - Strings/juiced_CZ.le_strings
@@ -2826,7 +2826,7 @@ e37441e20a22445ad621003363777f23f1c83be3ede0a4f352ec95ba21578298       38049  Mo
 74b04f1c7dd1f56e893c0eb22201c66d039a13b4850d8d03c6974775a1c7cc83       51365  Mods/multi_pause_menu.lua
 25b9013da2f94f1ed313bac6eb96a50d30eadcf41e9ea1a3dc37ad6106227446       20251  Mods/music_store.lua
 943f414c0e70398ff80fcdf7eed2e52be80c89292d7b563a37d895426a0a29c4       33956  Mods/pause_map.lua
-834747f0c896325f2db11a3b3c250dc208068607d2d546ead46d925290da0cb3      295584  Mods/pause_menu.lua
+9ca6d237de1149aafe6f81d27566b5b196918e3b2990dfb722a6907223b7f5d9      301740  Mods/pause_menu.lua
 8f1c5337a1d0162cb3c957f992be18174ebcf6d744898da45f4df41dcf6217b0       92107  Mods/pcr01.lua
 089f497fd97027726e49e8b69bf9f2de7408b7a7af99c5ab9c51e611ca06989a       20166  Mods/platform_PC_JP.le_strings
 ac49ef42221ab6ae97108c3592e5f3e51827fd28ea0b7616bfc734ddea79d960       29752  Mods/platform_PC_US.le_strings
@@ -2853,13 +2853,17 @@ f0120a3364ac91d7b051cdef77072999e43943c139868ac6d2f3b9500aa41733        8184  Mo
 3d41e56a6f48df2ea9c80eddfcf58a219246c7a70fc0f271320c2569f8773f2f       72999  Mods/vehicle_cust.lua
 edc5138859019485b1b4dc2f696a46d2f44c4128b64fadd78ec6a3660953cff0       29893  Mods/vint_lib.lua
 eec6dab671bba6810b42879ff99928017894d71c1a3db80339cf41abbbf60442       49942  Mods/weapon_store.lua
+f03be107124e5ca926f5b175bb19dcfd2a9fe3409140894b5eca4569873b95c9         464  patch/analysis/achievement-progress-20261026.json
+95f5578822cee2970e2acb4b70f3517a56fe2dc16e2a09cc3de036e3dcd3f203        3089  patch/analysis/achievement-progress-20261026.md
 29287b8becfd172d832e7273b5d55ddd428bedef6c19b72e4017be685582362f         706  patch/analysis/credits-label-20261025.json
+169bb1214203aa09a83e002eb3b97bc0e346e27295ecdbec85f03e3613facb06        1256  patch/analysis/info-pages-runtime-20261026.json
+f87de10e70c4f6d5d2fe447092e04beefec4ae73ad5a6050ede6c978369a51ad        3583  patch/analysis/info-pages-second-revision-20261026.md
 6631bc01661a54455fb61e2fbd0d28b9b80b8df430f6542b0e18bbe80db36095         437  patch/analysis/integration.json
 aec2dbaab16914c30f41c61c2a5c754360bae7619435afc573d5531833ba3cbe         863  patch/analysis/menu-localization-20261025.json
 2c491dc3e746216d878b131db24b693302725549dd5f14d01665776ba4048e60        2525  patch/analysis/menu-localization.md
 0128c54a387ba0377169bb01b21700e796b58d3b38595dd0af37f5d2cb8d3865        4143  patch/analysis/superui-dependency-fix.md
 3a3e08e71b90bfd768c81345f5bcf55c64437d5d70c1e97663d79648b9d6a2e8        1258  patch/analysis/superui-lua-regression-20261025.json
-c66023e72b8843f3eda5327cd2579520602c174532abcc4af567f6331a9ba9ce       13447  patch/analysis/superui-manifest.json
+06ca80599f9f29395c1d7a66001671b665f576e7b5236ca617142a9ea998d76e       13671  patch/analysis/superui-manifest.json
 a811774cd2097493be4da322facaa21c01fc37085d52c68e75008a34a37ecda2        1090  patch/analysis/superui-runtime-20261025.json
 2d828eafbb6f8fe080c06eaebe2d16474e24256f2cd55089f0a164458937a3cf        2621  patch/analysis/validation.json
 c7673dbd92916ae69941a8364e3de722c984c880eaf0c0100945710f00ddfe9e        4555  patch/analysis/原整合包说明_20261021.txt
@@ -2868,12 +2872,12 @@ a6280364eaee00f5706e89863e5473f70b138f0146a16c7d2b517b63b65a89cb        1116  pa
 be220c44e70ac57f5b3650d0f7d7a4259e3015ec8f302a749a101b5a1b9c697b         728  patch/installer/fix.json
 15bed1b7b79a6f1d3f24ba0cf1742ef32dac2b184c19966eb635bee533ee23bd        4513  patch/installer/Manager.ps1
 43722b6f6dacb21142eeb121566be4621a668360a05520355d1cbd3ecbec82b0         290  patch/manager-config.json
-9f444e1258ce9676ac338091dc68845fd2424190df70f69d92351c5934d5101d        3077  patch/package-manifest.json
+dcd53ba4f38974f44b94e61f56e31598aa41c9a226cc058d7be3e419593c96e6        3824  patch/package-manifest.json
 e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b    48727014  patch.vpp_pc
 c55d663ea327465ed397037b0035bc5a5ea5b6096f135047a2e826c9f352938f     5196028  patches/JuicedSteamXDel.vcdiff
 2f1010a42dc3a99849fd2a4516d58e74df7c37e268e0718c9040b464c170a075      110080  patches/xdelta3.exe
 5be03f07eb112ef383a5ec277f3f6f34722c3b8fe17c24ca6131ff6fec02fd04         263  PatchManager.ps1
-aa5f156300ddb1f0f2b8ec59eaa21fa33c961c61a87adb5d839847b7ab1d76a8        4005  README.md
+8cf116a229306a927d0effb16f2755647cf7a0dff304ab59a70814b128a92e8e        4710  README.md
 9b73ba032b02fcb430aec60ad021797cff247b5eb6c071443890676daf721e75        3732  readme.txt
 51ab4807d02e4b99c59e232df692f287d955538d3e685fa4e4930694b5b39c3f     2088448  SDL3.dll
 fb81c5d96f9aba8f76dbcd00bf208c6c3792e97b18757b2d2e275eb5c6c0c7c6         214  Start-Installer.cmd

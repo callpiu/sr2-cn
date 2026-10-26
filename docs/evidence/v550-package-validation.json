@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-26",
+  "version": "v550",
+  "archive": {
+    "name": "sr2-cn-v550-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
+    "bytes": 379905519,
+    "sha256": "7f96414c63df02cdf6d342b21bea4921a5378485181b9efc4e187f0b3907757a"
+  },
+  "archiveFiles": 2889,
+  "archiveMatchesDirectory": true,
+  "independentRebuildMatches": true,
+  "payloadFilesMatch": 71,
+  "packageManifestMatches": true,
+  "fileListMatches": true,
+  "changedFromV549": [
+    "FILELIST.txt",
+    "Mods/JUICED - Strings/juiced_CH.cxt",
+    "Mods/pause_menu.lua",
+    "README.md",
+    "_先读我.txt",
+    "patch/analysis/superui-manifest.json",
+    "patch/package-manifest.json"
+  ],
+  "addedFromV549": [
+    "patch/analysis/achievement-progress-20261026.json",
+    "patch/analysis/achievement-progress-20261026.md",
+    "patch/analysis/info-pages-runtime-20261026.json",
+    "patch/analysis/info-pages-second-revision-20261026.md"
+  ],
+  "removedFromV549": [],
+  "runtimeResult": "User confirmed requested lists, statistics, achievement pages and /27 racing progress after restart.",
+  "limits": [
+    "Loading tips are representative runtime checks, not all 45 viewed.",
+    "Real save completion at 27/27 was not tested; Lua completion boundaries passed."
+  ],
+  "executableIncluded": false,
+  "personalSavesAndCrashDumpsIncluded": false,
+  "sizeDeltaBytes": 18821,
+  "sizeDeltaReason": "Two menu payload files and release documentation/evidence; other game assets and settings unchanged."
+}

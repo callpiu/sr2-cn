@@ -1,0 +1,1589 @@
+{
+  "format": "sr2-cn-cxt-overlay-v1",
+  "date": "2026-10-26",
+  "scope": "Hitman / Chop Shop display names and dossiers; all SuperUI loading tips",
+  "state": "local-unpublished; representative requested pages confirmed normal by user on 2026-10-26",
+  "sources": [
+    {
+      "asset": "common.vpp_pc/hitman_sr2_city.xtbl",
+      "sha256": "1b3e8b266dae2f32b253f40381831685428ce63b41ab26d68267c4ca18cafe72"
+    },
+    {
+      "asset": "common.vpp_pc/sr2_city_chop_diversion.xtbl",
+      "sha256": "a52ba37913d9738bc4bd5b41d746fec302ab3217e033adcfc833bf931fd5145d"
+    },
+    {
+      "asset": "localization/text/static_CH.json",
+      "sha256": "c159736a5941be05f8e2dcfbfea6a56c2055ace468441cc652b4119d54759281"
+    },
+    {
+      "asset": "Mods/city_load.lua",
+      "sha256": "c8dfbcd787d078d454883c11cb4da30d4388fd240c6e07a45cd442aca3ee43ae"
+    }
+  ],
+  "counts": {
+    "hitmanTargets": 30,
+    "chopShopTargets": 40,
+    "loadingTipOccurrences": 46,
+    "uniqueLoadingTips": 45,
+    "records": 188
+  },
+  "translationNotes": [
+    "Display-only Lua conversion uses existing sui_compare_string for native Unicode names; unique ASCII CXT tags prevent changing raw name comparisons elsewhere.",
+    "Reuse the existing Chinese dossier names for Hitman; apply one vehicle glossary to lists and dossiers.",
+    "Use font-covered alternate transliterations 彻奇尔 / 威灵顿 and equivalent vehicle nicknames where the current 2795-slot font lacks the usual glyphs.",
+    "Retain V8 as the engine designation and 555-FIRE / 555-OOPS as literal dialable phone numbers.",
+    "Loading tips avoid fixed keyboard bindings because users can remap controls.",
+    "Correct SuperUI tips about weapon/ability upgrades, garage customization, mission respect, outfit bonuses and binoculars to actual SR2 features.",
+    "Use conservative driving advice rather than asserting unverified rain or balance mechanics.",
+    "Magazine-cover lettering is baked into a texture; this revision covers the surrounding live text."
+  ],
+  "records": [
+    {
+      "tag": "SR2CN_HITMAN_5332141D",
+      "id": "0x145FF6A4",
+      "group": "hitman-name",
+      "source": "Alvan",
+      "text": "阿尔万"
+    },
+    {
+      "tag": "SR2CN_HITMAN_F0637C11",
+      "id": "0xC42A628D",
+      "group": "hitman-name",
+      "source": "Brad",
+      "text": "布拉德"
+    },
+    {
+      "tag": "SR2CN_HITMAN_8E405484",
+      "id": "0x9D5121CA",
+      "group": "hitman-name",
+      "source": "Anoop",
+      "text": "阿努普"
+    },
+    {
+      "tag": "SR2CN_HITMAN_BF4FB514",
+      "id": "0x59D60857",
+      "group": "hitman-name",
+      "source": "Frank",
+      "text": "弗兰克"
+    },
+    {
+      "tag": "SR2CN_HITMAN_C8514738",
+      "id": "0x719BF0E4",
+      "group": "hitman-name",
+      "source": "Scott",
+      "text": "斯科特"
+    },
+    {
+      "tag": "SR2CN_HITMAN_C191189D",
+      "id": "0x37713716",
+      "group": "hitman-name",
+      "source": "James",
+      "text": "詹姆斯"
+    },
+    {
+      "tag": "SR2CN_HITMAN_3E58E73B",
+      "id": "0x93A03909",
+      "group": "hitman-name",
+      "source": "Jeremiah",
+      "text": "杰里迈亚"
+    },
+    {
+      "tag": "SR2CN_HITMAN_E4670802",
+      "id": "0x36467EAE",
+      "group": "hitman-name",
+      "source": "Nate",
+      "text": "内特"
+    },
+    {
+      "tag": "SR2CN_HITMAN_B32EAA2C",
+      "id": "0x1EE0E99C",
+      "group": "hitman-name",
+      "source": "Brian",
+      "text": "布莱恩"
+    },
+    {
+      "tag": "SR2CN_HITMAN_0A469E27",
+      "id": "0x71F5A9C3",
+      "group": "hitman-name",
+      "source": "Chris",
+      "text": "克里斯"
+    },
+    {
+      "tag": "SR2CN_HITMAN_6A89A2D8",
+      "id": "0x591C0FD5",
+      "group": "hitman-name",
+      "source": "Randy",
+      "text": "兰迪"
+    },
+    {
+      "tag": "SR2CN_HITMAN_084FF02B",
+      "id": "0x1DB39CB8",
+      "group": "hitman-name",
+      "source": "Nick",
+      "text": "尼克"
+    },
+    {
+      "tag": "SR2CN_HITMAN_C6361DA8",
+      "id": "0x9474EBB9",
+      "group": "hitman-name",
+      "source": "Everett",
+      "text": "埃弗里特"
+    },
+    {
+      "tag": "SR2CN_HITMAN_AC1A10CC",
+      "id": "0xC57DF496",
+      "group": "hitman-name",
+      "source": "Justin",
+      "text": "贾斯汀"
+    },
+    {
+      "tag": "SR2CN_HITMAN_D4C40D87",
+      "id": "0x3C1A34F7",
+      "group": "hitman-name",
+      "source": "Tim",
+      "text": "蒂姆"
+    },
+    {
+      "tag": "SR2CN_HITMAN_5D130971",
+      "id": "0x7FBA5FED",
+      "group": "hitman-name",
+      "source": "Mitri",
+      "text": "米特里"
+    },
+    {
+      "tag": "SR2CN_HITMAN_4CAA4451",
+      "id": "0x8D669327",
+      "group": "hitman-name",
+      "source": "Shannon",
+      "text": "香农"
+    },
+    {
+      "tag": "SR2CN_HITMAN_C27C83FD",
+      "id": "0x323E31A0",
+      "group": "hitman-name",
+      "source": "Jim",
+      "text": "吉姆"
+    },
+    {
+      "tag": "SR2CN_HITMAN_2077F2F0",
+      "id": "0xB7A83D91",
+      "group": "hitman-name",
+      "source": "Roje",
+      "text": "罗杰"
+    },
+    {
+      "tag": "SR2CN_HITMAN_359BF8CA",
+      "id": "0x8F4F2392",
+      "group": "hitman-name",
+      "source": "Mike",
+      "text": "迈克"
+    },
+    {
+      "tag": "SR2CN_HITMAN_44724685",
+      "id": "0x7F3774D5",
+      "group": "hitman-name",
+      "source": "Clint",
+      "text": "克林特"
+    },
+    {
+      "tag": "SR2CN_HITMAN_3AD8189D",
+      "id": "0xFC82543F",
+      "group": "hitman-name",
+      "source": "Greg",
+      "text": "格雷格"
+    },
+    {
+      "tag": "SR2CN_HITMAN_3E867428",
+      "id": "0x61E9646D",
+      "group": "hitman-name",
+      "source": "Apoop",
+      "text": "阿普"
+    },
+    {
+      "tag": "SR2CN_HITMAN_BCFD64F8",
+      "id": "0x8989A816",
+      "group": "hitman-name",
+      "source": "Larry",
+      "text": "拉里"
+    },
+    {
+      "tag": "SR2CN_HITMAN_637E2334",
+      "id": "0xC5D52A97",
+      "group": "hitman-name",
+      "source": "Seabaugh",
+      "text": "西博"
+    },
+    {
+      "tag": "SR2CN_HITMAN_468C3365",
+      "id": "0x1912E68E",
+      "group": "hitman-name",
+      "source": "Mr. Flegel",
+      "text": "弗莱格尔先生"
+    },
+    {
+      "tag": "SR2CN_HITMAN_81282895",
+      "id": "0x563384B8",
+      "group": "hitman-name",
+      "source": "Lt. Freeball",
+      "text": "弗里博中尉"
+    },
+    {
+      "tag": "SR2CN_HITMAN_24B0C80E",
+      "id": "0x602D769B",
+      "group": "hitman-name",
+      "source": "Russell",
+      "text": "拉塞尔"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_D5FE381D",
+      "id": "0xA56043FD",
+      "group": "vehicle-name",
+      "source": "Mockingbird",
+      "text": "嘲鸟"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_74107E2F",
+      "id": "0x17E3DCC3",
+      "group": "vehicle-name",
+      "source": "Churchill",
+      "text": "彻奇尔"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_753B4DEA",
+      "id": "0xC666713E",
+      "group": "vehicle-name",
+      "source": "Hammerhead",
+      "text": "锤头"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_52F6032C",
+      "id": "0x2D51BD5F",
+      "group": "vehicle-name",
+      "source": "Compton",
+      "text": "康普顿"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_00AB1ABD",
+      "id": "0xD1E3AEED",
+      "group": "vehicle-name",
+      "source": "Topher",
+      "text": "托弗"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_AA3EF8F0",
+      "id": "0x0376B897",
+      "group": "vehicle-name",
+      "source": "Quota",
+      "text": "配额"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_B7E029D6",
+      "id": "0x7920FDDD",
+      "group": "vehicle-name",
+      "source": "Five-O",
+      "text": "警车"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_A929A080",
+      "id": "0x920FF7F3",
+      "group": "vehicle-name",
+      "source": "Ambulance",
+      "text": "救护车"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_E394BA93",
+      "id": "0xDFBB19A7",
+      "group": "vehicle-name",
+      "source": "Go!",
+      "text": "冲锋"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_7EC0BCDE",
+      "id": "0x5EB1BF76",
+      "group": "vehicle-name",
+      "source": "Taxi",
+      "text": "出租车"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_7DAC6AD0",
+      "id": "0x96574932",
+      "group": "vehicle-name",
+      "source": "Wellington",
+      "text": "威灵顿"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_1D41EB87",
+      "id": "0x1D3CDCB4",
+      "group": "vehicle-name",
+      "source": "Alaskan",
+      "text": "阿拉斯加"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_930400F6",
+      "id": "0xBB0E985C",
+      "group": "vehicle-name",
+      "source": "Varsity",
+      "text": "校队"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_6FAEF39D",
+      "id": "0x8504EEAD",
+      "group": "vehicle-name",
+      "source": "Zenith",
+      "text": "巅峰"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_1A087F11",
+      "id": "0x8729A2FD",
+      "group": "vehicle-name",
+      "source": "Justice",
+      "text": "正义"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_CF6828B3",
+      "id": "0xADB017E6",
+      "group": "vehicle-name",
+      "source": "Titan",
+      "text": "泰坦"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_3F32B043",
+      "id": "0xCB14C9FA",
+      "group": "vehicle-name",
+      "source": "Swindle",
+      "text": "骗局"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_9139003D",
+      "id": "0x103CA6A3",
+      "group": "vehicle-name",
+      "source": "Betsy",
+      "text": "贝西"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_7E373231",
+      "id": "0x672C19AF",
+      "group": "vehicle-name",
+      "source": "NRG V8",
+      "text": "能量 V8"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_1D25BD8B",
+      "id": "0xBCBE7819",
+      "group": "vehicle-name",
+      "source": "Raycaster",
+      "text": "射线"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_EA5D9F1E",
+      "id": "0x77B20E66",
+      "group": "vehicle-name",
+      "source": "Melbourne",
+      "text": "墨尔本"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_F1EB69C9",
+      "id": "0x8CF546B7",
+      "group": "vehicle-name",
+      "source": "Bezier",
+      "text": "贝塞尔"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_87EE9D87",
+      "id": "0x9F594A44",
+      "group": "vehicle-name",
+      "source": "Cosmos",
+      "text": "星空"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_2B8EA211",
+      "id": "0x914DE086",
+      "group": "vehicle-name",
+      "source": "Status Quo",
+      "text": "现状"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_13BB7943",
+      "id": "0xF41FD811",
+      "group": "vehicle-name",
+      "source": "Voxel",
+      "text": "体素"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_4546BA1B",
+      "id": "0x370C7411",
+      "group": "vehicle-name",
+      "source": "Magma",
+      "text": "火山"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_734E6004",
+      "id": "0x17E2EA21",
+      "group": "vehicle-name",
+      "source": "Attrazione",
+      "text": "诱惑"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_3FA927BE",
+      "id": "0x5D294623",
+      "group": "vehicle-name",
+      "source": "Superiore",
+      "text": "超凡"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_F277A0F4",
+      "id": "0x56653101",
+      "group": "vehicle-name",
+      "source": "Venom Classic",
+      "text": "经典毒蛇"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_90FD5331",
+      "id": "0x0412D439",
+      "group": "vehicle-name",
+      "source": "Eiswolf",
+      "text": "冰狼"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_B16F8A21",
+      "id": "0x582E78C8",
+      "group": "vehicle-name",
+      "source": "Socialite",
+      "text": "名流"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_C8772B0D",
+      "id": "0x8BFF919F",
+      "group": "vehicle-name",
+      "source": "Peacekeeper",
+      "text": "维和者"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_8E5F28F6",
+      "id": "0x81A5D064",
+      "group": "vehicle-name",
+      "source": "Voyage",
+      "text": "航程"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_CE7FA9E4",
+      "id": "0xD978666B",
+      "group": "vehicle-name",
+      "source": "Danville",
+      "text": "丹维尔"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_EF3FF66E",
+      "id": "0xAE1F2716",
+      "group": "vehicle-name",
+      "source": "Mag",
+      "text": "马格"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_D44E24EE",
+      "id": "0x5A27D772",
+      "group": "vehicle-name",
+      "source": "Bag Boy",
+      "text": "行李小子"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_744D848B",
+      "id": "0x42225C39",
+      "group": "vehicle-name",
+      "source": "Backhoe",
+      "text": "挖掘机"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_55158BCA",
+      "id": "0x5BB9A01F",
+      "group": "vehicle-name",
+      "source": "Bulldozer",
+      "text": "推土机"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_F608D34B",
+      "id": "0x02623707",
+      "group": "vehicle-name",
+      "source": "Delivery Truck",
+      "text": "送货卡车"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_382954BB",
+      "id": "0xA52CBDD3",
+      "group": "vehicle-name",
+      "source": "Longhauler",
+      "text": "长途重卡"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_F81A09F3",
+      "id": "0x711B71D2",
+      "group": "vehicle-name",
+      "source": "Mix Master",
+      "text": "搅拌大师"
+    },
+    {
+      "tag": "SR2CN_VEHICLE_1367F394",
+      "id": "0xC61FD4B4",
+      "group": "vehicle-name",
+      "source": "Bézier",
+      "text": "贝塞尔"
+    },
+    {
+      "tag": "SR2CN_SHOP_1D734ACE",
+      "id": "0x096B36E5",
+      "group": "shop-name",
+      "source": "Scratch That",
+      "text": "刮碟音像店"
+    },
+    {
+      "tag": "SR2CN_SHOP_6891786F",
+      "id": "0x880CCC55",
+      "group": "shop-name",
+      "source": "Technically Legal",
+      "text": "勉强合法"
+    },
+    {
+      "tag": "SR2CN_SHOP_192CEC30",
+      "id": "0xF238A46C",
+      "group": "shop-name",
+      "source": "Company of Gyros",
+      "text": "希腊卷饼公司"
+    },
+    {
+      "tag": "HITMAN_TARGET_1_1",
+      "id": "0xA50713CC",
+      "group": "hitman-dossier",
+      "source": "阿尔万是个大学生，自称“菲律宾斩击”，经营着一个非法的收藏卡牌赌局。\n\n去那家废弃的汽车影院，喝上几瓶 40 盎司的啤酒：他应该就会放松警惕，肯露面了。",
+      "text": "阿尔万是个大学生，自称“菲律宾斩击”，经营着一个非法的收藏卡牌赌局。\n\n去那家废弃的汽车影院，喝上几瓶 40 盎司的啤酒：他应该就会放松警惕，肯露面了。",
+      "targetName": "Alvan"
+    },
+    {
+      "tag": "HITMAN_TARGET_1_2",
+      "id": "0x3C0E4276",
+      "group": "hitman-dossier",
+      "source": "布拉德放弃了收入丰厚的摩托越野生涯，改行当了街头涂鸦手。\n\n去 唐人街 喷一块涂鸦，赢得他的认可，把他引到明处来。",
+      "text": "布拉德放弃了收入丰厚的摩托越野生涯，改行当了街头涂鸦手。\n\n去 唐人街 喷一块涂鸦，赢得他的认可，把他引到明处来。",
+      "targetName": "Brad"
+    },
+    {
+      "tag": "HITMAN_TARGET_1_3",
+      "id": "0x4B0972E0",
+      "group": "hitman-dossier",
+      "source": "阿努普·“印度之锤”·谢卡是名警察，他收拾罪犯的狠劲，跟他在色情片里搭档身上使的劲一样足。\n\n让足够多的警察盯上你，阿努普就会出动……但愿他今天穿着裤子。",
+      "text": "阿努普·“印度之锤”·谢卡是名警察，他收拾罪犯的狠劲，跟他在色情片里搭档身上使的劲一样足。\n\n让足够多的警察盯上你，阿努普就会出动……但愿他今天穿着裤子。",
+      "targetName": "Anoop"
+    },
+    {
+      "tag": "HITMAN_TARGET_1_4",
+      "id": "0xD56DE743",
+      "group": "hitman-dossier",
+      "source": "弗兰克以前是个摇滚明星。重点是“以前”。深夜嗑药嗑上了瘾，如今他靠开出租勉强糊口。\n\n给出租车公司打个电话（555-455-8008），我们保证来接你的就是弗兰克。",
+      "text": "弗兰克以前是个摇滚明星。重点是“以前”。深夜嗑药嗑上了瘾，如今他靠开出租勉强糊口。\n\n给出租车公司打个电话（555-455-8008），我们保证来接你的就是弗兰克。",
+      "targetName": "Frank"
+    },
+    {
+      "tag": "HITMAN_TARGET_1_5",
+      "id": "0xA26AD7D5",
+      "group": "hitman-dossier",
+      "source": "斯科特是个送货员，送货时撞见了不该看的事。绝不能让他跟任何人说话。 \n\n点一份 雀斑鸡 的外卖（555-6328）送过去，然后做掉他。",
+      "text": "斯科特是个送货员，送货时撞见了不该看的事。绝不能让他跟任何人说话。 \n\n点一份 雀斑鸡 的外卖（555-6328）送过去，然后做掉他。",
+      "targetName": "Scott"
+    },
+    {
+      "tag": "HITMAN_TARGET_1_6",
+      "id": "0x3B63866F",
+      "group": "hitman-dossier",
+      "source": "詹姆斯是个 J-Pop 明星，对镇上的脱衣舞娘毫无抵抗力。\n\n去市郊，Technically Legal 那家店转转。你只要占上他几个妞的时间，他肯定会出现。接几单嫖客活，让他信你是真的。",
+      "text": "詹姆斯是个 日本流行乐 明星，对镇上的脱衣舞娘毫无抵抗力。\n\n去市郊，勉强合法 那家店转转。你只要占上他几个妞的时间，他肯定会出现。接几单嫖客活，让他信你是真的。",
+      "targetName": "James"
+    },
+    {
+      "tag": "HITMAN_TARGET_2_1",
+      "id": "0xA741AD95",
+      "group": "hitman-dossier",
+      "source": "杰里迈亚虽然是个物理学家，但别被他的样子骗了，这家伙很会飙车。\n\n你骑着摩托在码头区和博物馆区一带转转，肯定能碰到他。干掉他。",
+      "text": "杰里迈亚虽然是个物理学家，但别被他的样子骗了，这家伙很会飙车。\n\n你骑着摩托在码头区和博物馆区一带转转，肯定能碰到他。干掉他。",
+      "targetName": "Jeremiah"
+    },
+    {
+      "tag": "HITMAN_TARGET_2_2",
+      "id": "0x3E48FC2F",
+      "group": "hitman-dossier",
+      "source": "内特曾是个扑克冠军选手，后来把赌本全输给了一个法国来的疯疯癫癫的葡萄酒大亨。我以为他当时上头了，结果他真赢了我一大笔钱。 \n\n去玩几把赌场游戏，你肯定能找到他。",
+      "text": "内特曾是个扑克冠军选手，后来把赌本全输给了一个法国来的疯疯癫癫的葡萄酒大亨。我以为他当时上头了，结果他真赢了我一大笔钱。 \n\n去玩几把赌场游戏，你肯定能找到他。",
+      "targetName": "Nate"
+    },
+    {
+      "tag": "HITMAN_TARGET_2_3",
+      "id": "0x494FCCB9",
+      "group": "hitman-dossier",
+      "source": "布莱恩是个急救员，取颗子弹还先跟我收钱：操他妈的。\n\n打个 911 电话，他就会尽快赶来“帮”你。",
+      "text": "布莱恩是个急救员，取颗子弹还先跟我收钱：操他妈的。\n\n打个 911 电话，他就会尽快赶来“帮”你。",
+      "targetName": "Brian"
+    },
+    {
+      "tag": "HITMAN_TARGET_2_4",
+      "id": "0xD72B591A",
+      "group": "hitman-dossier",
+      "source": "克里斯是个虚无主义者，我在一次句子图解比赛里输给他四万美金。他爱泡在“买朱庇特”礼品店里，就为了提醒别人他比他们聪明。\n\n去那儿，找到他，做掉他。",
+      "text": "克里斯是个虚无主义者，我在一次句子图解比赛里输给他四万美金。他爱泡在“买朱庇特”礼品店里，就为了提醒别人他比他们聪明。\n\n去那儿，找到他，做掉他。",
+      "targetName": "Chris"
+    },
+    {
+      "tag": "HITMAN_TARGET_2_5",
+      "id": "0xA02C698C",
+      "group": "hitman-dossier",
+      "source": "兰迪一向对水上载具情有独钟。 \n\n如果你去码头区买一艘船或水上摩托，他就会冒出来看看你挑了什么。",
+      "text": "兰迪一向对水上载具情有独钟。 \n\n如果你去码头区买一艘船或水上摩托，他就会冒出来看看你挑了什么。",
+      "targetName": "Randy"
+    },
+    {
+      "tag": "HITMAN_TARGET_2_6",
+      "id": "0x39253836",
+      "group": "hitman-dossier",
+      "source": "我刚得到消息，尼克来斯蒂尔沃特收几笔旧账了。\n\n他住在码头区的苍鹭酒店；你坐电梯到他那层，应该不难找到他。",
+      "text": "我刚得到消息，尼克来斯蒂尔沃特收几笔旧账了。\n\n他住在码头区的苍鹭酒店；你坐电梯到他那层，应该不难找到他。",
+      "targetName": "Nick"
+    },
+    {
+      "tag": "HITMAN_TARGET_3_1",
+      "id": "0xA683C7A2",
+      "group": "hitman-dossier",
+      "source": "埃弗里特是个水手，上岸休假几天。\n每次一上岸，埃弗里特头一件事就是去斯蒂尔沃特红灯区嫖妓。\n\n杀掉一个皮条客，打听出他住在哪儿，然后做掉他。",
+      "text": "埃弗里特是个水手，上岸休假几天。\n每次一上岸，埃弗里特头一件事就是去斯蒂尔沃特红灯区嫖妓。\n\n杀掉一个皮条客，打听出他住在哪儿，然后做掉他。",
+      "targetName": "Everett"
+    },
+    {
+      "tag": "HITMAN_TARGET_3_2",
+      "id": "0x3F8A9618",
+      "group": "hitman-dossier",
+      "source": "贾斯汀是个盗墓贼，据称亲眼看见我的委托人抛尸。\n\n在晚上10点到凌晨4点之间去市郊墓地，找到他，把他埋了。",
+      "text": "贾斯汀是个盗墓贼，据称亲眼看见我的委托人抛尸。\n\n在晚上10点到凌晨4点之间去市郊墓地，找到他，把他埋了。",
+      "targetName": "Justin"
+    },
+    {
+      "tag": "HITMAN_TARGET_3_3",
+      "id": "0x488DA68E",
+      "group": "hitman-dossier",
+      "source": "克里斯是个飙车党，爱在竞技场、平民区和红灯区那一带对着婊子们显摆。\n\n骑辆摩托在那儿转转就能找到他。",
+      "text": "克里斯是个飙车党，爱在竞技场、平民区和红灯区那一带对着婊子们显摆。\n\n骑辆摩托在那儿转转就能找到他。",
+      "targetName": "Chris"
+    },
+    {
+      "tag": "HITMAN_TARGET_3_4",
+      "id": "0xD6E9332D",
+      "group": "hitman-dossier",
+      "source": "蒂姆是个消防员，他误以为亲眼看到我的委托人纵火烧了 31 栋不同的楼。\n\n拨打 555-FIRE 叫消防队，等他赶到，我们就能把这场误会说清楚。",
+      "text": "蒂姆是个消防员，他误以为亲眼看到我的委托人纵火烧了 31 栋不同的楼。\n\n拨打 555-FIRE 叫消防队，等他赶到，我们就能把这场误会说清楚。",
+      "targetName": "Tim"
+    },
+    {
+      "tag": "HITMAN_TARGET_3_5",
+      "id": "0xA1EE03BB",
+      "group": "hitman-dossier",
+      "source": "米特里喜欢在工厂区的立交桥底下晃悠。 \n\n他总怕警察把他从纸箱子里赶走。在那附近喝点啤酒，让他知道你不是警察，他就会出来见你。",
+      "text": "米特里喜欢在工厂区的立交桥底下晃悠。 \n\n他总怕警察把他从纸箱子里赶走。在那附近喝点啤酒，让他知道你不是警察，他就会出来见你。",
+      "targetName": "Mitri"
+    },
+    {
+      "tag": "HITMAN_TARGET_3_6",
+      "id": "0x38E75201",
+      "group": "hitman-dossier",
+      "source": "弗兰克是个正直的FBI探员，而干我们这行，正直就是个麻烦。\n\n你要是闹得够大，特洛伊就只能请联邦探员出手了。",
+      "text": "弗兰克是个正直的联邦调查局探员，而干我们这行，正直就是个麻烦。\n\n你要是闹得够大，特洛伊就只能请联邦探员出手了。",
+      "targetName": "Frank"
+    },
+    {
+      "tag": "HITMAN_TARGET_4_1",
+      "id": "0xA3CCD127",
+      "group": "hitman-dossier",
+      "source": "香农是拖车公园的保安。 \n\n在这一片挑起一场斗殴，肯定会有人叫他过来劝架。",
+      "text": "香农是拖车公园的保安。 \n\n在这一片挑起一场斗殴，肯定会有人叫他过来劝架。",
+      "targetName": "Shannon"
+    },
+    {
+      "tag": "HITMAN_TARGET_4_2",
+      "id": "0x3AC5809D",
+      "group": "hitman-dossier",
+      "source": "吉姆正要揭发斯蒂尔沃特核电站的内幕。\n\n去核电站岛，然后拨打 555-OOPS 叫危险品处理队；干掉他应该不成问题。",
+      "text": "吉姆正要揭发斯蒂尔沃特核电站的内幕。\n\n去核电站岛，然后拨打 555-OOPS 叫危险品处理队；干掉他应该不成问题。",
+      "targetName": "Jim"
+    },
+    {
+      "tag": "HITMAN_TARGET_4_3",
+      "id": "0x4DC2B00B",
+      "group": "hitman-dossier",
+      "source": "Roje 热爱音乐，而且只在市郊的 Scratch That 店买。 \n\n你也去那儿买几首音乐，混进人群把他引出来。",
+      "text": "罗杰 热爱音乐，而且只在市郊的 刮碟音像店 店买。 \n\n你也去那儿买几首音乐，混进人群把他引出来。",
+      "targetName": "Roje"
+    },
+    {
+      "tag": "HITMAN_TARGET_4_4",
+      "id": "0xD3A625A8",
+      "group": "hitman-dossier",
+      "source": "主城区医院的一名护工一直在散布有关“金字塔”的谣言。\n\n要接近他，你得先把自己抽嗨了，然后以病人的身份入院。",
+      "text": "主城区医院的一名护工一直在散布有关“金字塔”的谣言。\n\n要接近他，你得先把自己抽嗨了，然后以病人的身份入院。",
+      "targetName": "Mike"
+    },
+    {
+      "tag": "HITMAN_TARGET_4_5",
+      "id": "0xA4A1153E",
+      "group": "hitman-dossier",
+      "source": "克林特是 Skeeters 队的死忠粉，每场比赛都到。\n\n去校园里的体育场，喝几瓶 40 盎司的啤酒混进赛前派对的人群里。",
+      "text": "克林特是 蚊子 队的死忠粉，每场比赛都到。\n\n去校园里的体育场，喝几瓶 40 盎司的啤酒混进赛前派对的人群里。",
+      "targetName": "Clint"
+    },
+    {
+      "tag": "HITMAN_TARGET_4_6",
+      "id": "0x3DA84484",
+      "group": "hitman-dossier",
+      "source": "格雷格现在在证人保护计划里，还在 Company of Gyros 当吉祥物。\n\n在 雀斑鸡 菜单上每样买一份，他就会穿着吉祥物装冒出来，跟你推销 Company of Gyros 的加盟机会。\n他身边会带保镖，小心点。",
+      "text": "格雷格现在在证人保护计划里，还在 希腊卷饼公司 当吉祥物。\n\n在 雀斑鸡 菜单上每样买一份，他就会穿着吉祥物装冒出来，跟你推销 希腊卷饼公司 的加盟机会。\n他身边会带保镖，小心点。",
+      "targetName": "Greg"
+    },
+    {
+      "tag": "HITMAN_TARGET_5_1",
+      "id": "0xA20EBB10",
+      "group": "hitman-dossier",
+      "source": "阿普是个讲究时尚的印度男人，有两大爱好：跳舞和苏打水。\n\n他常在巴里奥的夜总会出没，但只有舞池拥挤时才肯屈尊下场跳舞。在舞池里等着，他肯定会出现。",
+      "text": "阿普是个讲究时尚的印度男人，有两大爱好：跳舞和苏打水。\n\n他常在巴里奥的夜总会出没，但只有舞池拥挤时才肯屈尊下场跳舞。在舞池里等着，他肯定会出现。",
+      "targetName": "Apoop"
+    },
+    {
+      "tag": "HITMAN_TARGET_5_2",
+      "id": "0x3B07EAAA",
+      "group": "hitman-dossier",
+      "source": "拉里是个白人垃圾制片人，靠拍他弟弟赫尔默斯的真人秀发了财。\n\n穿上背心式T恤（男士背心）混入拖车公园的人群，他们就会把你当自己人。\n\n拉里很可能正躺在草坪椅上喝着啤酒，等着版税支票。",
+      "text": "拉里是个白人垃圾制片人，靠拍他弟弟赫尔默斯的真人秀发了财。\n\n穿上背心式上衣（男士背心）混入拖车公园的人群，他们就会把你当自己人。\n\n拉里很可能正躺在草坪椅上喝着啤酒，等着版税支票。",
+      "targetName": "Larry"
+    },
+    {
+      "tag": "HITMAN_TARGET_5_3",
+      "id": "0x4C00DA3C",
+      "group": "hitman-dossier",
+      "source": "西博是个古怪的天才，只要出现在公共场合就一身海盗装扮。别看他穿得荒唐，他可是斯蒂尔沃特呼风唤雨的人物之一。 \n\n去码头区，到海盗船餐厅那儿，你很快就能见到他。",
+      "text": "西博是个古怪的天才，只要出现在公共场合就一身海盗装扮。别看他穿得荒唐，他可是斯蒂尔沃特呼风唤雨的人物之一。 \n\n去码头区，到海盗船餐厅那儿，你很快就能见到他。",
+      "targetName": "Seabaugh"
+    },
+    {
+      "tag": "HITMAN_TARGET_5_4",
+      "id": "0xD2644F9F",
+      "group": "hitman-dossier",
+      "source": "弗莱格尔先生简直就是个满身纹身的战神。 \n\n你可以在红灯区的纹身店找到他，但他只会在你纹完身之后现身，对你选的纹身一通批。",
+      "text": "弗莱格尔先生简直就是个满身纹身的战神。 \n\n你可以在红灯区的纹身店找到他，但他只会在你纹完身之后现身，对你选的纹身一通批。",
+      "targetName": "Mr. Flegel"
+    },
+    {
+      "tag": "HITMAN_TARGET_5_5",
+      "id": "0xA5637F09",
+      "group": "hitman-dossier",
+      "source": "在某些方面，弗里博中尉和我可谓志趣相投。我讨厌穷人，他讨厌穿裤子。不管怎么说，他是个恶心的家伙，还是我执行制片人的外甥，所以他得走人。 \n\n如果你闹够了乱子，我敢保证那个暴露狂会出现。",
+      "text": "在某些方面，弗里博中尉和我可谓志趣相投。我讨厌穷人，他讨厌穿裤子。不管怎么说，他是个恶心的家伙，还是我执行制片人的外甥，所以他得走人。 \n\n如果你闹够了乱子，我敢保证那个暴露狂会出现。",
+      "targetName": "Lt. Freeball"
+    },
+    {
+      "tag": "HITMAN_TARGET_5_6",
+      "id": "0x3C6A2EB3",
+      "group": "hitman-dossier",
+      "source": "拉塞尔不忙着从妓女身上刮白粉的时候，就捣鼓考古研究。\n\n去地下洞穴找他吧。",
+      "text": "拉塞尔不忙着从妓女身上刮白粉的时候，就捣鼓考古研究。\n\n去地下洞穴找他吧。",
+      "targetName": "Russell"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_1",
+      "id": "0x0596EC5B",
+      "group": "chop-shop-dossier",
+      "source": "Mockingbird 深受世界各地改装车玩家喜爱，在市郊最容易找到。",
+      "text": "嘲鸟 深受世界各地改装车玩家喜爱，在市郊最容易找到。",
+      "vehicleType": "car_2dr_compact03",
+      "displayName": "Mockingbird"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_2",
+      "id": "0x9C9FBDE1",
+      "group": "chop-shop-dossier",
+      "source": "Churchill 是汽车还由金属而非塑料制造的年代的怀旧之作，在市郊扩建区最容易找到。",
+      "text": "彻奇尔 是汽车还由金属而非塑料制造的年代的怀旧之作，在市郊扩建区最容易找到。",
+      "vehicleType": "car_4dr_standard07",
+      "displayName": "Churchill"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_3",
+      "id": "0xEB988D77",
+      "group": "chop-shop-dossier",
+      "source": "这款经久不衰的 Hammerhead 设计经典，在市中心区最容易找到。",
+      "text": "这款经久不衰的 锤头 设计经典，在市中心区最容易找到。",
+      "vehicleType": "car_2dr_muscle01",
+      "displayName": "Hammerhead"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_4",
+      "id": "0x75FC18D4",
+      "group": "chop-shop-dossier",
+      "source": "Compton 是一款城市经典车型，在博物馆区最容易找到。",
+      "text": "康普顿 是一款城市经典车型，在博物馆区最容易找到。",
+      "vehicleType": "car_4dr_lowrider01",
+      "displayName": "Compton"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_5",
+      "id": "0x02FB2842",
+      "group": "chop-shop-dossier",
+      "source": "Topher 在大麻圈里很受欢迎。它最容易在酒店和码头区找到。",
+      "text": "托弗 在大麻圈里很受欢迎。它最容易在酒店和码头区找到。",
+      "vehicleType": "van_4dr_03",
+      "displayName": "Topher"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_6",
+      "id": "0x9BF279F8",
+      "group": "chop-shop-dossier",
+      "source": "Quota 是所有双排停车司机的克星，在高端零售区最容易找到。",
+      "text": "配额 是所有双排停车司机的克星，在高端零售区最容易找到。",
+      "vehicleType": "sp_metermaid01",
+      "displayName": "Quota"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_7",
+      "id": "0xECF5496E",
+      "group": "chop-shop-dossier",
+      "source": "这辆车你应该再熟悉不过了。警车在市郊一带最容易碰到。",
+      "text": "这辆车你应该再熟悉不过了。警车在市郊一带最容易碰到。",
+      "vehicleType": "car_4dr_police01",
+      "displayName": "Five-O"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_1_8",
+      "id": "0x7C4A54FF",
+      "group": "chop-shop-dossier",
+      "source": "有时候，能二话不说就转运受伤的罪犯，确实挺爽。救护车在市郊拓展区最容易找到。",
+      "text": "有时候，能二话不说就转运受伤的罪犯，确实挺爽。救护车在市郊拓展区最容易找到。",
+      "vehicleType": "sp_ambulance01",
+      "displayName": "Ambulance"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_1",
+      "id": "0x07D05202",
+      "group": "chop-shop-dossier",
+      "source": "轻盈的底盘让 Go! 成了热门越野车。它在拖车园区最容易找到。",
+      "text": "轻盈的底盘让 冲锋 成了热门越野车。它在拖车园区最容易找到。",
+      "vehicleType": "car_2dr_standard06",
+      "displayName": "Go!"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_2",
+      "id": "0x9ED903B8",
+      "group": "chop-shop-dossier",
+      "source": "有时候你想混在人群里不显眼。出租车在市郊拓展区最容易找到。",
+      "text": "有时候你想混在人群里不显眼。出租车在市郊拓展区最容易找到。",
+      "vehicleType": "car_4dr_taxi01",
+      "displayName": "Taxi"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_3",
+      "id": "0xE9DE332E",
+      "group": "chop-shop-dossier",
+      "source": "Wellington 在市中心区最容易找到。",
+      "text": "威灵顿 在市中心区最容易找到。",
+      "vehicleType": "car_4dr_standard09",
+      "displayName": "Wellington"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_4",
+      "id": "0x77BAA68D",
+      "group": "chop-shop-dossier",
+      "source": "Alaskan 这款车适合城市和越野驾驶，在酒店码头区最容易找到。",
+      "text": "阿拉斯加 这款车适合城市和越野驾驶，在酒店码头区最容易找到。",
+      "vehicleType": "suv_4dr_06",
+      "displayName": "Alaskan"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_5",
+      "id": "0x00BD961B",
+      "group": "chop-shop-dossier",
+      "source": "Varsity 深受高中橄榄球队那帮人欢迎，在市中心区最容易找到。",
+      "text": "校队 深受高中橄榄球队那帮人欢迎，在市中心区最容易找到。",
+      "vehicleType": "truck_2dr_pickup02",
+      "displayName": "Varsity"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_6",
+      "id": "0x99B4C7A1",
+      "group": "chop-shop-dossier",
+      "source": "Zenith 造型流畅运动，在酒店和码头区最容易找到。",
+      "text": "巅峰 造型流畅运动，在酒店和码头区最容易找到。",
+      "vehicleType": "car_2dr_exoticsports03",
+      "displayName": "Zenith"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_7",
+      "id": "0xEEB3F737",
+      "group": "chop-shop-dossier",
+      "source": "Justice 最容易在市郊扩展区找到。",
+      "text": "正义 最容易在市郊扩展区找到。",
+      "vehicleType": "car_4dr_exoticluxury01",
+      "displayName": "Justice"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_2_8",
+      "id": "0x7E0CEAA6",
+      "group": "chop-shop-dossier",
+      "source": "坚固。霸气。有钱。Titan 最容易在市中心区找到。",
+      "text": "坚固。霸气。有钱。泰坦 最容易在市中心区找到。",
+      "vehicleType": "truck_2dr_armored01",
+      "displayName": "Titan"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_1",
+      "id": "0x06123835",
+      "group": "chop-shop-dossier",
+      "source": "从军用品剩余物资商店，直抵你滚烫的小手。Swindle 这款车在大学区最容易找到。",
+      "text": "从军用品剩余物资商店，直抵你滚烫的小手。骗局 这款车在大学区最容易找到。",
+      "vehicleType": "suv_2dr_01",
+      "displayName": "Swindle"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_2",
+      "id": "0x9F1B698F",
+      "group": "chop-shop-dossier",
+      "source": "车况这么好的 Betsy 可不多见，但竞技场区附近就有一辆。",
+      "text": "车况这么好的 贝西 可不多见，但竞技场区附近就有一辆。",
+      "vehicleType": "truck_2dr_classic01",
+      "displayName": "Betsy"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_3",
+      "id": "0xE81C5919",
+      "group": "chop-shop-dossier",
+      "source": "NRG V8 虽然谈不上好看，但可靠性没得说。在巴里奥区最容易找到它。",
+      "text": "能量 V8 虽然谈不上好看，但可靠性没得说。在巴里奥区最容易找到它。",
+      "vehicleType": "van_4dr_01",
+      "displayName": "NRG V8"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_4",
+      "id": "0x7678CCBA",
+      "group": "chop-shop-dossier",
+      "source": "Raycaster又快又骚，在唐人街区最容易找到。",
+      "text": "射线又快又骚，在唐人街区最容易找到。",
+      "vehicleType": "car_2dr_sports03",
+      "displayName": "Raycaster"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_5",
+      "id": "0x017FFC2C",
+      "group": "chop-shop-dossier",
+      "source": "有时候你就想要一辆不废话的摩托。Melbourne 在机场区最容易找到。",
+      "text": "有时候你就想要一辆不废话的摩托。墨尔本 在机场区最容易找到。",
+      "vehicleType": "bike_standard02",
+      "displayName": "Melbourne"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_6",
+      "id": "0x9876AD96",
+      "group": "chop-shop-dossier",
+      "source": "这是那款欧洲经典车的最新款。Bézier 在公寓区最容易找到。",
+      "text": "这是那款欧洲经典车的最新款。贝塞尔 在公寓区最容易找到。",
+      "vehicleType": "car_2dr_exoticsports05",
+      "displayName": "Bezier"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_7",
+      "id": "0xEF719D00",
+      "group": "chop-shop-dossier",
+      "source": "Cosmos 是一款毫不起眼的紧凑型轿车，用来处理尸体再合适不过。它在贫民区最容易找到。",
+      "text": "星空 是一款毫不起眼的紧凑型轿车，用来处理尸体再合适不过。它在贫民区最容易找到。",
+      "vehicleType": "car_2dr_standard03",
+      "displayName": "Cosmos"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_3_8",
+      "id": "0x7FCE8091",
+      "group": "chop-shop-dossier",
+      "source": "真正的名流不屑于自己开车。Status Quo 最容易在红灯区找到。",
+      "text": "真正的名流不屑于自己开车。现状 最容易在红灯区找到。",
+      "vehicleType": "sp_limo01",
+      "displayName": "Status Quo"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_1",
+      "id": "0x035D2EB0",
+      "group": "chop-shop-dossier",
+      "source": "Voxel 是斯蒂尔沃特改装玩家的首选座驾，在巴里奥区最容易找到。",
+      "text": "体素 是斯蒂尔沃特改装玩家的首选座驾，在巴里奥区最容易找到。",
+      "vehicleType": "car_4dr_sports01",
+      "displayName": "Voxel"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_2",
+      "id": "0x9A547F0A",
+      "group": "chop-shop-dossier",
+      "source": "Magma 因操控紧凑而深受街头赛车手喜爱，在贫民区最容易找到。",
+      "text": "火山 因操控紧凑而深受街头赛车手喜爱，在贫民区最容易找到。",
+      "vehicleType": "car_2dr_sports06",
+      "displayName": "Magma"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_3",
+      "id": "0xED534F9C",
+      "group": "chop-shop-dossier",
+      "source": "奢靡之巅，Attrazione 最容易在红灯区找到。",
+      "text": "奢靡之巅，诱惑 最容易在红灯区找到。",
+      "vehicleType": "car_2dr_exoticsports01",
+      "displayName": "Attrazione"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_4",
+      "id": "0x7337DA3F",
+      "group": "chop-shop-dossier",
+      "source": "有些人就爱车贴花。Superiore 在机场区最容易找到。",
+      "text": "有些人就爱车贴花。超凡 在机场区最容易找到。",
+      "vehicleType": "car_2dr_exoticsports06",
+      "displayName": "Superiore"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_5",
+      "id": "0x0430EAA9",
+      "group": "chop-shop-dossier",
+      "source": "Venom Classic 曾是声名狼藉的罪犯强尼·盖特最爱的车，在唐人街一带最容易找到。",
+      "text": "经典毒蛇 曾是声名狼藉的罪犯强尼·盖特最爱的车，在唐人街一带最容易找到。",
+      "vehicleType": "car_2dr_sports05",
+      "displayName": "Venom Classic"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_6",
+      "id": "0x9D39BB13",
+      "group": "chop-shop-dossier",
+      "source": "柚木仪表台、12 碟 CD 换碟机……这肯定是 Eiswolf。这款敞篷车在圣徒街区最容易找到。",
+      "text": "柚木仪表台、十二碟光碟换碟机……这肯定是 冰狼。这款敞篷车在圣徒街区最容易找到。",
+      "vehicleType": "car_4dr_luxury04",
+      "displayName": "Eiswolf"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_7",
+      "id": "0xEA3E8B85",
+      "group": "chop-shop-dossier",
+      "source": "这辆豪华轿车被改成了赛车手的梦想座驾。Socialite 在公寓区最容易找到。",
+      "text": "这辆豪华轿车被改成了赛车手的梦想座驾。名流 在公寓区最容易找到。",
+      "vehicleType": "car_4dr_luxury05",
+      "displayName": "Socialite"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_4_8",
+      "id": "0x7A819614",
+      "group": "chop-shop-dossier",
+      "source": "Peacekeeper 用于警方路障。惹上警察追你，很快就能见到它，或者前往圣徒街区。",
+      "text": "维和者 用于警方路障。惹上警察追你，很快就能见到它，或者前往圣徒街区。",
+      "vehicleType": "van_2dr_riot01",
+      "displayName": "Peacekeeper"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_1",
+      "id": "0x029F4487",
+      "group": "chop-shop-dossier",
+      "source": "Voyage 这车方头方脑、其貌不扬，带娃的家庭主妇和人口贩子都爱用。在码头区最容易碰到它。",
+      "text": "航程 这车方头方脑、其貌不扬，带娃的家庭主妇和人口贩子都爱用。在码头区最容易碰到它。",
+      "vehicleType": "van_4dr_04",
+      "displayName": "Voyage"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_2",
+      "id": "0x9B96153D",
+      "group": "chop-shop-dossier",
+      "source": "有人称 Danville 为“穷人版康普顿”，它在卡车场区最容易找到。",
+      "text": "有人称 丹维尔 为“穷人版康普顿”，它在卡车场区最容易找到。",
+      "vehicleType": "car_2dr_standard07",
+      "displayName": "Danville"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_3",
+      "id": "0xEC9125AB",
+      "group": "chop-shop-dossier",
+      "source": "本·金让 Mag 这车红到了今天这地步。在项目区最容易碰到它。",
+      "text": "本·金让 马格 这车红到了今天这地步。在项目区最容易碰到它。",
+      "vehicleType": "suv_4dr_luxury01",
+      "displayName": "Mag"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_4",
+      "id": "0x72F5B008",
+      "group": "chop-shop-dossier",
+      "source": "它是少数能让你轻松运送违禁货物的载具之一。Bag Boy 在机场区最容易找到。",
+      "text": "它是少数能让你轻松运送违禁货物的载具之一。行李小子 在机场区最容易找到。",
+      "vehicleType": "sp_bagcart01",
+      "displayName": "Bag Boy"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_5",
+      "id": "0x05F2809E",
+      "group": "chop-shop-dossier",
+      "source": "有时候要搬好几具尸体，就得搭把手。挖掘机在巴里奥区最容易找到。",
+      "text": "有时候要搬好几具尸体，就得搭把手。挖掘机在巴里奥区最容易找到。",
+      "vehicleType": "sp_backhoe01",
+      "displayName": "Backhoe"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_6",
+      "id": "0x9CFBD124",
+      "group": "chop-shop-dossier",
+      "source": "圣徒街改造之后，工厂区又开始了新的工程，你应该能在那儿找到一台推土机。",
+      "text": "圣徒街改造之后，工厂区又开始了新的工程，你应该能在那儿找到一台推土机。",
+      "vehicleType": "sp_bulldozer01",
+      "displayName": "Bulldozer"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_7",
+      "id": "0xEBFCE1B2",
+      "group": "chop-shop-dossier",
+      "source": "一辆毫不起眼的送货卡车，在圣徒街区最容易找到。",
+      "text": "一辆毫不起眼的送货卡车，在圣徒街区最容易找到。",
+      "vehicleType": "sp_dlvry_truck01",
+      "displayName": "Delivery Truck"
+    },
+    {
+      "tag": "CHOP_SHOP_TARGET_5_8",
+      "id": "0x7B43FC23",
+      "group": "chop-shop-dossier",
+      "source": "Longhauler 深受建筑工人和机器人爱好者喜爱，在红灯区最容易找到。",
+      "text": "长途重卡 深受建筑工人和机器人爱好者喜爱，在红灯区最容易找到。",
+      "vehicleType": "truck_2dr_construct01",
+      "displayName": "Longhauler"
+    },
+    {
+      "tag": "Use cover to avoid taking damage",
+      "id": "0x7ECF7425",
+      "group": "loading-tip",
+      "source": "Use cover to avoid taking damage",
+      "text": "利用掩体躲避敌人的攻击。",
+      "sourceIndex": 1
+    },
+    {
+      "tag": "Press R to pick up items from the ground",
+      "id": "0xF92A3BD9",
+      "group": "loading-tip",
+      "source": "Press R to pick up items from the ground",
+      "text": "按屏幕提示拾取地上的武器。",
+      "sourceIndex": 2
+    },
+    {
+      "tag": "Complete missions to raise your gang respect",
+      "id": "0x10A74AFF",
+      "group": "loading-tip",
+      "source": "Complete missions to raise your gang respect",
+      "text": "参加活动积累声望，开启更多主线任务。",
+      "sourceIndex": 3
+    },
+    {
+      "tag": "Mark targets on the map to get directions",
+      "id": "0xACF0621F",
+      "group": "loading-tip",
+      "source": "Mark targets on the map to get directions",
+      "text": "在地图上标记目的地，即可获得路线指引。",
+      "sourceIndex": 4
+    },
+    {
+      "tag": "Press Shift while driving to boost",
+      "id": "0x19FACBD5",
+      "group": "loading-tip",
+      "source": "Press Shift while driving to boost",
+      "text": "为车辆加装氮气，驾驶时即可使用氮气加速。",
+      "sourceIndex": 5
+    },
+    {
+      "tag": "Buy properties for extra income",
+      "id": "0xD6796940",
+      "group": "loading-tip",
+      "source": "Buy properties for extra income",
+      "text": "购买房产，定期领取额外收入。",
+      "sourceIndex": 6
+    },
+    {
+      "tag": "Upgrade your weapons to increase damage",
+      "id": "0x9327A1C7",
+      "group": "loading-tip",
+      "source": "Upgrade your weapons to increase damage",
+      "text": "完成活动，解锁更强的武器和战斗奖励。",
+      "sourceIndex": 7
+    },
+    {
+      "tag": "Call your homies for backup in a fight",
+      "id": "0xE50AF98B",
+      "group": "loading-tip",
+      "source": "Call your homies for backup in a fight",
+      "text": "遇到强敌时，可以打电话叫小弟前来支援。",
+      "sourceIndex": 8
+    },
+    {
+      "tag": "Remember to save your progress",
+      "id": "0x4921F47B",
+      "group": "loading-tip",
+      "source": "Remember to save your progress",
+      "text": "记得保存游戏进度。",
+      "sourceIndex": 9
+    },
+    {
+      "tag": "Knock down enemies to steal their weapons",
+      "id": "0xD722FF71",
+      "group": "loading-tip",
+      "source": "Knock down enemies to steal their weapons",
+      "text": "击倒敌人后，可以拾取他们掉落的武器。",
+      "sourceIndex": 10
+    },
+    {
+      "tag": "Drive vehicles to a garage to customize them",
+      "id": "0xAABFB47D",
+      "group": "loading-tip",
+      "source": "Drive vehicles to a garage to customize them",
+      "text": "车库存放车辆，修车厂提供改装服务。",
+      "sourceIndex": 11
+    },
+    {
+      "tag": "Press Tab to open the map",
+      "id": "0x79804F3E",
+      "group": "loading-tip",
+      "source": "Press Tab to open the map",
+      "text": "在暂停菜单中打开地图，规划行车路线。",
+      "sourceIndex": 12
+    },
+    {
+      "tag": "Watch your notoriety level around police",
+      "id": "0x7CA5BB63",
+      "group": "loading-tip",
+      "source": "Watch your notoriety level around police",
+      "text": "靠近警察时，留意你的通缉等级。",
+      "sourceIndex": 13
+    },
+    {
+      "tag": "Use grenades against grouped enemies",
+      "id": "0x99E2AAB3",
+      "group": "loading-tip",
+      "source": "Use grenades against grouped enemies",
+      "text": "敌人聚在一起时，试试用手榴弹对付他们。",
+      "sourceIndex": 14
+    },
+    {
+      "tag": "Different outfits give different bonuses",
+      "id": "0x0B92B07C",
+      "group": "loading-tip",
+      "source": "Different outfits give different bonuses",
+      "text": "购买新衣服，提升你的风格加成。",
+      "sourceIndex": 15
+    },
+    {
+      "tag": "Buy weapons and supplies at the store",
+      "id": "0x126EF7CB",
+      "group": "loading-tip",
+      "source": "Buy weapons and supplies at the store",
+      "text": "出发前，可以到商店补充武器和物资。",
+      "sourceIndex": 16
+    },
+    {
+      "tag": "Expand gang territory by completing missions",
+      "id": "0xEC0D4495",
+      "group": "loading-tip",
+      "source": "Expand gang territory by completing missions",
+      "text": "完成帮派主线任务，扩大圣徒的地盘。",
+      "sourceIndex": 17
+    },
+    {
+      "tag": "Use the environment to win fights more easily",
+      "id": "0x04164C0D",
+      "group": "loading-tip",
+      "source": "Use the environment to win fights more easily",
+      "text": "利用周围环境，让战斗更轻松。",
+      "sourceIndex": 18
+    },
+    {
+      "tag": "Keep your balance while riding motorcycles",
+      "id": "0x6A9FBC9A",
+      "group": "loading-tip",
+      "source": "Keep your balance while riding motorcycles",
+      "text": "骑摩托车时，注意控制车速和方向。",
+      "sourceIndex": 19
+    },
+    {
+      "tag": "Hide in buildings when wanted by police",
+      "id": "0x5EC0DDD8",
+      "group": "loading-tip",
+      "source": "Hide in buildings when wanted by police",
+      "text": "被警察追捕时，可前往宽恕罪孽消除通缉。",
+      "sourceIndex": 20
+    },
+    {
+      "tag": "Finish activities for extra rewards",
+      "id": "0xFFEEA59B",
+      "group": "loading-tip",
+      "source": "Finish activities for extra rewards",
+      "text": "完成活动，可以获得额外奖励。",
+      "sourceIndex": 21
+    },
+    {
+      "tag": "Play with friends to complete more challenges",
+      "id": "0x5E6ECABF",
+      "group": "loading-tip",
+      "source": "Play with friends to complete more challenges",
+      "text": "与好友合作，一起完成任务和活动。",
+      "sourceIndex": 22
+    },
+    {
+      "tag": "Pay attention to on-screen prompts",
+      "id": "0xAA681008",
+      "group": "loading-tip",
+      "source": "Pay attention to on-screen prompts",
+      "text": "留意屏幕上的操作提示。",
+      "sourceIndex": 23
+    },
+    {
+      "tag": "Save often so you never lose progress",
+      "id": "0x2E41F839",
+      "group": "loading-tip",
+      "source": "Save often so you never lose progress",
+      "text": "经常保存游戏，避免丢失进度。",
+      "sourceIndex": 24
+    },
+    {
+      "tag": "Upgrade your abilities to make fights easier",
+      "id": "0xBCDA5735",
+      "group": "loading-tip",
+      "source": "Upgrade your abilities to make fights easier",
+      "text": "完成活动，可解锁体力和战斗方面的奖励。",
+      "sourceIndex": 25
+    },
+    {
+      "tag": "Store your favorite vehicles in the garage",
+      "id": "0x7942D770",
+      "group": "loading-tip",
+      "source": "Store your favorite vehicles in the garage",
+      "text": "把喜欢的车辆存进车库，方便以后取用。",
+      "sourceIndex": 26
+    },
+    {
+      "tag": "Try different weapons to find your favorite",
+      "id": "0x59430676",
+      "group": "loading-tip",
+      "source": "Try different weapons to find your favorite",
+      "text": "多试几种武器，找到最适合自己的搭配。",
+      "sourceIndex": 27
+    },
+    {
+      "tag": "Claim your reward after finishing a mission",
+      "id": "0x9E26E8F6",
+      "group": "loading-tip",
+      "source": "Claim your reward after finishing a mission",
+      "text": "完成任务后，留意新解锁的奖励。",
+      "sourceIndex": 28
+    },
+    {
+      "tag": "Dodge when enemies wind up their attacks",
+      "id": "0x89747D25",
+      "group": "loading-tip",
+      "source": "Dodge when enemies wind up their attacks",
+      "text": "近身战中，抓准时机格挡和反击。",
+      "sourceIndex": 29
+    },
+    {
+      "tag": "You can change the difficulty at any time",
+      "id": "0xB9193DFE",
+      "group": "loading-tip",
+      "source": "You can change the difficulty at any time",
+      "text": "随时可以在选项菜单中调整游戏难度。",
+      "sourceIndex": 30
+    },
+    {
+      "tag": "Take the high ground for a better view",
+      "id": "0x6B84826F",
+      "group": "loading-tip",
+      "source": "Take the high ground for a better view",
+      "text": "占据高处，更容易观察周围的敌人。",
+      "sourceIndex": 31
+    },
+    {
+      "tag": "Money buys gear, weapons and property",
+      "id": "0x50330B67",
+      "group": "loading-tip",
+      "source": "Money buys gear, weapons and property",
+      "text": "现金可以购买装备、武器和房产。",
+      "sourceIndex": 32
+    },
+    {
+      "tag": "Park in a safe spot before getting out",
+      "id": "0x3D4FFBAC",
+      "group": "loading-tip",
+      "source": "Park in a safe spot before getting out",
+      "text": "下车前，先把车辆停在安全的位置。",
+      "sourceIndex": 34
+    },
+    {
+      "tag": "Watch the time limits on timed missions",
+      "id": "0x5AE99D84",
+      "group": "loading-tip",
+      "source": "Watch the time limits on timed missions",
+      "text": "进行限时任务时，留意剩余时间。",
+      "sourceIndex": 35
+    },
+    {
+      "tag": "Each gang fights with a different style",
+      "id": "0x834935DC",
+      "group": "loading-tip",
+      "source": "Each gang fights with a different style",
+      "text": "不同帮派各有战斗风格，注意灵活应对。",
+      "sourceIndex": 36
+    },
+    {
+      "tag": "Explore the city to find hidden content",
+      "id": "0xB9CCFFE3",
+      "group": "loading-tip",
+      "source": "Explore the city to find hidden content",
+      "text": "探索城市，寻找隐藏的地点和收集品。",
+      "sourceIndex": 37
+    },
+    {
+      "tag": "Finishing missions unlocks new weapons",
+      "id": "0x359C76D9",
+      "group": "loading-tip",
+      "source": "Finishing missions unlocks new weapons",
+      "text": "完成任务，可以解锁新的武器。",
+      "sourceIndex": 38
+    },
+    {
+      "tag": "Keep moving so enemies cannot surround you",
+      "id": "0xAD09EE07",
+      "group": "loading-tip",
+      "source": "Keep moving so enemies cannot surround you",
+      "text": "保持移动，避免被敌人包围。",
+      "sourceIndex": 39
+    },
+    {
+      "tag": "Use binoculars to mark distant targets",
+      "id": "0x3C3F9E77",
+      "group": "loading-tip",
+      "source": "Use binoculars to mark distant targets",
+      "text": "在地图上标记目的地，跟随导航前往。",
+      "sourceIndex": 40
+    },
+    {
+      "tag": "Find health packs to heal after a fight",
+      "id": "0xC0BBCACD",
+      "group": "loading-tip",
+      "source": "Find health packs to heal after a fight",
+      "text": "受伤后，可以使用食物恢复生命值。",
+      "sourceIndex": 41
+    },
+    {
+      "tag": "Use vehicles to travel across the city fast",
+      "id": "0x1B3D4213",
+      "group": "loading-tip",
+      "source": "Use vehicles to travel across the city fast",
+      "text": "驾驶车辆，可以更快地穿越城市。",
+      "sourceIndex": 42
+    },
+    {
+      "tag": "Weather affects how your car handles",
+      "id": "0xC8720103",
+      "group": "loading-tip",
+      "source": "Weather affects how your car handles",
+      "text": "高速转弯容易失控，入弯前记得减速。",
+      "sourceIndex": 43
+    },
+    {
+      "tag": "Store important vehicles in your garage",
+      "id": "0x05BCD4AB",
+      "group": "loading-tip",
+      "source": "Store important vehicles in your garage",
+      "text": "把重要的车辆存进车库，方便以后取用。",
+      "sourceIndex": 44
+    },
+    {
+      "tag": "Finish mission chains to unlock the story",
+      "id": "0x740A1490",
+      "group": "loading-tip",
+      "source": "Finish mission chains to unlock the story",
+      "text": "继续完成主线任务，推进帮派的故事。",
+      "sourceIndex": 45
+    },
+    {
+      "tag": "Open the options menu any time to adjust settings",
+      "id": "0xB625584F",
+      "group": "loading-tip",
+      "source": "Open the options menu any time to adjust settings",
+      "text": "打开选项菜单，可以调整游戏设置。",
+      "sourceIndex": 46
+    }
+  ],
+  "retiredTags": [
+    "Alaskan",
+    "Alvan",
+    "Ambulance",
+    "Anoop",
+    "Apoop",
+    "Attrazione",
+    "Backhoe",
+    "Bag Boy",
+    "Betsy",
+    "Bezier",
+    "Brad",
+    "Brian",
+    "Bulldozer",
+    "Bézier",
+    "Chris",
+    "Churchill",
+    "Clint",
+    "Company of Gyros",
+    "Compton",
+    "Cosmos",
+    "Danville",
+    "Delivery Truck",
+    "Eiswolf",
+    "Everett",
+    "Five-O",
+    "Frank",
+    "Go!",
+    "Greg",
+    "Hammerhead",
+    "James",
+    "Jeremiah",
+    "Jim",
+    "Justice",
+    "Justin",
+    "Larry",
+    "Longhauler",
+    "Lt. Freeball",
+    "Mag",
+    "Magma",
+    "Melbourne",
+    "Mike",
+    "Mitri",
+    "Mix Master",
+    "Mockingbird",
+    "Mr. Flegel",
+    "NRG V8",
+    "Nate",
+    "Nick",
+    "Peacekeeper",
+    "Quota",
+    "Randy",
+    "Raycaster",
+    "Roje",
+    "Russell",
+    "Scott",
+    "Scratch That",
+    "Seabaugh",
+    "Shannon",
+    "Socialite",
+    "Status Quo",
+    "Superiore",
+    "Swindle",
+    "Taxi",
+    "Technically Legal",
+    "Tim",
+    "Titan",
+    "Topher",
+    "Varsity",
+    "Venom Classic",
+    "Voxel",
+    "Voyage",
+    "Wellington",
+    "Zenith"
+  ]
+}

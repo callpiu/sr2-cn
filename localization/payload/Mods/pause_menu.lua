@@ -1068,7 +1068,131 @@ function pause_menu_prep_hitman_targets(menu_data)
 	vint_set_property(Pause_menu_check_box_image.text_h, "wrap_width", menu_data.image_offset.text.wrap)
 end
 
+-- BEGIN SR2CN DISPLAY LOCALIZATION
+-- ASCII tags only; native Unicode stays in the engine text layer.
+local sr2cn_hitman_names = {
+	{"Alvan", "SR2CN_HITMAN_5332141D"},
+	{"Brad", "SR2CN_HITMAN_F0637C11"},
+	{"Anoop", "SR2CN_HITMAN_8E405484"},
+	{"Frank", "SR2CN_HITMAN_BF4FB514"},
+	{"Scott", "SR2CN_HITMAN_C8514738"},
+	{"James", "SR2CN_HITMAN_C191189D"},
+	{"Jeremiah", "SR2CN_HITMAN_3E58E73B"},
+	{"Nate", "SR2CN_HITMAN_E4670802"},
+	{"Brian", "SR2CN_HITMAN_B32EAA2C"},
+	{"Chris", "SR2CN_HITMAN_0A469E27"},
+	{"Randy", "SR2CN_HITMAN_6A89A2D8"},
+	{"Nick", "SR2CN_HITMAN_084FF02B"},
+	{"Everett", "SR2CN_HITMAN_C6361DA8"},
+	{"Justin", "SR2CN_HITMAN_AC1A10CC"},
+	{"Tim", "SR2CN_HITMAN_D4C40D87"},
+	{"Mitri", "SR2CN_HITMAN_5D130971"},
+	{"Shannon", "SR2CN_HITMAN_4CAA4451"},
+	{"Jim", "SR2CN_HITMAN_C27C83FD"},
+	{"Roje", "SR2CN_HITMAN_2077F2F0"},
+	{"Mike", "SR2CN_HITMAN_359BF8CA"},
+	{"Clint", "SR2CN_HITMAN_44724685"},
+	{"Greg", "SR2CN_HITMAN_3AD8189D"},
+	{"Apoop", "SR2CN_HITMAN_3E867428"},
+	{"Larry", "SR2CN_HITMAN_BCFD64F8"},
+	{"Seabaugh", "SR2CN_HITMAN_637E2334"},
+	{"Mr. Flegel", "SR2CN_HITMAN_468C3365"},
+	{"Lt. Freeball", "SR2CN_HITMAN_81282895"},
+	{"Russell", "SR2CN_HITMAN_24B0C80E"},
+}
+local sr2cn_vehicle_names = {
+	{"Mockingbird", "SR2CN_VEHICLE_D5FE381D"},
+	{"Churchill", "SR2CN_VEHICLE_74107E2F"},
+	{"Hammerhead", "SR2CN_VEHICLE_753B4DEA"},
+	{"Compton", "SR2CN_VEHICLE_52F6032C"},
+	{"Topher", "SR2CN_VEHICLE_00AB1ABD"},
+	{"Quota", "SR2CN_VEHICLE_AA3EF8F0"},
+	{"Five-O", "SR2CN_VEHICLE_B7E029D6"},
+	{"Ambulance", "SR2CN_VEHICLE_A929A080"},
+	{"Go!", "SR2CN_VEHICLE_E394BA93"},
+	{"Taxi", "SR2CN_VEHICLE_7EC0BCDE"},
+	{"Wellington", "SR2CN_VEHICLE_7DAC6AD0"},
+	{"Alaskan", "SR2CN_VEHICLE_1D41EB87"},
+	{"Varsity", "SR2CN_VEHICLE_930400F6"},
+	{"Zenith", "SR2CN_VEHICLE_6FAEF39D"},
+	{"Justice", "SR2CN_VEHICLE_1A087F11"},
+	{"Titan", "SR2CN_VEHICLE_CF6828B3"},
+	{"Swindle", "SR2CN_VEHICLE_3F32B043"},
+	{"Betsy", "SR2CN_VEHICLE_9139003D"},
+	{"NRG V8", "SR2CN_VEHICLE_7E373231"},
+	{"Raycaster", "SR2CN_VEHICLE_1D25BD8B"},
+	{"Melbourne", "SR2CN_VEHICLE_EA5D9F1E"},
+	{"Bezier", "SR2CN_VEHICLE_F1EB69C9"},
+	{"Cosmos", "SR2CN_VEHICLE_87EE9D87"},
+	{"Status Quo", "SR2CN_VEHICLE_2B8EA211"},
+	{"Voxel", "SR2CN_VEHICLE_13BB7943"},
+	{"Magma", "SR2CN_VEHICLE_4546BA1B"},
+	{"Attrazione", "SR2CN_VEHICLE_734E6004"},
+	{"Superiore", "SR2CN_VEHICLE_3FA927BE"},
+	{"Venom Classic", "SR2CN_VEHICLE_F277A0F4"},
+	{"Eiswolf", "SR2CN_VEHICLE_90FD5331"},
+	{"Socialite", "SR2CN_VEHICLE_B16F8A21"},
+	{"Peacekeeper", "SR2CN_VEHICLE_C8772B0D"},
+	{"Voyage", "SR2CN_VEHICLE_8E5F28F6"},
+	{"Danville", "SR2CN_VEHICLE_CE7FA9E4"},
+	{"Mag", "SR2CN_VEHICLE_EF3FF66E"},
+	{"Bag Boy", "SR2CN_VEHICLE_D44E24EE"},
+	{"Backhoe", "SR2CN_VEHICLE_744D848B"},
+	{"Bulldozer", "SR2CN_VEHICLE_55158BCA"},
+	{"Delivery Truck", "SR2CN_VEHICLE_F608D34B"},
+	{"Longhauler", "SR2CN_VEHICLE_382954BB"},
+	{"Mix Master", "SR2CN_VEHICLE_F81A09F3"},
+	{"B\195\169zier", "SR2CN_VEHICLE_1367F394"},
+}
+local function sr2cn_localize_display_name(name, aliases)
+	for _, pair in ipairs(aliases) do
+		if sui_compare_string(name, pair[1]) then return pair[2] end
+	end
+	return name
+end
+local sr2cn_achievement_descriptions = {
+	["ACHIEVE_SR2_WELCOME_BACK"] = "SR2CN_ACHIEVE_DESC_CA46968B",
+	["Still Addicted to tha Row"] = "SR2CN_ACHIEVE_DESC_7147D643",
+	["ACHIEVE_SR2_BLUE_COLLAR"] = "SR2CN_ACHIEVE_DESC_43853940",
+	["ACHIEVE_SR2_ROMEROS_HERO"] = "SR2CN_ACHIEVE_DESC_B53CD04F",
+	["ACHIEVE_SR2_A_BRIGHTER_FUTURE"] = "SR2CN_ACHIEVE_DESC_6C689C91",
+	["ACHIEVE_SR2_VENGEANCE"] = "SR2CN_ACHIEVE_DESC_CBB4FB39",
+	["A Better Life"] = "SR2CN_ACHIEVE_DESC_175B3433",
+	["ACHIEVE_SR2_SEPPUKU"] = "SR2CN_ACHIEVE_DESC_047EDA35",
+	["ACHIEVE_SR2_BROTHERS_KEEPER"] = "SR2CN_ACHIEVE_DESC_4D406D54",
+	["ACHIEVE_SR2_REMIND_ME_BABE"] = "SR2CN_ACHIEVE_DESC_880EA984",
+	["ACHIEVE_SR2_CRIME_LORD"] = "SR2CN_ACHIEVE_DESC_0A03196F",
+	["ACHIEVE_SR2_VELVET_ROPE"] = "SR2CN_ACHIEVE_DESC_82832FBA",
+	["ACHIEVE_SR2_DEMOLITION_MAN"] = "SR2CN_ACHIEVE_DESC_D15C9867",
+	["ACHIEVE_SR2_PURPLE_HAZE"] = "SR2CN_ACHIEVE_DESC_7D3212E3",
+	["ACHIEVE_SR2_TRICKSTER"] = "SR2CN_ACHIEVE_DESC_4C12B287",
+	["ACHIEVE_SR2_DO_NOT_TALK_ABOUT_IT"] = "SR2CN_ACHIEVE_DESC_2A1E1C92",
+	["ACHIEVE_SR2_REALITY_STAR"] = "SR2CN_ACHIEVE_DESC_9C8A2CA3",
+	["ACHIEVE_SR2_HELIGOOD"] = "SR2CN_ACHIEVE_DESC_6969C8C5",
+	["ACHIEVE_SR2_STUNTMAN"] = "SR2CN_ACHIEVE_DESC_2096150E",
+	["ACHIEVE_SR2_AMBULANCE_CHASER"] = "SR2CN_ACHIEVE_DESC_30E66D72",
+	["ACHIEVE_SR2_WRECKING_CREW"] = "SR2CN_ACHIEVE_DESC_F45B1CEE",
+	["ACHIEVE_SR2_SPLATSTER_CHIEF"] = "SR2CN_ACHIEVE_DESC_7AD281E1",
+	["ACHIEVE_SR2_BUT_IT_SURE_IS_FUN"] = "SR2CN_ACHIEVE_DESC_0C53CAAF",
+	["ACHIEVE_SR2_DUKE_OF_STILWATER"] = "SR2CN_ACHIEVE_DESC_A314B97B",
+	["ACHIEVE_SR2_MAVERICK_GOOSE"] = "SR2CN_ACHIEVE_DESC_EDF364CF",
+	["ACHIEVE_SR2_ALL_CITY"] = "SR2CN_ACHIEVE_DESC_8C0097BD",
+	["ACHIEVE_SR2_HIFEDELITY"] = "SR2CN_ACHIEVE_DESC_27A5A690",
+	["ACHIEVE_SR2_WHERES_MY_CAR"] = "SR2CN_ACHIEVE_DESC_ADB0ED25",
+	["ACHIEVE_SR2_HELLO_47"] = "SR2CN_ACHIEVE_DESC_EB7B0E1B",
+	["ACHIEVE_SR2_QUICK_AND_PISSED"] = "SR2CN_ACHIEVE_DESC_727C04DF",
+	["ACHIEVE_SR2_SURFSUP"] = "SR2CN_ACHIEVE_DESC_A8BC346F",
+	["ACHIEVE_SR2_GOING_THE_DISTANCE"] = "SR2CN_ACHIEVE_DESC_FA744D4F",
+	["ACHIEVE_SR2_LOVE_THY_NEIGHBOR"] = "SR2CN_ACHIEVE_DESC_633CC6A4",
+	["ACHIEVE_SR2_AWW_NUTS"] = "SR2CN_ACHIEVE_DESC_874BC606",
+	["ACHIEVE_SR2_STILWATER_WELCOMING_COM"] = "SR2CN_ACHIEVE_DESC_1C33FC9E",
+	["ACHIEVE_SR2_TRASH_TALKER"] = "SR2CN_ACHIEVE_DESC_5FF0CBEA",
+	["ACHIEVE_SR2_IM_NOT_ADDICTED"] = "SR2CN_ACHIEVE_DESC_A6C7EB58",
+}
+-- END SR2CN DISPLAY LOCALIZATION
+
 function pause_menu_populate_hitman_target(name, dead, dossier, peg, image, location, current)
+	name = sr2cn_localize_display_name(name, sr2cn_hitman_names)
 	local idx = Pause_info_diversions_sub_menu.num_items
 
 	local check_it = dead
@@ -1125,6 +1249,7 @@ function pause_menu_prep_chop_shop_vehicle(menu_data)
 end
 
 function pause_menu_populate_chop_shop_vehicle(name, retrieved, dossier, peg, image, cash, respect, current)
+	name = sr2cn_localize_display_name(name, sr2cn_vehicle_names)
 	local idx = Pause_info_diversions_sub_menu.num_items
 	local check_color
 	local check_it = false
@@ -1301,6 +1426,7 @@ end
 -- Add an achievement to the list
 -- format_type: 0 for standard, 1 for money, 2 for time
 function pause_menu_achievements_add(achieve_name, description, progress_now, progress_max, format_type)
+	description = sr2cn_achievement_descriptions[achieve_name] or description
 	if format_type == nil then
 		format_type = 0
 	end
@@ -1362,19 +1488,19 @@ function pause_menu_achievements_stats(stat_text, show_value, value)
 	local stat_max = -1
 	local format_type = 0
 
-	if sui_compare_string(stat_text, "Ronin missions completed") then
+	if sui_compare_string(stat_text, "SUI_STAT_RN_MISSIONS_COMPLETED") then
 		achieve_name = "ACHIEVE_SR2_SEPPUKU"
 		desc = "Complete all Ronin missions"
 		progress_max = 11
 		stat_max = 11
 	end
-	if sui_compare_string(stat_text, "Brotherhood missions completed") then
+	if sui_compare_string(stat_text, "SUI_STAT_BH_MISSIONS_COMPLETED") then
 		achieve_name = "ACHIEVE_SR2_BROTHERS_KEEPER"
 		desc = "Complete all Hitman lists"
 		progress_max = 11
 		stat_max = 11
 	end
-	if sui_compare_string(stat_text, "Sons of Samedi missions completed") then
+	if sui_compare_string(stat_text, "SUI_STAT_SS_MISSIONS_COMPLETED") then
 		achieve_name = "ACHIEVE_SR2_REMIND_ME_BABE"
 		desc = "Complete all Escort"
 		progress_max = 11
@@ -1497,8 +1623,9 @@ function pause_menu_achievements_stats(stat_text, show_value, value)
 	if sui_compare_string(stat_text, "STAT_RACES_COMPLETED") then
 		achieve_name = "ACHIEVE_SR2_QUICK_AND_PISSED"
 		desc = "Complete all Escort"
-		progress_max = 28
-		stat_max = 28
+		-- PC racing_sr2_city.xtbl has Race_Number 0..26; native total is 27.
+		progress_max = 27
+		stat_max = 27
 	end
 
 	if sui_compare_string(stat_text, "STAT_SURFING") then
@@ -1539,7 +1666,7 @@ function pause_menu_achievements_stats(stat_text, show_value, value)
 		progress_max = 50
 		stat_max = 0
 	end
-	if sui_compare_string(stat_text, "Total money gambled") then
+	if sui_compare_string(stat_text, "SUI_STAT_TOTAL_MONEY_GAMBLED") then
 		achieve_name = "ACHIEVE_SR2_IM_NOT_ADDICTED"
 		desc = "Complete all Drug Trafficking"
 		progress_max = 500000
@@ -1582,7 +1709,9 @@ function pause_menu_achievements_stats(stat_text, show_value, value)
 			-- If stat_max is 1 or more, the stat has upper bound.
 			for i = 0, stat_max, 1 do
 				local s = vint_insert_values_in_string("PAUSE_MENU_OF", {[0] = i, [1] = stat_max})
-				if sui_compare_string(value, s) then
+				-- Native Chinese STATS_BLANK_OF_BLANK is "%d / %d", not the menu template.
+				local native_s = vint_insert_values_in_string("{0} / {1}", {[0] = i, [1] = stat_max})
+				if sui_compare_string(value, s) or sui_compare_string(value, native_s) then
 					progress_now = i
 					break
 				end
