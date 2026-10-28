@@ -9,6 +9,8 @@ from vpp import LightVpp
 from verify_superui import verify as verify_superui
 from verify_menu_strings import verify as verify_menu_strings
 from verify_list_tips import verify as verify_list_tips
+from verify_store_places import verify as verify_store_places
+from court_garage_strings import verify as verify_court_garage
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -78,11 +80,15 @@ def main():
     superui = verify_superui(payload)
     menu_strings = verify_menu_strings(payload)
     list_tips = verify_list_tips(payload)
+    store_places = verify_store_places(payload)
+    court_garage = verify_court_garage(payload)
     print(json.dumps({'passed': True, 'payload_files': len(manifest['payload']),
                       'text_tables': totals, 'total_records': sum(totals.values()),
                       'cxt_entries': len(ids), 'superui': superui,
                       'menu_strings': menu_strings,
-                      'list_tips': list_tips}, ensure_ascii=True, indent=2))
+                      'list_tips': list_tips,
+                      'store_places': store_places,
+                      'court_garage': court_garage}, ensure_ascii=True, indent=2))
 
 
 if __name__ == '__main__':

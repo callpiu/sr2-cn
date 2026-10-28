@@ -1,5 +1,5 @@
 {
-  "version": "v550",
+  "version": "v551",
   "date": "2026-10-26",
   "baseArchiveSha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102",
   "payload": [
@@ -10,13 +10,23 @@
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.cxt",
-      "bytes": 41493,
-      "sha256": "568a38bd5449d2da434a3c107ce43d21fd218ed62ec13a3dc6b513fdc40a3cd0"
+      "bytes": 45979,
+      "sha256": "8906edd77fd7132609dc21bb14d97f031ba2761980b628a4cb925d76dfff5813"
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.le_strings",
       "bytes": 800,
       "sha256": "f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd"
+    },
+    {
+      "path": "Mods/JUICED - Strings/sr2cn_court_vcCH.cxt",
+      "bytes": 151,
+      "sha256": "37fc86d7196140dc04c19c3701aa5a8a517957957e76514ed977e4c591be2d8a"
+    },
+    {
+      "path": "Mods/JUICED - Strings/sr2cn_garage_CH.cxt",
+      "bytes": 226,
+      "sha256": "f3b1e60783f701c35330c11f5e568ab4604ddd833782acbaf7289e4cb4814e07"
     },
     {
       "path": "Mods/activity_level.lua",
@@ -359,6 +369,6 @@
       "sha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
     }
   ],
-  "combinedArchiveName": "sr2-cn-v550-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
-  "localRevision": "2026-10-26-achievement-racing-progress"
+  "combinedArchiveName": "sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
+  "localRevision": "2026-10-26-store-places-court-garage"
 }

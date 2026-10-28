@@ -1,0 +1,472 @@
+{
+  "format": "sr2-cn-cxt-overlay-v1",
+  "date": "2026-10-26",
+  "scope": "Place/store names in native HUD objectives, store messages and related live menu text; timed voice subtitles excluded",
+  "sourceAsset": "localization/text/static_CH.json",
+  "sourceSha256": "c159736a5941be05f8e2dcfbfea6a56c2055ace468441cc652b4119d54759281",
+  "priorCxtSha256": "568a38bd5449d2da434a3c107ce43d21fd218ed62ec13a3dc6b513fdc40a3cd0",
+  "glossary": {
+    "Sloppy Seconds": "捡破鞋",
+    "Tee'N'Ay": "蒂妮酒吧",
+    "TeeNay": "蒂妮酒吧",
+    "Friendly Fire": "友军伤害",
+    "Forgive and Forget": "忏悔遗忘",
+    "On Track": "正轨",
+    "Kanto": "关东",
+    "Cocks": "公鸡",
+    "Company of Gyros": "希腊卷饼公司",
+    "Scratch That": "刮碟音像店",
+    "Brass Knuckles": "指虎",
+    "Branded": "烙印",
+    "Brown Baggers": "棕色袋餐",
+    "On Thin Ice": "如履薄冰",
+    "On The Rag": "来例假了",
+    "Foreign Power": "外国势力",
+    "Impressions": "印象",
+    "Rim Jobs": "轮圈改装",
+    "Image As Designed": "形象设计",
+    "The Big Picture": "大画面",
+    "The Pyramid": "金字塔",
+    "Rounds 广场购物商城": "朗兹广场购物中心",
+    "Price 豪宅": "普莱斯豪宅",
+    "Novin 二手车": "诺文二手车",
+    "Eromenos 博物馆": "爱罗曼诺斯博物馆",
+    "购买 Jove": "朱庇特礼品店"
+  },
+  "notes": [
+    "Reuse native Chinese store names except Scratch That and Company of Gyros, aligned with the previously localized dossiers.",
+    "TeeNay and Tee'N'Ay are one location, transliterated as 蒂妮酒吧.",
+    "On Track uses 正轨, as in the existing 唐人街——正轨 name. Cocks uses 公鸡, as in existing Chinese dialogue.",
+    "New proper-name transliterations: 关东, 朗兹, 普莱斯, 诺文, 爱罗曼诺斯; Buy Jove uses 朱庇特礼品店.",
+    "Native IDs override complete strings, preserving formatting and substitution controls. No script identifiers or world textures are changed."
+  ],
+  "records": [
+    {
+      "tag": "0x8D86B802",
+      "id": "0x8D86B802",
+      "sourceIndex": 27,
+      "source": "Friendly Fire 减价 25%",
+      "text": "友军伤害 减价 25%"
+    },
+    {
+      "tag": "0x4839800C",
+      "id": "0x4839800C",
+      "sourceIndex": 148,
+      "source": "Kanto 关系 ",
+      "text": "关东 关系 "
+    },
+    {
+      "tag": "0x80ADC815",
+      "id": "0x80ADC815",
+      "sourceIndex": 239,
+      "source": "Kanto 关系",
+      "text": "关东 关系"
+    },
+    {
+      "tag": "0x8AEB7C1B",
+      "id": "0x8AEB7C1B",
+      "sourceIndex": 322,
+      "source": "Branded 减价 25%",
+      "text": "烙印 减价 25%"
+    },
+    {
+      "tag": "0x7FA0481B",
+      "id": "0x7FA0481B",
+      "sourceIndex": 331,
+      "source": "你确定要离开 Brown Baggers 吗？",
+      "text": "你确定要离开 棕色袋餐 吗？"
+    },
+    {
+      "tag": "0x289F1039",
+      "id": "0x289F1039",
+      "sourceIndex": 691,
+      "source": "[format][color:green]客户[/format]饿了，带他们去[format][color:teal]Company of Gyros[/format]",
+      "text": "[format][color:green]客户[/format]饿了，带他们去[format][color:teal]希腊卷饼公司[/format]"
+    },
+    {
+      "tag": "0x1E121045",
+      "id": "0x1E121045",
+      "sourceIndex": 828,
+      "source": "On Thin Ice 减价 20%",
+      "text": "如履薄冰 减价 20%"
+    },
+    {
+      "tag": "0x26BF684D",
+      "id": "0x26BF684D",
+      "sourceIndex": 928,
+      "source": "Price 豪宅废墟",
+      "text": "普莱斯豪宅废墟"
+    },
+    {
+      "tag": "0x419DE44F",
+      "id": "0x419DE44F",
+      "sourceIndex": 955,
+      "source": "这个结局比每周影院电影还要戏剧化，比查尔斯·穆勒的电影还要暴力，但强尼·盖特审判终于落下了帷幕。今天早些时候，昔日昏迷的圣徒头目持枪冲进斯蒂尔沃特法院，不仅让正义失明，还让它肚子挨了一枪。随着我市陷入帮派暴力的可能性上升，有一件事可以打包票：法院里发生的一切，唯一高兴的就是 Friendly Fire。我是简·瓦尔德拉马，这里是 6 频道新闻。",
+      "text": "这个结局比每周影院电影还要戏剧化，比查尔斯·穆勒的电影还要暴力，但强尼·盖特审判终于落下了帷幕。今天早些时候，昔日昏迷的圣徒头目持枪冲进斯蒂尔沃特法院，不仅让正义失明，还让它肚子挨了一枪。随着我市陷入帮派暴力的可能性上升，有一件事可以打包票：法院里发生的一切，唯一高兴的就是 友军伤害。我是简·瓦尔德拉马，这里是 6 频道新闻。"
+    },
+    {
+      "tag": "0x383D9861",
+      "id": "0x383D9861",
+      "sourceIndex": 1162,
+      "source": "Rounds 广场购物商城",
+      "text": "朗兹广场购物中心"
+    },
+    {
+      "tag": "0x9F75C06C",
+      "id": "0x9F75C06C",
+      "sourceIndex": 1281,
+      "source": "你确定要离开 Friendly Fire 吗？",
+      "text": "你确定要离开 友军伤害 吗？"
+    },
+    {
+      "tag": "0xFDEC4C8D",
+      "id": "0xFDEC4C8D",
+      "sourceIndex": 1661,
+      "source": "Foreign Power 减 $3,000.00",
+      "text": "外国势力 减 $3,000.00"
+    },
+    {
+      "tag": "0x6B3FA091",
+      "id": "0x6B3FA091",
+      "sourceIndex": 1694,
+      "source": "热门餐厅 Kanto 现场尸横遍地，一场生日派对被三街圣徒成员打断。Kanto 方面有信心餐厅将在本周内重新营业。",
+      "text": "热门餐厅 关东 现场尸横遍地，一场生日派对被三街圣徒成员打断。关东 方面有信心餐厅将在本周内重新营业。"
+    },
+    {
+      "tag": "0x0986AC93",
+      "id": "0x0986AC93",
+      "sourceIndex": 1718,
+      "source": "你要想再见绍迪，最好来 Cocks。",
+      "text": "你要想再见绍迪，最好来 公鸡。"
+    },
+    {
+      "tag": "0xFA818894",
+      "id": "0xFA818894",
+      "sourceIndex": 1730,
+      "source": "Impressions 减价 15%",
+      "text": "印象 减价 15%"
+    },
+    {
+      "tag": "0x3EF674A3",
+      "id": "0x3EF674A3",
+      "sourceIndex": 1914,
+      "source": "你确定要离开 Rim Jobs 吗？",
+      "text": "你确定要离开 轮圈改装 吗？"
+    },
+    {
+      "tag": "0xC04120AE",
+      "id": "0xC04120AE",
+      "sourceIndex": 2026,
+      "source": "前往[format][color:teal]Forgive and Forget[/format]",
+      "text": "前往[format][color:teal]忏悔遗忘[/format]"
+    },
+    {
+      "tag": "0x5053C0BC",
+      "id": "0x5053C0BC",
+      "sourceIndex": 2184,
+      "source": "前往[format][color:teal]On Track[/format]",
+      "text": "前往[format][color:teal]正轨[/format]"
+    },
+    {
+      "tag": "0x0795A4C1",
+      "id": "0x0795A4C1",
+      "sourceIndex": 2247,
+      "source": "Rounds 广场购物商城",
+      "text": "朗兹广场购物中心"
+    },
+    {
+      "tag": "0xA5E33CC1",
+      "id": "0xA5E33CC1",
+      "sourceIndex": 2252,
+      "source": "购买 Jove",
+      "text": "朱庇特礼品店"
+    },
+    {
+      "tag": "0x66A628D1",
+      "id": "0x66A628D1",
+      "sourceIndex": 2437,
+      "source": "进入[format][color:teal]Kanto[/format]，找到[format][color:red]纯一[/format]",
+      "text": "进入[format][color:teal]关东[/format]，找到[format][color:red]纯一[/format]"
+    },
+    {
+      "tag": "0x691520D3",
+      "id": "0x691520D3",
+      "sourceIndex": 2462,
+      "source": "On The Rag 减价 25%",
+      "text": "来例假了 减价 25%"
+    },
+    {
+      "tag": "0x6A3E9505",
+      "id": "0x6A3E9505",
+      "sourceIndex": 3128,
+      "source": "Impressions 减价 25%",
+      "text": "印象 减价 25%"
+    },
+    {
+      "tag": "0x9C389D18",
+      "id": "0x9C389D18",
+      "sourceIndex": 3364,
+      "source": "你确定要离开 Image As Designed 吗？",
+      "text": "你确定要离开 形象设计 吗？"
+    },
+    {
+      "tag": "0xF518F919",
+      "id": "0xF518F919",
+      "sourceIndex": 3370,
+      "source": "你可以在 Friendly Fire 购买远程武器和弹药，在 Brass Knuckles 购买近战武器。",
+      "text": "你可以在 友军伤害 购买远程武器和弹药，在 指虎 购买近战武器。"
+    },
+    {
+      "tag": "0x6388D92E",
+      "id": "0x6388D92E",
+      "sourceIndex": 3632,
+      "source": "Foreign Power 减 $5,000.00",
+      "text": "外国势力 减 $5,000.00"
+    },
+    {
+      "tag": "0x80E28957",
+      "id": "0x80E28957",
+      "sourceIndex": 4113,
+      "source": "Price 豪宅",
+      "text": "普莱斯豪宅"
+    },
+    {
+      "tag": "0x7FC9ED5B",
+      "id": "0x7FC9ED5B",
+      "sourceIndex": 4177,
+      "source": "Rounds 广场购物商城",
+      "text": "朗兹广场购物中心"
+    },
+    {
+      "tag": "0xF01C7169",
+      "id": "0xF01C7169",
+      "sourceIndex": 4351,
+      "source": "On The Rag 减价 15%",
+      "text": "来例假了 减价 15%"
+    },
+    {
+      "tag": "0x0C39D17C",
+      "id": "0x0C39D17C",
+      "sourceIndex": 4599,
+      "source": "购买 Jove",
+      "text": "朱庇特礼品店"
+    },
+    {
+      "tag": "0x29049D8E",
+      "id": "0x29049D8E",
+      "sourceIndex": 4800,
+      "source": "当地一名DJ在 On Track 夜店一场枪战中身亡，枪战涉及圣徒和桑美地之子。目击者描述了恐怖场面：圣徒老大冲进夜店，见人就开枪。目前尚不清楚老兵小子之死是单纯的运气不好，还是他其实与桑美地之子有牵连。官方尚未确定此前 Cocks 夜总会的枪击案是否与此有关。",
+      "text": "当地一名DJ在 正轨 夜店一场枪战中身亡，枪战涉及圣徒和桑美地之子。目击者描述了恐怖场面：圣徒老大冲进夜店，见人就开枪。目前尚不清楚老兵小子之死是单纯的运气不好，还是他其实与桑美地之子有牵连。官方尚未确定此前 公鸡 夜总会的枪击案是否与此有关。"
+    },
+    {
+      "tag": "0x1D39A593",
+      "id": "0x1D39A593",
+      "sourceIndex": 4846,
+      "source": "Novin 二手车行减 $1,000.00",
+      "text": "诺文二手车行减 $1,000.00"
+    },
+    {
+      "tag": "0x09694999",
+      "id": "0x09694999",
+      "sourceIndex": 4918,
+      "source": "Tee'N'Ay",
+      "text": "蒂妮酒吧"
+    },
+    {
+      "tag": "0x13E22DA1",
+      "id": "0x13E22DA1",
+      "sourceIndex": 5004,
+      "source": "Branded 减价 15%",
+      "text": "烙印 减价 15%"
+    },
+    {
+      "tag": "0x9A4BB9A4",
+      "id": "0x9A4BB9A4",
+      "sourceIndex": 5036,
+      "source": "Kanto 关系 ",
+      "text": "关东 关系 "
+    },
+    {
+      "tag": "0x148FE9B8",
+      "id": "0x148FE9B8",
+      "sourceIndex": 5270,
+      "source": "Friendly Fire 减价 15%",
+      "text": "友军伤害 减价 15%"
+    },
+    {
+      "tag": "0xA96655C5",
+      "id": "0xA96655C5",
+      "sourceIndex": 5419,
+      "source": "你确定要离开 Sloppy Seconds 吗？",
+      "text": "你确定要离开 捡破鞋 吗？"
+    },
+    {
+      "tag": "0x807685E6",
+      "id": "0x807685E6",
+      "sourceIndex": 5807,
+      "source": "Sloppy Seconds 减价 30%",
+      "text": "捡破鞋 减价 30%"
+    },
+    {
+      "tag": "0x8E7BF9F5",
+      "id": "0x8E7BF9F5",
+      "sourceIndex": 5987,
+      "source": "离开 The Pyramid",
+      "text": "离开 金字塔"
+    },
+    {
+      "tag": "0x871B41FF",
+      "id": "0x871B41FF",
+      "sourceIndex": 6114,
+      "source": "Novin 二手车行减 $3,000.00",
+      "text": "诺文二手车行减 $3,000.00"
+    },
+    {
+      "tag": "0x4107760A",
+      "id": "0x4107760A",
+      "sourceIndex": 6246,
+      "source": "进入 The Pyramid",
+      "text": "进入 金字塔"
+    },
+    {
+      "tag": "0xE0D3F66C",
+      "id": "0xE0D3F66C",
+      "sourceIndex": 7424,
+      "source": "前往[format][color:teal]Friendly Fire[/format]",
+      "text": "前往[format][color:teal]友军伤害[/format]"
+    },
+    {
+      "tag": "0x0C805274",
+      "id": "0x0C805274",
+      "sourceIndex": 7535,
+      "source": "在 On Track 跟你碰头？好啊，听起来不错。",
+      "text": "在 正轨 跟你碰头？好啊，听起来不错。"
+    },
+    {
+      "tag": "0x88AD9E7F",
+      "id": "0x88AD9E7F",
+      "sourceIndex": 7647,
+      "source": "你现在在 Scratch That 购买音轨享受 100%% 折扣。",
+      "text": "你现在在 刮碟音像店 购买音轨享受 100%% 折扣。"
+    },
+    {
+      "tag": "0x313F6A88",
+      "id": "0x313F6A88",
+      "sourceIndex": 7740,
+      "source": "在[format][color:teal]Friendly Fire[/format]买一台盖革计数器",
+      "text": "在[format][color:teal]友军伤害[/format]买一台盖革计数器"
+    },
+    {
+      "tag": "0x46E5FEA4",
+      "id": "0x46E5FEA4",
+      "sourceIndex": 8046,
+      "source": "在[format][color:teal]Sloppy Seconds[/format]买几件新衣服",
+      "text": "在[format][color:teal]捡破鞋[/format]买几件新衣服"
+    },
+    {
+      "tag": "MUSIC_STORE_NAME_1",
+      "id": "0x4BDF9EAC",
+      "sourceIndex": 8162,
+      "source": "当我没说",
+      "text": "刮碟音像店"
+    },
+    {
+      "tag": "0x41575EB0",
+      "id": "0x41575EB0",
+      "sourceIndex": 8206,
+      "source": "你确定要离开 The Big Picture 吗？",
+      "text": "你确定要离开 大画面 吗？"
+    },
+    {
+      "tag": "0x2E8E2EB9",
+      "id": "0x2E8E2EB9",
+      "sourceIndex": 8300,
+      "source": "帮派恶名衡量的是敌对帮派围堵你的积极程度。每当你对敌对帮派动武，你的帮派恶名条就会开始上涨。恶名条一旦涨满，帮派恶名便升至一级，显示在HUD上，随后恶名条重新开始上涨。\n\n如果你不再击杀更多帮派成员，帮派恶名会随时间慢慢消退，但还有两种方法可以立即降低帮派恶名：\n\n-前往 Forgive and Forget {MAP_IMG_FORGIVE}，付费消除全部恶名。\n\n-前往整形外科诊所 {MAP_IMG_SURGEON}，改变你的外貌。",
+      "text": "帮派恶名衡量的是敌对帮派围堵你的积极程度。每当你对敌对帮派动武，你的帮派恶名条就会开始上涨。恶名条一旦涨满，帮派恶名便升至一级，显示在HUD上，随后恶名条重新开始上涨。\n\n如果你不再击杀更多帮派成员，帮派恶名会随时间慢慢消退，但还有两种方法可以立即降低帮派恶名：\n\n-前往 忏悔遗忘 {MAP_IMG_FORGIVE}，付费消除全部恶名。\n\n-前往整形外科诊所 {MAP_IMG_SURGEON}，改变你的外貌。"
+    },
+    {
+      "tag": "0x02437AC2",
+      "id": "0x02437AC2",
+      "sourceIndex": 8403,
+      "source": "Eromenos 博物馆 1",
+      "text": "爱罗曼诺斯博物馆 1"
+    },
+    {
+      "tag": "0x0DC686F9",
+      "id": "0x0DC686F9",
+      "sourceIndex": 9069,
+      "source": "你确定要离开 Scratch That 吗？",
+      "text": "你确定要离开 刮碟音像店 吗？"
+    },
+    {
+      "tag": "0xE2F7EB0E",
+      "id": "0xE2F7EB0E",
+      "sourceIndex": 9321,
+      "source": "去[format][color:teal]Cocks[/format]找老兵小子",
+      "text": "去[format][color:teal]公鸡[/format]找老兵小子"
+    },
+    {
+      "tag": "0xDFECAF1E",
+      "id": "0xDFECAF1E",
+      "sourceIndex": 9510,
+      "source": "前往[format][color:teal]TeeNay[/format]",
+      "text": "前往[format][color:teal]蒂妮酒吧[/format]"
+    },
+    {
+      "tag": "COMPANY_GYROS_STORE_NAME",
+      "id": "0x10177F24",
+      "sourceIndex": 9585,
+      "source": "陀螺仪公司",
+      "text": "希腊卷饼公司"
+    },
+    {
+      "tag": "0xEFC18B2C",
+      "id": "0xEFC18B2C",
+      "sourceIndex": 9703,
+      "source": "Novin 二手车",
+      "text": "诺文二手车"
+    },
+    {
+      "tag": "0x0DBF1F37",
+      "id": "0x0DBF1F37",
+      "sourceIndex": 9831,
+      "source": "你可以在 Brass Knuckles 购买近战武器。",
+      "text": "你可以在 指虎 购买近战武器。"
+    },
+    {
+      "tag": "0x61846773",
+      "id": "0x61846773",
+      "sourceIndex": 10544,
+      "source": "前往[format][color:teal]Kanto[/format]",
+      "text": "前往[format][color:teal]关东[/format]"
+    },
+    {
+      "tag": "0x9B4A2B78",
+      "id": "0x9B4A2B78",
+      "sourceIndex": 10614,
+      "source": "Eromenos 博物馆 2",
+      "text": "爱罗曼诺斯博物馆 2"
+    },
+    {
+      "tag": "0x7E6DFFC9",
+      "id": "0x7E6DFFC9",
+      "sourceIndex": 11590,
+      "source": "Kanto 装修停业",
+      "text": "关东 装修停业"
+    },
+    {
+      "tag": "0xEC4D1BEE",
+      "id": "0xEC4D1BEE",
+      "sourceIndex": 12034,
+      "source": "Eromenos 博物馆 3",
+      "text": "爱罗曼诺斯博物馆 3"
+    },
+    {
+      "tag": "0x21F617FE",
+      "id": "0x21F617FE",
+      "sourceIndex": 12226,
+      "source": "Rounds 广场购物商城",
+      "text": "朗兹广场购物中心"
+    }
+  ]
+}

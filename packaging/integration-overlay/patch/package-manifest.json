@@ -51,8 +51,8 @@
     },
     {
       "relative": "README.md",
-      "size": 4710,
-      "sha256": "8cf116a229306a927d0effb16f2755647cf7a0dff304ab59a70814b128a92e8e"
+      "size": 5252,
+      "sha256": "b64b2c2a8c57b9d071555d3e763e76ceeea937b9df7b6e08d3bcba344a28c3cb"
     },
     {
       "relative": "Start-Installer.cmd",
@@ -113,6 +113,26 @@
       "relative": "patch/analysis/info-pages-runtime-20261026.json",
       "size": 1256,
       "sha256": "169bb1214203aa09a83e002eb3b97bc0e346e27295ecdbec85f03e3613facb06"
+    },
+    {
+      "relative": "patch/analysis/store-place-prompts.md",
+      "size": 1801,
+      "sha256": "33fe11e07f79ec7d7805053624eb1cca8d36eda71a95225c030655dbe793d6cb"
+    },
+    {
+      "relative": "patch/analysis/court-garage-text.md",
+      "size": 2309,
+      "sha256": "70abe2423449df2f2ae4c6441494b076f09519219edb94eff870010562231b2d"
+    },
+    {
+      "relative": "patch/analysis/store-places-runtime-20261026.json",
+      "size": 796,
+      "sha256": "7afcb9ae5d0193f9e9cea6eea6a2a399083d11d1a8955cce59283a85bfb7bfd3"
+    },
+    {
+      "relative": "patch/analysis/court-garage-runtime-20261026.json",
+      "size": 1042,
+      "sha256": "6803c3a4efd927966779e89037c796548fb2f207a912b9d9180dda1524788c6c"
     }
   ]
 }

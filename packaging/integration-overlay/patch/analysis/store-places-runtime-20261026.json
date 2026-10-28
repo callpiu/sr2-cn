@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "steamAppId": 9480,
+  "buildId": 1076239,
+  "runtimeDataRootRelative": ".",
+  "virtualAssetRootRelative": ".",
+  "sourceMatchesInstalled": true,
+  "runtimeVerified": true,
+  "saveFilesModified": false,
+  "installedFiles": [
+    {
+      "path": "Mods/JUICED - Strings/juiced_CH.cxt",
+      "sha256": "8906edd77fd7132609dc21bb14d97f031ba2761980b628a4cb925d76dfff5813"
+    }
+  ],
+  "confirmationSource": "Explicit user report after full game restart",
+  "confirmedSurfaces": [
+    "在捡破鞋买几件新衣服",
+    "前往蒂妮酒吧"
+  ],
+  "checks": {
+    "records": 61,
+    "unchangedPriorEntries": 345,
+    "entries": 406,
+    "glyphCoverage": true,
+    "controlsPreserved": true
+  },
+  "executableIncluded": false,
+  "executableModifiedByThisRevision": false
+}

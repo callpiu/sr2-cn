@@ -6,7 +6,7 @@
 
 游戏中文资源从 `patch.vpp_pc` 中的 `charlist_CH`、`static_CH`、`voice_script_CH` 和 `platform_pc_CH` 读取；Juiced 的松散资源可能优先于 VPP 内同名条目。适配还涉及 `Mods/dialog_box.lua`、`Mods/JUICED - Strings/juiced_CH.cxt` 与 `juiced_CH.le_strings`。DLC 中文位于 `DLC/Text/dlc_ch.le_strings`。
 
-本项目以冻结的 v546 汉化资源为载荷基线，v547 加入可回退的直升机护卫字幕修复，v548 补齐 SuperUI 2.9 依赖，v549 以 CXT 覆盖修正帮助、Juiced 菜单与 Sandbox++ 帮助，v550 增补名单、提示与信息页，并修复成就进度格式与竞速总数。仓库中的本体文本包与 Release 使用相同字节；不会从维护者当前运行的游戏目录自动采集配置。
+本项目以冻结的 v546 汉化资源为载荷基线，v547 加入可回退的直升机护卫字幕修复，v548 补齐 SuperUI 2.9 依赖，v549 以 CXT 覆盖修正帮助、Juiced 菜单与 Sandbox++ 帮助，v550 增补名单、提示与信息页，并修复成就进度格式与竞速总数。v551 补充地名与商店名提示、奖励载具移除警告，并修订法庭过场字幕。仓库中的本体文本包与 Release 使用相同字节；不会从维护者当前运行的游戏目录自动采集配置。
 
 ## le_strings
 

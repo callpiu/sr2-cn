@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "steamAppId": 9480,
+  "buildId": 1076239,
+  "runtimeDataRootRelative": ".",
+  "virtualAssetRootRelative": ".",
+  "sourceMatchesInstalled": true,
+  "runtimeVerified": true,
+  "saveFilesModified": false,
+  "installedFiles": [
+    {
+      "path": "Mods/JUICED - Strings/sr2cn_garage_CH.cxt",
+      "sha256": "f3b1e60783f701c35330c11f5e568ab4604ddd833782acbaf7289e4cb4814e07"
+    },
+    {
+      "path": "Mods/JUICED - Strings/sr2cn_court_vcCH.cxt",
+      "sha256": "37fc86d7196140dc04c19c3701aa5a8a517957957e76514ed977e4c591be2d8a"
+    }
+  ],
+  "confirmationSource": "Explicit user report after full game restart",
+  "confirmedSurfaces": [
+    "Reward vehicle removal warning dialog",
+    "LEE_TSSP02_CUT02_1 court subtitle",
+    "LEE_TSSP02_CUT02_2 court subtitle"
+  ],
+  "checks": {
+    "records": 3,
+    "garageSuiTagsChecked": 1,
+    "glyphCoverage": true,
+    "originalEnglishMatched": true,
+    "warningLineBreaksPreserved": true
+  },
+  "executableIncluded": false,
+  "executableModifiedByThisRevision": false
+}

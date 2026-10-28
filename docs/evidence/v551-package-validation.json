@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-26",
+  "version": "v551",
+  "archive": {
+    "name": "sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
+    "bytes": 379913851,
+    "sha256": "b969f09b2c863967a403bc321697c0bbec893162461450c3a8a72a1fffa97ecd"
+  },
+  "archiveFiles": 2895,
+  "archiveMatchesDirectory": true,
+  "independentRebuildMatches": true,
+  "independentRebuildSha256": "b969f09b2c863967a403bc321697c0bbec893162461450c3a8a72a1fffa97ecd",
+  "payloadFilesMatch": 73,
+  "packageManifestFilesMatch": 25,
+  "fileListMatches": true,
+  "runtimeResult": "User confirmed both store/place prompts, reward vehicle warning, and both court subtitles after a full restart.",
+  "runtimeEvidence": [
+    "docs/evidence/store-places-runtime-20261026.json",
+    "docs/evidence/court-garage-runtime-20261026.json"
+  ],
+  "executableIncluded": false,
+  "personalSavesAndCrashDumpsIncluded": false,
+  "packagedValidationReport": false
+}

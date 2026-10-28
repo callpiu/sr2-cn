@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-26",
+  "records": [
+    {
+      "tag": "SUI_DELETE_REWARD_VEHICLE_WARNING",
+      "id": "0xBC2C80DF",
+      "asset": "Mods/static_US.le_strings",
+      "source": "You are about to delete a Reward Vehicle.\nThe Reward Vehicles are not counted towards the 64 vehicle limit of the garage.\nIf you delete this vehicle you cannot obtain this vehicle again.\n\nAre you really sure you want to disown this vehicle?",
+      "text": "你即将删除一辆奖励载具。\n奖励载具不占用车库的 64 辆载具名额。\n删除后将无法再次获得这辆载具。\n\n确定要从车库中移除这辆载具吗？",
+      "output": "Mods/JUICED - Strings/sr2cn_garage_CH.cxt"
+    },
+    {
+      "tag": "LEE_TSSP02_CUT02_1",
+      "id": "0x0E93DFF8",
+      "asset": "patch.vpp_pc/voice_script_US.le_strings",
+      "source": "My client would like that stricken from the record... ",
+      "text": "我当事人请求……刚才那段就别记进笔录了。",
+      "output": "Mods/JUICED - Strings/sr2cn_court_vcCH.cxt"
+    },
+    {
+      "tag": "LEE_TSSP02_CUT02_2",
+      "id": "0x979A8E42",
+      "asset": "patch.vpp_pc/voice_script_US.le_strings",
+      "source": "Anyone hit and need a lawyer?",
+      "text": "有人中枪吗？需不需要律师？",
+      "output": "Mods/JUICED - Strings/sr2cn_court_vcCH.cxt"
+    }
+  ]
+}
