@@ -5,14 +5,47 @@ from pathlib import Path
 import re
 import struct
 
+import cxt as cxt_tool
 from vpp import LightVpp
 from verify_superui import verify as verify_superui
 from verify_menu_strings import verify as verify_menu_strings
 from verify_list_tips import verify as verify_list_tips
 from verify_store_places import verify as verify_store_places
 from court_garage_strings import verify as verify_court_garage
+from build_subtitle_places import build as build_subtitle_places
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def check_juiced_932(payload):
+    metadata = json.loads(
+        (ROOT / 'localization/text/juiced-932-additions.json').read_text('utf8'))
+    assert metadata['upstreamVersion'] == '9.3.2'
+    assert metadata['upstreamSha256'] == (
+        'd5b3436122cf7fd602be7719ddc79bcd24655a0e4f0e2ad630b196b31d1bc7f')
+
+    path = payload / 'Mods/JUICED - Strings/juiced_CH.cxt'
+    data = path.read_bytes()
+    assert not data.startswith(b'\xef\xbb\xbf')
+    assert data.count(b'\r\n') == data.count(b'\n')
+    assert data.endswith(b'\r\n')
+    assert b'\n' not in data.replace(b'\r\n', b'')
+    entries = cxt_tool.parse(data.decode('utf8'))
+    assert len(entries) == metadata['mergedEntryCount'] == 412
+    by_tag = {entry['tag'].lower(): entry['text'] for entry in entries}
+    for addition in metadata['additions']:
+        tag = addition['tag'].lower()
+        assert by_tag[tag] == addition['text'], tag
+        assert cxt_tool.tag_hash(addition['tag']) == int(
+            addition['runtimeId'], 16), tag
+
+    additions = [entry['text'] for entry in metadata['additions']]
+    assert sum('[format]' in text for text in additions) == 2
+    assert sum('[/format]' in text for text in additions) == 2
+    assert sum('{ATTACK_SECONDARY_IMG}' in text for text in additions) == 1
+    assert sum('{ATTACK_PRIMARY_IMG}' in text for text in additions) == 1
+    assert not (payload / 'DFEngine.pdb').exists()
+    return len(entries)
 
 
 def check_table(data, name, characters):
@@ -46,10 +79,14 @@ def check_table(data, name, characters):
 def main():
     payload = ROOT / 'localization/payload'
     manifest = json.loads((ROOT / 'localization/manifest.json').read_text('utf8'))
+    assert manifest['version'] == 'v552'
+    assert manifest['combinedArchiveName'] == (
+        'sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip')
     for item in manifest['payload']:
         data = (payload / item['path']).read_bytes()
         assert len(data) == item['bytes'], item['path']
         assert hashlib.sha256(data).hexdigest() == item['sha256'], item['path']
+    juiced_932 = check_juiced_932(payload)
     characters = json.loads((ROOT / 'localization/text/charlist_CH.json').read_text('utf8'))
     totals = {}
     with LightVpp(str(payload / 'patch.vpp_pc')) as vpp:
@@ -82,13 +119,19 @@ def main():
     list_tips = verify_list_tips(payload)
     store_places = verify_store_places(payload)
     court_garage = verify_court_garage(payload)
+    subtitle_places = build_subtitle_places()
+    for relative, expected in subtitle_places.items():
+        assert (payload / relative).read_bytes() == expected, relative
     print(json.dumps({'passed': True, 'payload_files': len(manifest['payload']),
                       'text_tables': totals, 'total_records': sum(totals.values()),
-                      'cxt_entries': len(ids), 'superui': superui,
+                      'hardcoded_fix_entries': len(ids),
+                      'juiced_932_cxt_entries': juiced_932, 'superui': superui,
                       'menu_strings': menu_strings,
                       'list_tips': list_tips,
                       'store_places': store_places,
-                      'court_garage': court_garage}, ensure_ascii=True, indent=2))
+                      'court_garage': court_garage,
+                      'subtitle_place_files': len(subtitle_places)},
+                     ensure_ascii=True, indent=2))
 
 
 if __name__ == '__main__':

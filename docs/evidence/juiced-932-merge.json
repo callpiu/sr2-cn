@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-04",
+  "status": "static-verification-passed-runtime-pending",
+  "upstream": {
+    "version": "9.3.2",
+    "archive": "SR2_JUICED_3.zip",
+    "bytes": 41046165,
+    "sha256": "d5b3436122cf7fd602be7719ddc79bcd24655a0e4f0e2ad630b196b31d1bc7f",
+    "members": 329
+  },
+  "base": {
+    "version": "v551",
+    "archive": "sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
+    "bytes": 379913851,
+    "sha256": "b969f09b2c863967a403bc321697c0bbec893162461450c3a8a72a1fffa97ecd"
+  },
+  "comparison": {
+    "identicalReleaseFiles": 323,
+    "changedReleaseFiles": 5,
+    "excluded": [
+      "DFEngine.pdb"
+    ]
+  },
+  "payload": {
+    "DFEngine.dll": {
+      "bytes": 2684416,
+      "sha256": "df5e366c8f706ab77c0afe72fa4d892afca214e4879e4ded49ee13a91112a162"
+    },
+    "Mods/JUICED - Lua Libraries/mouse_ui.lua": {
+      "bytes": 85550,
+      "sha256": "fd8db9694e8264cd60f46fe2d010b3f5cacdd8535ceda99d6e8888c1070d9155"
+    },
+    "juiced.ini": {
+      "bytes": 11784,
+      "sha256": "6958878e5382a08561bae900d0b2e67fbd5392a7ea9d68627cd1b5eb457114d8"
+    },
+    "Mods/JUICED - Strings/juiced_CH.cxt": {
+      "bytes": 46516,
+      "sha256": "f8f3b90c02136436a49613fd720e12942410b7f87c6c997f7c5a667ff8e7418d",
+      "entries": 412
+    },
+    "Mods/JUICED - Strings/juiced_CH.le_strings": {
+      "bytes": 800,
+      "sha256": "f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd",
+      "entries": 12,
+      "decision": "retained-verified-simplified-chinese-table"
+    }
+  },
+  "addedCxtRuntimeIds": [
+    "0xFF6299D9",
+    "0x2370E5A4",
+    "0xAF10621E",
+    "0xF284ED87",
+    "0xAB55CE3B",
+    "0x42363FC7"
+  ],
+  "staticChecks": {
+    "verifyProjectPassed": true,
+    "textTableRecords": 17631,
+    "cxtEntries": 412,
+    "menuStringsPassed": true,
+    "storePlaceEntries": 412,
+    "superUiFiles": 66,
+    "pdbExcluded": true
+  },
+  "runtimeChecks": {
+    "status": "pending",
+    "requiredSurfaces": [
+      "main menu",
+      "escape menu",
+      "Juiced settings",
+      "OpenSpy multiplayer UI",
+      "ultrawide diversion HUD",
+      "helicopter protection level 2 subtitles",
+      "ordinary gameplay animation"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "voice_script_CH": {
+    "exportSha256": "70e83d6a4cf809bafe34ac51a18f105808e667c75da266d836f85f325c2e2808",
+    "replacements": {
+      " Rounds Square 购物中心": "朗兹广场购物中心",
+      "叫 Teinay 的脱衣舞俱乐部": "叫蒂妮酒吧的脱衣舞俱乐部",
+      "叫 Tee 'N' Ay 的脱衣舞俱乐部": "叫蒂妮酒吧的脱衣舞俱乐部",
+      "在 Technically Legal 的": "在法律边缘的",
+      "在 Kanto……": "在关东……",
+      "在 Altamont 当": "在阿尔塔蒙特当"
+    },
+    "ids": [
+      "0x1C7C1E0B",
+      "0xDD35BE8E",
+      "0xA858EC8F",
+      "0x61A7889A",
+      "0x305B46A6",
+      "0x2C9F3F0B",
+      "0x3F4B030F",
+      "0xF6B4671A",
+      "0x83D9351B",
+      "0xCB731F65",
+      "0xF7769BCB"
+    ]
+  },
+  "static_CH": {
+    "exportSha256": "c159736a5941be05f8e2dcfbfea6a56c2055ace468441cc652b4119d54759281",
+    "replacements": {
+      "Rounds Square 购物中心": "朗兹广场购物中心"
+    },
+    "ids": [
+      "0x450AE821",
+      "0xB4EBB294"
+    ]
+  }
+}

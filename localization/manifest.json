@@ -1,17 +1,27 @@
 {
-  "version": "v551",
-  "date": "2026-10-26",
-  "baseArchiveSha256": "d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102",
+  "version": "v552",
+  "date": "2026-11-04",
+  "baseArchiveSha256": "b969f09b2c863967a403bc321697c0bbec893162461450c3a8a72a1fffa97ecd",
   "payload": [
+    {
+      "path": "DFEngine.dll",
+      "bytes": 2684416,
+      "sha256": "df5e366c8f706ab77c0afe72fa4d892afca214e4879e4ded49ee13a91112a162"
+    },
     {
       "path": "DLC/Text/dlc_ch.le_strings",
       "bytes": 49924,
       "sha256": "ffabd52dd56dea5ba043abc31c1dec8f401d640876870b8d28b9a4eb9477a8a8"
     },
     {
+      "path": "Mods/JUICED - Lua Libraries/mouse_ui.lua",
+      "bytes": 85550,
+      "sha256": "fd8db9694e8264cd60f46fe2d010b3f5cacdd8535ceda99d6e8888c1070d9155"
+    },
+    {
       "path": "Mods/JUICED - Strings/juiced_CH.cxt",
-      "bytes": 45979,
-      "sha256": "8906edd77fd7132609dc21bb14d97f031ba2761980b628a4cb925d76dfff5813"
+      "bytes": 46516,
+      "sha256": "f8f3b90c02136436a49613fd720e12942410b7f87c6c997f7c5a667ff8e7418d"
     },
     {
       "path": "Mods/JUICED - Strings/juiced_CH.le_strings",
@@ -27,6 +37,16 @@
       "path": "Mods/JUICED - Strings/sr2cn_garage_CH.cxt",
       "bytes": 226,
       "sha256": "f3b1e60783f701c35330c11f5e568ab4604ddd833782acbaf7289e4cb4814e07"
+    },
+    {
+      "path": "Mods/JUICED - Strings/sr2cn_subtitle_places_CH.cxt",
+      "bytes": 717,
+      "sha256": "035b969470e9be17ad803f1c721e8b54b2fcab6e0c11bceab079a59f6168e8d8"
+    },
+    {
+      "path": "Mods/JUICED - Strings/sr2cn_subtitle_places_vcCH.cxt",
+      "bytes": 1997,
+      "sha256": "5bcfff3232066c2c7431b6e5e58954d628e7e63247fbcb07ce43df39c7bb37a6"
     },
     {
       "path": "Mods/activity_level.lua",
@@ -364,11 +384,16 @@
       "sha256": "eec6dab671bba6810b42879ff99928017894d71c1a3db80339cf41abbbf60442"
     },
     {
+      "path": "juiced.ini",
+      "bytes": 11784,
+      "sha256": "6958878e5382a08561bae900d0b2e67fbd5392a7ea9d68627cd1b5eb457114d8"
+    },
+    {
       "path": "patch.vpp_pc",
       "bytes": 48727014,
       "sha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
     }
   ],
-  "combinedArchiveName": "sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
-  "localRevision": "2026-10-26-store-places-court-garage"
+  "combinedArchiveName": "sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip",
+  "localRevision": "2026-11-04-juiced-932-subtitle-places"
 }

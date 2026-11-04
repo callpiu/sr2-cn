@@ -2,15 +2,17 @@
 
 《Saints Row 2》简体中文汉化、Juiced Patch 适配、DLC 汉化与原版遗留乱码修正。
 
-当前发布：**v551 · Juiced Patch 9.3.1 · DLC 1.0.1 · SuperUI 2.9**。2026-10-26 补充地名与商店名提示、奖励载具移除警告，并修订两句法庭过场字幕；保留 v550 的名单、提示、统计、成就及竞速修正。
+当前发布：**v552 · Juiced Patch 9.3.2 · DLC 1.0.1 · SuperUI 2.9**。本版升级 Juiced，并保留 v551 的全部简体中文、DLC、SuperUI、直升机字幕、地名提示、奖励载具警告与法庭字幕修正；同时补译过场对白中的朗兹广场、蒂妮酒吧、法律边缘、关东和阿尔塔蒙特等地名、店名。
 
 ## 下载与安装
 
-进入 [Releases](https://github.com/callpiu/sr2-cn/releases/tag/v551-20261026)，下载：
+进入 [Releases](https://github.com/callpiu/sr2-cn/releases/tag/v552-20261104) 下载：
 
-- **完整整合包**：`sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip`，包含汉化、Juiced、DLC、完整 SuperUI 配套文件与字幕修复安装器。
+- **完整整合包**：`sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip`，包含汉化、Juiced 9.3.2、DLC、完整 SuperUI 配套文件、过场字幕地名补译与字幕修复安装器。
 - **单独字幕修复**：`sr2-cn-helicopter-fix-v1.0.0.zip`，适合已经安装匹配简中资源和 Juiced 的玩家。
 - **上游 CXT 修正条目**：`juiced_CH.hardcoded-fixes.cxt`，供 Juiced 作者合并六条中文硬编码文本；需要上游配套移除硬编码分支。
+
+v552 的自动验证、ZIP 回读和独立重建结果记录在 [包验证报告](docs/evidence/v552-package-validation.json)。Juiced 9.3.2 的合并依据见 [合并说明](docs/juiced-932-merge.md)，过场对白地名补译见 [字幕地名说明](docs/subtitle-places.md)。
 
 整合包需要已有可运行的游戏，不包含 `SR2_pc.exe`。GitHub 的自动生成 Source code ZIP 是项目源码；玩家安装请下载上述整合包。
 
@@ -23,21 +25,21 @@
 2. 正常退出游戏，备份原文件及自定义 `juiced.ini`、`Mods`。
 3. 解压完整整合包，将包内全部文件、文件夹复制到含 `SR2_pc.exe` 的游戏根目录，覆盖同名文件。整合包已经包含 Juiced Patch，不需要另外安装。
 4. 直接双击游戏根目录中的 `SR2_pc.exe` 运行一次，让整合包内的 Juiced Patch 完成首次安装和初始化；进入游戏后再正常退出。
-5. 双击游戏目录里的 **一键安装修复.cmd**，也可使用 **启动中文补丁管理器.cmd**。确认安装成功后重启游戏。
+5. 双击游戏目录里的 **一键安装汉化.cmd**，也可使用 **启动中文补丁管理器.cmd**。确认安装成功后重启游戏。
 6. 之后通过 Steam 正常启动游戏，并保留已设置的 `forcelang_ch` 启动参数。
 
 字幕修复会校验主程序与文本包的 SHA-256，不匹配时停止。Windows 自带 PowerShell 即可运行，玩家不需要 Python。
 
 管理器的安装、检查、卸载只管理新增的字幕修复；整个整合包仍采用覆盖复制，回滚整包需要玩家自己的备份。验证游戏文件可能恢复被替换的资源；重新安装其他版本的 Juiced 也可能覆盖汉化文件。
 
-旧 v546/v547 整合包只带了两个 SuperUI 定制脚本，漏带公共库和配套组件，在全新游戏目录可能卡在退出确认框、设置退出提示等位置。请使用 v551；已安装旧包也可覆盖升级。[根因与验证](docs/superui-dependency-fix.md)。
+旧 v546/v547 整合包只带了两个 SuperUI 定制脚本，漏带公共库和配套组件，在全新游戏目录可能卡在退出确认框、设置退出提示等位置。请使用 v552；已安装旧包也可覆盖升级。[根因与验证](docs/superui-dependency-fix.md)。
 
 ## 包含内容
 
 | 模块 | 内容 |
 | --- | --- |
-| 本体简体汉化 | 简体文本、字体及字符表资源，地名、商店、菜单、任务等修正；v551 补全地名与商店提示及法庭字幕 |
-| Juiced Patch 适配 | 9.3.1 菜单漏译、错译和缺字修正；OpenSpy 联机界面 12 条重译、等待玩家 SUI 标签修复 |
+| 本体简体汉化 | 简体文本、字体及字符表资源，地名、商店、菜单、任务等修正；v551 补全地名与商店提示及法庭字幕，v552 补译过场对白中的地名和店名 |
+| Juiced Patch 适配 | 9.3.2 DLL、鼠标 UI 与默认配置；保留 406 条既有中文并合入 6 条硬编码修正，共 412 条；OpenSpy 联机界面 12 条重译、等待玩家 SUI 标签修复 |
 | 帮助菜单 | 四个入口完整中文；补齐 Sandbox++ 14 页标题与说明，保留 493 条指令编号 |
 | SuperUI 配套 | 2.9 公共库、菜单/HUD 脚本及表资源；补回旧包遗漏的 64 个文件 |
 | 清单与载入提示 | 30 个杀手目标、40 辆拆车厂目标的名称和说明；45 条不同载入提示（46 次引用） |
@@ -61,7 +63,7 @@
 
 原有自动验证包括 126 组语言/标签分支模拟、栈与寄存器保持检查、15 项安装/回退/恢复检查，以及 9 项管理器与命令入口检查。[详细记录](docs/helicopter-fix.md)与[机器可读验证报告](docs/evidence/installer-validation.json)区分了自动检查和用户实机反馈。
 
-字幕修复验证环境：Steam App 9480 / Build 1076239、简中 v546 文本资源、Juiced 9.3.1。v547～v551 沿用该文本包。不同主程序、GOG 或其他汉化包未据此认定兼容。
+字幕修复验证环境：Steam App 9480 / Build 1076239、简中 v546 文本资源、Juiced 9.3.1。v547～v552 沿用该文本包。不同主程序、GOG 或其他汉化包未据此认定兼容。
 
 | 文件状态 | SHA-256 |
 | --- | --- |
@@ -105,10 +107,10 @@ python tools/verify_project.py
 python tools/build_release.py --output dist
 ```
 
-重建整合包需要本地原始 `2026-10-21` v546 整合 ZIP，工具会核对其完整 SHA-256。该输入作为 [sr2-cn-v546-base-20261021.zip](https://github.com/callpiu/sr2-cn/releases/download/v547-20261024/sr2-cn-v546-base-20261021.zip) 保存在 v547 历史 Release，便于复现：
+重建 v552 需要已经发布并验证的 v551 完整 ZIP，工具会核对其完整 SHA-256：
 
 ```powershell
-python tools/build_release.py --base "sr2-cn-v546-base-20261021.zip" --output build/v551
+python tools/build_release.py --base "sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip" --output build/v552
 ```
 
 脚本使用仓库内冻结的汉化载荷和覆盖层，生成后核对发布资产的 SHA-256；不读取或修改当前游戏安装。原始整合构建脚本保存在 `archive/legacy-tools`，包含本机绝对路径，不应直接批量运行。

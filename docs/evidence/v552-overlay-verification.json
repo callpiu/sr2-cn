@@ -1,0 +1,13 @@
+{
+  "manifest": "G:\\DeepSeekData\\Workspaces\\Codex\\2026-11-04\\sr2-release-v552-subtitles\\prepared\\patch\\package-manifest.json",
+  "runtime_data_root": "G:\\DeepSeekData\\Workspaces\\Codex\\2026-11-04\\sr2-release-v552-subtitles\\prepared",
+  "manifest_files": 26,
+  "verified_files": 26,
+  "path_fields_used": {
+    "relative": 26
+  },
+  "failures": [],
+  "static_ok": true,
+  "runtime_loaded": null,
+  "runtime_note": "Not tested; installed byte equality does not prove runtime loading."
+}

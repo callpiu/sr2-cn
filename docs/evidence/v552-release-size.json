@@ -1,0 +1,1048 @@
+{
+  "schema": "localize-game-text/archive-size-audit/v1",
+  "primary": {
+    "archive": "G:\\DeepSeekData\\Workspaces\\Codex\\2026-11-04\\sr2-release-v552-subtitles\\release\\sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip",
+    "archive_bytes": 379921147,
+    "member_count": 2898,
+    "total_uncompressed_bytes": 928676399,
+    "total_member_compressed_bytes": 379378409,
+    "categories": {
+      "fonts": {
+        "members": 0,
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 0
+      },
+      "story_text": {
+        "members": 0,
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 0
+      },
+      "ui_bundles": {
+        "members": 49,
+        "uncompressed_bytes": 6909206,
+        "compressed_bytes": 1532525
+      },
+      "installer_config_docs": {
+        "members": 54,
+        "uncompressed_bytes": 1117310,
+        "compressed_bytes": 225648
+      },
+      "other": {
+        "members": 2795,
+        "uncompressed_bytes": 920649883,
+        "compressed_bytes": 377620236
+      }
+    },
+    "large_threshold_bytes": 1048576,
+    "large_members": [
+      {
+        "path": "common.vpp_pc",
+        "category": "other",
+        "uncompressed_bytes": 182093824,
+        "compressed_bytes": 10078657,
+        "sha256": "663300B521D67CB15717EDAD39A5193D22E12C0D002713468696E586E3A3637E"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_tp.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 49273296,
+        "compressed_bytes": 20003975,
+        "sha256": "2543AA7925C6081B38ACD2B50E158C96122AD866AE0E214AC8EB1B9ADBF6C75B"
+      },
+      {
+        "path": "patch.vpp_pc",
+        "category": "other",
+        "uncompressed_bytes": 48727014,
+        "compressed_bytes": 10376924,
+        "sha256": "E125D83628F8552035EFC47E07778054CA593A718BA87570DF03CAA7A524D76B"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_sa_tp.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 45384528,
+        "compressed_bytes": 26651966,
+        "sha256": "6FE907989DC599B90E1921C577F30D5271BEDCDF088ADA6CBE7589BE19FB8965"
+      },
+      {
+        "path": "DLC/Audio/SR2_DLC.xwb",
+        "category": "other",
+        "uncompressed_bytes": 38369280,
+        "compressed_bytes": 29150866,
+        "sha256": "96C3209A76A394504F93E5578A061F5DF8E70B7E73CDBD9077C1862E6130FB17"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_dt.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 36383136,
+        "compressed_bytes": 13798362,
+        "sha256": "B7F51D43AA14FA4DB0D23A38B7EB1301103B0E0AFA43B6BD32421BD84A32A476"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_li.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 31535632,
+        "compressed_bytes": 16669965,
+        "sha256": "4E3E3BCF21E21CE134D8CEE427E61A5398F6D8614AC485A7E209990014B95ACF"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_sa_dt.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 26544520,
+        "compressed_bytes": 15122265,
+        "sha256": "902C7957213E003D42061829444CC8172D809B556B36A74111E34FF8C05FA2AA"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_pi.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 26119152,
+        "compressed_bytes": 12331728,
+        "sha256": "63EBE0AF15F18B303B1E3794BAA0AA8573603E0FD3F83979F66E9782AD0C3386"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_sa_pi.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 20497368,
+        "compressed_bytes": 13374219,
+        "sha256": "2B73A16E6E6B4D5901C8F9700A78EA6B60F83B53A6C5C211ED2CD4FEC63A5519"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_cellblock.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 17594096,
+        "compressed_bytes": 11245407,
+        "sha256": "40C314C6D3DC98FC9F05BF984FFF6B7F9C2043F3A8EEB70CE570B54C45BDC894"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_li.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 17404512,
+        "compressed_bytes": 11290935,
+        "sha256": "B41B274C79F28A7CC734C54F47E0329CF7365C15619B35DC58CCA0379AC63B32"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_tp.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 15912616,
+        "compressed_bytes": 7111036,
+        "sha256": "2800B465A4D29F30AD137B037CAE80A44FD4B696A63B7912CF367F570B8DDC6E"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_cellblock.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 15324848,
+        "compressed_bytes": 5802994,
+        "sha256": "37EA6C69AA9ACE0F8BE86D7F491022CA457D79F1B427E9862B38181D6BBFF106"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_bhhq.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 15106904,
+        "compressed_bytes": 10018318,
+        "sha256": "C2F5BC6FDA86C58EA48A32295440C2BFEB8F52984B981C440F18D22EBDC85943"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_dt.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 9948800,
+        "compressed_bytes": 4341701,
+        "sha256": "5C1F844662098304EFF37D5D631A5C66986F5C856F4BEFEB2C8ABE55DD035EC4"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_wi.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 8659888,
+        "compressed_bytes": 4337850,
+        "sha256": "E23D2E763CA5CF47BEF8ABB11C85DF4B2916E336FF43EF950263F97E6C02E0C7"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_pi.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 8614712,
+        "compressed_bytes": 4240998,
+        "sha256": "024C1AB4CB1CCEA700855F53A60AFC76A4FE3CC4CBAC78FCFB1CD02640967AC0"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_li.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 8291880,
+        "compressed_bytes": 5041504,
+        "sha256": "03A6B3465B68B18F62A5DB0B12CE56E2A5534FDECE71A1D1056F60A1D3895A92"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_bhhq.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 7169152,
+        "compressed_bytes": 2541380,
+        "sha256": "4D283BDE67669C1D945B3A9F9E95CDBE63BCBDC30EAACF7E7EA41503F11A534D"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk093.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5915048,
+        "compressed_bytes": 2646018,
+        "sha256": "46E33D92C1D56648227697C1E6C2B737F4D24EF8E5F20D8A6FFC442436F67B04"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk082.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5893600,
+        "compressed_bytes": 2457889,
+        "sha256": "3552F33C9EB583FEE2DF95849757603FE101BD7B95B42DBFE232F59E8D9AE9C8"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk093_alt.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5852920,
+        "compressed_bytes": 2644257,
+        "sha256": "D5097D031095D56389CDE83A7AB39F37D7E74846E02BB836F8CCC11CC8CE1A2F"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk095.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5799656,
+        "compressed_bytes": 3057132,
+        "sha256": "79D17616C01BFE97CC8509C6C06B85359F9860AB1ECCEEC48DE87DB4C9D0B2B5"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk072.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5590204,
+        "compressed_bytes": 2457015,
+        "sha256": "A7205A58468053B8B3A1AF8941D5C5062D9C83899A76E7BD42AADD29360B95AD"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk071.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5575856,
+        "compressed_bytes": 2284735,
+        "sha256": "DBEE3FD2BEC5474D610D179F1FBEF4991F1DFA1E566A08E0D17830DC6E2C9F65"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk116.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5572412,
+        "compressed_bytes": 2281744,
+        "sha256": "AE99FBD90AD6D38E3E70FBF99AF9515E968513810056DCAC115BB7D85220DDF1"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk059.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5533688,
+        "compressed_bytes": 2313438,
+        "sha256": "DDF8F3968266D1EDE534841765249ABAC748CCC72429C4D530152AF231713583"
+      },
+      {
+        "path": "patches/JuicedSteamXDel.vcdiff",
+        "category": "other",
+        "uncompressed_bytes": 5196028,
+        "compressed_bytes": 5189387,
+        "sha256": "C55D663EA327465ED397037B0035BC5A5EA5B6096F135047A2E826C9F352938F"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_ug_chunk159_malla.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5000216,
+        "compressed_bytes": 2200485,
+        "sha256": "3550ABCD654E04E054818668C10822F00A5B4D7591719CE59D9E625CCB70F6E3"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_wi.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 4421328,
+        "compressed_bytes": 1525485,
+        "sha256": "027CFF8F09A18CF77BCFA741154691AC98EB5B21DC47EA04042918771D07FCD1"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_cellblock.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 4025252,
+        "compressed_bytes": 1681135,
+        "sha256": "A6BBE6361F76192FF13A4248C75E01A1248A111388B87E9C08875973BC684944"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_bhhq.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 3814128,
+        "compressed_bytes": 1731654,
+        "sha256": "CD5B70ABFBECA4CAFB7BC992D89E175CF391758C05D2A26F9E2B405B30524029"
+      },
+      {
+        "path": "DLC/Characters/Textures/snpc_tera2.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 3666496,
+        "compressed_bytes": 1840743,
+        "sha256": "A85E8805651A23548BEFF8CFE8FDC1FFE33BD5CFC85EA81E7B7D9F5E680DE10A"
+      },
+      {
+        "path": "discord_game_sdk.dll",
+        "category": "other",
+        "uncompressed_bytes": 3154744,
+        "compressed_bytes": 1419926,
+        "sha256": "D8E7D9FEB3DE8482B186AE44FD1C9ABB41FE2B3B3D2C7CD3A4D742EBBAD30CDF"
+      },
+      {
+        "path": "DFEngine.dll",
+        "category": "other",
+        "uncompressed_bytes": 2684416,
+        "compressed_bytes": 1185202,
+        "sha256": "DF5E366C8F706AB77C0AFE72FA4D892AFCA214E4879E4DED49EE13A91112A162"
+      },
+      {
+        "path": "DLC/Audio/voice_pc",
+        "category": "other",
+        "uncompressed_bytes": 2366783,
+        "compressed_bytes": 354135,
+        "sha256": "B8FF8C32F18C4BD2ECED8E5E0423C870F0197A57BE43B232836040D11E29CB37"
+      },
+      {
+        "path": "DLC/Characters/Textures/snpc_dex.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 2330576,
+        "compressed_bytes": 1260286,
+        "sha256": "708ADC31C4CC41057A93EBF47EA05865D12DF66D8A2D7275105FC36B33AC8670"
+      },
+      {
+        "path": "SDL3.dll",
+        "category": "other",
+        "uncompressed_bytes": 2088448,
+        "compressed_bytes": 890335,
+        "sha256": "51AB4807D02E4B99C59E232DF692F287D955538D3E685FA4E4930694B5B39C3F"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_ug_chunk095_ub02.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 2054784,
+        "compressed_bytes": 573894,
+        "sha256": "DB963C310694B9B21A536C553A94AD2D5F743A39AB3ADB4CCB9558AA4105557D"
+      },
+      {
+        "path": "DLC/Characters/Models/snpc_tera2.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1827016,
+        "compressed_bytes": 679613,
+        "sha256": "F17C28D824EAFECB69CF26AB0B76C5C9FF64EF1689AEA7B2C8CE9BA558437299"
+      },
+      {
+        "path": "DLC/Clothing/Models/cmhai_wfeather_pc.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1713188,
+        "compressed_bytes": 954826,
+        "sha256": "8F7EBC9D69D839F541776A2D442272998CE2755F958ABAA3291284E1CE389A8A"
+      },
+      {
+        "path": "DLC/Characters/Textures/snpc_eric.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1598552,
+        "compressed_bytes": 866630,
+        "sha256": "7CD71E42363F8F2747D306BFD5E7E6A55F15809E9329A42F1DB8398C3C6327BB"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_ug_chunk104_st_hq3.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1531476,
+        "compressed_bytes": 633946,
+        "sha256": "98C808E76B6AC1C8E5909742E4777DA68176C8E1841C1D94B77B4659690A5610"
+      },
+      {
+        "path": "DLC/Characters/Models/snpc_eric.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1486448,
+        "compressed_bytes": 568068,
+        "sha256": "A8BD7940235132725C019FAE9454FAF339DB8119215DF92837936DEC887F06A4"
+      },
+      {
+        "path": "DLC/Clothing/Models/cmhai_wtera2_pc.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1464280,
+        "compressed_bytes": 774459,
+        "sha256": "6349275977576AC8E28751A3117451508FA52064FF7768444A324A96B2BD82B1"
+      },
+      {
+        "path": "DLC/Characters/Models/snpc_dex.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1338468,
+        "compressed_bytes": 556411,
+        "sha256": "C56E2F2D1D21F135EFF8B10F26E3A4E802D8B966476EF12BE10358CE15B75012"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_mp_lobby02.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1308780,
+        "compressed_bytes": 530753,
+        "sha256": "DE874AFAB8512EF2EBFDBB66757446086F5BE28F8A5D56F7F9A743502200CB0D"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_mp_lobbytut.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1296708,
+        "compressed_bytes": 523720,
+        "sha256": "9845B5ADF15F913053581298BD16859BA41EAE7395619BE5A89E36A62D7DA03C"
+      },
+      {
+        "path": "DLC/Clothing/Models/cmcoa_munkhood01_c_pc.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1262128,
+        "compressed_bytes": 736080,
+        "sha256": "CCF6E7786B70B66D0BF1E54D0CD20C4A27E4117921F0FCAA54FB1058F24F3DF7"
+      },
+      {
+        "path": "DLC/Characters/Models/cnpc_tera2.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1226368,
+        "compressed_bytes": 508638,
+        "sha256": "0678445D8C3FDFB798E1CB65CBE2EC716685A7674262D82DB3E90EDD7D88078B"
+      },
+      {
+        "path": "DLC/Clothing/Tables/dlc_customization_items.xtbl",
+        "category": "other",
+        "uncompressed_bytes": 1183208,
+        "compressed_bytes": 30350,
+        "sha256": "5752119D048AED92CBF88F4ED4F985193218F7948A94730B015359D7140B19AA"
+      },
+      {
+        "path": "DLC/UI/ui_crib_news_dlc.g_peg_pc",
+        "category": "ui_bundles",
+        "uncompressed_bytes": 1179648,
+        "compressed_bytes": 102729,
+        "sha256": "EED2BC4E9A6C3E4C46B7568A842939EFA8F6EEAD18E0670F5D463A9CBFDDB6D6"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_wi.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1171724,
+        "compressed_bytes": 419358,
+        "sha256": "5524BBB7283467BFD28FAA4CF29E46A82AD9AC03D5D60375896951E892E792AA"
+      },
+      {
+        "path": "Mods/static_DE.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1134482,
+        "compressed_bytes": 354516,
+        "sha256": "7AC39B8FA8EF08BC8FEBCB1E7D43560C900420ADFFE907AD951B71BC45C59241"
+      },
+      {
+        "path": "Mods/static_NL.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1134372,
+        "compressed_bytes": 352656,
+        "sha256": "30370F993B4E2F9875DB3E08E5C98BAF88D3E78F245478844DC7ADAB693F3997"
+      },
+      {
+        "path": "DLC/Characters/Textures/cnpc_tera2.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1119808,
+        "compressed_bytes": 596824,
+        "sha256": "D37D4F11A49D83BA4D012AD1184E6A2AF97B92786EF0CF839CC84D277D59BC74"
+      },
+      {
+        "path": "DLC/Characters/Textures/npc_tera2.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1119808,
+        "compressed_bytes": 596824,
+        "sha256": "D37D4F11A49D83BA4D012AD1184E6A2AF97B92786EF0CF839CC84D277D59BC74"
+      },
+      {
+        "path": "Mods/static_FR.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1104278,
+        "compressed_bytes": 347695,
+        "sha256": "73F852D03AD40E7474E106AD23BF0E59BEB9F9A6F18A971DF0139A908F16F223"
+      },
+      {
+        "path": "DLC/Clothing/Textures/cmsui_urfg.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1103168,
+        "compressed_bytes": 598646,
+        "sha256": "8CD137C2A79F241329AC14162D6DE90D0DDC416E3CF964B935FE98FBC1486484"
+      },
+      {
+        "path": "Mods/static_ES.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1096956,
+        "compressed_bytes": 342645,
+        "sha256": "E24626C5A3ACA5497FC46306ADE0ACA622C28AD7804CFCFE5988CF19D7A9B4C4"
+      },
+      {
+        "path": "Mods/static_IT.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1085076,
+        "compressed_bytes": 340288,
+        "sha256": "6F06321A037596F3F7C1DE7B9934CA60DFECD30F433E9C83B8C30ADC86DEA0F9"
+      },
+      {
+        "path": "DLC/Clothing/Textures/cmsui_ucopgear.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1065040,
+        "compressed_bytes": 435377,
+        "sha256": "9870778D56127126E767F9E53B2EE05799C7E28E9460AB0C82BAA82A7BAB7AE5"
+      },
+      {
+        "path": "Mods/JUICED - Textures/juiced-ui.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1053536,
+        "compressed_bytes": 185004,
+        "sha256": "140D72DE5773BF5D654CD64C1785397529D9EEC9C3E1D7E92265996083217F7F"
+      },
+      {
+        "path": "Mods/static_PL.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1051936,
+        "compressed_bytes": 353843,
+        "sha256": "85FD7A82DC0E6374BF05686EEE972CFE3FB76A3385F87997832D1A4B526C8AB2"
+      }
+    ],
+    "duplicate_large_groups": [
+      {
+        "sha256": "D37D4F11A49D83BA4D012AD1184E6A2AF97B92786EF0CF839CC84D277D59BC74",
+        "uncompressed_bytes_each": 1119808,
+        "paths": [
+          "DLC/Characters/Textures/cnpc_tera2.g_peg_pc",
+          "DLC/Characters/Textures/npc_tera2.g_peg_pc"
+        ],
+        "compressed_bytes_total": 1193648,
+        "estimated_one_source_saving_bytes": 596824
+      }
+    ],
+    "unsafe_or_duplicate_entries": [],
+    "audit_ok": true
+  },
+  "reference": {
+    "archive": "G:\\DeepSeekData\\Workspaces\\Codex\\2026-10-26\\sr2-release-v551-final\\sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip",
+    "archive_bytes": 379913851,
+    "member_count": 2895,
+    "total_uncompressed_bytes": 928651658,
+    "total_member_compressed_bytes": 379371689,
+    "categories": {
+      "fonts": {
+        "members": 0,
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 0
+      },
+      "story_text": {
+        "members": 0,
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 0
+      },
+      "ui_bundles": {
+        "members": 49,
+        "uncompressed_bytes": 6909206,
+        "compressed_bytes": 1532525
+      },
+      "installer_config_docs": {
+        "members": 53,
+        "uncompressed_bytes": 1107795,
+        "compressed_bytes": 223413
+      },
+      "other": {
+        "members": 2793,
+        "uncompressed_bytes": 920634657,
+        "compressed_bytes": 377615751
+      }
+    },
+    "large_threshold_bytes": 1048576,
+    "large_members": [
+      {
+        "path": "common.vpp_pc",
+        "category": "other",
+        "uncompressed_bytes": 182093824,
+        "compressed_bytes": 10078657,
+        "sha256": "663300B521D67CB15717EDAD39A5193D22E12C0D002713468696E586E3A3637E"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_tp.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 49273296,
+        "compressed_bytes": 20003975,
+        "sha256": "2543AA7925C6081B38ACD2B50E158C96122AD866AE0E214AC8EB1B9ADBF6C75B"
+      },
+      {
+        "path": "patch.vpp_pc",
+        "category": "other",
+        "uncompressed_bytes": 48727014,
+        "compressed_bytes": 10376924,
+        "sha256": "E125D83628F8552035EFC47E07778054CA593A718BA87570DF03CAA7A524D76B"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_sa_tp.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 45384528,
+        "compressed_bytes": 26651966,
+        "sha256": "6FE907989DC599B90E1921C577F30D5271BEDCDF088ADA6CBE7589BE19FB8965"
+      },
+      {
+        "path": "DLC/Audio/SR2_DLC.xwb",
+        "category": "other",
+        "uncompressed_bytes": 38369280,
+        "compressed_bytes": 29150866,
+        "sha256": "96C3209A76A394504F93E5578A061F5DF8E70B7E73CDBD9077C1862E6130FB17"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_dt.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 36383136,
+        "compressed_bytes": 13798362,
+        "sha256": "B7F51D43AA14FA4DB0D23A38B7EB1301103B0E0AFA43B6BD32421BD84A32A476"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_li.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 31535632,
+        "compressed_bytes": 16669965,
+        "sha256": "4E3E3BCF21E21CE134D8CEE427E61A5398F6D8614AC485A7E209990014B95ACF"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_sa_dt.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 26544520,
+        "compressed_bytes": 15122265,
+        "sha256": "902C7957213E003D42061829444CC8172D809B556B36A74111E34FF8C05FA2AA"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_pi.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 26119152,
+        "compressed_bytes": 12331728,
+        "sha256": "63EBE0AF15F18B303B1E3794BAA0AA8573603E0FD3F83979F66E9782AD0C3386"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_sa_pi.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 20497368,
+        "compressed_bytes": 13374219,
+        "sha256": "2B73A16E6E6B4D5901C8F9700A78EA6B60F83B53A6C5C211ED2CD4FEC63A5519"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_cellblock.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 17594096,
+        "compressed_bytes": 11245407,
+        "sha256": "40C314C6D3DC98FC9F05BF984FFF6B7F9C2043F3A8EEB70CE570B54C45BDC894"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_li.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 17404512,
+        "compressed_bytes": 11290935,
+        "sha256": "B41B274C79F28A7CC734C54F47E0329CF7365C15619B35DC58CCA0379AC63B32"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_tp.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 15912616,
+        "compressed_bytes": 7111036,
+        "sha256": "2800B465A4D29F30AD137B037CAE80A44FD4B696A63B7912CF367F570B8DDC6E"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_cellblock.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 15324848,
+        "compressed_bytes": 5802994,
+        "sha256": "37EA6C69AA9ACE0F8BE86D7F491022CA457D79F1B427E9862B38181D6BBFF106"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_bhhq.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 15106904,
+        "compressed_bytes": 10018318,
+        "sha256": "C2F5BC6FDA86C58EA48A32295440C2BFEB8F52984B981C440F18D22EBDC85943"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_dt.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 9948800,
+        "compressed_bytes": 4341701,
+        "sha256": "5C1F844662098304EFF37D5D631A5C66986F5C856F4BEFEB2C8ABE55DD035EC4"
+      },
+      {
+        "path": "DLC/Multiplayer/Textures/sr2_mp_gb_wi.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 8659888,
+        "compressed_bytes": 4337850,
+        "sha256": "E23D2E763CA5CF47BEF8ABB11C85DF4B2916E336FF43EF950263F97E6C02E0C7"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_sa_pi.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 8614712,
+        "compressed_bytes": 4240998,
+        "sha256": "024C1AB4CB1CCEA700855F53A60AFC76A4FE3CC4CBAC78FCFB1CD02640967AC0"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_li.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 8291880,
+        "compressed_bytes": 5041504,
+        "sha256": "03A6B3465B68B18F62A5DB0B12CE56E2A5534FDECE71A1D1056F60A1D3895A92"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_bhhq.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 7169152,
+        "compressed_bytes": 2541380,
+        "sha256": "4D283BDE67669C1D945B3A9F9E95CDBE63BCBDC30EAACF7E7EA41503F11A534D"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk093.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5915048,
+        "compressed_bytes": 2646018,
+        "sha256": "46E33D92C1D56648227697C1E6C2B737F4D24EF8E5F20D8A6FFC442436F67B04"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk082.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5893600,
+        "compressed_bytes": 2457889,
+        "sha256": "3552F33C9EB583FEE2DF95849757603FE101BD7B95B42DBFE232F59E8D9AE9C8"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk093_alt.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5852920,
+        "compressed_bytes": 2644257,
+        "sha256": "D5097D031095D56389CDE83A7AB39F37D7E74846E02BB836F8CCC11CC8CE1A2F"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk095.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5799656,
+        "compressed_bytes": 3057132,
+        "sha256": "79D17616C01BFE97CC8509C6C06B85359F9860AB1ECCEEC48DE87DB4C9D0B2B5"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk072.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5590204,
+        "compressed_bytes": 2457015,
+        "sha256": "A7205A58468053B8B3A1AF8941D5C5062D9C83899A76E7BD42AADD29360B95AD"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk071.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5575856,
+        "compressed_bytes": 2284735,
+        "sha256": "DBEE3FD2BEC5474D610D179F1FBEF4991F1DFA1E566A08E0D17830DC6E2C9F65"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk116.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5572412,
+        "compressed_bytes": 2281744,
+        "sha256": "AE99FBD90AD6D38E3E70FBF99AF9515E968513810056DCAC115BB7D85220DDF1"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_chunk059.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5533688,
+        "compressed_bytes": 2313438,
+        "sha256": "DDF8F3968266D1EDE534841765249ABAC748CCC72429C4D530152AF231713583"
+      },
+      {
+        "path": "patches/JuicedSteamXDel.vcdiff",
+        "category": "other",
+        "uncompressed_bytes": 5196028,
+        "compressed_bytes": 5189387,
+        "sha256": "C55D663EA327465ED397037B0035BC5A5EA5B6096F135047A2E826C9F352938F"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_ug_chunk159_malla.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 5000216,
+        "compressed_bytes": 2200485,
+        "sha256": "3550ABCD654E04E054818668C10822F00A5B4D7591719CE59D9E625CCB70F6E3"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_wi.g_chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 4421328,
+        "compressed_bytes": 1525485,
+        "sha256": "027CFF8F09A18CF77BCFA741154691AC98EB5B21DC47EA04042918771D07FCD1"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_cellblock.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 4025252,
+        "compressed_bytes": 1681135,
+        "sha256": "A6BBE6361F76192FF13A4248C75E01A1248A111388B87E9C08875973BC684944"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_bhhq.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 3814128,
+        "compressed_bytes": 1731654,
+        "sha256": "CD5B70ABFBECA4CAFB7BC992D89E175CF391758C05D2A26F9E2B405B30524029"
+      },
+      {
+        "path": "DLC/Characters/Textures/snpc_tera2.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 3666496,
+        "compressed_bytes": 1840743,
+        "sha256": "A85E8805651A23548BEFF8CFE8FDC1FFE33BD5CFC85EA81E7B7D9F5E680DE10A"
+      },
+      {
+        "path": "discord_game_sdk.dll",
+        "category": "other",
+        "uncompressed_bytes": 3154744,
+        "compressed_bytes": 1419926,
+        "sha256": "D8E7D9FEB3DE8482B186AE44FD1C9ABB41FE2B3B3D2C7CD3A4D742EBBAD30CDF"
+      },
+      {
+        "path": "DFEngine.dll",
+        "category": "other",
+        "uncompressed_bytes": 2683392,
+        "compressed_bytes": 1184629,
+        "sha256": "263EC33E6DAD4F3A46ED8F24726F10E5FBBA44206D95E17F6AA3019EB696D7C8"
+      },
+      {
+        "path": "DLC/Audio/voice_pc",
+        "category": "other",
+        "uncompressed_bytes": 2366783,
+        "compressed_bytes": 354135,
+        "sha256": "B8FF8C32F18C4BD2ECED8E5E0423C870F0197A57BE43B232836040D11E29CB37"
+      },
+      {
+        "path": "DLC/Characters/Textures/snpc_dex.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 2330576,
+        "compressed_bytes": 1260286,
+        "sha256": "708ADC31C4CC41057A93EBF47EA05865D12DF66D8A2D7275105FC36B33AC8670"
+      },
+      {
+        "path": "SDL3.dll",
+        "category": "other",
+        "uncompressed_bytes": 2088448,
+        "compressed_bytes": 890335,
+        "sha256": "51AB4807D02E4B99C59E232DF692F287D955538D3E685FA4E4930694B5B39C3F"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_ug_chunk095_ub02.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 2054784,
+        "compressed_bytes": 573894,
+        "sha256": "DB963C310694B9B21A536C553A94AD2D5F743A39AB3ADB4CCB9558AA4105557D"
+      },
+      {
+        "path": "DLC/Characters/Models/snpc_tera2.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1827016,
+        "compressed_bytes": 679613,
+        "sha256": "F17C28D824EAFECB69CF26AB0B76C5C9FF64EF1689AEA7B2C8CE9BA558437299"
+      },
+      {
+        "path": "DLC/Clothing/Models/cmhai_wfeather_pc.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1713188,
+        "compressed_bytes": 954826,
+        "sha256": "8F7EBC9D69D839F541776A2D442272998CE2755F958ABAA3291284E1CE389A8A"
+      },
+      {
+        "path": "DLC/Characters/Textures/snpc_eric.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1598552,
+        "compressed_bytes": 866630,
+        "sha256": "7CD71E42363F8F2747D306BFD5E7E6A55F15809E9329A42F1DB8398C3C6327BB"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_ug_chunk104_st_hq3.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1531476,
+        "compressed_bytes": 633946,
+        "sha256": "98C808E76B6AC1C8E5909742E4777DA68176C8E1841C1D94B77B4659690A5610"
+      },
+      {
+        "path": "DLC/Characters/Models/snpc_eric.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1486448,
+        "compressed_bytes": 568068,
+        "sha256": "A8BD7940235132725C019FAE9454FAF339DB8119215DF92837936DEC887F06A4"
+      },
+      {
+        "path": "DLC/Clothing/Models/cmhai_wtera2_pc.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1464280,
+        "compressed_bytes": 774459,
+        "sha256": "6349275977576AC8E28751A3117451508FA52064FF7768444A324A96B2BD82B1"
+      },
+      {
+        "path": "DLC/Characters/Models/snpc_dex.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1338468,
+        "compressed_bytes": 556411,
+        "sha256": "C56E2F2D1D21F135EFF8B10F26E3A4E802D8B966476EF12BE10358CE15B75012"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_mp_lobby02.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1308780,
+        "compressed_bytes": 530753,
+        "sha256": "DE874AFAB8512EF2EBFDBB66757446086F5BE28F8A5D56F7F9A743502200CB0D"
+      },
+      {
+        "path": "Mods/JUICED - Chunk Fixes/sr2_mp_lobbytut.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1296708,
+        "compressed_bytes": 523720,
+        "sha256": "9845B5ADF15F913053581298BD16859BA41EAE7395619BE5A89E36A62D7DA03C"
+      },
+      {
+        "path": "DLC/Clothing/Models/cmcoa_munkhood01_c_pc.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1262128,
+        "compressed_bytes": 736080,
+        "sha256": "CCF6E7786B70B66D0BF1E54D0CD20C4A27E4117921F0FCAA54FB1058F24F3DF7"
+      },
+      {
+        "path": "DLC/Characters/Models/cnpc_tera2.morph_pc",
+        "category": "other",
+        "uncompressed_bytes": 1226368,
+        "compressed_bytes": 508638,
+        "sha256": "0678445D8C3FDFB798E1CB65CBE2EC716685A7674262D82DB3E90EDD7D88078B"
+      },
+      {
+        "path": "DLC/Clothing/Tables/dlc_customization_items.xtbl",
+        "category": "other",
+        "uncompressed_bytes": 1183208,
+        "compressed_bytes": 30350,
+        "sha256": "5752119D048AED92CBF88F4ED4F985193218F7948A94730B015359D7140B19AA"
+      },
+      {
+        "path": "DLC/UI/ui_crib_news_dlc.g_peg_pc",
+        "category": "ui_bundles",
+        "uncompressed_bytes": 1179648,
+        "compressed_bytes": 102729,
+        "sha256": "EED2BC4E9A6C3E4C46B7568A842939EFA8F6EEAD18E0670F5D463A9CBFDDB6D6"
+      },
+      {
+        "path": "DLC/Multiplayer/Models/sr2_mp_gb_wi.chunk_pc",
+        "category": "other",
+        "uncompressed_bytes": 1171724,
+        "compressed_bytes": 419358,
+        "sha256": "5524BBB7283467BFD28FAA4CF29E46A82AD9AC03D5D60375896951E892E792AA"
+      },
+      {
+        "path": "Mods/static_DE.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1134482,
+        "compressed_bytes": 354516,
+        "sha256": "7AC39B8FA8EF08BC8FEBCB1E7D43560C900420ADFFE907AD951B71BC45C59241"
+      },
+      {
+        "path": "Mods/static_NL.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1134372,
+        "compressed_bytes": 352656,
+        "sha256": "30370F993B4E2F9875DB3E08E5C98BAF88D3E78F245478844DC7ADAB693F3997"
+      },
+      {
+        "path": "DLC/Characters/Textures/cnpc_tera2.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1119808,
+        "compressed_bytes": 596824,
+        "sha256": "D37D4F11A49D83BA4D012AD1184E6A2AF97B92786EF0CF839CC84D277D59BC74"
+      },
+      {
+        "path": "DLC/Characters/Textures/npc_tera2.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1119808,
+        "compressed_bytes": 596824,
+        "sha256": "D37D4F11A49D83BA4D012AD1184E6A2AF97B92786EF0CF839CC84D277D59BC74"
+      },
+      {
+        "path": "Mods/static_FR.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1104278,
+        "compressed_bytes": 347695,
+        "sha256": "73F852D03AD40E7474E106AD23BF0E59BEB9F9A6F18A971DF0139A908F16F223"
+      },
+      {
+        "path": "DLC/Clothing/Textures/cmsui_urfg.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1103168,
+        "compressed_bytes": 598646,
+        "sha256": "8CD137C2A79F241329AC14162D6DE90D0DDC416E3CF964B935FE98FBC1486484"
+      },
+      {
+        "path": "Mods/static_ES.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1096956,
+        "compressed_bytes": 342645,
+        "sha256": "E24626C5A3ACA5497FC46306ADE0ACA622C28AD7804CFCFE5988CF19D7A9B4C4"
+      },
+      {
+        "path": "Mods/static_IT.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1085076,
+        "compressed_bytes": 340288,
+        "sha256": "6F06321A037596F3F7C1DE7B9934CA60DFECD30F433E9C83B8C30ADC86DEA0F9"
+      },
+      {
+        "path": "DLC/Clothing/Textures/cmsui_ucopgear.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1065040,
+        "compressed_bytes": 435377,
+        "sha256": "9870778D56127126E767F9E53B2EE05799C7E28E9460AB0C82BAA82A7BAB7AE5"
+      },
+      {
+        "path": "Mods/JUICED - Textures/juiced-ui.g_peg_pc",
+        "category": "other",
+        "uncompressed_bytes": 1053536,
+        "compressed_bytes": 185004,
+        "sha256": "140D72DE5773BF5D654CD64C1785397529D9EEC9C3E1D7E92265996083217F7F"
+      },
+      {
+        "path": "Mods/static_PL.le_strings",
+        "category": "other",
+        "uncompressed_bytes": 1051936,
+        "compressed_bytes": 353843,
+        "sha256": "85FD7A82DC0E6374BF05686EEE972CFE3FB76A3385F87997832D1A4B526C8AB2"
+      }
+    ],
+    "duplicate_large_groups": [
+      {
+        "sha256": "D37D4F11A49D83BA4D012AD1184E6A2AF97B92786EF0CF839CC84D277D59BC74",
+        "uncompressed_bytes_each": 1119808,
+        "paths": [
+          "DLC/Characters/Textures/cnpc_tera2.g_peg_pc",
+          "DLC/Characters/Textures/npc_tera2.g_peg_pc"
+        ],
+        "compressed_bytes_total": 1193648,
+        "estimated_one_source_saving_bytes": 596824
+      }
+    ],
+    "unsafe_or_duplicate_entries": [],
+    "audit_ok": true
+  },
+  "comparison": {
+    "archive_bytes_delta": 7296,
+    "uncompressed_bytes_delta": 24741,
+    "member_count_delta": 3,
+    "category_deltas": {
+      "fonts": {
+        "members": 0,
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 0
+      },
+      "story_text": {
+        "members": 0,
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 0
+      },
+      "ui_bundles": {
+        "members": 0,
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 0
+      },
+      "installer_config_docs": {
+        "members": 1,
+        "uncompressed_bytes": 9515,
+        "compressed_bytes": 2235
+      },
+      "other": {
+        "members": 2,
+        "uncompressed_bytes": 15226,
+        "compressed_bytes": 4485
+      }
+    }
+  },
+  "audit_ok": true
+}

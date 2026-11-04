@@ -1,3 +1,4 @@
+802c0d4f7c15b5ba1117a909bdadabd4055d93e6b2c007f236a511b6ae527ae7  sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip
 b969f09b2c863967a403bc321697c0bbec893162461450c3a8a72a1fffa97ecd  sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip
 ed85b827ca4fc2a475d6e0970d19d68e6be9419cbca8cddfe7d6e6601c29c111  sr2-cn-helicopter-fix-v1.0.0.zip
 d2f6953326c74b4d4cc534d9932b39c0fe6a4186b25a8de9ed922c07efe44102  sr2-cn-v546-base-20261021.zip

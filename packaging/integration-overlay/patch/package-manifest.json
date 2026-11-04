@@ -51,8 +51,8 @@
     },
     {
       "relative": "README.md",
-      "size": 5252,
-      "sha256": "b64b2c2a8c57b9d071555d3e763e76ceeea937b9df7b6e08d3bcba344a28c3cb"
+      "size": 6900,
+      "sha256": "46bd45189804c1a480a5fc5fe72b62b90b29a3e408f436142d2c6df7215b96fb"
     },
     {
       "relative": "Start-Installer.cmd",
@@ -133,6 +133,11 @@
       "relative": "patch/analysis/court-garage-runtime-20261026.json",
       "size": 1042,
       "sha256": "6803c3a4efd927966779e89037c796548fb2f207a912b9d9180dda1524788c6c"
+    },
+    {
+      "relative": "patch/analysis/subtitle-places-20261104.md",
+      "size": 1534,
+      "sha256": "455b36162ef03915c28b5b52ff7060ded9ab78300faccf5a87f5408236a9342e"
     }
   ]
 }

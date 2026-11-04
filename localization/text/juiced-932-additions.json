@@ -1,0 +1,49 @@
+{
+  "upstreamVersion": "9.3.2",
+  "upstreamArchive": "SR2_JUICED_3.zip",
+  "upstreamSha256": "d5b3436122cf7fd602be7719ddc79bcd24655a0e4f0e2ad630b196b31d1bc7f",
+  "baseEntryCount": 406,
+  "mergedEntryCount": 412,
+  "retainedLeStringsSha256": "f6aea17759372288a324b855aa060d2f7a7bf61a8b3ac77841e4e07201f3e5fd",
+  "excluded": [
+    "DFEngine.pdb"
+  ],
+  "additions": [
+    {
+      "tag": "0xFF6299D9",
+      "runtimeId": "0xFF6299D9",
+      "name": "STATS_CORRUPT_BODY",
+      "text": "你的状态损坏并且必须重设\n这将不影响你已获得的成就"
+    },
+    {
+      "tag": "0x2370E5A4",
+      "runtimeId": "0x2370E5A4",
+      "name": "STATS_CORRUPT_TITLE",
+      "text": "你的统计资料被损坏并且必须重新设定\n这将不会影响你可能获得的任何成就"
+    },
+    {
+      "tag": "0xAF10621E",
+      "runtimeId": "0xAF10621E",
+      "name": "ACT_HELI_PROTECTION_START_MOVING_MESSAGE",
+      "text": "你的[format][color:green]兄弟们[/format]正要去进行交易，保护他们避免受到攻击"
+    },
+    {
+      "tag": "0xF284ED87",
+      "runtimeId": "0xF284ED87",
+      "name": "ACT_HELI_PROTECTION_START_MESSAGE",
+      "text": "你的[format][color:green]兄弟们[/format]需要你的保护"
+    },
+    {
+      "tag": "0xAB55CE3B",
+      "runtimeId": "0xAB55CE3B",
+      "name": "DIVERSION_COOP_DEATH_TAG_START_MESSAGE",
+      "text": "按住{ATTACK_SECONDARY_IMG}在死亡标记中恢复"
+    },
+    {
+      "tag": "0x42363FC7",
+      "runtimeId": "0x42363FC7",
+      "name": "DIVERSION_COOP_CAT_AND_MOUSE_START_MESSAGE",
+      "text": "按住{ATTACK_PRIMARY_IMG}在猫抓老鼠中恢复"
+    }
+  ]
+}

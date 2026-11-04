@@ -1,0 +1,40 @@
+{
+  "schema": "sr2-cn/subtitle-places-static/v1",
+  "date": "2026-11-04",
+  "sourceTables": {
+    "voice_script_CH": {
+      "sha256": "70e83d6a4cf809bafe34ac51a18f105808e667c75da266d836f85f325c2e2808"
+    },
+    "static_CH": {
+      "sha256": "c159736a5941be05f8e2dcfbfea6a56c2055ace468441cc652b4119d54759281"
+    }
+  },
+  "payload": {
+    "Mods/JUICED - Strings/sr2cn_subtitle_places_vcCH.cxt": {
+      "entries": 11,
+      "bytes": 1997,
+      "sha256": "5bcfff3232066c2c7431b6e5e58954d628e7e63247fbcb07ce43df39c7bb37a6"
+    },
+    "Mods/JUICED - Strings/sr2cn_subtitle_places_CH.cxt": {
+      "entries": 2,
+      "bytes": 717,
+      "sha256": "035b969470e9be17ad803f1c721e8b54b2fcab6e0c11bceab079a59f6168e8d8"
+    }
+  },
+  "checks": {
+    "sourceTableHashesMatched": true,
+    "recordIdsMatched": true,
+    "controlTokensPreserved": true,
+    "subtitleTimingPreserved": true,
+    "glyphCoveragePassed": true,
+    "cxtRoundTripPassed": true,
+    "installedBytesMatchPayload": true,
+    "fullPackageRebuildMatched": true
+  },
+  "runtime": {
+    "status": "pending",
+    "surface": "court cutscene containing Rounds Square 购物中心",
+    "expectedText": "朗兹广场购物中心",
+    "requiresFullGameRestart": true
+  }
+}
