@@ -45,8 +45,8 @@ v553 在 v552 基础上修复据点重玩报纸板中 DLC 任务丢失专属缩�
 当前主要提交：
 
 ```text
-c84531922697ff548ab7ed2ba492fd475bcd6857
-Add store prompt, garage and court localization fixes; release v551
+eb1243e35b7ab036eee1ef372a9ede05b4e4d838
+Fix DLC replay newspaper thumbnails and reports; release v553
 ```
 
 ## 3. 版本演进
