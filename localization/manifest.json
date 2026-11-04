@@ -1,6 +1,6 @@
 {
-  "version": "v552",
-  "date": "2026-11-04",
+  "version": "v553",
+  "date": "2026-11-05",
   "baseArchiveSha256": "b969f09b2c863967a403bc321697c0bbec893162461450c3a8a72a1fffa97ecd",
   "payload": [
     {
@@ -195,8 +195,8 @@
     },
     {
       "path": "Mods/mission_replay.lua",
-      "bytes": 32957,
-      "sha256": "9836b9a47891c2dd54054bcaefa85d395520185f02ed79afef832db0b037afe6"
+      "bytes": 34200,
+      "sha256": "9aec2c0de4c42dfb3370c6840e40ac5bedb2d82f0fc4ab23057aa77da9a153e6"
     },
     {
       "path": "Mods/mm_benchmark_sr.cts",
@@ -394,6 +394,6 @@
       "sha256": "e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b"
     }
   ],
-  "combinedArchiveName": "sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip",
-  "localRevision": "2026-11-04-juiced-932-subtitle-places"
+  "combinedArchiveName": "sr2-cn-v553-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip",
+  "localRevision": "2026-11-05-dlc-replay-newspapers"
 }

@@ -51,8 +51,8 @@
     },
     {
       "relative": "README.md",
-      "size": 6900,
-      "sha256": "46bd45189804c1a480a5fc5fe72b62b90b29a3e408f436142d2c6df7215b96fb"
+      "size": 8003,
+      "sha256": "ab977f320c967d05a7da04266b83201fa08ab40148a1d055d073baf35a11301c"
     },
     {
       "relative": "Start-Installer.cmd",
@@ -138,6 +138,16 @@
       "relative": "patch/analysis/subtitle-places-20261104.md",
       "size": 1534,
       "sha256": "455b36162ef03915c28b5b52ff7060ded9ab78300faccf5a87f5408236a9342e"
+    },
+    {
+      "relative": "patch/analysis/dlc-replay-newspapers.md",
+      "size": 1993,
+      "sha256": "dbf12368cca46262084e21cf5a70bbc9376ecd95289ecf1e05900261f1d9d06f"
+    },
+    {
+      "relative": "patch/analysis/dlc-replay-runtime-20261105.json",
+      "size": 878,
+      "sha256": "8c9c8f01c8480b36518dee664214cfd8c61bdf62984f8bd065885873c1a6e889"
     }
   ]
 }

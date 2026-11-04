@@ -79,9 +79,9 @@ def check_table(data, name, characters):
 def main():
     payload = ROOT / 'localization/payload'
     manifest = json.loads((ROOT / 'localization/manifest.json').read_text('utf8'))
-    assert manifest['version'] == 'v552'
+    assert manifest['version'] == 'v553'
     assert manifest['combinedArchiveName'] == (
-        'sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip')
+        'sr2-cn-v553-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip')
     for item in manifest['payload']:
         data = (payload / item['path']).read_bytes()
         assert len(data) == item['bytes'], item['path']

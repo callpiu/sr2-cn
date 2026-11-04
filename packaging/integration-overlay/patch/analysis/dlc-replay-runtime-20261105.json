@@ -1,0 +1,20 @@
+{
+  "schema": "sr2-cn/dlc-replay-runtime/v1",
+  "date": "2026-11-05",
+  "fix": "Mods/mission_replay.lua",
+  "sha256": "9aec2c0de4c42dfb3370c6840e40ac5bedb2d82f0fc4ab23057aa77da9a153e6",
+  "environment": "Steam 简中整合版 v552，替换脚本后完整重启",
+  "checkedBy": "end user",
+  "results": {
+    "chapterHeaderLayout": "正常，不再重叠",
+    "shiftToExtras": "正常",
+    "dlcThumbnails": "交通管制等 DLC 任务显示专属缩略图",
+    "dlcDetail": "打开任务后详情大图正常",
+    "dlcReportText": "显示现有简中报道"
+  },
+  "staticVerification": {
+    "luaRuntime": "Lua 5.0",
+    "stringMatchUnavailable": "第一版使用 string.match 导致序章初始化中断，已改为六个任务 ID 查表",
+    "sourceComparison": "DLC/UI/mission_replay.lua、dlc_bitmap_sheets.xtbl 与七组 PEG 与 DLC 1.0.1 原包逐字节一致"
+  }
+}

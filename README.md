@@ -2,17 +2,18 @@
 
 《Saints Row 2》简体中文汉化、Juiced Patch 适配、DLC 汉化与原版遗留乱码修正。
 
-当前发布：**v552 · Juiced Patch 9.3.2 · DLC 1.0.1 · SuperUI 2.9**。本版升级 Juiced，并保留 v551 的全部简体中文、DLC、SuperUI、直升机字幕、地名提示、奖励载具警告与法庭字幕修正；同时补译过场对白中的朗兹广场、蒂妮酒吧、法律边缘、关东和阿尔塔蒙特等地名、店名。
+当前发布：**v553 · Juiced Patch 9.3.2 · DLC 1.0.1 · SuperUI 2.9**。本版修复据点重玩报纸板「额外内容」中六个 DLC 任务丢失专属缩略图、详情大图和报道的问题，并保留 v552 的全部简体中文、DLC、SuperUI、直升机字幕、地名提示、奖励载具警告、法庭字幕与过场对白地名补译。
 
 ## 下载与安装
 
-进入 [Releases](https://github.com/callpiu/sr2-cn/releases/tag/v552-20261104) 下载：
+进入 [Releases](https://github.com/callpiu/sr2-cn/releases/tag/v553-20261105) 下载：
 
-- **完整整合包**：`sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip`，包含汉化、Juiced 9.3.2、DLC、完整 SuperUI 配套文件、过场字幕地名补译与字幕修复安装器。
+- **完整整合包**：`sr2-cn-v553-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip`，包含汉化、Juiced 9.3.2、DLC、完整 SuperUI 配套文件、DLC 重玩报纸修复与字幕修复安装器。
+- **v552 增量修正**：`sr2-cn-v553-dlc-newspaper-fix.zip`，只替换 `Mods/mission_replay.lua`，适合已装 v552 的玩家。
 - **单独字幕修复**：`sr2-cn-helicopter-fix-v1.0.0.zip`，适合已经安装匹配简中资源和 Juiced 的玩家。
 - **上游 CXT 修正条目**：`juiced_CH.hardcoded-fixes.cxt`，供 Juiced 作者合并六条中文硬编码文本；需要上游配套移除硬编码分支。
 
-v552 的自动验证、ZIP 回读和独立重建结果记录在 [包验证报告](docs/evidence/v552-package-validation.json)。Juiced 9.3.2 的合并依据见 [合并说明](docs/juiced-932-merge.md)，过场对白地名补译见 [字幕地名说明](docs/subtitle-places.md)。
+v553 的自动验证、ZIP 回读和独立重建结果记录在 [包验证报告](docs/evidence/v553-package-validation.json)。Juiced 9.3.2 的合并依据见 [合并说明](docs/juiced-932-merge.md)，过场对白地名补译见 [字幕地名说明](docs/subtitle-places.md)，DLC 重玩报纸修复见 [DLC 报纸说明](docs/dlc-replay-newspapers.md)。
 
 整合包需要已有可运行的游戏，不包含 `SR2_pc.exe`。GitHub 的自动生成 Source code ZIP 是项目源码；玩家安装请下载上述整合包。
 
@@ -32,7 +33,7 @@ v552 的自动验证、ZIP 回读和独立重建结果记录在 [包验证报告
 
 管理器的安装、检查、卸载只管理新增的字幕修复；整个整合包仍采用覆盖复制，回滚整包需要玩家自己的备份。验证游戏文件可能恢复被替换的资源；重新安装其他版本的 Juiced 也可能覆盖汉化文件。
 
-旧 v546/v547 整合包只带了两个 SuperUI 定制脚本，漏带公共库和配套组件，在全新游戏目录可能卡在退出确认框、设置退出提示等位置。请使用 v552；已安装旧包也可覆盖升级。[根因与验证](docs/superui-dependency-fix.md)。
+旧 v546/v547 整合包只带了两个 SuperUI 定制脚本，漏带公共库和配套组件，在全新游戏目录可能卡在退出确认框、设置退出提示等位置。请使用 v553；已安装旧包也可覆盖升级。[根因与验证](docs/superui-dependency-fix.md)。
 
 ## 包含内容
 
@@ -47,6 +48,7 @@ v552 的自动验证、ZIP 回读和独立重建结果记录在 [包验证报告
 | DLC 汉化 | DLC 1.0.1 配套的 982 条 slot 编码中文文本 |
 | 直升机护卫乱码修复 | 将两个中文硬编码返回分支转回正常查表路径，只改变支持版本主程序的 16 字节 |
 | 奖励载具与过场字幕 | 补全奖励载具移除确认框，修订“指定辩护律师”两句法庭字幕 |
+| DLC 重玩报纸 | 修复据点重玩报纸板「额外内容」中六个 DLC 任务的专属缩略图、详情大图与简中报道 |
 | 上游协作资料 | 六条 CXT 条目、反汇编、补丁规则、构建与验证记录 |
 
 ## 验证与兼容范围
@@ -59,11 +61,13 @@ v552 的自动验证、ZIP 回读和独立重建结果记录在 [包验证报告
 
 2026-10-25，用户先确认只补公共库后退出和 Esc 恢复正常；补齐完整 SuperUI 组件并重启后，再次确认主菜单显示、Esc 返回、退出游戏全部正常。
 
+2026-11-05，用户重启整合版后确认据点重玩报纸板章节文字不再重叠、Shift 可切换到「额外内容」，「交通管制」等 DLC 任务的专属缩略图、详情大图与简中报道均正常。[DLC 报纸修复](docs/dlc-replay-newspapers.md)
+
 用户已确认修复后、游戏重启后字幕正常，并于 2026-10-24 补充确认已逐级实机验证。直升机护卫 **2～6 级验证通过**；1 级原本正常。
 
 原有自动验证包括 126 组语言/标签分支模拟、栈与寄存器保持检查、15 项安装/回退/恢复检查，以及 9 项管理器与命令入口检查。[详细记录](docs/helicopter-fix.md)与[机器可读验证报告](docs/evidence/installer-validation.json)区分了自动检查和用户实机反馈。
 
-字幕修复验证环境：Steam App 9480 / Build 1076239、简中 v546 文本资源、Juiced 9.3.1。v547～v552 沿用该文本包。不同主程序、GOG 或其他汉化包未据此认定兼容。
+字幕修复验证环境：Steam App 9480 / Build 1076239、简中 v546 文本资源、Juiced 9.3.1。v547～v553 沿用该文本包。不同主程序、GOG 或其他汉化包未据此认定兼容。
 
 | 文件状态 | SHA-256 |
 | --- | --- |
@@ -107,10 +111,10 @@ python tools/verify_project.py
 python tools/build_release.py --output dist
 ```
 
-重建 v552 需要已经发布并验证的 v551 完整 ZIP，工具会核对其完整 SHA-256：
+重建 v553 需要已经发布并验证的 v551 完整 ZIP，工具会核对其完整 SHA-256：
 
 ```powershell
-python tools/build_release.py --base "sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip" --output build/v552
+python tools/build_release.py --base "sr2-cn-v551-juiced-9.3.1-dlc-1.0.1-superui-2.9.zip" --output build/v553
 ```
 
 脚本使用仓库内冻结的汉化载荷和覆盖层，生成后核对发布资产的 SHA-256；不读取或修改当前游戏安装。原始整合构建脚本保存在 `archive/legacy-tools`，包含本机绝对路径，不应直接批量运行。

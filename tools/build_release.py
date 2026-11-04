@@ -49,6 +49,8 @@ def main():
                         help='Frozen 2026-10-21 v546 integration ZIP')
     parser.add_argument('--output', type=Path, default=ROOT / 'dist',
                         help='New, nonexistent output directory')
+    parser.add_argument('--accept-new-asset', action='store_true',
+                        help='Allow an archive name absent from release-assets.json')
     args = parser.parse_args()
     config = json.loads((ROOT / 'localization/manifest.json').read_text('utf8'))
     if args.base and digest(args.base) != config['baseArchiveSha256']:
@@ -86,6 +88,10 @@ def main():
     expected = {a['name']: a['sha256'] for a in json.loads(
         (ROOT / 'packaging/release-assets.json').read_text('utf8'))}
     for name, actual in results.items():
+        if name not in expected:
+            if not args.accept_new_asset:
+                raise ValueError('Archive not in release-assets.json: ' + name)
+            continue
         if actual != expected[name]:
             raise ValueError('Rebuilt ZIP differs from frozen release: ' + name)
     (args.output / 'build-result.json').write_text(

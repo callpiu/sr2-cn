@@ -108,6 +108,17 @@ Mission_replay_cur_swatch = 0
 --	SYSTEM FUNCTIONS --
 ----------------------
 
+local DLC_NEWS_PEG = "ui_crib_news_dlc"
+
+local DLC_NEWS_MISSIONS = {
+	dlc01 = true, dlc02 = true, dlc03 = true,
+	dlc04 = true, dlc05 = true, dlc06 = true,
+}
+
+local function mission_replay_has_dlc_news(mission_id)
+	return DLC_NEWS_MISSIONS[mission_id] == true
+end
+
 -- Returns true if the mission is in the main game [nclok1405]
 -- Returns false if the mission is added via a mod
 function is_mission_in_main_game(mission_id)
@@ -347,6 +358,8 @@ function mission_replay_mission_select()
 
 	-- Check if the mission is in the main game [nclok1405]
 	local mission_is_main_game = is_mission_in_main_game(swatch.internal_name)
+	local has_dlc_news = mission_replay_has_dlc_news(swatch.internal_name)
+	local has_news_image = mission_is_main_game or has_dlc_news
 
 	--Hide swatch controls
 	vint_set_property(Menu_option_labels.control_parent, "visible", false)
@@ -360,13 +373,13 @@ function mission_replay_mission_select()
 	Mission_replay_clip_peg = "ui_c_news_"..swatch.internal_name
 	mission_replay_load_peg(Mission_replay_clip_peg)
 
-	-- Set the news clip image (only for main game)
-	if mission_is_main_game then
+	-- The PC DLC also supplies full-size clippings in per-mission PEGs.
+	if has_news_image then
 		vint_set_property(vint_object_find("clipping", detail_frame), "image", "ui_ct_news_"..swatch.internal_name)
 		vint_set_property(vint_object_find("clipping", detail_frame), "scale", 0.75, 0.75)
 	end
-	-- Hide the news clip for mod missions [nclok1405]
-	vint_set_property(vint_object_find("clipping", detail_frame), "visible", mission_is_main_game)
+	-- Hide the clipping for custom missions without a newspaper.
+	vint_set_property(vint_object_find("clipping", detail_frame), "visible", has_news_image)
 
 	Mission_replay_gang_peg = "ui_crib_news_image_"..swatch.gang_code
 	mission_replay_load_peg(Mission_replay_gang_peg)
@@ -376,7 +389,9 @@ function mission_replay_mission_select()
 	local story_text = vint_object_find("story_text", detail_frame)
 	local story_text_tag
 
-	if (not mission_is_main_game) then
+	if has_dlc_news then
+		story_text_tag = swatch.internal_name.."_HEADLINE_TEXT"
+	elseif (not mission_is_main_game) then
 		-- Mod Missions do not have story texts. [nclok1405]
 		story_text_tag = "INFO_DOWN_STORY_NONE"
 	elseif swatch.internal_name == "tss02" then
@@ -549,7 +564,11 @@ function mission_replay_update_swatch(swatch, row, col)
 	local mission_is_main_game = is_mission_in_main_game(swatch.internal_name)
 
 	-- Mod Missions do not have an icon, so reuse the generic "locked" icon [nclok1405]
-	if (swatch.is_unlocked == false) or (not mission_is_main_game) then
+	if swatch.is_unlocked == false then
+		vint_set_property(clipping, "image", "ui_crib_news_locked_t")
+	elseif mission_replay_has_dlc_news(swatch.internal_name) then
+		vint_set_property(clipping, "image", "ui_ct_news_dlc_"..swatch.internal_name.."_t")
+	elseif not mission_is_main_game then
 		vint_set_property(clipping, "image", "ui_crib_news_locked_t")
 	else
 		vint_set_property(clipping, "image", "ui_crib_news_"..swatch.internal_name.."_t")
@@ -611,6 +630,17 @@ function mission_replay_mission_show(menu_data)
 	Mission_replay_building_menu = menu_data
 	vint_dataresponder_request("mission_replay", "mission_replay_consume_data", 0, "list_missions", menu_data.mission_group)
 
+	-- Keep the base Extras sheet for em01; load the DLC sheet before
+	-- menu_grid_show updates the thumbnails.
+	if menu_data.mission_group == "extra" then
+		for i = 0, menu_item.swatches.num_swatches - 1 do
+			if mission_replay_has_dlc_news(menu_item.swatches[i].internal_name) then
+				mission_replay_load_peg(DLC_NEWS_PEG)
+				break
+			end
+		end
+	end
+
 	local swatch_template = vint_object_find("swatch_clipping", nil)
 	menu_grid_show(menu_data, menu_item, swatch_template)
 
@@ -618,6 +648,9 @@ function mission_replay_mission_show(menu_data)
 end
 
 function mission_replay_mission_release(menu)
+	if menu.mission_group == "extra" and Mission_replay_loaded_pegs[DLC_NEWS_PEG] then
+		mission_replay_unload_peg(DLC_NEWS_PEG)
+	end
 	mission_replay_unload_peg(menu.peg)
 	menu_grid_release(menu[0])
 end

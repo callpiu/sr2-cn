@@ -1,5 +1,15 @@
 [
   {
+    "name": "sr2-cn-v553-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip",
+    "bytes": 379925008,
+    "sha256": "03b2ebcb9447c15fac533e44ecbde12176d3adb621bcc6685daf628a5a45d15f"
+  },
+  {
+    "name": "sr2-cn-v553-dlc-newspaper-fix.zip",
+    "bytes": 7868,
+    "sha256": "9d40a425a33932092f12e70b47c620d7c6200e70d5ffb17e19a1f2e7cc344e09"
+  },
+  {
     "name": "sr2-cn-v552-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip",
     "bytes": 379921147,
     "sha256": "802c0d4f7c15b5ba1117a909bdadabd4055d93e6b2c007f236a511b6ae527ae7"

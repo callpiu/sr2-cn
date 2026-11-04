@@ -1,7 +1,7 @@
-SR2 整合包 v552 / 2026-11-04 Juiced 9.3.2 中文合并版
+SR2 整合包 v553 / 2026-11-05 Juiced 9.3.2 中文合并版
 SHA-256  bytes  relative-path（不含 FILELIST.txt 自身）
 
-46bd45189804c1a480a5fc5fe72b62b90b29a3e408f436142d2c6df7215b96fb          6900  _先读我.txt
+ab977f320c967d05a7da04266b83201fa08ab40148a1d055d073baf35a11301c          8003  _先读我.txt
 663300b521d67cb15717edad39a5193d22e12c0d002713468696e586e3a3637e     182093824  common.vpp_pc
 df5e366c8f706ab77c0afe72fa4d892afca214e4879e4ded49ee13a91112a162       2684416  DFEngine.dll
 d8e7d9feb3de8482b186ae44fd1c9abb41fe2b3b3d2c7cd3a4d742ebbad30cdf       3154744  discord_game_sdk.dll
@@ -2819,7 +2819,7 @@ db340b1757c36de01da386612b10f7e382dfa392d4b89855b54d36cc52f22fe2        168256  
 ac0dc2af49a8af8056081ec689a9c14e6351200b701ec5c4b733d51202c7c662         12962  Mods/liquor_store.lua
 1820e3d9a0c1f99dd91a0400227dbb8fba0c603fdc7d8885308460c093704abd         71434  Mods/main_menu.lua
 4b02ce27fbb68c74582fa8a9190daaec5759a29d40c461accf9a08800bf5a19f        169093  Mods/menu_base.lua
-9836b9a47891c2dd54054bcaefa85d395520185f02ed79afef832db0b037afe6         32957  Mods/mission_replay.lua
+9aec2c0de4c42dfb3370c6840e40ac5bedb2d82f0fc4ab23057aa77da9a153e6         34200  Mods/mission_replay.lua
 835039006cbd7758148a847cfd744d35439cb2a1f93d5b20035c3e6c389aadf1          8952  Mods/mm_benchmark_sr.cts
 e4c8812962861e21f844ec884cd26da411be777a194b460baa566cbbf99bbeec          6668  Mods/mm_benchmark_sr.lua
 37b40d372fa8a342cf450d18bd2cc20800e19a22d76e98683643c7ba6753744f          3868  Mods/mm_evilgat.cts
@@ -2862,6 +2862,8 @@ f03be107124e5ca926f5b175bb19dcfd2a9fe3409140894b5eca4569873b95c9           464  
 6803c3a4efd927966779e89037c796548fb2f207a912b9d9180dda1524788c6c          1042  patch/analysis/court-garage-runtime-20261026.json
 70abe2423449df2f2ae4c6441494b076f09519219edb94eff870010562231b2d          2309  patch/analysis/court-garage-text.md
 29287b8becfd172d832e7273b5d55ddd428bedef6c19b72e4017be685582362f           706  patch/analysis/credits-label-20261025.json
+dbf12368cca46262084e21cf5a70bbc9376ecd95289ecf1e05900261f1d9d06f          1993  patch/analysis/dlc-replay-newspapers.md
+8c9c8f01c8480b36518dee664214cfd8c61bdf62984f8bd065885873c1a6e889           878  patch/analysis/dlc-replay-runtime-20261105.json
 169bb1214203aa09a83e002eb3b97bc0e346e27295ecdbec85f03e3613facb06          1256  patch/analysis/info-pages-runtime-20261026.json
 f87de10e70c4f6d5d2fe447092e04beefec4ae73ad5a6050ede6c978369a51ad          3583  patch/analysis/info-pages-second-revision-20261026.md
 6631bc01661a54455fb61e2fbd0d28b9b80b8df430f6542b0e18bbe80db36095           437  patch/analysis/integration.json
@@ -2881,12 +2883,12 @@ a6280364eaee00f5706e89863e5473f70b138f0146a16c7d2b517b63b65a89cb          1116  
 be220c44e70ac57f5b3650d0f7d7a4259e3015ec8f302a749a101b5a1b9c697b           728  patch/installer/fix.json
 15bed1b7b79a6f1d3f24ba0cf1742ef32dac2b184c19966eb635bee533ee23bd          4513  patch/installer/Manager.ps1
 43722b6f6dacb21142eeb121566be4621a668360a05520355d1cbd3ecbec82b0           290  patch/manager-config.json
-f58b2de6e6aaad9d7f28e87c2f89fa7c393d3bdd92abb35621df177681ec76ff          4725  patch/package-manifest.json
+8658044a6618a27ac10476f3233c779372b533e78ba9a4b21799edbfdcff4603          5086  patch/package-manifest.json
 e125d83628f8552035efc47e07778054ca593a718ba87570df03caa7a524d76b      48727014  patch.vpp_pc
 c55d663ea327465ed397037b0035bc5a5ea5b6096f135047a2e826c9f352938f       5196028  patches/JuicedSteamXDel.vcdiff
 2f1010a42dc3a99849fd2a4516d58e74df7c37e268e0718c9040b464c170a075        110080  patches/xdelta3.exe
 5be03f07eb112ef383a5ec277f3f6f34722c3b8fe17c24ca6131ff6fec02fd04           263  PatchManager.ps1
-46bd45189804c1a480a5fc5fe72b62b90b29a3e408f436142d2c6df7215b96fb          6900  README.md
+ab977f320c967d05a7da04266b83201fa08ab40148a1d055d073baf35a11301c          8003  README.md
 9b73ba032b02fcb430aec60ad021797cff247b5eb6c071443890676daf721e75          3732  readme.txt
 51ab4807d02e4b99c59e232df692f287d955538d3e685fa4e4930694b5b39c3f       2088448  SDL3.dll
 fb81c5d96f9aba8f76dbcd00bf208c6c3792e97b18757b2d2e275eb5c6c0c7c6           214  Start-Installer.cmd

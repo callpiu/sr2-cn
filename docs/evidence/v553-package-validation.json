@@ -1,0 +1,19 @@
+{
+  "schema": "sr2-cn/release-verification/v1",
+  "archive": "sr2-cn-v553-juiced-9.3.2-dlc-1.0.1-superui-2.9.zip",
+  "bytes": 379925008,
+  "sha256": "03b2ebcb9447c15fac533e44ecbde12176d3adb621bcc6685daf628a5a45d15f",
+  "rebuiltSha256": "03b2ebcb9447c15fac533e44ecbde12176d3adb621bcc6685daf628a5a45d15f",
+  "reproducible": true,
+  "zipMembers": 2900,
+  "payloadFiles": 78,
+  "packageManifestFiles": 28,
+  "filelistEntries": 2899,
+  "juicedCxtEntries": 412,
+  "hardcodedFixEntries": 6,
+  "subtitlePlaceFiles": 2,
+  "subtitlePlaceEntries": 13,
+  "readmeMatchesQuickStart": true,
+  "forbiddenFiles": [],
+  "passed": true
+}

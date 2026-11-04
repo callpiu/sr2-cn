@@ -1,6 +1,7 @@
-"""Prepare the v552 release tree and refresh its complete SHA-256 file list."""
+"""Prepare a release tree and refresh its complete SHA-256 file list."""
 import argparse
 import hashlib
+import json
 from pathlib import Path, PurePosixPath
 import shutil
 import stat
@@ -10,9 +11,15 @@ from build_release import copy_tree, digest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-HEADER = (
-    'SR2 整合包 v552 / 2026-11-04 Juiced 9.3.2 中文合并版\r\n'
-    'SHA-256  bytes  relative-path（不含 FILELIST.txt 自身）\r\n\r\n')
+
+
+def header():
+    manifest = json.loads(
+        (ROOT / 'localization/manifest.json').read_text('utf8'))
+    return (
+        f'SR2 整合包 {manifest["version"]} / {manifest["date"]} '
+        'Juiced 9.3.2 中文合并版\r\n'
+        'SHA-256  bytes  relative-path（不含 FILELIST.txt 自身）\r\n\r\n')
 
 
 def extract_base(base, target):
@@ -33,7 +40,7 @@ def extract_base(base, target):
 
 
 def render_filelist(folder):
-    lines = [HEADER]
+    lines = [header()]
     for path in sorted(folder.rglob('*')):
         if not path.is_file() or path.name == 'FILELIST.txt':
             continue

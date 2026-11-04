@@ -1,4 +1,4 @@
-"""Verify a built v552 archive against the committed manifests."""
+"""Verify a built release archive against the committed manifests."""
 import argparse
 import hashlib
 import json
@@ -108,7 +108,7 @@ def main():
         assert rebuilt_hash == archive_hash
 
     report = {
-        'schema': 'sr2-cn/v552-release-verification/v1',
+        'schema': 'sr2-cn/release-verification/v1',
         'archive': args.archive.name,
         'bytes': len(archive_data),
         'sha256': archive_hash,
